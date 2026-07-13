@@ -1,0 +1,89 @@
+name: Daily official data sync
+run-name: ${{ github.event_name == 'workflow_dispatch' && 'Manual official data sync' || 'Daily official data sync' }}
+
+on:
+  schedule:
+    # GitHub cron uses UTC. 19:00 UTC = 03:00 the next day in Asia/Taipei.
+    - cron: "0 19 * * *"
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Why this workflow was triggered"
+        required: false
+        default: "manual-refresh"
+      history_scope:
+        description: "歷屆資料範圍；每日排程固定為 none"
+        required: true
+        default: "none"
+        type: choice
+        options: [none, core, local, all]
+      history_years:
+        description: "西元年度，以逗號分隔；輸入 all 會解析所有年份"
+        required: false
+        default: "2014,2018,2020,2022,2024"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: election-data-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install project metadata
+        run: npm ci --ignore-scripts
+      - name: Install image tools
+        run: python -m pip install --disable-pip-version-check pillow
+      - name: Preserve previous public data
+        run: cp data/election-data.json /tmp/election-data-before.json
+      - name: Sync current official data
+        run: npm run sync
+      - name: Sync official CEC history when requested
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.history_scope != 'none' }}
+        env:
+          CEC_HISTORY_SCOPE: ${{ inputs.history_scope }}
+          CEC_HISTORY_YEARS: ${{ inputs.history_years }}
+          CEC_HISTORY_REFRESH: "1"
+        run: npm run sync:history:official
+      - name: Localize official portraits
+        run: npm run cache:portraits
+      - name: Build history indexes
+        run: npm run sync:history
+      - name: Generate change report and guard mass deletion
+        env:
+          BEFORE_DATA_PATH: /tmp/election-data-before.json
+          CHANGE_GUARD: "1"
+        run: npm run report:changes
+      - name: Build county and person shards
+        run: npm run build:shards
+      - name: Build browser data
+        run: npm run build:data
+      - name: Validate generated files
+        run: npm run validate
+      - name: Commit changed data
+        shell: bash
+        run: |
+          git config user.name "election-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data assets/portraits/cache
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "data: official sync $(TZ=Asia/Taipei date +%F)"
+          git push
