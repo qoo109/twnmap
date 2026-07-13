@@ -18,6 +18,7 @@ const attemptAt = nowIso();
 const officeConfig = config.officeholderSources;
 const errors = [];
 const reports = [];
+const moiDiagnostics = [];
 const existing = Array.isArray(data.officeholders) ? data.officeholders : [];
 const roleById = new Map((data.roles || []).map((role) => [role.id, role]));
 const countyById = new Map((data.counties || []).map((county) => [county.id, county]));
@@ -29,6 +30,37 @@ const partyByName = new Map((data.parties || []).flatMap((party) => [
   [normalizeSpace(party.shortName), party.id],
 ]));
 const palette = ["#51458B", "#DC143C", "#1F8B76", "#6EC5DC", "#633F99", "#FFAE2B", "#8B00FF"];
+const officeholderScope = String(process.env.OFFICEHOLDER_SCOPE || "full").toLowerCase();
+const moiRequestDelayMs = Math.max(0, Number(process.env.MOI_REQUEST_DELAY_MS || 180));
+const moiFetchRetries = Math.max(1, Number(process.env.MOI_FETCH_RETRIES || 3));
+const moiPageConcurrency = Math.max(1, Math.min(5, Number(process.env.MOI_PAGE_CONCURRENCY || 3)));
+const moiHardPageCap = Math.max(1, Number(process.env.MOI_HARD_PAGE_CAP || 600));
+const standardLocalRoles = new Set(["municipal-councilor", "county-councilor", "municipal-mayor", "county-mayor", "township-mayor"]);
+
+function sleep(ms) { return new Promise((resolve) => setTimeout(resolve, ms)); }
+
+async function fetchMoiHtml(url) {
+  let lastError;
+  for (let attempt = 1; attempt <= moiFetchRetries; attempt += 1) {
+    try {
+      const response = await fetchWithTimeout(url, { headers: {
+        accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "accept-language": "zh-TW,zh;q=0.9,en;q=0.5",
+        "cache-control": "no-cache",
+        pragma: "no-cache",
+        referer: "https://www.moi.gov.tw/LocalOfficial.aspx",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/126 Safari/537.36 TaiwanElectionReportBot/6.1.7",
+      } }, 120_000);
+      const text = await response.text();
+      if (!text || text.length < 500) throw new Error(`官方頁面內容過短（${text.length} bytes）`);
+      return text;
+    } catch (error) {
+      lastError = error;
+      if (attempt < moiFetchRetries) await sleep(Math.min(5000, 700 * attempt));
+    }
+  }
+  throw lastError || new Error("內政部頁面抓取失敗");
+}
 
 function normalizeTaiwan(value) {
   return String(value || "").replaceAll("台", "臺");
@@ -55,8 +87,16 @@ function htmlToLines(html) {
   const cleaned = String(html || "")
     .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "\n")
     .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, "\n")
-    .replace(/<!--([\s\S]*?)-->/g, "\n")
-    .replace(/<(br|\/p|\/li|\/div|\/section|\/article|\/h[1-6]|\/tr|\/td|\/th)>/gi, "\n")
+    .replace(/<!--[\s\S]*?-->/g, "\n")
+    .replace(/<img\b[^>]*>/gi, (tag) => {
+      const attrs = imageAttributes(tag);
+      return `\n${attrs.alt || attrs.title || ""}\n`;
+    })
+    .replace(/<br\s*\/?\s*>/gi, "\n")
+    // The MOI cards are mostly inline elements. Splitting on both opening and
+    // closing tags keeps each visible field on its own line even when the
+    // source HTML has no whitespace or line breaks.
+    .replace(/<\/?(?:a|span|strong|b|em|small|label|option|p|li|div|section|article|h[1-6]|tr|td|th|figure|figcaption|dt|dd)\b[^>]*>/gi, "\n")
     .replace(/<[^>]+>/g, " ");
   return decodeEntities(cleaned)
     .split(/\r?\n/)
@@ -256,67 +296,260 @@ function parseDirectOfficialRows(text, roleId, source) {
   return { items, nestedUrls: [] };
 }
 
+function moiRolePattern(roleId) {
+  return {
+    "municipal-councilor": /(議長|副議長|代理議長|代理副議長|議員)\s*$/,
+    "county-councilor": /(議長|副議長|代理議長|代理副議長|議員)\s*$/,
+    "township-representative": /(代表會主席|代表會副主席|主席|副主席|代表)\s*$/,
+    "indigenous-district-representative": /(代表會主席|代表會副主席|主席|副主席|代表)\s*$/,
+    "municipal-mayor": /(代理)?市長\s*$/,
+    "county-mayor": /(代理)?縣長\s*$/,
+    "township-mayor": /(代理)?(?:鄉長|鎮長|市長)\s*$/,
+    "village-chief": /(代理)?(?:村長|里長)\s*$/,
+    "indigenous-district-mayor": /(代理)?區長\s*$/,
+  }[roleId] || /(議員|代表|市長|縣長|鄉長|鎮長|區長|村長|里長)\s*$/;
+}
+
+function isPartyText(value) {
+  const text = normalizeSpace(value).replace(/[：:]$/, "");
+  if (!text || text.length > 40) return false;
+  if (/^(?:無|無黨|無黨籍|未經政黨推薦|無黨籍及未經政黨推薦)$/.test(text)) return true;
+  return /(?:中國國民黨|民主進步黨|臺灣民眾黨|台灣民眾黨|時代力量|親民黨|新黨|臺灣基進|台灣基進|臺灣綠黨|台灣綠黨|綠黨|社會民主黨|無黨團結聯盟|臺灣團結聯盟|台灣團結聯盟|台聯黨|黨)$/.test(text);
+}
+
+function cleanMoiName(value) {
+  return normalizeSpace(value)
+    .replace(/^(?:Image[:：]?|照片[:：]?)/i, "")
+    .replace(/[\s　]+/g, "")
+    .trim();
+}
+
+function plausibleMoiName(value) {
+  const name = cleanMoiName(value);
+  if (name.length < 2 || name.length > 30) return false;
+  if (!/[\u3400-\u9fff]/.test(name)) return false;
+  if (/資料查詢|詳細資訊|送出查詢|清除|選擇.*匯出|選舉年度|縣市別|鄉鎮市區別|村里別|每頁筆數|回上一頁|地方公職|更新日期|開啟懸浮視窗/.test(name)) return false;
+  if (countyIdFromText(name) || isPartyText(name)) return false;
+  if (moiRolePattern("fallback").test(name)) return false;
+  return /^[\p{L}·・．.]+$/u.test(name);
+}
+
+function parseMoiCardLines(cardLines, source, pageUrl, officialPhotos) {
+  const lines = cardLines.map(normalizeSpace).filter(Boolean);
+  const rolePattern = moiRolePattern(source.roleId);
+  let roleIndex = -1;
+  for (let index = lines.length - 1; index >= 0; index -= 1) {
+    if (rolePattern.test(lines[index])) { roleIndex = index; break; }
+  }
+  if (roleIndex < 0) return null;
+
+  let partyIndex = -1;
+  for (let index = lines.length - 1; index > roleIndex; index -= 1) {
+    if (isPartyText(lines[index])) { partyIndex = index; break; }
+  }
+  if (partyIndex < 0) return null;
+
+  const organization = lines[roleIndex];
+  let countyIndex = -1;
+  let countyId = countyIdFromText(organization);
+  for (let index = roleIndex - 1; index >= Math.max(0, roleIndex - 30); index -= 1) {
+    const candidate = countyIdFromText(lines[index]);
+    if (candidate) {
+      countyIndex = index;
+      countyId = candidate;
+      break;
+    }
+  }
+  if (!countyId) return null;
+
+  const nameSearchFrom = countyIndex >= 0 ? countyIndex - 1 : roleIndex - 1;
+  let name = "";
+  for (let index = nameSearchFrom; index >= Math.max(0, nameSearchFrom - 30); index -= 1) {
+    if (plausibleMoiName(lines[index])) {
+      name = cleanMoiName(lines[index]);
+      break;
+    }
+  }
+  if (!name) return null;
+
+  const party = lines[partyIndex];
+  const titleMatch = organization.match(rolePattern);
+  const title = normalizeSpace(titleMatch?.[0] || roleName(source.roleId));
+  const photoKey = name.replace(/[\s　·・．.]/g, "");
+  const photo = officialPhotos.get(photoKey) || null;
+  return buildOfficeholder({
+    name,
+    roleId: source.roleId,
+    party,
+    countyId,
+    district: organization,
+    organization,
+    title,
+    sourceUrl: pageUrl,
+    sourceLabel: `內政部地方公職人員資訊專區：${source.name}`,
+    sourceUpdatedAt: taipeiDate(attemptAt),
+    photo,
+  });
+}
+
+function detailCardWindows(lines) {
+  const windows = [];
+  let previousDetail = -1;
+  for (let index = 0; index < lines.length; index += 1) {
+    if (!/詳細資訊/.test(lines[index])) continue;
+    // A card can contain duplicate alt/name text and hidden accessibility text,
+    // so keep a generous window but never cross the previous card boundary.
+    const start = Math.max(previousDetail + 1, index - 45);
+    windows.push(lines.slice(start, index + 1));
+    previousDetail = index;
+  }
+  return windows;
+}
+
+function pageTotalRecords(html, lines) {
+  const plain = normalizeSpace(decodeEntities(String(html || "").replace(/<[^>]+>/g, " ")));
+  const matches = [...plain.matchAll(/\/\s*([\d,]{1,8})(?=\s|$)/g)]
+    .map((match) => Number(match[1].replaceAll(",", "")))
+    .filter((value) => Number.isFinite(value) && value > 0);
+  if (matches.length) return Math.max(...matches);
+  const lineMatches = lines.flatMap((line) => [...line.matchAll(/\/\s*([\d,]{1,8})/g)])
+    .map((match) => Number(match[1].replaceAll(",", "")))
+    .filter((value) => Number.isFinite(value) && value > 0);
+  return lineMatches.length ? Math.max(...lineMatches) : 0;
+}
+
 function parseMoiPage(html, source, pageUrl) {
   const officialPhotos = photoMapFromHtml(html, pageUrl);
   let lines = htmlToLines(html);
-  const start = lines.findIndex((line) => line === "資料查詢");
-  const end = lines.findIndex((line, index) => index > start && (line.includes("您目前未啟用 JavaScript") || line === "回上一頁"));
+  const start = lines.findIndex((line) => line === "資料查詢" || line.includes("資料查詢"));
+  const end = lines.findIndex((line, index) => index > Math.max(start, -1) && (line.includes("您目前未啟用 JavaScript") || line === "回上一頁"));
   if (start >= 0) lines = lines.slice(start, end > start ? end : undefined);
+
   const items = [];
-  for (let index = 0; index < lines.length; index += 1) {
-    if (lines[index] !== "詳細資訊") continue;
-    const party = lines[index - 1];
-    const organization = lines[index - 2];
-    const countyText = lines[index - 3];
-    const name = lines[index - 4];
-    if (!name || !countyText || !organization || !party) continue;
-    if (!/[\u3400-\u9fff]/.test(name) || name.length > 25) continue;
-    const countyId = countyIdFromText(`${countyText} ${organization}`);
-    if (!countyId) continue;
-    const titleMatch = organization.match(/(議長|副議長|代理議長|代理副議長|議員|市長|縣長|鎮長|鄉長|代表會主席|代表會副主席|代表|里長|村長|區長)$/);
-    const title = titleMatch?.[1] || roleName(source.roleId);
-    const photo = officialPhotos.get(normalizeSpace(name).replace(/[\s　·・．.]/g, "")) || null;
-    items.push(buildOfficeholder({
-      name,
-      roleId: source.roleId,
-      party,
-      countyId,
-      district: organization || countyText,
-      organization,
-      title,
-      sourceUrl: pageUrl,
-      sourceLabel: `內政部地方公職人員資訊專區：${source.name}`,
-      sourceUpdatedAt: taipeiDate(attemptAt),
-      photo,
-    }));
+  const windows = detailCardWindows(lines);
+  for (const window of windows) {
+    const item = parseMoiCardLines(window, source, pageUrl, officialPhotos);
+    if (item) items.push(item);
   }
-  const text = lines.join(" ");
-  const totalPages = Number(text.match(/\/\s*(\d{1,4})(?:\s|$)/)?.[1] || 1);
-  return { items, totalPages: Number.isFinite(totalPages) ? totalPages : 1 };
+
+  // Some MOI templates omit the visible detail link. Fall back to role-line
+  // windows so a small HTML redesign does not zero the whole dataset.
+  if (!items.length) {
+    const rolePattern = moiRolePattern(source.roleId);
+    for (let index = 0; index < lines.length; index += 1) {
+      if (!rolePattern.test(lines[index])) continue;
+      const window = lines.slice(Math.max(0, index - 35), Math.min(lines.length, index + 12));
+      const item = parseMoiCardLines(window, source, pageUrl, officialPhotos);
+      if (item) items.push(item);
+    }
+  }
+
+  const deduped = [...new Map(items.map((item) => [item.id, item])).values()];
+  const totalRecords = pageTotalRecords(html, lines) || deduped.length;
+  const requestedPageSize = Math.max(1, Number(new URL(pageUrl).searchParams.get("PageSize") || 16));
+  const observedPageSize = deduped.length;
+  const supportedPageSizes = new Set([10, 16, 20, 50, 100, 200]);
+  const effectivePageSize = totalRecords > observedPageSize && supportedPageSizes.has(observedPageSize)
+    ? observedPageSize
+    : requestedPageSize;
+  const totalPages = Math.max(1, Math.ceil(totalRecords / Math.max(1, effectivePageSize)));
+  const detailMarkerCount = lines.filter((line) => /詳細資訊/.test(line)).length;
+  const roleLineCount = lines.filter((line) => moiRolePattern(source.roleId).test(line)).length;
+  return {
+    items: deduped,
+    totalPages,
+    diagnostics: {
+      lineCount: lines.length,
+      roleLineCount,
+      detailMarkerCount,
+      totalRecords,
+      requestedPageSize,
+      observedPageSize,
+      effectivePageSize,
+      hasDataQuery: lines.some((line) => line.includes("資料查詢")),
+      sample: lines.filter((line) => /詳細資訊|議員|市長|縣長|鄉長|鎮長|代表|村長|里長|民主進步黨|中國國民黨|無黨/.test(line)).slice(0, 24),
+    },
+  };
 }
 
-function withPage(url, page) {
+function withPage(url, page, pageSize = 200, includeSms = true) {
   const target = new URL(url);
-  target.searchParams.set("PageSize", "200");
+  target.searchParams.set("PageSize", String(pageSize));
   target.searchParams.set("page", String(page));
+  if (includeSms && !target.searchParams.has("sms")) target.searchParams.set("sms", "11395");
+  if (!includeSms) target.searchParams.delete("sms");
   return target.toString();
+}
+
+async function probeMoiFirstPage(source) {
+  const candidates = [];
+  const seen = new Set();
+  for (const pageSize of [200, 100, 50, 20, 16]) {
+    for (const includeSms of [true, false]) {
+      const url = withPage(source.url, 1, pageSize, includeSms);
+      if (seen.has(url)) continue;
+      seen.add(url);
+      try {
+        const html = await fetchMoiHtml(url);
+        const parsed = parseMoiPage(html, source, url);
+        candidates.push({ url, pageSize, includeSms, htmlLength: html.length, ...parsed });
+        if (parsed.items.length >= Math.min(pageSize, 50)) break;
+      } catch (error) {
+        candidates.push({ url, pageSize, includeSms, items: [], totalPages: 1, diagnostics: { error: error.message } });
+      }
+    }
+    const bestNow = candidates.reduce((best, item) => (item.items?.length || 0) > (best.items?.length || 0) ? item : best, candidates[0] || { items: [] });
+    if ((bestNow.items?.length || 0) >= Math.min(pageSize, 50)) break;
+  }
+  candidates.sort((a, b) => (b.items?.length || 0) - (a.items?.length || 0));
+  const best = candidates[0] || { url: withPage(source.url, 1), items: [], totalPages: 1, diagnostics: { error: "無可用回應" }, pageSize: 200, includeSms: true };
+  return { best, probes: candidates.map((item) => ({ url: item.url, count: item.items?.length || 0, totalPages: item.totalPages || 1, diagnostics: item.diagnostics })) };
 }
 
 async function syncMoiRole(source) {
   const collected = [];
-  const firstUrl = withPage(source.url, 1);
-  const firstResponse = await fetchWithTimeout(firstUrl, { headers: { accept: "text/html,*/*" } }, 90_000);
-  const firstHtml = await firstResponse.text();
-  const first = parseMoiPage(firstHtml, source, firstUrl);
-  collected.push(...first.items);
-  const pages = Math.min(Math.max(first.totalPages || 1, 1), source.maxPages || 1);
-  for (let page = 2; page <= pages; page += 1) {
-    const url = withPage(source.url, page);
-    const response = await fetchWithTimeout(url, { headers: { accept: "text/html,*/*" } }, 90_000);
-    const parsed = parseMoiPage(await response.text(), source, url);
-    collected.push(...parsed.items);
+  const { best: first, probes } = await probeMoiFirstPage(source);
+  collected.push(...(first.items || []));
+
+  const totalPages = Math.max(1, Number(first.totalPages || 1));
+  const pages = officeholderScope === "full" ? Math.min(totalPages, moiHardPageCap) : 1;
+  const pageDiagnostics = [{ page: 1, count: first.items?.length || 0, ...first.diagnostics }];
+  const pageNumbers = Array.from({ length: Math.max(0, pages - 1) }, (_, index) => index + 2);
+  const results = await mapConcurrent(pageNumbers, moiPageConcurrency, async (page, index) => {
+    if (moiRequestDelayMs) await sleep(moiRequestDelayMs * ((index % moiPageConcurrency) + 1));
+    const url = withPage(source.url, page, first.pageSize || 200, first.includeSms !== false);
+    let html = await fetchMoiHtml(url);
+    let parsed = parseMoiPage(html, source, url);
+    if (!parsed.items.length && first.includeSms !== false) {
+      const fallbackUrl = withPage(source.url, page, first.pageSize || 200, false);
+      html = await fetchMoiHtml(fallbackUrl);
+      parsed = parseMoiPage(html, source, fallbackUrl);
+    }
+    return { page, ...parsed };
+  });
+
+  for (const result of results) {
+    if (result?.__error) {
+      pageDiagnostics.push({ page: null, count: 0, error: result.__error.message });
+      continue;
+    }
+    collected.push(...(result.items || []));
+    pageDiagnostics.push({ page: result.page, count: result.items?.length || 0, ...result.diagnostics });
   }
-  return [...new Map(collected.map((item) => [item.id, item])).values()];
+
+  const items = [...new Map(collected.map((item) => [item.id, item])).values()];
+  const diagnostics = {
+    selectedUrl: first.url,
+    selectedPageSize: first.pageSize || first.diagnostics?.requestedPageSize || 200,
+    pagesPlanned: pages,
+    pagesFetched: 1 + results.filter((item) => item && !item.__error).length,
+    totalRecords: first.diagnostics?.totalRecords || items.length,
+    probes,
+    emptyPages: pageDiagnostics.filter((item) => item.page && item.count === 0).map((item) => item.page),
+    firstPage: first.diagnostics,
+  };
+  moiDiagnostics.push({ id: source.id, name: source.name, roleId: source.roleId, count: items.length, checkedAt: attemptAt, ...diagnostics });
+  return { items, diagnostics };
 }
 
 async function fetchDatasetItems(source, depth = 0) {
@@ -428,115 +661,133 @@ function minimumExpected(roleId) {
   }[roleId] || 1;
 }
 
-const replacementByRole = new Map();
+async function main() {
+  const replacementByRole = new Map();
 
-// Presidency is stored as verified seed data. The daily job checks that the source pages remain reachable.
-for (const source of officeConfig.presidency || []) {
-  try {
-    await fetchWithTimeout(source.url, { headers: { accept: "text/html,*/*" } }, 60_000);
-    reports.push({ id: source.id, name: source.name, status: "ok", count: existing.filter((item) => item.roleId === source.roleId).length, checkedAt: attemptAt, url: source.url });
-  } catch (error) {
-    errors.push(`${source.name}: ${error.message}`);
-    reports.push({ id: source.id, name: source.name, status: "error", count: existing.filter((item) => item.roleId === source.roleId).length, checkedAt: attemptAt, url: source.url, message: error.message });
+  // Presidency is stored as verified seed data. The daily job checks that the source pages remain reachable.
+  for (const source of officeConfig.presidency || []) {
+    try {
+      await fetchWithTimeout(source.url, { headers: { accept: "text/html,*/*" } }, 60_000);
+      reports.push({ id: source.id, name: source.name, status: "ok", count: existing.filter((item) => item.roleId === source.roleId).length, checkedAt: attemptAt, url: source.url });
+    } catch (error) {
+      errors.push(`${source.name}: ${error.message}`);
+      reports.push({ id: source.id, name: source.name, status: "error", count: existing.filter((item) => item.roleId === source.roleId).length, checkedAt: attemptAt, url: source.url, message: error.message });
+    }
   }
-}
 
-// Try compact government dataset downloads first. If they are catalogs or binary office files, HTML pages are used below.
-const datasetResults = new Map();
-for (const source of officeConfig.officialDatasets || []) {
-  try {
-    const items = [...new Map((await fetchDatasetItems(source)).map((item) => [item.id, item])).values()];
-    if (items.length >= minimumExpected(source.roleId)) datasetResults.set(source.roleId, items);
-    reports.push({ id: source.id, name: source.id, status: items.length ? "parsed" : "fallback-needed", count: items.length, checkedAt: attemptAt, url: source.url });
-  } catch (error) {
-    errors.push(`${source.id}: ${error.message}`);
-    reports.push({ id: source.id, name: source.id, status: "error", count: 0, checkedAt: attemptAt, url: source.url, message: error.message });
+  // Try compact government dataset downloads first. If they are catalogs or binary office files, HTML pages are used below.
+  const datasetResults = new Map();
+  const datasetSources = (officeConfig.officialDatasets || []).filter((source) => officeholderScope === "full" || standardLocalRoles.has(source.roleId));
+  for (const source of datasetSources) {
+    try {
+      const items = [...new Map((await fetchDatasetItems(source)).map((item) => [item.id, item])).values()];
+      if (items.length >= minimumExpected(source.roleId)) datasetResults.set(source.roleId, items);
+      reports.push({ id: source.id, name: source.id, status: items.length ? "parsed" : "fallback-needed", count: items.length, checkedAt: attemptAt, url: source.url });
+    } catch (error) {
+      errors.push(`${source.id}: ${error.message}`);
+      reports.push({ id: source.id, name: source.id, status: "error", count: 0, checkedAt: attemptAt, url: source.url, message: error.message });
+    }
   }
-}
 
-try {
-  const source = officeConfig.legislature;
-  const items = await syncLegislature(source);
-  if (items.length < minimumExpected(source.roleId)) throw new Error(`僅解析到 ${items.length} 位，低於安全門檻`);
-  replacementByRole.set(source.roleId, items);
-  reports.push({ id: source.id, name: source.name, status: "ok", count: items.length, checkedAt: attemptAt, url: source.url });
-} catch (error) {
-  errors.push(`立法院本屆立委: ${error.message}`);
-  reports.push({ id: officeConfig.legislature.id, name: officeConfig.legislature.name, status: "preserved-previous", count: existing.filter((item) => item.roleId === "legislator").length, checkedAt: attemptAt, url: officeConfig.legislature.url, message: error.message });
-}
-
-for (const source of officeConfig.localPages || []) {
-  if (datasetResults.has(source.roleId)) {
-    const items = datasetResults.get(source.roleId);
-    replacementByRole.set(source.roleId, items);
-    reports.push({ id: `${source.id}-publish`, name: source.name, status: "ok-dataset", count: items.length, checkedAt: attemptAt, url: source.url });
-    continue;
-  }
   try {
-    const items = await syncMoiRole(source);
+    const source = officeConfig.legislature;
+    const items = await syncLegislature(source);
     if (items.length < minimumExpected(source.roleId)) throw new Error(`僅解析到 ${items.length} 位，低於安全門檻`);
     replacementByRole.set(source.roleId, items);
-    reports.push({ id: source.id, name: source.name, status: "ok-html", count: items.length, checkedAt: attemptAt, url: source.url });
+    reports.push({ id: source.id, name: source.name, status: "ok", count: items.length, checkedAt: attemptAt, url: source.url });
   } catch (error) {
-    errors.push(`${source.name}: ${error.message}`);
-    reports.push({ id: source.id, name: source.name, status: "preserved-previous", count: existing.filter((item) => item.roleId === source.roleId).length, checkedAt: attemptAt, url: source.url, message: error.message });
+    errors.push(`立法院本屆立委: ${error.message}`);
+    reports.push({ id: officeConfig.legislature.id, name: officeConfig.legislature.name, status: "preserved-previous", count: existing.filter((item) => item.roleId === "legislator").length, checkedAt: attemptAt, url: officeConfig.legislature.url, message: error.message });
   }
-}
 
-const untouched = existing.filter((item) => !replacementByRole.has(item.roleId));
-const replacements = [...replacementByRole.values()].flat();
-const existingById = new Map(existing.map((item) => [item.id, item]));
-for (const item of replacements) { if (!item.photo && existingById.get(item.id)?.photo) item.photo = existingById.get(item.id).photo; }
-const merged = [...new Map([...untouched, ...replacements].map((item) => [item.id, item])).values()]
-  .sort((a, b) => (a.roleId.localeCompare(b.roleId, "zh-Hant") || a.countyId?.localeCompare(b.countyId || "", "zh-Hant") || a.name.localeCompare(b.name, "zh-Hant")));
+  const localSources = (officeConfig.localPages || []).filter((source) => officeholderScope === "full" || standardLocalRoles.has(source.roleId));
+  for (const source of localSources) {
+    if (datasetResults.has(source.roleId)) {
+      const items = datasetResults.get(source.roleId);
+      replacementByRole.set(source.roleId, items);
+      reports.push({ id: `${source.id}-publish`, name: source.name, status: "ok-dataset", count: items.length, checkedAt: attemptAt, url: source.url });
+      continue;
+    }
+    try {
+      const result = await syncMoiRole(source);
+      const items = result.items;
+      if (items.length < minimumExpected(source.roleId)) {
+        const detail = result.diagnostics?.firstPage || {};
+        throw new Error(`僅解析到 ${items.length} 位，低於安全門檻（首頁職稱列 ${detail.roleLineCount || 0}、詳細標記 ${detail.detailMarkerCount || 0}）`);
+      }
+      replacementByRole.set(source.roleId, items);
+      reports.push({ id: source.id, name: source.name, status: "ok-html", count: items.length, checkedAt: attemptAt, url: source.url, diagnostics: result.diagnostics });
+    } catch (error) {
+      errors.push(`${source.name}: ${error.message}`);
+      reports.push({ id: source.id, name: source.name, status: "preserved-previous", count: existing.filter((item) => item.roleId === source.roleId).length, checkedAt: attemptAt, url: source.url, message: error.message });
+    }
+  }
 
-const oldComparable = JSON.stringify(existing);
-const newComparable = JSON.stringify(merged);
-const changed = oldComparable !== newComparable;
-if (changed && existing.length > 2) {
-  writeJson(`data/history/officeholders-${taipeiDate(attemptAt)}-${hash(oldComparable, 8)}.json`, {
-    archivedAt: attemptAt,
-    officeholders: existing,
-    officeholderSync: data.officeholderSync || null,
+  const untouched = existing.filter((item) => !replacementByRole.has(item.roleId));
+  const replacements = [...replacementByRole.values()].flat();
+  const existingById = new Map(existing.map((item) => [item.id, item]));
+  for (const item of replacements) { if (!item.photo && existingById.get(item.id)?.photo) item.photo = existingById.get(item.id).photo; }
+  const merged = [...new Map([...untouched, ...replacements].map((item) => [item.id, item])).values()]
+    .sort((a, b) => (a.roleId.localeCompare(b.roleId, "zh-Hant") || a.countyId?.localeCompare(b.countyId || "", "zh-Hant") || a.name.localeCompare(b.name, "zh-Hant")));
+
+  const oldComparable = JSON.stringify(existing);
+  const newComparable = JSON.stringify(merged);
+  const changed = oldComparable !== newComparable;
+  if (changed && existing.length > 2) {
+    writeJson(`data/history/officeholders-${taipeiDate(attemptAt)}-${hash(oldComparable, 8)}.json`, {
+      archivedAt: attemptAt,
+      officeholders: existing,
+      officeholderSync: data.officeholderSync || null,
+    });
+  }
+
+  data.officeholders = merged;
+  data.parties = [...partyById.values()];
+  data.meta.version = `${taipeiDate(attemptAt).replaceAll("-", ".")}-v6.1.7`;
+  data.meta.lastGeneratedAt = attemptAt;
+  const localCount = merged.filter((item) => !["president", "vice-president", "legislator"].includes(item.roleId)).length;
+  const legislatorCount = merged.filter((item) => item.roleId === "legislator").length;
+  const replacedRoles = [...replacementByRole.keys()];
+  const success = replacedRoles.length > 0 || reports.some((report) => report.status === "ok");
+  const officialPhotoCount = merged.filter((item) => item.photo?.official && (item.photo.url || item.photo.localUrl)).length;
+  data.photoSync = { status: officialPhotoCount ? "active-or-partial" : "waiting", lastAttemptAt: attemptAt, lastSuccessAt: officialPhotoCount ? attemptAt : data.photoSync?.lastSuccessAt || null, photoCount: merged.filter((item) => item.photo?.url || item.photo?.localUrl).length, officialPhotoCount, message: `目前有 ${officialPhotoCount} 張可追溯官方頭貼；其餘人物以姓名縮寫顯示。` };
+  data.officeholderSync = {
+    status: errors.length ? (success ? "partial" : "failed") : "ok",
+    schedule: "daily",
+    timezone: config.timezone,
+    plannedTime: config.scheduleLocalTime,
+    lastAttemptAt: attemptAt,
+    lastSuccessAt: success ? attemptAt : data.officeholderSync?.lastSuccessAt || null,
+    lastOfficialChangeAt: changed ? attemptAt : data.officeholderSync?.lastOfficialChangeAt || null,
+    officeholderCount: merged.length,
+    localOfficeholderCount: localCount,
+    legislatorCount,
+    replacedRoles,
+    preservedRoles: [...new Set(existing.map((item) => item.roleId))].filter((roleId) => !replacementByRole.has(roleId)),
+    message: changed
+      ? `現任公職資料已更新，共 ${merged.length} 人（立委 ${legislatorCount}、地方 ${localCount}）。`
+      : `本次未發布人物異動，保留 ${merged.length} 位現任公職資料。`,
+    coverage: {
+      presidency: merged.some((item) => item.roleId === "president") && merged.some((item) => item.roleId === "vice-president") ? "active" : "missing",
+      legislature: legislatorCount >= minimumExpected("legislator") ? "active" : "waiting-or-preserved",
+      local: localCount > 0 ? "active-or-partial" : "waiting-first-sync",
+    },
+    errors,
+    scope: officeholderScope,
+    sources: reports,
+  };
+
+  writeJson("data/reports/moi-parser-diagnostics.json", {
+    generatedAt: attemptAt,
+    scope: officeholderScope,
+    diagnostics: moiDiagnostics,
   });
+  writeJson("data/election-data.json", data);
+  writeJson("data/officeholder-sync-status.json", data.officeholderSync);
+  console.log(data.officeholderSync.message);
+  if (!success) process.exitCode = 1;
 }
 
-data.officeholders = merged;
-data.parties = [...partyById.values()];
-data.meta.version = `${taipeiDate(attemptAt).replaceAll("-", ".")}-v6.1`;
-data.meta.lastGeneratedAt = attemptAt;
-const localCount = merged.filter((item) => !["president", "vice-president", "legislator"].includes(item.roleId)).length;
-const legislatorCount = merged.filter((item) => item.roleId === "legislator").length;
-const replacedRoles = [...replacementByRole.keys()];
-const success = replacedRoles.length > 0 || reports.some((report) => report.status === "ok");
-const officialPhotoCount = merged.filter((item) => item.photo?.official && (item.photo.url || item.photo.localUrl)).length;
-data.photoSync = { status: officialPhotoCount ? "active-or-partial" : "waiting", lastAttemptAt: attemptAt, lastSuccessAt: officialPhotoCount ? attemptAt : data.photoSync?.lastSuccessAt || null, photoCount: merged.filter((item) => item.photo?.url || item.photo?.localUrl).length, officialPhotoCount, message: `目前有 ${officialPhotoCount} 張可追溯官方頭貼；其餘人物以姓名縮寫顯示。` };
-data.officeholderSync = {
-  status: errors.length ? (success ? "partial" : "failed") : "ok",
-  schedule: "daily",
-  timezone: config.timezone,
-  plannedTime: config.scheduleLocalTime,
-  lastAttemptAt: attemptAt,
-  lastSuccessAt: success ? attemptAt : data.officeholderSync?.lastSuccessAt || null,
-  lastOfficialChangeAt: changed ? attemptAt : data.officeholderSync?.lastOfficialChangeAt || null,
-  officeholderCount: merged.length,
-  localOfficeholderCount: localCount,
-  legislatorCount,
-  replacedRoles,
-  preservedRoles: [...new Set(existing.map((item) => item.roleId))].filter((roleId) => !replacementByRole.has(roleId)),
-  message: changed
-    ? `現任公職資料已更新，共 ${merged.length} 人（立委 ${legislatorCount}、地方 ${localCount}）。`
-    : `本次未發布人物異動，保留 ${merged.length} 位現任公職資料。`,
-  coverage: {
-    presidency: merged.some((item) => item.roleId === "president") && merged.some((item) => item.roleId === "vice-president") ? "active" : "missing",
-    legislature: legislatorCount >= minimumExpected("legislator") ? "active" : "waiting-or-preserved",
-    local: localCount > 0 ? "active-or-partial" : "waiting-first-sync",
-  },
-  errors,
-  sources: reports,
-};
+export { htmlToLines, parseMoiPage };
 
-writeJson("data/election-data.json", data);
-writeJson("data/officeholder-sync-status.json", data.officeholderSync);
-console.log(data.officeholderSync.message);
-if (!success) process.exitCode = 1;
+if (process.env.MOI_PARSER_TEST !== "1") await main();

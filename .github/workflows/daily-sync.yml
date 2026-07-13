@@ -11,16 +11,22 @@ on:
         description: "Why this workflow was triggered"
         required: false
         default: "manual-refresh"
-      history_scope:
-        description: "歷屆資料範圍；每日排程固定為 none"
+      officeholder_scope:
+        description: "現任公職範圍；full 會抓取議員、首長、代表、原住民區與村里長全部頁面"
         required: true
-        default: "none"
+        default: "full"
+        type: choice
+        options: [full, standard]
+      history_scope:
+        description: "歷屆資料範圍；排程執行時固定為 none，手動完整更新可選 all"
+        required: true
+        default: "all"
         type: choice
         options: [none, core, local, all]
       history_years:
-        description: "西元年度，以逗號分隔；輸入 all 會解析所有年份"
+        description: "西元年度，以逗號分隔；輸入 all 會解析全部可辨識年份"
         required: false
-        default: "2014,2018,2020,2022,2024"
+        default: "all"
 
 permissions:
   contents: write
@@ -32,7 +38,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -47,12 +53,37 @@ jobs:
           python-version: "3.12"
       - name: Install project metadata
         run: npm ci --ignore-scripts
+      - name: Verify MOI local-office parser fixture
+        run: npm run test:moi-parser
       - name: Install image tools
         run: python -m pip install --disable-pip-version-check pillow
       - name: Preserve previous public data
         run: cp data/election-data.json /tmp/election-data-before.json
       - name: Sync current official data
+        env:
+          OFFICEHOLDER_SCOPE: ${{ github.event_name == 'workflow_dispatch' && inputs.officeholder_scope || 'full' }}
+          MOI_REQUEST_DELAY_MS: "180"
+          MOI_FETCH_RETRIES: "3"
+          MOI_PAGE_CONCURRENCY: "3"
+          MOI_HARD_PAGE_CAP: "600"
         run: npm run sync
+      - name: Show MOI local-office diagnostics
+        if: ${{ always() }}
+        shell: bash
+        run: |
+          if [ -f data/reports/moi-parser-diagnostics.json ]; then
+            node -e 'const d=require("./data/reports/moi-parser-diagnostics.json"); for (const x of d.diagnostics||[]) console.log(`${x.name}: ${x.count} records, ${x.pagesFetched||0}/${x.pagesPlanned||0} pages, page size ${x.selectedPageSize||"?"}`)'
+          else
+            echo "No MOI diagnostics file was generated."
+          fi
+      - name: Upload MOI parser diagnostics
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: moi-parser-diagnostics
+          path: data/reports/moi-parser-diagnostics.json
+          if-no-files-found: ignore
+          retention-days: 7
       - name: Sync official CEC history when requested
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.history_scope != 'none' }}
         env:
