@@ -1,6 +1,319 @@
 {
-  "generatedAt": "2026-07-13T13:10:18.370Z",
+  "generatedAt": "2026-07-13T14:14:50.290Z",
   "countyId": "taichung",
-  "officeholders": [],
+  "officeholders": [
+    {
+      "id": "legislator-江啟臣-23289cc3",
+      "official": true,
+      "name": "江啟臣",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": "taichung",
+      "district": "臺中市第8選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-13",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110009.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46764",
+        "sourceLabel": "立法院官方照片：江啟臣",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "localUrl": "assets/portraits/cache/legislator-江啟臣-23289cc3-f42dca28a3e67038.webp",
+        "cachedFormat": "webp",
+        "cachedWidth": 622,
+        "cachedHeight": 800
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：江啟臣",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46764",
+          "date": "2026-07-13",
+          "retrievedAt": "2026-07-13T14:05:15.814Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-何欣純-5ec570ad",
+      "official": true,
+      "name": "何欣純",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": "taichung",
+      "district": "臺中市第7選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-13",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110010.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46765",
+        "sourceLabel": "立法院官方照片：何欣純",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "localUrl": "assets/portraits/cache/legislator-何欣純-5ec570ad-e27d6ca7bf4b25f2.webp",
+        "cachedFormat": "webp",
+        "cachedWidth": 622,
+        "cachedHeight": 800
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：何欣純",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46765",
+          "date": "2026-07-13",
+          "retrievedAt": "2026-07-13T14:05:15.814Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-副院長-ac9c1160",
+      "official": true,
+      "name": "副院長",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": "taichung",
+      "district": "臺中市第8選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-13",
+      "sources": [
+        {
+          "label": "立法院本屆立委：副院長",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=121",
+          "date": "2026-07-13",
+          "retrievedAt": "2026-07-13T14:05:15.814Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-黃健豪-8e52bb5c",
+      "official": true,
+      "name": "黃健豪",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": "taichung",
+      "district": "臺中市第5選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-13",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110083.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46831",
+        "sourceLabel": "立法院官方照片：黃健豪",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "localUrl": "assets/portraits/cache/legislator-黃健豪-8e52bb5c-9f9c5e919aaab3df.webp",
+        "cachedFormat": "webp",
+        "cachedWidth": 592,
+        "cachedHeight": 800
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：黃健豪",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46831",
+          "date": "2026-07-13",
+          "retrievedAt": "2026-07-13T14:05:15.814Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-蔡其昌-db0b76c0",
+      "official": true,
+      "name": "蔡其昌",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": "taichung",
+      "district": "臺中市第1選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-13",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110094.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46842",
+        "sourceLabel": "立法院官方照片：蔡其昌",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "localUrl": "assets/portraits/cache/legislator-蔡其昌-db0b76c0-64d69a1aafee5463.webp",
+        "cachedFormat": "webp",
+        "cachedWidth": 622,
+        "cachedHeight": 800
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：蔡其昌",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46842",
+          "date": "2026-07-13",
+          "retrievedAt": "2026-07-13T14:05:15.814Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-顏寬恒-ed4b7592",
+      "official": true,
+      "name": "顏寬恒",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": "taichung",
+      "district": "臺中市第2選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-13",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110107.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46855",
+        "sourceLabel": "立法院官方照片：顏寬恒",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "localUrl": "assets/portraits/cache/legislator-顏寬恒-ed4b7592-a0204c340e4ab82f.webp",
+        "cachedFormat": "webp",
+        "cachedWidth": 622,
+        "cachedHeight": 800
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：顏寬恒",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46855",
+          "date": "2026-07-13",
+          "retrievedAt": "2026-07-13T14:05:15.814Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-羅廷瑋-8647d2c6",
+      "official": true,
+      "name": "羅廷瑋",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": "taichung",
+      "district": "臺中市第6選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-13",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110108.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46856",
+        "sourceLabel": "立法院官方照片：羅廷瑋",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "localUrl": "assets/portraits/cache/legislator-羅廷瑋-8647d2c6-38b2b0f81b8d9fdc.webp",
+        "cachedFormat": "webp",
+        "cachedWidth": 577,
+        "cachedHeight": 739
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：羅廷瑋",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46856",
+          "date": "2026-07-13",
+          "retrievedAt": "2026-07-13T14:05:15.814Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-楊瓊瓔-412940b3",
+      "official": true,
+      "name": "楊瓊瓔",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": "taichung",
+      "district": "臺中市第3選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-13",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110087.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46835",
+        "sourceLabel": "立法院官方照片：楊瓊瓔",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "localUrl": "assets/portraits/cache/legislator-楊瓊瓔-412940b3-f1c7cc6bcf429f90.webp",
+        "cachedFormat": "webp",
+        "cachedWidth": 622,
+        "cachedHeight": 800
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：楊瓊瓔",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46835",
+          "date": "2026-07-13",
+          "retrievedAt": "2026-07-13T14:05:15.814Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-廖偉翔-d3b0a022",
+      "official": true,
+      "name": "廖偉翔",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": "taichung",
+      "district": "臺中市第4選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-13",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110092.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46840",
+        "sourceLabel": "立法院官方照片：廖偉翔",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "localUrl": "assets/portraits/cache/legislator-廖偉翔-d3b0a022-f341b07e39e7e053.webp",
+        "cachedFormat": "webp",
+        "cachedWidth": 622,
+        "cachedHeight": 800
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：廖偉翔",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46840",
+          "date": "2026-07-13",
+          "retrievedAt": "2026-07-13T14:05:15.814Z"
+        }
+      ],
+      "gender": "男"
+    }
+  ],
   "candidates": []
 }

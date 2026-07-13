@@ -1,1 +1,1194 @@
-[]
+[
+  {
+    "status": "ok",
+    "startedAt": "2026-07-13T14:14:35.528Z",
+    "finishedAt": "2026-07-13T14:14:49.258Z",
+    "scope": "core",
+    "years": "2014,2018,2020,2022,2024",
+    "officialRecordCount": 806,
+    "officialPersonCount": 697,
+    "identityReviewCount": 4,
+    "message": "已匯入中選會歷屆資料 806 筆，網站累計官方歷屆資料 806 筆。",
+    "sourceUrl": "https://data.gov.tw/dataset/13119",
+    "metadata": {
+      "source": "Central Election Commission votedata.zip",
+      "sourceUrl": "https://data.cec.gov.tw/選舉資料庫/votedata.zip",
+      "sourcePage": "https://data.gov.tw/dataset/13119",
+      "fetchedAt": "2026-07-13T14:14:48Z",
+      "scope": "core",
+      "yearsFilter": [
+        2014,
+        2018,
+        2020,
+        2022,
+        2024
+      ],
+      "archiveBytes": 110316470,
+      "datasetGroups": 146,
+      "importedGroups": 10,
+      "recordCount": 806,
+      "parserVersion": "5.5.0",
+      "groups": [
+        {
+          "path": "votedata/votedata/voteData/1994台灣省議員/區域",
+          "year": 1994,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/1994台灣省議員/山原",
+          "year": 1994,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/1994台灣省議員/平原",
+          "year": 1994,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/1994台灣省議員/平原2",
+          "year": 1994,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/1994台灣省長",
+          "year": 1994,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/1994直轄市議員/區域",
+          "year": 1994,
+          "roleId": "municipal-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/1994直轄市議員/原住民",
+          "year": 1994,
+          "roleId": "municipal-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/1994直轄市長",
+          "year": 1994,
+          "roleId": "municipal-mayor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/1996國大代表/區域",
+          "year": 1996,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/1996國大代表/山原",
+          "year": 1996,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/1996國大代表/平原",
+          "year": 1996,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/1997縣市長",
+          "year": 1997,
+          "roleId": "county-mayor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/1998直轄市議員/區域",
+          "year": 1998,
+          "roleId": "municipal-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/1998直轄市議員/原住民",
+          "year": 1998,
+          "roleId": "municipal-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/1998直轄市長",
+          "year": 1998,
+          "roleId": "municipal-mayor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/1998縣市議員/區域",
+          "year": 1998,
+          "roleId": "county-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/1998縣市議員/山原",
+          "year": 1998,
+          "roleId": "county-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/1998縣市議員/平原",
+          "year": 1998,
+          "roleId": "county-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/1998鄉鎮市長",
+          "year": 1998,
+          "roleId": "township-mayor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2000年10任總統",
+          "year": 2000,
+          "roleId": "president",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2001縣市長",
+          "year": 2001,
+          "roleId": "county-mayor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2002直轄市議員(區域)",
+          "year": 2002,
+          "roleId": "municipal-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2002直轄市議員(原住民)",
+          "year": 2002,
+          "roleId": "municipal-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2002直轄市長",
+          "year": 2002,
+          "roleId": "municipal-mayor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2002縣市議員/區域",
+          "year": 2002,
+          "roleId": "county-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2002縣市議員/山原",
+          "year": 2002,
+          "roleId": "county-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2002縣市議員/平原",
+          "year": 2002,
+          "roleId": "county-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2002鄉鎮市長選舉",
+          "year": 2002,
+          "roleId": "township-mayor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2004   11任總統",
+          "year": 2004,
+          "roleId": "president",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2004第6屆立法委員/區域",
+          "year": 2004,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2004第6屆立法委員/山原",
+          "year": 2004,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2004第6屆立法委員/平原",
+          "year": 2004,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2005任務型國代",
+          "year": 2005,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2005縣市議員/區域",
+          "year": 2005,
+          "roleId": "county-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2005縣市議員/山原",
+          "year": 2005,
+          "roleId": "county-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2005縣市議員/平原",
+          "year": 2005,
+          "roleId": "county-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2005縣市長",
+          "year": 2005,
+          "roleId": "county-mayor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2005鄉鎮市長",
+          "year": 2005,
+          "roleId": "township-mayor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2006直轄市議員(區域)",
+          "year": 2006,
+          "roleId": "municipal-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2006直轄市議員(原住民)",
+          "year": 2006,
+          "roleId": "municipal-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2006直轄市長",
+          "year": 2006,
+          "roleId": "municipal-mayor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2008 12任總統",
+          "year": 2008,
+          "roleId": "president",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/20080322-總統",
+          "year": null,
+          "roleId": "president",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2008立委/不分區政黨",
+          "year": 2008,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2008立委/區域",
+          "year": 2008,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2008立委/山原",
+          "year": 2008,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2008立委/平原",
+          "year": 2008,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/20091205-縣市長縣市議員及鄉鎮長/區域議員",
+          "year": null,
+          "roleId": "county-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/20091205-縣市長縣市議員及鄉鎮長/山地議員",
+          "year": null,
+          "roleId": "county-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/20091205-縣市長縣市議員及鄉鎮長/平地議員",
+          "year": null,
+          "roleId": "county-councilor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/20091205-縣市長縣市議員及鄉鎮長/縣市長",
+          "year": null,
+          "roleId": "county-mayor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/20091205-縣市長縣市議員及鄉鎮長/鄉鎮市長",
+          "year": null,
+          "roleId": "township-mayor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/20101127-五都市長議員及里長/區域議員",
+          "year": null,
+          "roleId": "village-chief",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/20101127-五都市長議員及里長/山地議員",
+          "year": null,
+          "roleId": "village-chief",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/20101127-五都市長議員及里長/市長",
+          "year": null,
+          "roleId": "village-chief",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/20101127-五都市長議員及里長/平地議員",
+          "year": null,
+          "roleId": "village-chief",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/20101127-五都市長議員及里長/里長",
+          "year": null,
+          "roleId": "village-chief",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2010村里長",
+          "year": 2010,
+          "roleId": "village-chief",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2010鄉鎮市民代表",
+          "year": 2010,
+          "roleId": "township-representative",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/20120114-總統及立委/不分區政黨",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/20120114-總統及立委/區域立委",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/20120114-總統及立委/山地立委",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/20120114-總統及立委/平地立委",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/20120114-總統及立委/總統",
+          "year": null,
+          "roleId": "president",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2014-103年地方公職人員選舉/村里長",
+          "year": 2014,
+          "roleId": "village-chief",
+          "status": "skipped",
+          "records": 0,
+          "reason": "scope-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2014-103年地方公職人員選舉/直轄市區域議員",
+          "year": 2014,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2014-103年地方公職人員選舉/直轄市區民代表",
+          "year": 2014,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2014-103年地方公職人員選舉/直轄市區長",
+          "year": 2014,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2014-103年地方公職人員選舉/直轄市山原議員",
+          "year": 2014,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2014-103年地方公職人員選舉/直轄市市長",
+          "year": 2014,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2014-103年地方公職人員選舉/直轄市平原議員",
+          "year": 2014,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2014-103年地方公職人員選舉/縣市區域議員",
+          "year": 2014,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2014-103年地方公職人員選舉/縣市山原議員",
+          "year": 2014,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2014-103年地方公職人員選舉/縣市市長",
+          "year": 2014,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2014-103年地方公職人員選舉/縣市平原議員",
+          "year": 2014,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2014-103年地方公職人員選舉/縣市鄉鎮市民代表",
+          "year": 2014,
+          "roleId": "township-representative",
+          "status": "skipped",
+          "records": 0,
+          "reason": "scope-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2014-103年地方公職人員選舉/縣市鄉鎮市民平原代表",
+          "year": 2014,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2014-103年地方公職人員選舉/縣市鄉鎮市長",
+          "year": 2014,
+          "roleId": "township-mayor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "scope-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/直轄市區域議員",
+          "year": 2018,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/直轄市區民代表",
+          "year": 2018,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/直轄市區長",
+          "year": 2018,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/直轄市山原議員",
+          "year": 2018,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/直轄市市長",
+          "year": 2018,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/直轄市平原議員",
+          "year": 2018,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/直轄市村里長",
+          "year": 2018,
+          "roleId": "village-chief",
+          "status": "skipped",
+          "records": 0,
+          "reason": "scope-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市區域議員",
+          "year": 2018,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市山原議員",
+          "year": 2018,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市市長",
+          "year": 2018,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市平原議員",
+          "year": 2018,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市村里長",
+          "year": 2018,
+          "roleId": "village-chief",
+          "status": "skipped",
+          "records": 0,
+          "reason": "scope-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市鄉鎮市民代表",
+          "year": 2018,
+          "roleId": "township-representative",
+          "status": "skipped",
+          "records": 0,
+          "reason": "scope-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市鄉鎮市民平原代表",
+          "year": 2018,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2018-107年地方公職人員選舉/縣市鄉鎮市長",
+          "year": 2018,
+          "roleId": "township-mayor",
+          "status": "skipped",
+          "records": 0,
+          "reason": "scope-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/2020總統立委/不分區政黨",
+          "year": 2020,
+          "roleId": "legislator",
+          "status": "ok",
+          "records": 19
+        },
+        {
+          "path": "votedata/votedata/voteData/2020總統立委/區域立委",
+          "year": 2020,
+          "roleId": "legislator",
+          "status": "ok",
+          "records": 410
+        },
+        {
+          "path": "votedata/votedata/voteData/2020總統立委/山地立委",
+          "year": 2020,
+          "roleId": "legislator",
+          "status": "ok",
+          "records": 11
+        },
+        {
+          "path": "votedata/votedata/voteData/2020總統立委/平地立委",
+          "year": 2020,
+          "roleId": "legislator",
+          "status": "ok",
+          "records": 10
+        },
+        {
+          "path": "votedata/votedata/voteData/2020總統立委/總統",
+          "year": 2020,
+          "roleId": "president",
+          "status": "ok",
+          "records": 6
+        },
+        {
+          "path": "votedata/votedata/voteData/2022-111年地方公職人員選舉/C1/city",
+          "year": 2022,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2022-111年地方公職人員選舉/C1/prv",
+          "year": 2022,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2022-111年地方公職人員選舉/D1",
+          "year": 2022,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2022-111年地方公職人員選舉/D2",
+          "year": 2022,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2022-111年地方公職人員選舉/R1",
+          "year": 2022,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2022-111年地方公職人員選舉/R2",
+          "year": 2022,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2022-111年地方公職人員選舉/R3",
+          "year": 2022,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T1/city",
+          "year": 2022,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T1/prv",
+          "year": 2022,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T2/city",
+          "year": 2022,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T2/prv",
+          "year": 2022,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T3/city",
+          "year": 2022,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2022-111年地方公職人員選舉/T3/prv",
+          "year": 2022,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2022-111年地方公職人員選舉/V1",
+          "year": 2022,
+          "roleId": null,
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/2024總統立委/不分區政黨",
+          "year": 2024,
+          "roleId": "legislator",
+          "status": "ok",
+          "records": 16
+        },
+        {
+          "path": "votedata/votedata/voteData/2024總統立委/區域立委",
+          "year": 2024,
+          "roleId": "legislator",
+          "status": "ok",
+          "records": 309
+        },
+        {
+          "path": "votedata/votedata/voteData/2024總統立委/山地立委",
+          "year": 2024,
+          "roleId": "legislator",
+          "status": "ok",
+          "records": 10
+        },
+        {
+          "path": "votedata/votedata/voteData/2024總統立委/平地立委",
+          "year": 2024,
+          "roleId": "legislator",
+          "status": "ok",
+          "records": 9
+        },
+        {
+          "path": "votedata/votedata/voteData/2024總統立委/總統",
+          "year": 2024,
+          "roleId": "president",
+          "status": "ok",
+          "records": 6
+        },
+        {
+          "path": "votedata/votedata/voteData/3屆立委/區域",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/3屆立委/山原",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/3屆立委/平原",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/4屆立委/區域",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/4屆立委/山原",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/4屆立委/平原",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/5屆立委/區域",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/5屆立委/山原",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/5屆立委/平原",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/9任總統",
+          "year": null,
+          "roleId": "president",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/2009苗栗縣1",
+          "year": 2009,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/2010台中縣3",
+          "year": 2010,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/2010新竹縣",
+          "year": 2010,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/2010桃園縣2",
+          "year": 2010,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/2010桃園縣3",
+          "year": 2010,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/2015南投縣2",
+          "year": 2015,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/2015台中市6",
+          "year": 2015,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/2015屏東縣3",
+          "year": 2015,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/2015彰化縣4",
+          "year": 2015,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/2015苗栗縣2",
+          "year": 2015,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "year-filter"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/南投縣1",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/台中市2",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/台北市6",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/台南市4",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/嘉義縣2",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/臺東縣",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/花蓮縣",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/雲林縣2",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        },
+        {
+          "path": "votedata/votedata/voteData/立委補選/高雄市4",
+          "year": null,
+          "roleId": "legislator",
+          "status": "skipped",
+          "records": 0,
+          "reason": "cannot-classify-year-or-election"
+        }
+      ],
+      "durationSeconds": 8.05
+    }
+  }
+]

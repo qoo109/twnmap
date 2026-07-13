@@ -1,0 +1,441 @@
+{
+  "generatedAt": "2026-07-13T14:14:50.290Z",
+  "year": 2024,
+  "countyId": "pingtung",
+  "records": [
+    {
+      "id": "cec-170bd2981f56a1d87727",
+      "demo": false,
+      "official": true,
+      "personKey": "person-bb155998eee57deaeaf8",
+      "identityConfidence": "exact",
+      "name": "曾鈺庭",
+      "gender": "男",
+      "birthDate": "1973-03-09",
+      "birthYear": 1973,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "pingtung",
+      "countyName": "屏東縣",
+      "district": "屏東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "013",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 1158,
+      "voteRate": 0.52,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-6f65857e7b8e9ea0b325",
+      "demo": false,
+      "official": true,
+      "personKey": "person-b4e026d7c91fb8889136",
+      "identityConfidence": "exact",
+      "name": "鍾佳濱",
+      "gender": "男",
+      "birthDate": "1965-02-23",
+      "birthYear": 1965,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "pingtung",
+      "countyName": "屏東縣",
+      "district": "屏東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "013",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 108723,
+      "voteRate": 48.4,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": [
+        "legislator-鍾佳濱-a81ad8bd"
+      ]
+    },
+    {
+      "id": "cec-42419d5c7493757a69ac",
+      "demo": false,
+      "official": true,
+      "personKey": "person-bb85a8f0092a06655655",
+      "identityConfidence": "exact",
+      "name": "蔣月惠",
+      "gender": "女",
+      "birthDate": "1959-04-12",
+      "birthYear": 1959,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "pingtung",
+      "countyName": "屏東縣",
+      "district": "屏東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "013",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 25270,
+      "voteRate": 11.25,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-325a563c47ab0fee6732",
+      "demo": false,
+      "official": true,
+      "personKey": "person-f33a6a88592f353b0fac",
+      "identityConfidence": "exact",
+      "name": "張庭源",
+      "gender": "男",
+      "birthDate": "1995-11-08",
+      "birthYear": 1995,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "pingtung",
+      "countyName": "屏東縣",
+      "district": "屏東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "013",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "other",
+      "partyNameRaw": "台灣維新",
+      "votes": 496,
+      "voteRate": 0.22,
+      "rank": 5,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-58f6a940e9779e9ec400",
+      "demo": false,
+      "official": true,
+      "personKey": "person-a01504815783849d21eb",
+      "identityConfidence": "exact",
+      "name": "李孟翰",
+      "gender": "男",
+      "birthDate": "1990-01-26",
+      "birthYear": 1990,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "pingtung",
+      "countyName": "屏東縣",
+      "district": "屏東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "013",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 5,
+      "partyId": "other",
+      "partyNameRaw": "中華統一促進黨",
+      "votes": 464,
+      "voteRate": 0.21,
+      "rank": 6,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-735cfa492085301c56d2",
+      "demo": false,
+      "official": true,
+      "personKey": "person-da7717af02f2e1c9d98c",
+      "identityConfidence": "exact",
+      "name": "黃明賢",
+      "gender": "男",
+      "birthDate": "1983-05-25",
+      "birthYear": 1983,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "pingtung",
+      "countyName": "屏東縣",
+      "district": "屏東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "013",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 6,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 88518,
+      "voteRate": 39.41,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-dacd68d2bdbde05367dd",
+      "demo": false,
+      "official": true,
+      "personKey": "person-eddc9fad23d063a0f7c5",
+      "identityConfidence": "exact",
+      "name": "吳媚宮",
+      "gender": "女",
+      "birthDate": "1965-01-09",
+      "birthYear": 1965,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "pingtung",
+      "countyName": "屏東縣",
+      "district": "屏東縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "013",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "other",
+      "partyNameRaw": "中華聯合黨",
+      "votes": 4139,
+      "voteRate": 2.03,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-453a142b570cbbb302e3",
+      "demo": false,
+      "official": true,
+      "personKey": "person-c118979cfbd97db270d2",
+      "identityConfidence": "exact",
+      "name": "何秋葺",
+      "gender": "女",
+      "birthDate": "1970-01-14",
+      "birthYear": 1970,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "pingtung",
+      "countyName": "屏東縣",
+      "district": "屏東縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "013",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "other",
+      "partyNameRaw": "人民最大黨",
+      "votes": 8845,
+      "voteRate": 4.33,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-7b2caceeea039b3e515e",
+      "demo": false,
+      "official": true,
+      "personKey": "person-c393ef1df5eca9a9c270",
+      "identityConfidence": "exact",
+      "name": "徐富癸",
+      "gender": "男",
+      "birthDate": "1970-10-29",
+      "birthYear": 1970,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "pingtung",
+      "countyName": "屏東縣",
+      "district": "屏東縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "013",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 108923,
+      "voteRate": 53.38,
+      "rank": 1,
+      "elected": true,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": [
+        "legislator-徐富癸-0df8a1d4"
+      ]
+    },
+    {
+      "id": "cec-a54793e7c5e0e116e349",
+      "demo": false,
+      "official": true,
+      "personKey": "person-f4a664b9fc35e6ecb6e6",
+      "identityConfidence": "exact",
+      "name": "蘇孟淳",
+      "gender": "男",
+      "birthDate": "1992-12-11",
+      "birthYear": 1992,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "pingtung",
+      "countyName": "屏東縣",
+      "district": "屏東縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "013",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 82147,
+      "voteRate": 40.26,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "generatedAt": "2026-07-13T14:14:50.290Z",
+  "year": 2024,
+  "countyId": "taitung",
+  "records": [
+    {
+      "id": "cec-cac12ead97f30ef3427e",
+      "demo": false,
+      "official": true,
+      "personKey": "person-60434cf45e4fc767ea51",
+      "identityConfidence": "exact",
+      "name": "賴坤成",
+      "gender": "男",
+      "birthDate": "1964-06-03",
+      "birthYear": 1964,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "taitung",
+      "countyName": "臺東縣",
+      "district": "臺東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "014",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 23420,
+      "voteRate": 31.6,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-89bcfad326a311c33d4c",
+      "demo": false,
+      "official": true,
+      "personKey": "person-af6535bc65ff378b4090",
+      "identityConfidence": "exact",
+      "name": "黃婉茹",
+      "gender": "女",
+      "birthDate": "1981-11-17",
+      "birthYear": 1981,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "taitung",
+      "countyName": "臺東縣",
+      "district": "臺東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "014",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "other",
+      "partyNameRaw": "小民參政歐巴桑聯盟",
+      "votes": 1428,
+      "voteRate": 1.93,
+      "rank": 5,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-12d44d3cb040d53e88b3",
+      "demo": false,
+      "official": true,
+      "personKey": "person-0771e81f61a44e764a94",
+      "identityConfidence": "exact",
+      "name": "許瑞貴",
+      "gender": "男",
+      "birthDate": "1955-12-07",
+      "birthYear": 1955,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "taitung",
+      "countyName": "臺東縣",
+      "district": "臺東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "014",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 4522,
+      "voteRate": 6.1,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-868cf9dac80303d1e631",
+      "demo": false,
+      "official": true,
+      "personKey": "person-d90e8403aa3f61e31da1",
+      "identityConfidence": "exact",
+      "name": "陳長宏",
+      "gender": "男",
+      "birthDate": "1965-08-25",
+      "birthYear": 1965,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "taitung",
+      "countyName": "臺東縣",
+      "district": "臺東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "014",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 211,
+      "voteRate": 0.28,
+      "rank": 6,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-de99b13ba3efab21b4a3",
+      "demo": false,
+      "official": true,
+      "personKey": "person-dd1a36fbfa780b3e3470",
+      "identityConfidence": "exact",
+      "name": "黃建賓",
+      "gender": "男",
+      "birthDate": "1978-12-25",
+      "birthYear": 1978,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "taitung",
+      "countyName": "臺東縣",
+      "district": "臺東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "014",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 5,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 25778,
+      "voteRate": 34.79,
+      "rank": 1,
+      "elected": true,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": [
+        "legislator-黃建賓-47f1ef8b"
+      ]
+    },
+    {
+      "id": "cec-7c0f1c1d509b8bdf196f",
+      "demo": false,
+      "official": true,
+      "personKey": "person-77e6636812b4572b907f",
+      "identityConfidence": "exact",
+      "name": "劉櫂豪",
+      "gender": "男",
+      "birthDate": "1967-02-02",
+      "birthYear": 1967,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "taitung",
+      "countyName": "臺東縣",
+      "district": "臺東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "014",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 6,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 18744,
+      "voteRate": 25.29,
+      "rank": 3,
+      "elected": false,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

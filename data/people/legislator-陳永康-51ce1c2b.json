@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-07-13T14:14:50.290Z",
+  "person": {
+    "id": "legislator-陳永康-51ce1c2b",
+    "official": true,
+    "name": "陳永康",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "kmt",
+    "countyId": null,
+    "district": "全國不分區及僑居國外國民",
+    "organization": "立法院",
+    "termStart": "2024-02-01",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-13",
+    "photo": {
+      "url": "https://www.ly.gov.tw/Images/Legislators/110062.jpg",
+      "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46812",
+      "sourceLabel": "立法院官方照片：陳永康",
+      "credit": "立法院",
+      "official": true,
+      "retrievedAt": "2026-07-13T14:05:15.814Z",
+      "localUrl": "assets/portraits/cache/legislator-陳永康-51ce1c2b-d542c9d4a915ff09.webp",
+      "cachedFormat": "webp",
+      "cachedWidth": 622,
+      "cachedHeight": 800
+    },
+    "sources": [
+      {
+        "label": "立法院本屆立委：陳永康",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46812",
+        "date": "2026-07-13",
+        "retrievedAt": "2026-07-13T14:05:15.814Z"
+      }
+    ],
+    "gender": "男"
+  }
+}

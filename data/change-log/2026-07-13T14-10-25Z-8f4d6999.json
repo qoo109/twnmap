@@ -1,0 +1,965 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-13T14:10:25.923Z",
+  "date": "2026-07-13",
+  "beforeVersion": "2026.07.13-v6.1.1",
+  "afterVersion": "2026.07.13-v6.1",
+  "summary": {
+    "added": 115,
+    "removed": 0,
+    "changed": 0,
+    "photoUpdated": 0,
+    "historyDelta": 0
+  },
+  "officeholders": {
+    "label": "officeholders",
+    "beforeCount": 2,
+    "afterCount": 117,
+    "added": [
+      {
+        "id": "legislator-王正旭-748990b5",
+        "name": "王正旭",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-王安祥-5e32655e",
+        "name": "王安祥",
+        "partyId": "tpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-院長-f1a2a656",
+        "name": "院長",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-王美惠-6eb96bd7",
+        "name": "王美惠",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "chiayi-city",
+        "district": "嘉義市選舉區"
+      },
+      {
+        "id": "legislator-王義川-e460de6f",
+        "name": "王義川",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-林思銘-9f3d1651",
+        "name": "林思銘",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "hsinchu-county",
+        "district": "新竹縣第2選舉區"
+      },
+      {
+        "id": "legislator-徐欣瑩-6211c0b6",
+        "name": "徐欣瑩",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "hsinchu-county",
+        "district": "新竹縣第1選舉區"
+      },
+      {
+        "id": "legislator-李昆澤-32db9388",
+        "name": "李昆澤",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "kaohsiung",
+        "district": "高雄市第5選舉區"
+      },
+      {
+        "id": "legislator-李柏毅-f214d5c9",
+        "name": "李柏毅",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "kaohsiung",
+        "district": "高雄市第3選舉區"
+      },
+      {
+        "id": "legislator-林岱樺-f7d66876",
+        "name": "林岱樺",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "kaohsiung",
+        "district": "高雄市第4選舉區"
+      },
+      {
+        "id": "legislator-邱志偉-3b926763",
+        "name": "邱志偉",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "kaohsiung",
+        "district": "高雄市第2選舉區"
+      },
+      {
+        "id": "legislator-邱議瑩-11c8f2ef",
+        "name": "邱議瑩",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "kaohsiung",
+        "district": "高雄市第1選舉區"
+      },
+      {
+        "id": "legislator-許智傑-80f9be31",
+        "name": "許智傑",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "kaohsiung",
+        "district": "高雄市第7選舉區"
+      },
+      {
+        "id": "legislator-林沛祥-5dbb94ce",
+        "name": "林沛祥",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "keelung",
+        "district": "基隆市選舉區"
+      },
+      {
+        "id": "legislator-邱鎮軍-383e0fb2",
+        "name": "邱鎮軍",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "miaoli",
+        "district": "苗栗縣第2選舉區"
+      },
+      {
+        "id": "legislator-馬文君-84c17020",
+        "name": "馬文君",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "nantou",
+        "district": "南投縣第1選舉區"
+      },
+      {
+        "id": "legislator-吳秉叡-8f40bc8f",
+        "name": "吳秉叡",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "new-taipei",
+        "district": "新北市第4選舉區"
+      },
+      {
+        "id": "legislator-吳琪銘-0493987f",
+        "name": "吳琪銘",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "new-taipei",
+        "district": "新北市第10選舉區"
+      },
+      {
+        "id": "legislator-李坤城-4a2c8f4d",
+        "name": "李坤城",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "new-taipei",
+        "district": "新北市第3選舉區"
+      },
+      {
+        "id": "legislator-林淑芬-e5072996",
+        "name": "林淑芬",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "new-taipei",
+        "district": "新北市第2選舉區"
+      },
+      {
+        "id": "legislator-林德福-292fe5e9",
+        "name": "林德福",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "new-taipei",
+        "district": "新北市第9選舉區"
+      },
+      {
+        "id": "legislator-洪孟楷-b3b8640c",
+        "name": "洪孟楷",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "new-taipei",
+        "district": "新北市第1選舉區"
+      },
+      {
+        "id": "legislator-張宏陸-c491e35e",
+        "name": "張宏陸",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "new-taipei",
+        "district": "新北市第6選舉區"
+      },
+      {
+        "id": "legislator-張智倫-1803988f",
+        "name": "張智倫",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "new-taipei",
+        "district": "新北市第8選舉區"
+      },
+      {
+        "id": "legislator-徐富癸-0df8a1d4",
+        "name": "徐富癸",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "pingtung",
+        "district": "屏東縣第2選舉區"
+      },
+      {
+        "id": "legislator-江啟臣-23289cc3",
+        "name": "江啟臣",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taichung",
+        "district": "臺中市第8選舉區"
+      },
+      {
+        "id": "legislator-何欣純-5ec570ad",
+        "name": "何欣純",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "taichung",
+        "district": "臺中市第7選舉區"
+      },
+      {
+        "id": "legislator-副院長-ac9c1160",
+        "name": "副院長",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taichung",
+        "district": "臺中市第8選舉區"
+      },
+      {
+        "id": "legislator-王定宇-f4af43a9",
+        "name": "王定宇",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "tainan",
+        "district": "臺南市第6選舉區"
+      },
+      {
+        "id": "legislator-林宜瑾-203d29aa",
+        "name": "林宜瑾",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "tainan",
+        "district": "臺南市第4選舉區"
+      },
+      {
+        "id": "legislator-林俊憲-7325ad0c",
+        "name": "林俊憲",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "tainan",
+        "district": "臺南市第5選舉區"
+      },
+      {
+        "id": "legislator-王世堅-abaf2208",
+        "name": "王世堅",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "taipei",
+        "district": "臺北市第2選舉區"
+      },
+      {
+        "id": "legislator-王鴻薇-69e92b59",
+        "name": "王鴻薇",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taipei",
+        "district": "臺北市第3選舉區"
+      },
+      {
+        "id": "legislator-牛煦庭-1d9a39f1",
+        "name": "牛煦庭",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taoyuan",
+        "district": "桃園市第1選舉區"
+      },
+      {
+        "id": "legislator-丁學忠-b2e3cf5b",
+        "name": "丁學忠",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "yunlin",
+        "district": "雲林縣第1選舉區"
+      },
+      {
+        "id": "legislator-王育敏-99ebc0e6",
+        "name": "王育敏",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-伍麗華saidhai-tahovecahe-4f814c91",
+        "name": "伍麗華Saidhai‧Tahovecahe",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "山地原住民選舉區"
+      },
+      {
+        "id": "legislator-吳沛憶-02bc4a15",
+        "name": "吳沛憶",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "taipei",
+        "district": "臺北市第5選舉區"
+      },
+      {
+        "id": "legislator-吳宗憲-701a9532",
+        "name": "吳宗憲",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-吳思瑤-7f00d2d0",
+        "name": "吳思瑤",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "taipei",
+        "district": "臺北市第1選舉區"
+      },
+      {
+        "id": "legislator-李彥秀-3cd761a3",
+        "name": "李彥秀",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taipei",
+        "district": "臺北市第4選舉區"
+      },
+      {
+        "id": "legislator-呂玉玲-d830bf22",
+        "name": "呂玉玲",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taoyuan",
+        "district": "桃園市第5選舉區"
+      },
+      {
+        "id": "legislator-沈伯洋-a42413a5",
+        "name": "沈伯洋",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-沈發惠-30ce879a",
+        "name": "沈發惠",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-林月琴-4c497141",
+        "name": "林月琴",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-林倩綺-71148b90",
+        "name": "林倩綺",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-林楚茵-27b85d30",
+        "name": "林楚茵",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-邱若華-3ef163f0",
+        "name": "邱若華",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taoyuan",
+        "district": "桃園市第6選舉區"
+      },
+      {
+        "id": "legislator-邱慧洳-79872bce",
+        "name": "邱慧洳",
+        "partyId": "tpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-柯志恩-599f482f",
+        "name": "柯志恩",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-柯建銘-7d571b81",
+        "name": "柯建銘",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-洪毓祥-17c4789c",
+        "name": "洪毓祥",
+        "partyId": "tpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-范雲-7f3fa834",
+        "name": "范雲",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-徐巧芯-4ffaf233",
+        "name": "徐巧芯",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taipei",
+        "district": "臺北市第7選舉區"
+      },
+      {
+        "id": "legislator-涂權吉-c553de46",
+        "name": "涂權吉",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taoyuan",
+        "district": "桃園市第2選舉區"
+      },
+      {
+        "id": "legislator-翁曉玲-1cb46242",
+        "name": "翁曉玲",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-高金素梅-badeb1e4",
+        "name": "高金素梅",
+        "partyId": "ind",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "山地原住民選舉區"
+      },
+      {
+        "id": "legislator-張雅琳-a7a59d77",
+        "name": "張雅琳",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-張嘉郡-84f1f79e",
+        "name": "張嘉郡",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-莊瑞雄-03492d7f",
+        "name": "莊瑞雄",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-許宇甄-bc707668",
+        "name": "許宇甄",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-許忠信-5081c509",
+        "name": "許忠信",
+        "partyId": "tpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-郭昱晴-623c2976",
+        "name": "郭昱晴",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-郭國文-9dc697a7",
+        "name": "郭國文",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "tainan",
+        "district": "臺南市第2選舉區"
+      },
+      {
+        "id": "legislator-陳永康-51ce1c2b",
+        "name": "陳永康",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-陳秀寳-db4a3831",
+        "name": "陳秀寳",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "changhua",
+        "district": "彰化縣第1選舉區"
+      },
+      {
+        "id": "legislator-陳素月-6387a7ac",
+        "name": "陳素月",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "changhua",
+        "district": "彰化縣第4選舉區"
+      },
+      {
+        "id": "legislator-黃秀芳-e5f86414",
+        "name": "黃秀芳",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "changhua",
+        "district": "彰化縣第2選舉區"
+      },
+      {
+        "id": "legislator-謝衣鳯-b31da483",
+        "name": "謝衣鳯",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "changhua",
+        "district": "彰化縣第3選舉區"
+      },
+      {
+        "id": "legislator-陳冠廷-266ac6e1",
+        "name": "陳冠廷",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "chiayi-county",
+        "district": "嘉義縣第2選舉區"
+      },
+      {
+        "id": "legislator-陳清龍-c0c61eef",
+        "name": "陳清龍",
+        "partyId": "tpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-蔡易餘-427dd519",
+        "name": "蔡易餘",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "chiayi-county",
+        "district": "嘉義縣第1選舉區"
+      },
+      {
+        "id": "legislator-鄭正鈐-d05656b3",
+        "name": "鄭正鈐",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "hsinchu-city",
+        "district": "新竹市選舉區"
+      },
+      {
+        "id": "legislator-傅崐萁-d52e1077",
+        "name": "傅崐萁",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "hualien",
+        "district": "花蓮縣選舉區"
+      },
+      {
+        "id": "legislator-黃捷-81b911a2",
+        "name": "黃捷",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "kaohsiung",
+        "district": "高雄市第6選舉區"
+      },
+      {
+        "id": "legislator-賴瑞隆-9993404b",
+        "name": "賴瑞隆",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "kaohsiung",
+        "district": "高雄市第8選舉區"
+      },
+      {
+        "id": "legislator-陳玉珍-52c46acb",
+        "name": "陳玉珍",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "kinmen",
+        "district": "金門縣選舉區"
+      },
+      {
+        "id": "legislator-陳超明-e0906fb1",
+        "name": "陳超明",
+        "partyId": "ind",
+        "roleId": "legislator",
+        "countyId": "miaoli",
+        "district": "苗栗縣第1選舉區"
+      },
+      {
+        "id": "legislator-葉元之-02f0289a",
+        "name": "葉元之",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "new-taipei",
+        "district": "新北市第7選舉區"
+      },
+      {
+        "id": "legislator-廖先翔-cf20c833",
+        "name": "廖先翔",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "new-taipei",
+        "district": "新北市第12選舉區"
+      },
+      {
+        "id": "legislator-劉書彬-a9c4a582",
+        "name": "劉書彬",
+        "partyId": "tpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-蔡春綢-bec26256",
+        "name": "蔡春綢",
+        "partyId": "tpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-羅明才-1413bc3d",
+        "name": "羅明才",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "new-taipei",
+        "district": "新北市第11選舉區"
+      },
+      {
+        "id": "legislator-蘇巧慧-3dfeaebe",
+        "name": "蘇巧慧",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "new-taipei",
+        "district": "新北市第5選舉區"
+      },
+      {
+        "id": "legislator-楊曜-125bd6c1",
+        "name": "楊曜",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "penghu",
+        "district": "澎湖縣選舉區"
+      },
+      {
+        "id": "legislator-鍾佳濱-a81ad8bd",
+        "name": "鍾佳濱",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "pingtung",
+        "district": "屏東縣第1選舉區"
+      },
+      {
+        "id": "legislator-黃健豪-8e52bb5c",
+        "name": "黃健豪",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taichung",
+        "district": "臺中市第5選舉區"
+      },
+      {
+        "id": "legislator-蔡其昌-db0b76c0",
+        "name": "蔡其昌",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "taichung",
+        "district": "臺中市第1選舉區"
+      },
+      {
+        "id": "legislator-顏寬恒-ed4b7592",
+        "name": "顏寬恒",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taichung",
+        "district": "臺中市第2選舉區"
+      },
+      {
+        "id": "legislator-羅廷瑋-8647d2c6",
+        "name": "羅廷瑋",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taichung",
+        "district": "臺中市第6選舉區"
+      },
+      {
+        "id": "legislator-陳亭妃-93fa4653",
+        "name": "陳亭妃",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "tainan",
+        "district": "臺南市第3選舉區"
+      },
+      {
+        "id": "legislator-賴惠員-06ed64af",
+        "name": "賴惠員",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "tainan",
+        "district": "臺南市第1選舉區"
+      },
+      {
+        "id": "legislator-陳俊宇-6211ce7e",
+        "name": "陳俊宇",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "yilan",
+        "district": "宜蘭縣選舉區"
+      },
+      {
+        "id": "legislator-陳昭姿-99517cfe",
+        "name": "陳昭姿",
+        "partyId": "tpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-陳培瑜-66c9208c",
+        "name": "陳培瑜",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-陳雪生-ad9fbc1a",
+        "name": "陳雪生",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "lienchiang",
+        "district": "連江縣選舉區"
+      },
+      {
+        "id": "legislator-陳菁徽-454be0d4",
+        "name": "陳菁徽",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-陳瑩-ab390c1c",
+        "name": "陳瑩",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "平地原住民選舉區"
+      },
+      {
+        "id": "legislator-游顥-5d5b97a3",
+        "name": "游顥",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "nantou",
+        "district": "南投縣第2選舉區"
+      },
+      {
+        "id": "legislator-黃仁-0f396c70",
+        "name": "黃仁",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "平地原住民選舉區"
+      },
+      {
+        "id": "legislator-楊瓊瓔-412940b3",
+        "name": "楊瓊瓔",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taichung",
+        "district": "臺中市第3選舉區"
+      },
+      {
+        "id": "legislator-廖偉翔-d3b0a022",
+        "name": "廖偉翔",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taichung",
+        "district": "臺中市第4選舉區"
+      },
+      {
+        "id": "legislator-賴士葆-74f012da",
+        "name": "賴士葆",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taipei",
+        "district": "臺北市第8選舉區"
+      },
+      {
+        "id": "legislator-黃建賓-47f1ef8b",
+        "name": "黃建賓",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taitung",
+        "district": "臺東縣選舉區"
+      },
+      {
+        "id": "legislator-萬美玲-ffcb1a12",
+        "name": "萬美玲",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taoyuan",
+        "district": "桃園市第4選舉區"
+      },
+      {
+        "id": "legislator-葛如鈞-a8b2e3b0",
+        "name": "葛如鈞",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-魯明哲-2dda8986",
+        "name": "魯明哲",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taoyuan",
+        "district": "桃園市第3選舉區"
+      },
+      {
+        "id": "legislator-劉建國-b982e2ad",
+        "name": "劉建國",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "yunlin",
+        "district": "雲林縣第2選舉區"
+      },
+      {
+        "id": "legislator-鄭天財-sra-kacaw-678be3f3",
+        "name": "鄭天財 Sra Kacaw",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "平地原住民選舉區"
+      },
+      {
+        "id": "legislator-盧縣一-9506a55a",
+        "name": "盧縣一",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "山地原住民選舉區"
+      },
+      {
+        "id": "legislator-謝龍介-5b54956b",
+        "name": "謝龍介",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-韓國瑜-a80cec8a",
+        "name": "韓國瑜",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-羅美玲-6b344dc5",
+        "name": "羅美玲",
+        "partyId": "dpp",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      },
+      {
+        "id": "legislator-羅智強-ce41226b",
+        "name": "羅智強",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "taipei",
+        "district": "臺北市第6選舉區"
+      },
+      {
+        "id": "legislator-蘇清泉-a16320b7",
+        "name": "蘇清泉",
+        "partyId": "kmt",
+        "roleId": "legislator",
+        "countyId": "",
+        "district": "全國不分區及僑居國外國民"
+      }
+    ],
+    "removed": [],
+    "changed": [],
+    "photoUpdated": []
+  },
+  "candidates": {
+    "label": "candidates",
+    "beforeCount": 0,
+    "afterCount": 0,
+    "added": [],
+    "removed": [],
+    "changed": [],
+    "photoUpdated": []
+  },
+  "history": {
+    "label": "history",
+    "beforeCount": 0,
+    "afterCount": 0,
+    "addedCount": 0,
+    "removedCount": 0
+  },
+  "guard": {
+    "suspicious": false,
+    "reason": "未偵測到大量異常刪除。",
+    "requiresReview": false
+  }
+}

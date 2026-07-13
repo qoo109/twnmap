@@ -1,0 +1,355 @@
+{
+  "generatedAt": "2026-07-13T14:14:50.290Z",
+  "year": 2020,
+  "countyId": "yunlin",
+  "records": [
+    {
+      "id": "cec-f16e4e5df75811a686ac",
+      "demo": false,
+      "official": true,
+      "personKey": "person-6e5b20fba68546fcce90",
+      "identityConfidence": "exact",
+      "name": "張嘉郡",
+      "gender": "女",
+      "birthDate": "1981-01-10",
+      "birthYear": 1981,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 86862,
+      "voteRate": 46.38,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": [
+        "legislator-張嘉郡-84f1f79e"
+      ]
+    },
+    {
+      "id": "cec-a4ab791a8b44653d6b1f",
+      "demo": false,
+      "official": true,
+      "personKey": "person-6040744ae815af9f135c",
+      "identityConfidence": "exact",
+      "name": "蘇治芬",
+      "gender": "女",
+      "birthDate": "1953-07-10",
+      "birthYear": 1953,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 94786,
+      "voteRate": 50.61,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-03e05d8a72cb57ad3baa",
+      "demo": false,
+      "official": true,
+      "personKey": "person-11f62390343bbf4282a0",
+      "identityConfidence": "exact",
+      "name": "林富源",
+      "gender": "男",
+      "birthDate": "1971-08-10",
+      "birthYear": 1971,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 3558,
+      "voteRate": 1.9,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-9c10ebf18c89f5357862",
+      "demo": false,
+      "official": true,
+      "personKey": "person-7831c0a091f4fcc88d2c",
+      "identityConfidence": "exact",
+      "name": "李昭儀",
+      "gender": "女",
+      "birthDate": "1985-08-29",
+      "birthYear": 1985,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "other",
+      "partyNameRaw": "台灣革命黨",
+      "votes": 2088,
+      "voteRate": 1.11,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-f004ff9ef22ad876f758",
+      "demo": false,
+      "official": true,
+      "personKey": "person-d870f7954f29e548b2d8",
+      "identityConfidence": "exact",
+      "name": "彭新銘",
+      "gender": "男",
+      "birthDate": "1991-06-04",
+      "birthYear": 1991,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 6070,
+      "voteRate": 2.91,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-229197565a4bc277131c",
+      "demo": false,
+      "official": true,
+      "personKey": "person-ae66ce8a53904ed41e7e",
+      "identityConfidence": "exact",
+      "name": "劉建國",
+      "gender": "男",
+      "birthDate": "1969-03-09",
+      "birthYear": 1969,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 119468,
+      "voteRate": 57.3,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": [
+        "legislator-劉建國-b982e2ad"
+      ]
+    },
+    {
+      "id": "cec-7684791abfe1aff71aa8",
+      "demo": false,
+      "official": true,
+      "personKey": "person-ec2e539c286d4225243f",
+      "identityConfidence": "exact",
+      "name": "張永津",
+      "gender": "男",
+      "birthDate": "1971-01-31",
+      "birthYear": 1971,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "other",
+      "partyNameRaw": "喜樂島聯盟",
+      "votes": 805,
+      "voteRate": 0.39,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-9a88750ae65384a9f954",
+      "demo": false,
+      "official": true,
+      "personKey": "person-2039a4c68e938252c5cb",
+      "identityConfidence": "exact",
+      "name": "謝淑亞",
+      "gender": "女",
+      "birthDate": "1960-06-28",
+      "birthYear": 1960,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 82150,
+      "voteRate": 39.4,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

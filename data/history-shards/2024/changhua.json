@@ -1,0 +1,574 @@
+{
+  "generatedAt": "2026-07-13T14:14:50.290Z",
+  "year": 2024,
+  "countyId": "changhua",
+  "records": [
+    {
+      "id": "cec-9c0db0f5f4b3da581038",
+      "demo": false,
+      "official": true,
+      "personKey": "person-f532e8a6254cd47a0a91",
+      "identityConfidence": "exact",
+      "name": "陳秀寳",
+      "gender": "女",
+      "birthDate": "1972-10-11",
+      "birthYear": 1972,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "changhua",
+      "countyName": "彰化縣",
+      "district": "彰化縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "007",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 98437,
+      "voteRate": 54.57,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": [
+        "legislator-陳秀寳-db4a3831"
+      ]
+    },
+    {
+      "id": "cec-ac100afed2763e7606b4",
+      "demo": false,
+      "official": true,
+      "personKey": "person-b382b06efbc72554b1d9",
+      "identityConfidence": "exact",
+      "name": "蘇群傑",
+      "gender": "男",
+      "birthDate": "1980-07-10",
+      "birthYear": 1980,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "changhua",
+      "countyName": "彰化縣",
+      "district": "彰化縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "007",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 5503,
+      "voteRate": 3.05,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-9e2f730de74d58ff3f2d",
+      "demo": false,
+      "official": true,
+      "personKey": "person-29551d69022022726ff6",
+      "identityConfidence": "exact",
+      "name": "阮厚爵",
+      "gender": "男",
+      "birthDate": "1970-11-06",
+      "birthYear": 1970,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "changhua",
+      "countyName": "彰化縣",
+      "district": "彰化縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "007",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 76448,
+      "voteRate": 42.38,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-16e54904212e5bfd4213",
+      "demo": false,
+      "official": true,
+      "personKey": "person-3ac15a0843db9e1cc7d0",
+      "identityConfidence": "exact",
+      "name": "黃秀芳",
+      "gender": "女",
+      "birthDate": "1971-11-10",
+      "birthYear": 1971,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "changhua",
+      "countyName": "彰化縣",
+      "district": "彰化縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "007",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 90688,
+      "voteRate": 52.7,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": [
+        "legislator-黃秀芳-e5f86414"
+      ]
+    },
+    {
+      "id": "cec-c1ade2be9eb487781276",
+      "demo": false,
+      "official": true,
+      "personKey": "person-9067e15ab7e0f0941889",
+      "identityConfidence": "exact",
+      "name": "楊曜聰",
+      "gender": "男",
+      "birthDate": "1972-09-13",
+      "birthYear": 1972,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "changhua",
+      "countyName": "彰化縣",
+      "district": "彰化縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "007",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 81403,
+      "voteRate": 47.3,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-35c99443f7c5a842e003",
+      "demo": false,
+      "official": true,
+      "personKey": "person-68e68f0d72a36b2495ab",
+      "identityConfidence": "exact",
+      "name": "洪建興",
+      "gender": "男",
+      "birthDate": "1979-02-06",
+      "birthYear": 1979,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "changhua",
+      "countyName": "彰化縣",
+      "district": "彰化縣第03選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "007",
+        "area": "03",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 4908,
+      "voteRate": 2.7,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-bbcbcee0fb262e2957b5",
+      "demo": false,
+      "official": true,
+      "personKey": "person-39bb7c9a7ac9042f323d",
+      "identityConfidence": "exact",
+      "name": "謝衣鳯",
+      "gender": "女",
+      "birthDate": "1977-07-12",
+      "birthYear": 1977,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "changhua",
+      "countyName": "彰化縣",
+      "district": "彰化縣第03選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "007",
+        "area": "03",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 97681,
+      "voteRate": 53.75,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": [
+        "legislator-謝衣鳯-b31da483"
+      ]
+    },
+    {
+      "id": "cec-831abff12ff1416ea8b1",
+      "demo": false,
+      "official": true,
+      "personKey": "person-86f4348576f7b197a175",
+      "identityConfidence": "exact",
+      "name": "吳音寧",
+      "gender": "女",
+      "birthDate": "1972-06-27",
+      "birthYear": 1972,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "changhua",
+      "countyName": "彰化縣",
+      "district": "彰化縣第03選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "007",
+        "area": "03",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 78473,
+      "voteRate": 43.18,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-1d57c365d1d090e9d748",
+      "demo": false,
+      "official": true,
+      "personKey": "person-f5b2ad88a7eab18af589",
+      "identityConfidence": "exact",
+      "name": "桂麗娜",
+      "gender": "女",
+      "birthDate": "1974-10-13",
+      "birthYear": 1974,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "changhua",
+      "countyName": "彰化縣",
+      "district": "彰化縣第03選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "007",
+        "area": "03",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "other",
+      "partyNameRaw": "中華統一促進黨",
+      "votes": 683,
+      "voteRate": 0.38,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-82bd06444c3e3d32e649",
+      "demo": false,
+      "official": true,
+      "personKey": "person-6a9aab62adf379e78819",
+      "identityConfidence": "exact",
+      "name": "鄭錫懋",
+      "gender": "男",
+      "birthDate": "1980-11-21",
+      "birthYear": 1980,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "changhua",
+      "countyName": "彰化縣",
+      "district": "彰化縣第04選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "007",
+        "area": "04",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "other",
+      "partyNameRaw": "臺灣雙語無法黨",
+      "votes": 4257,
+      "voteRate": 2.27,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-69934b4b6ac9b561164e",
+      "demo": false,
+      "official": true,
+      "personKey": "person-a4aa0c2c208d460d634f",
+      "identityConfidence": "exact",
+      "name": "鄭俊雄",
+      "gender": "男",
+      "birthDate": "1961-01-22",
+      "birthYear": 1961,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "changhua",
+      "countyName": "彰化縣",
+      "district": "彰化縣第04選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "007",
+        "area": "04",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 83214,
+      "voteRate": 44.34,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-bc4df23bffac31c81ee9",
+      "demo": false,
+      "official": true,
+      "personKey": "person-ffd495acf9f309a180ca",
+      "identityConfidence": "exact",
+      "name": "陳素月",
+      "gender": "女",
+      "birthDate": "1966-01-18",
+      "birthYear": 1966,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "changhua",
+      "countyName": "彰化縣",
+      "district": "彰化縣第04選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "007",
+        "area": "04",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 97608,
+      "voteRate": 52.01,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": [
+        "legislator-陳素月-6387a7ac"
+      ]
+    },
+    {
+      "id": "cec-c37e91764389bae194f7",
+      "demo": false,
+      "official": true,
+      "personKey": "person-af2d9a7428402a26cafe",
+      "identityConfidence": "exact",
+      "name": "蔡念諶",
+      "gender": "男",
+      "birthDate": "1995-11-13",
+      "birthYear": 1995,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "changhua",
+      "countyName": "彰化縣",
+      "district": "彰化縣第04選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "007",
+        "area": "04",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "other",
+      "partyNameRaw": "中華文化共和黨",
+      "votes": 2583,
+      "voteRate": 1.38,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

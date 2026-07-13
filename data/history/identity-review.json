@@ -1,1 +1,38 @@
-[]
+[
+  {
+    "personKey": "person-32df87a1690c07cf81e0",
+    "name": "許淑華",
+    "identityConfidence": "exact",
+    "historyRecordCount": 2,
+    "sameNameIdentityCount": 2,
+    "currentMatches": [],
+    "reason": "同名歷屆身分超過一組"
+  },
+  {
+    "personKey": "person-eb59424fd14d66e043c7",
+    "name": "許淑華",
+    "identityConfidence": "exact",
+    "historyRecordCount": 1,
+    "sameNameIdentityCount": 2,
+    "currentMatches": [],
+    "reason": "同名歷屆身分超過一組"
+  },
+  {
+    "personKey": "person-35e0ea927eba654c5588",
+    "name": "李中",
+    "identityConfidence": "exact",
+    "historyRecordCount": 1,
+    "sameNameIdentityCount": 2,
+    "currentMatches": [],
+    "reason": "同名歷屆身分超過一組"
+  },
+  {
+    "personKey": "person-09faa82624233e884fb4",
+    "name": "李中",
+    "identityConfidence": "exact",
+    "historyRecordCount": 1,
+    "sameNameIdentityCount": 2,
+    "currentMatches": [],
+    "reason": "同名歷屆身分超過一組"
+  }
+]

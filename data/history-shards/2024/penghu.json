@@ -1,0 +1,138 @@
+{
+  "generatedAt": "2026-07-13T14:14:50.290Z",
+  "year": 2024,
+  "countyId": "penghu",
+  "records": [
+    {
+      "id": "cec-387d01b90f3d0bad731f",
+      "demo": false,
+      "official": true,
+      "personKey": "person-91471c4731602a357a95",
+      "identityConfidence": "exact",
+      "name": "楊曜",
+      "gender": "男",
+      "birthDate": "1966-12-06",
+      "birthYear": 1966,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "penghu",
+      "countyName": "澎湖縣",
+      "district": "澎湖縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "016",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 24669,
+      "voteRate": 50.95,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": [
+        "legislator-楊曜-125bd6c1"
+      ]
+    },
+    {
+      "id": "cec-538610cdd637c6492ded",
+      "demo": false,
+      "official": true,
+      "personKey": "person-bb6db70064d20639f918",
+      "identityConfidence": "exact",
+      "name": "吳政杰",
+      "gender": "男",
+      "birthDate": "1967-11-29",
+      "birthYear": 1967,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "penghu",
+      "countyName": "澎湖縣",
+      "district": "澎湖縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "016",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 20226,
+      "voteRate": 41.77,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-6d973767e78a64c96ef9",
+      "demo": false,
+      "official": true,
+      "personKey": "person-13e7f0c79f32547d941e",
+      "identityConfidence": "exact",
+      "name": "陳慧娟",
+      "gender": "女",
+      "birthDate": "1963-01-04",
+      "birthYear": 1963,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "penghu",
+      "countyName": "澎湖縣",
+      "district": "澎湖縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "016",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 3525,
+      "voteRate": 7.28,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

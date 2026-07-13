@@ -1,0 +1,179 @@
+{
+  "generatedAt": "2026-07-13T14:14:50.290Z",
+  "year": 2020,
+  "countyId": "taitung",
+  "records": [
+    {
+      "id": "cec-f7dab8544dc32e622ee7",
+      "demo": false,
+      "official": true,
+      "personKey": "person-77645c29cd891dac0b9b",
+      "identityConfidence": "exact",
+      "name": "張志明",
+      "gender": "男",
+      "birthDate": "1964-02-27",
+      "birthYear": 1964,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "taitung",
+      "countyName": "臺東縣",
+      "district": "臺東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "014",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 32737,
+      "voteRate": 41.88,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-a25fa87b0697c43e089b",
+      "demo": false,
+      "official": true,
+      "personKey": "person-096e2f96cb7a7a9a65c3",
+      "identityConfidence": "exact",
+      "name": "陳允萍",
+      "gender": "男",
+      "birthDate": "1969-05-12",
+      "birthYear": 1969,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "taitung",
+      "countyName": "臺東縣",
+      "district": "臺東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "014",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "tpp",
+      "partyNameRaw": "台灣民眾黨",
+      "votes": 3527,
+      "voteRate": 4.51,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-e757f8e1b386022066fc",
+      "demo": false,
+      "official": true,
+      "personKey": "person-aa067334e239b83b5fef",
+      "identityConfidence": "exact",
+      "name": "張坤和",
+      "gender": "男",
+      "birthDate": "1953-01-20",
+      "birthYear": 1953,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "taitung",
+      "countyName": "臺東縣",
+      "district": "臺東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "014",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 404,
+      "voteRate": 0.52,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-12533400a8cc0192bd2e",
+      "demo": false,
+      "official": true,
+      "personKey": "person-77e6636812b4572b907f",
+      "identityConfidence": "exact",
+      "name": "劉櫂豪",
+      "gender": "男",
+      "birthDate": "1967-02-02",
+      "birthYear": 1967,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "taitung",
+      "countyName": "臺東縣",
+      "district": "臺東縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "014",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 41493,
+      "voteRate": 53.09,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

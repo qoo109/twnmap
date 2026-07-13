@@ -2,12 +2,36 @@
   "schedule": "daily",
   "timezone": "Asia/Taipei",
   "plannedTime": "03:00",
-  "status": "not-run",
-  "lastAttemptAt": null,
-  "lastSuccessAt": null,
+  "status": "waiting-official-release",
+  "lastAttemptAt": "2026-07-13T14:05:14.671Z",
+  "lastSuccessAt": "2026-07-13T14:05:14.671Z",
   "lastOfficialChangeAt": null,
   "officialCandidateCount": 0,
   "demoCandidateCount": 0,
-  "message": "尚未執行官方資料同步。",
-  "sources": []
+  "matchingResourceCount": 0,
+  "resourceSetChanged": false,
+  "message": "尚未發現 2026 正式候選人開放資料；保留展示資料。",
+  "errors": [],
+  "sources": [
+    {
+      "id": "cec-election-database",
+      "name": "中選會選舉資料庫（含選舉區資料）",
+      "homepageUrl": "https://data.gov.tw/dataset/13119",
+      "metadataUrl": "https://data.gov.tw/api/v2/rest/dataset/13119",
+      "status": "ok",
+      "checkedAt": "2026-07-13T14:05:14.671Z",
+      "resourceCount": 1,
+      "matchingResourceCount": 0
+    },
+    {
+      "id": "cec-open-data-list",
+      "name": "中央選舉委員會開放資料集清單",
+      "homepageUrl": "https://data.gov.tw/dataset/27647",
+      "metadataUrl": "https://data.gov.tw/api/v2/rest/dataset/27647",
+      "status": "ok",
+      "checkedAt": "2026-07-13T14:05:14.671Z",
+      "resourceCount": 8,
+      "matchingResourceCount": 0
+    }
+  ]
 }

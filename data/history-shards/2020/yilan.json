@@ -1,0 +1,265 @@
+{
+  "generatedAt": "2026-07-13T14:14:50.290Z",
+  "year": 2020,
+  "countyId": "yilan",
+  "records": [
+    {
+      "id": "cec-be352e6f1f9c9cec0caa",
+      "demo": false,
+      "official": true,
+      "personKey": "person-7635725238089df78812",
+      "identityConfidence": "exact",
+      "name": "黃定和",
+      "gender": "男",
+      "birthDate": "1958-01-05",
+      "birthYear": 1958,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yilan",
+      "countyName": "宜蘭縣",
+      "district": "宜蘭縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "002",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 33026,
+      "voteRate": 12.56,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-07b76b5a6275df846b1e",
+      "demo": false,
+      "official": true,
+      "personKey": "person-fda236d8575996daaa0f",
+      "identityConfidence": "exact",
+      "name": "陳歐珀",
+      "gender": "男",
+      "birthDate": "1962-10-12",
+      "birthYear": 1962,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yilan",
+      "countyName": "宜蘭縣",
+      "district": "宜蘭縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "002",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 121526,
+      "voteRate": 46.23,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-0713fb9ba0bf9e15a4b2",
+      "demo": false,
+      "official": true,
+      "personKey": "person-0d385738a86f51a10ffb",
+      "identityConfidence": "exact",
+      "name": "許育嘉",
+      "gender": "男",
+      "birthDate": "1973-04-04",
+      "birthYear": 1973,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yilan",
+      "countyName": "宜蘭縣",
+      "district": "宜蘭縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "002",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "other",
+      "partyNameRaw": "勞動黨",
+      "votes": 1730,
+      "voteRate": 0.66,
+      "rank": 5,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-2e9cd03ad7e9235acac1",
+      "demo": false,
+      "official": true,
+      "personKey": "person-f635f13dcc7a85a7e933",
+      "identityConfidence": "exact",
+      "name": "林獻山",
+      "gender": "男",
+      "birthDate": "1958-08-01",
+      "birthYear": 1958,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yilan",
+      "countyName": "宜蘭縣",
+      "district": "宜蘭縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "002",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "other",
+      "partyNameRaw": "台灣維新",
+      "votes": 1618,
+      "voteRate": 0.62,
+      "rank": 6,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-66ce28ede38d834a39f0",
+      "demo": false,
+      "official": true,
+      "personKey": "person-f348d82717276848cd57",
+      "identityConfidence": "exact",
+      "name": "呂國華",
+      "gender": "男",
+      "birthDate": "1956-02-26",
+      "birthYear": 1956,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yilan",
+      "countyName": "宜蘭縣",
+      "district": "宜蘭縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "002",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 5,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 89380,
+      "voteRate": 34,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-bd9ae6680749031f0916",
+      "demo": false,
+      "official": true,
+      "personKey": "person-b1dc89d010a814531147",
+      "identityConfidence": "exact",
+      "name": "孫博萮",
+      "gender": "女",
+      "birthDate": "1978-03-04",
+      "birthYear": 1978,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yilan",
+      "countyName": "宜蘭縣",
+      "district": "宜蘭縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "002",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 6,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 15570,
+      "voteRate": 5.92,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

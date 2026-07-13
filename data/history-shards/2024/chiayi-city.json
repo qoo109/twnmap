@@ -1,0 +1,267 @@
+{
+  "generatedAt": "2026-07-13T14:14:50.290Z",
+  "year": 2024,
+  "countyId": "chiayi-city",
+  "records": [
+    {
+      "id": "cec-82a9017df959b5849714",
+      "demo": false,
+      "official": true,
+      "personKey": "person-f99893e37fe4fa432803",
+      "identityConfidence": "exact",
+      "name": "王美惠",
+      "gender": "女",
+      "birthDate": "1965-04-15",
+      "birthYear": 1965,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "chiayi-city",
+      "countyName": "嘉義市",
+      "district": "嘉義市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "020",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 78069,
+      "voteRate": 50.64,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": [
+        "legislator-王美惠-6eb96bd7"
+      ]
+    },
+    {
+      "id": "cec-d40733e0f321963d63ca",
+      "demo": false,
+      "official": true,
+      "personKey": "person-9c9dbc0c57d830788c29",
+      "identityConfidence": "exact",
+      "name": "簡明廉",
+      "gender": "男",
+      "birthDate": "1961-09-12",
+      "birthYear": 1961,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "chiayi-city",
+      "countyName": "嘉義市",
+      "district": "嘉義市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "020",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 1219,
+      "voteRate": 0.79,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-2ddea7247539e2db8cb4",
+      "demo": false,
+      "official": true,
+      "personKey": "person-aa11eb54f45d611b03cb",
+      "identityConfidence": "exact",
+      "name": "陳玥妗",
+      "gender": "女",
+      "birthDate": "1982-11-08",
+      "birthYear": 1982,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "chiayi-city",
+      "countyName": "嘉義市",
+      "district": "嘉義市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "020",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "other",
+      "partyNameRaw": "小民參政歐巴桑聯盟",
+      "votes": 6232,
+      "voteRate": 4.04,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-a535c8f966116eb29b25",
+      "demo": false,
+      "official": true,
+      "personKey": "person-a58adb302ec2e3af20a9",
+      "identityConfidence": "exact",
+      "name": "林智勲",
+      "gender": "男",
+      "birthDate": "1980-01-18",
+      "birthYear": 1980,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "chiayi-city",
+      "countyName": "嘉義市",
+      "district": "嘉義市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "020",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "other",
+      "partyNameRaw": "臺灣雙語無法黨",
+      "votes": 990,
+      "voteRate": 0.64,
+      "rank": 5,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-5b4adb36ae08839c694e",
+      "demo": false,
+      "official": true,
+      "personKey": "person-45affcdd06eacec4954b",
+      "identityConfidence": "exact",
+      "name": "張秀華",
+      "gender": "女",
+      "birthDate": "1957-09-26",
+      "birthYear": 1957,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "chiayi-city",
+      "countyName": "嘉義市",
+      "district": "嘉義市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "020",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 5,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 66822,
+      "voteRate": 43.34,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-099c4f5b60956a8a77b8",
+      "demo": false,
+      "official": true,
+      "personKey": "person-142b7e7285f2ead967f0",
+      "identityConfidence": "exact",
+      "name": "蔡松益",
+      "gender": "男",
+      "birthDate": "1974-02-28",
+      "birthYear": 1974,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "chiayi-city",
+      "countyName": "嘉義市",
+      "district": "嘉義市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "020",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 6,
+      "partyId": "other",
+      "partyNameRaw": "復康聯盟黨",
+      "votes": 839,
+      "voteRate": 0.54,
+      "rank": 6,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

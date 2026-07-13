@@ -1,0 +1,355 @@
+{
+  "generatedAt": "2026-07-13T14:14:50.290Z",
+  "year": 2024,
+  "countyId": "nantou",
+  "records": [
+    {
+      "id": "cec-79224816aba23d8462d2",
+      "demo": false,
+      "official": true,
+      "personKey": "person-922ae62a660a68d04548",
+      "identityConfidence": "exact",
+      "name": "馬文君",
+      "gender": "女",
+      "birthDate": "1965-12-01",
+      "birthYear": 1965,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 68890,
+      "voteRate": 53.09,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": [
+        "legislator-馬文君-84c17020"
+      ]
+    },
+    {
+      "id": "cec-1c1fa494f07f0893a084",
+      "demo": false,
+      "official": true,
+      "personKey": "person-ffedfdc924873293d5d7",
+      "identityConfidence": "exact",
+      "name": "許文忠",
+      "gender": "男",
+      "birthDate": "1975-01-13",
+      "birthYear": 1975,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "other",
+      "partyNameRaw": "勞動黨",
+      "votes": 3577,
+      "voteRate": 2.76,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-4bdbb96b0e972a7b8e2d",
+      "demo": false,
+      "official": true,
+      "personKey": "person-988bada844b325c9a650",
+      "identityConfidence": "exact",
+      "name": "蔡銘軒",
+      "gender": "男",
+      "birthDate": "1984-08-27",
+      "birthYear": 1984,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 50886,
+      "voteRate": 39.22,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-368619ecb50769076425",
+      "demo": false,
+      "official": true,
+      "personKey": "person-fa24d42d1965322172e4",
+      "identityConfidence": "exact",
+      "name": "李圓恩",
+      "gender": "女",
+      "birthDate": "1980-07-23",
+      "birthYear": 1980,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "other",
+      "partyNameRaw": "小民參政歐巴桑聯盟",
+      "votes": 3035,
+      "voteRate": 2.34,
+      "rank": 5,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-012161a24e63f78f4a12",
+      "demo": false,
+      "official": true,
+      "personKey": "person-7238c48e591cb936ce1c",
+      "identityConfidence": "exact",
+      "name": "林金潭",
+      "gender": "男",
+      "birthDate": "1957-07-28",
+      "birthYear": 1957,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 5,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 3373,
+      "voteRate": 2.6,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-b8576e188a2832621dcc",
+      "demo": false,
+      "official": true,
+      "personKey": "person-c7cccda08ee83214d017",
+      "identityConfidence": "exact",
+      "name": "陳癸佑",
+      "gender": "男",
+      "birthDate": "1968-09-15",
+      "birthYear": 1968,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 4023,
+      "voteRate": 2.86,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-99afe943c44ba199f904",
+      "demo": false,
+      "official": true,
+      "personKey": "person-323cacbdaa0736c44b77",
+      "identityConfidence": "exact",
+      "name": "蔡培慧",
+      "gender": "女",
+      "birthDate": "1971-09-02",
+      "birthYear": 1971,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 66551,
+      "voteRate": 47.34,
+      "rank": 2,
+      "elected": false,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-52f658e90ede37102f7a",
+      "demo": false,
+      "official": true,
+      "personKey": "person-d73fb4e1550d35fe9157",
+      "identityConfidence": "exact",
+      "name": "游顥",
+      "gender": "男",
+      "birthDate": "1983-09-11",
+      "birthYear": 1983,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 70012,
+      "voteRate": 49.8,
+      "rank": 1,
+      "elected": true,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": [
+        "legislator-游顥-5d5b97a3"
+      ]
+    }
+  ]
+}

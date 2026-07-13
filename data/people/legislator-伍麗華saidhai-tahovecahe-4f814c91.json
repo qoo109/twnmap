@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-07-13T14:14:50.290Z",
+  "person": {
+    "id": "legislator-伍麗華saidhai-tahovecahe-4f814c91",
+    "official": true,
+    "name": "伍麗華Saidhai‧Tahovecahe",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "dpp",
+    "countyId": null,
+    "district": "山地原住民選舉區",
+    "organization": "立法院",
+    "termStart": "2024-02-01",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-13",
+    "photo": {
+      "url": "https://www.ly.gov.tw/Images/Legislators/110008.jpg",
+      "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46763",
+      "sourceLabel": "立法院官方照片：伍麗華Saidhai‧Tahovecahe",
+      "credit": "立法院",
+      "official": true,
+      "retrievedAt": "2026-07-13T14:05:15.814Z",
+      "localUrl": "assets/portraits/cache/legislator-伍麗華saidhai-tahovecahe-4f814c91-5bbc54ab19c344bc.webp",
+      "cachedFormat": "webp",
+      "cachedWidth": 622,
+      "cachedHeight": 800
+    },
+    "sources": [
+      {
+        "label": "立法院本屆立委：伍麗華Saidhai‧Tahovecahe",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46763",
+        "date": "2026-07-13",
+        "retrievedAt": "2026-07-13T14:05:15.814Z"
+      }
+    ],
+    "gender": "女"
+  }
+}
