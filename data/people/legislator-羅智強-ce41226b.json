@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-07-13T14:10:26.098Z",
+  "person": {
+    "id": "legislator-羅智強-ce41226b",
+    "official": true,
+    "name": "羅智強",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "kmt",
+    "countyId": "taipei",
+    "district": "臺北市第6選舉區",
+    "organization": "立法院",
+    "termStart": "2024-02-01",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-13",
+    "photo": {
+      "url": "https://www.ly.gov.tw/Images/Legislators/110111.jpg",
+      "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46859",
+      "sourceLabel": "立法院官方照片：羅智強",
+      "credit": "立法院",
+      "official": true,
+      "retrievedAt": "2026-07-13T14:05:15.814Z",
+      "localUrl": "assets/portraits/cache/legislator-羅智強-ce41226b-9169c808c8427014.webp",
+      "cachedFormat": "webp",
+      "cachedWidth": 601,
+      "cachedHeight": 800
+    },
+    "sources": [
+      {
+        "label": "立法院本屆立委：羅智強",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46859",
+        "date": "2026-07-13",
+        "retrievedAt": "2026-07-13T14:05:15.814Z"
+      }
+    ],
+    "gender": "男"
+  }
+}

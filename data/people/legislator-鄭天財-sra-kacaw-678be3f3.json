@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-07-13T14:10:26.098Z",
+  "person": {
+    "id": "legislator-鄭天財-sra-kacaw-678be3f3",
+    "official": true,
+    "name": "鄭天財 Sra Kacaw",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "kmt",
+    "countyId": null,
+    "district": "平地原住民選舉區",
+    "organization": "立法院",
+    "termStart": "2024-02-01",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-13",
+    "photo": {
+      "url": "https://www.ly.gov.tw/Images/Legislators/110096.jpg",
+      "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46844",
+      "sourceLabel": "立法院官方照片：鄭天財 Sra Kacaw",
+      "credit": "立法院",
+      "official": true,
+      "retrievedAt": "2026-07-13T14:05:15.814Z",
+      "localUrl": "assets/portraits/cache/legislator-鄭天財-sra-kacaw-678be3f3-26b7911671095d05.webp",
+      "cachedFormat": "webp",
+      "cachedWidth": 622,
+      "cachedHeight": 800
+    },
+    "sources": [
+      {
+        "label": "立法院本屆立委：鄭天財 Sra Kacaw",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46844",
+        "date": "2026-07-13",
+        "retrievedAt": "2026-07-13T14:05:15.814Z"
+      }
+    ],
+    "gender": "男"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-07-13T14:10:26.098Z",
+  "person": {
+    "id": "legislator-邱議瑩-11c8f2ef",
+    "official": true,
+    "name": "邱議瑩",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "dpp",
+    "countyId": "kaohsiung",
+    "district": "高雄市第1選舉區",
+    "organization": "立法院",
+    "termStart": "2024-02-01",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-13",
+    "photo": {
+      "url": "https://www.ly.gov.tw/Images/Legislators/110039.jpg",
+      "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46791",
+      "sourceLabel": "立法院官方照片：邱議瑩",
+      "credit": "立法院",
+      "official": true,
+      "retrievedAt": "2026-07-13T14:05:15.814Z",
+      "localUrl": "assets/portraits/cache/legislator-邱議瑩-11c8f2ef-1a642a3118b2a73a.webp",
+      "cachedFormat": "webp",
+      "cachedWidth": 622,
+      "cachedHeight": 800
+    },
+    "sources": [
+      {
+        "label": "立法院本屆立委：邱議瑩",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46791",
+        "date": "2026-07-13",
+        "retrievedAt": "2026-07-13T14:05:15.814Z"
+      }
+    ],
+    "gender": "女"
+  }
+}

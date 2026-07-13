@@ -1,6 +1,79 @@
 {
-  "generatedAt": "2026-07-13T13:10:18.370Z",
+  "generatedAt": "2026-07-13T14:10:26.098Z",
   "countyId": "miaoli",
-  "officeholders": [],
+  "officeholders": [
+    {
+      "id": "legislator-邱鎮軍-383e0fb2",
+      "official": true,
+      "name": "邱鎮軍",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": "miaoli",
+      "district": "苗栗縣第2選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-13",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110038.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46790",
+        "sourceLabel": "立法院官方照片：邱鎮軍",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "localUrl": "assets/portraits/cache/legislator-邱鎮軍-383e0fb2-a9fff3255a9b0b11.webp",
+        "cachedFormat": "webp",
+        "cachedWidth": 622,
+        "cachedHeight": 800
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：邱鎮軍",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46790",
+          "date": "2026-07-13",
+          "retrievedAt": "2026-07-13T14:05:15.814Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-陳超明-e0906fb1",
+      "official": true,
+      "name": "陳超明",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "ind",
+      "countyId": "miaoli",
+      "district": "苗栗縣第1選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-13",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110073.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46822",
+        "sourceLabel": "立法院官方照片：陳超明",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "localUrl": "assets/portraits/cache/legislator-陳超明-e0906fb1-f0453eb5127e38df.webp",
+        "cachedFormat": "webp",
+        "cachedWidth": 622,
+        "cachedHeight": 800
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：陳超明",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46822",
+          "date": "2026-07-13",
+          "retrievedAt": "2026-07-13T14:05:15.814Z"
+        }
+      ],
+      "gender": "男"
+    }
+  ],
   "candidates": []
 }

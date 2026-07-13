@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-07-13T14:10:26.098Z",
+  "person": {
+    "id": "legislator-張雅琳-a7a59d77",
+    "official": true,
+    "name": "張雅琳",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "dpp",
+    "countyId": null,
+    "district": "全國不分區及僑居國外國民",
+    "organization": "立法院",
+    "termStart": "2024-02-01",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-13",
+    "photo": {
+      "url": "https://www.ly.gov.tw/Images/Legislators/110055.jpg",
+      "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46805",
+      "sourceLabel": "立法院官方照片：張雅琳",
+      "credit": "立法院",
+      "official": true,
+      "retrievedAt": "2026-07-13T14:05:15.814Z",
+      "localUrl": "assets/portraits/cache/legislator-張雅琳-a7a59d77-87d2914692c7233d.webp",
+      "cachedFormat": "webp",
+      "cachedWidth": 622,
+      "cachedHeight": 800
+    },
+    "sources": [
+      {
+        "label": "立法院本屆立委：張雅琳",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46805",
+        "date": "2026-07-13",
+        "retrievedAt": "2026-07-13T14:05:15.814Z"
+      }
+    ],
+    "gender": "女"
+  }
+}

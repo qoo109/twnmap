@@ -1,6 +1,79 @@
 {
-  "generatedAt": "2026-07-13T13:10:18.370Z",
+  "generatedAt": "2026-07-13T14:10:26.098Z",
   "countyId": "yunlin",
-  "officeholders": [],
+  "officeholders": [
+    {
+      "id": "legislator-丁學忠-b2e3cf5b",
+      "official": true,
+      "name": "丁學忠",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": "yunlin",
+      "district": "雲林縣第1選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-13",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110001.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46752",
+        "sourceLabel": "立法院官方照片：丁學忠",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "localUrl": "assets/portraits/cache/legislator-丁學忠-b2e3cf5b-4eff0609972ea1b8.webp",
+        "cachedFormat": "webp",
+        "cachedWidth": 622,
+        "cachedHeight": 800
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：丁學忠",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46752",
+          "date": "2026-07-13",
+          "retrievedAt": "2026-07-13T14:05:15.814Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-劉建國-b982e2ad",
+      "official": true,
+      "name": "劉建國",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": "yunlin",
+      "district": "雲林縣第2選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-13",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110093.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46841",
+        "sourceLabel": "立法院官方照片：劉建國",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-13T14:05:15.814Z",
+        "localUrl": "assets/portraits/cache/legislator-劉建國-b982e2ad-261aedee998643bd.webp",
+        "cachedFormat": "webp",
+        "cachedWidth": 622,
+        "cachedHeight": 800
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：劉建國",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46841",
+          "date": "2026-07-13",
+          "retrievedAt": "2026-07-13T14:05:15.814Z"
+        }
+      ],
+      "gender": "男"
+    }
+  ],
   "candidates": []
 }

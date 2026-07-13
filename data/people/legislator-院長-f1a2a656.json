@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-07-13T14:10:26.098Z",
+  "person": {
+    "id": "legislator-院長-f1a2a656",
+    "official": true,
+    "name": "院長",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "kmt",
+    "countyId": null,
+    "district": "全國不分區及僑居國外國民",
+    "organization": "立法院",
+    "termStart": "2024-02-01",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-13",
+    "sources": [
+      {
+        "label": "立法院本屆立委：院長",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=120",
+        "date": "2026-07-13",
+        "retrievedAt": "2026-07-13T14:05:15.814Z"
+      }
+    ],
+    "gender": "男"
+  }
+}
