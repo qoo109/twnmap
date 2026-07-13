@@ -1,18 +1,24 @@
-V6.1.7.2 安裝步驟
+台灣選舉報報 V6.1.7.3 安裝方式
 
-1. GitHub Desktop 選 twnmap，按 Show in Finder。
+1. GitHub Desktop 選擇 twnmap，按 Show in Finder。
 2. 解壓縮本修正包。
-3. 將本修正包內「全部內容」拖到正式 twnmap 資料夾。
-4. 資料夾選「合併」，同名檔案選「取代」。
-5. 確認正確路徑：
-   twnmap/scripts/lib.mjs
-   twnmap/scripts/test-moi-parser.mjs
-   twnmap/scripts/sync-officeholders.mjs
-   twnmap/.github/workflows/daily-sync.yml
-6. GitHub Desktop 的 Summary：
-   Fix complete MOI parser files
-7. Commit to main → Push origin。
-8. GitHub Actions 重新執行 Daily official data sync：
-   officeholder_scope：full
-   history_scope：none
-   history_years：all
+3. 將修正包內「全部內容」拖進正式 twnmap 資料夾。
+4. scripts 資料夾選「合併」，同名檔案選「取代」。
+5. .github 資料夾也選「合併」。
+
+正確路徑至少應包含：
+twnmap/scripts/sync-all.mjs
+twnmap/scripts/sync-officeholders.mjs
+twnmap/scripts/test-moi-parser.mjs
+twnmap/scripts/lib.mjs
+twnmap/.github/workflows/daily-sync.yml
+
+GitHub Desktop：
+Summary：Fix complete official sync runtime
+Commit to main → Push origin
+
+重新執行：
+Daily official data sync
+officeholder_scope：full
+history_scope：none
+history_years：all
