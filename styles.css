@@ -744,3 +744,94 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .view-tabs button { min-height: 36px; padding-inline: 7px; font-size: 12px; }
   .map-guide-chip { left: 10px; bottom: 10px; max-width: calc(100% - 74px); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 }
+
+/* V6.1.5 — sync transparency, freshness detection and official-only candidate UI */
+button.sync-chip { cursor: pointer; font: inherit; }
+button.sync-chip:hover { border-color: color-mix(in srgb, var(--success) 35%, var(--line)); color: var(--text); }
+button.sync-chip:focus-visible { outline: 3px solid color-mix(in srgb, var(--color-aqua) 35%, transparent); outline-offset: 2px; }
+
+.area-coverage-badge {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+  margin: 2px 0 16px;
+  padding: 11px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-2);
+}
+.area-coverage-badge > i {
+  width: 10px;
+  height: 10px;
+  margin-top: 4px;
+  border-radius: 50%;
+  background: var(--color-fog);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--color-fog) 18%, transparent);
+}
+.area-coverage-badge strong,
+.area-coverage-badge span { display: block; }
+.area-coverage-badge strong { font-size: 12px; line-height: 1.4; }
+.area-coverage-badge span { margin-top: 2px; color: var(--muted); font-size: 10px; line-height: 1.45; }
+.area-coverage-badge.ok { border-color: color-mix(in srgb, var(--success) 25%, var(--line)); background: color-mix(in srgb, var(--success) 7%, var(--panel-solid)); }
+.area-coverage-badge.ok > i { background: var(--success); box-shadow: 0 0 0 4px color-mix(in srgb, var(--success) 16%, transparent); }
+.area-coverage-badge.partial { border-color: color-mix(in srgb, var(--warning) 25%, var(--line)); background: color-mix(in srgb, var(--warning) 6%, var(--panel-solid)); }
+.area-coverage-badge.partial > i { background: var(--warning); box-shadow: 0 0 0 4px color-mix(in srgb, var(--warning) 15%, transparent); }
+.area-summary.has-no-data .area-coverage-badge { display: grid; }
+
+.sync-status-dialog .modal-shell { width: min(720px, calc(100vw - 28px)); }
+.sync-dialog-grid { display: grid; gap: 9px; margin-top: 20px; }
+.sync-dialog-row {
+  display: grid;
+  grid-template-columns: 10px minmax(0, 1fr) auto;
+  gap: 10px 12px;
+  align-items: center;
+  padding: 13px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-2);
+}
+.sync-dialog-row > i { width: 10px; height: 10px; border-radius: 50%; background: var(--color-fog); }
+.sync-dialog-row.ok > i { background: var(--success); }
+.sync-dialog-row strong,
+.sync-dialog-row span,
+.sync-dialog-row small { display: block; }
+.sync-dialog-row strong { font-size: 13px; }
+.sync-dialog-row span { color: var(--muted); font-size: 10px; }
+.sync-dialog-row b { color: var(--color-teal); font-family: var(--font-mono); font-size: 15px; }
+.sync-dialog-row small { grid-column: 2 / -1; color: var(--muted); font-family: var(--font-mono); font-size: 10px; }
+.sync-dialog-actions { display: flex; justify-content: flex-end; gap: 9px; margin-top: 18px; }
+.sync-dialog-actions a { display: inline-flex; align-items: center; justify-content: center; text-decoration: none; }
+
+.new-data-banner {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 3200;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  gap: 12px;
+  align-items: center;
+  width: min(620px, calc(100vw - 36px));
+  padding: 14px;
+  border: 1px solid color-mix(in srgb, var(--success) 32%, var(--line));
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--panel-solid) 96%, transparent);
+  box-shadow: rgba(17,26,74,.18) 0 20px 50px;
+  backdrop-filter: blur(16px);
+}
+.new-data-banner[hidden] { display: none; }
+.new-data-banner strong,
+.new-data-banner span { display: block; }
+.new-data-banner strong { font-size: 13px; }
+.new-data-banner span { margin-top: 2px; color: var(--muted); font-size: 11px; }
+.new-data-banner .primary-button,
+.new-data-banner .text-button { white-space: nowrap; }
+
+@media (max-width: 680px) {
+  .new-data-banner { left: 10px; right: 10px; bottom: 10px; grid-template-columns: 1fr auto; width: auto; }
+  .new-data-banner > div { grid-column: 1 / -1; }
+  .new-data-banner .primary-button { width: 100%; }
+  .sync-dialog-actions { align-items: stretch; flex-direction: column; }
+  .sync-dialog-actions > * { width: 100%; }
+}
