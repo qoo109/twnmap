@@ -19,7 +19,7 @@
   const urlView = ["officeholders", "candidates", "history"].includes(urlParams.get("view")) ? urlParams.get("view") : "";
   const requestedDefaultView = urlView || data.meta?.defaultView || "officeholders";
   const resolvedDefaultView = requestedDefaultView === "candidates" && !hasOfficialCandidates ? "officeholders" : requestedDefaultView;
-  const storedLegendPreference = localStorage.getItem("political-map-legend-collapsed");
+  const storedLegendPreference = "true";
   const storedFilterPreference = localStorage.getItem("political-map-filters-collapsed");
   const storedSummaryPreference = localStorage.getItem("political-map-summary-collapsed");
 
@@ -635,41 +635,9 @@
     </div>`;
   }
   function renderMapLegend() {
-    const collapsed = state.legendCollapsed;
-    let content = "";
-    if (state.mapMode === "count") {
-      const palette = mapPalette();
-      const steps = [.25, .39, .53, .67, .81, .95].map((intensity) => `<i style="background:${escapeHtml(mixHex(palette.noData, palette.low, intensity))}"></i>`).join("");
-      content = `<div class="legend-density-panel"><div class="legend-density-ramp" aria-label="由少至多的密度色階">${steps}</div><div class="legend-density-labels"><span>較少</span><span>較多</span></div><p>顏色越深，代表目前篩選條件下的資料筆數越多。</p></div>${legendSpecialStates()}`;
-    } else if (state.mapMode === "mayor-party") {
-      const partyRows = legendPartyIds().map((id) => {
-        const p = partyById.get(id) || { shortName: "其他", color: "#7c7f88" };
-        return `<span class="legend-party-key"><i style="background:${escapeHtml(p.color)}"></i>${escapeHtml(p.shortName)}</span>`;
-      }).join("");
-      content = `<div class="legend-party-keys">${partyRows}</div><p class="legend-explanation">行政區以現任縣市首長或鄉鎮市區長的政黨代表色呈現。</p>${legendSpecialStates()}`;
-    } else {
-      const parties = legendPartyIds();
-      const labels = PARTY_SHARE_BANDS.map((band) => `<span>${escapeHtml(band.label)}</span>`).join("");
-      const rows = parties.map((id) => {
-        const p = partyById.get(id) || { shortName: "其他", color: "#7c7f88" };
-        const cells = PARTY_SHARE_BANDS.map((band) => `<i class="legend-color-cell" style="background:${escapeHtml(mixHex(mapPalette().noData, p.color, band.intensity))}" title="${escapeHtml(p.shortName)} ${escapeHtml(band.label)}%"></i>`).join("");
-        return `<div class="legend-scale-row"><strong title="${escapeHtml(p.name || p.shortName)}"><span style="background:${escapeHtml(p.color)}"></span>${escapeHtml(p.shortName)}</strong>${cells}</div>`;
-      }).join("");
-      const explanation = state.view === "history"
-        ? "地圖只統計當選紀錄，深淺代表該黨在當地當選席次中的占比；候選人實際得票率請查看人物卡。"
-        : state.view === "candidates"
-          ? "顏色深淺代表正式候選人中各黨占比；尚未公告正式名單時不顯示候選人頁。"
-          : "顏色深淺代表該黨在當地現任民選公職中的占比；絕對人數請切換「人數密度」。";
-      content = `<div class="legend-scale-table" role="table" aria-label="${escapeHtml(legendTitle())}"><div class="legend-scale-header"><span>政黨</span>${labels}</div>${rows}</div><div class="legend-scale-direction"><span>淺色・占比較低</span><span>深色・占比較高</span></div><p class="legend-explanation">${escapeHtml(explanation)}</p>${legendSpecialStates()}`;
-    }
-    els.mapLegend.classList.toggle("is-collapsed", collapsed);
-    els.mapLegend.innerHTML = `<button class="map-legend-toggle" type="button" data-legend-toggle aria-expanded="${String(!collapsed)}"><span><small>MAP LEGEND</small><strong>${escapeHtml(legendTitle())}</strong></span><b>${collapsed ? "展開" : "收合"}</b></button><div class="map-legend-body" ${collapsed ? "hidden" : ""}>${content}</div>`;
-    const toggle = els.mapLegend.querySelector("[data-legend-toggle]");
-    toggle?.addEventListener("click", () => {
-      state.legendCollapsed = !state.legendCollapsed;
-      localStorage.setItem("political-map-legend-collapsed", String(state.legendCollapsed));
-      renderMapLegend();
-    });
+    if (!els.mapLegend) return;
+    els.mapLegend.hidden = true;
+    els.mapLegend.innerHTML = "";
   }
   function refreshMapStyles() {
     currentTownStats = calculateTownStats(state.county);
@@ -838,7 +806,7 @@
     if (els.historyOfficialPeople) els.historyOfficialPeople.textContent = coverage.officialPersonCount ? `${Number(coverage.officialPersonCount).toLocaleString("zh-Hant")} 人` : "—";
     if (els.historyCoverageYears) els.historyCoverageYears.textContent = safeArray(coverage.yearsImported).length ? safeArray(coverage.yearsImported).join("、") : "—";
     if (els.historyIdentityReview) els.historyIdentityReview.textContent = coverage.identityReviewCount != null ? `${coverage.identityReviewCount} 組` : "—";
-    if (els.historyCoverageNote) els.historyCoverageNote.textContent = coverage.lastOfficialSyncAt ? `最近官方歷屆同步：${formatDate(coverage.lastOfficialSyncAt)}；範圍 ${coverage.scope || "core"}，已連結現任人物 ${coverage.linkedCurrentCount || 0} 組。` : "可透過手動更新選擇「核心歷屆資料」，或等待每週日 03:20 自動同步。";
+    if (els.historyCoverageNote) els.historyCoverageNote.textContent = coverage.lastOfficialSyncAt ? `最近官方歷屆同步：${formatDate(coverage.lastOfficialSyncAt)}；範圍 ${coverage.scope || "core"}，已連結現任人物 ${coverage.linkedCurrentCount || 0} 組。` : "可透過手動更新選擇「核心歷屆資料」，或等待每週日 04:20 自動同步。";
     const visibleRecords = state.view === "history" ? filteredItems({ ignoreCounty: false, ignoreParty: false }) : allRecords.filter((record) => {
       if (state.county !== "all" && record.countyId !== state.county) return false;
       if (state.party !== "all" && record.partyId !== state.party) return false;
@@ -971,7 +939,7 @@
     els.coverageLocal.textContent = os.localOfficeholderCount ? `${os.localOfficeholderCount} 人` : "等待同步";
     els.coverageCandidates.textContent = cs.officialCandidateCount ? `${cs.officialCandidateCount} 人` : "等待正式公告";
     const hs = data.history?.coverage || {};
-    els.syncDetail.innerHTML = `<strong>現任公職：</strong>${escapeHtml(os.message || "尚未執行。")}<br><strong>候選人：</strong>${escapeHtml(cs.message || "尚未執行。")}<br><strong>歷屆資料：</strong>${hs.officialRecordCount ? `中選會官方 ${Number(hs.officialRecordCount).toLocaleString("zh-Hant")} 筆，涵蓋 ${safeArray(hs.yearsImported).join("、")}` : "尚未完成官方歷屆匯入。"}<br><strong>排程：</strong>每天台灣時間 03:00 更新現任與候選人；每週日 03:20 更新核心歷屆資料。`;
+    els.syncDetail.innerHTML = `<strong>現任公職：</strong>${escapeHtml(os.message || "尚未執行。")}<br><strong>候選人：</strong>${escapeHtml(cs.message || "尚未執行。")}<br><strong>歷屆資料：</strong>${hs.officialRecordCount ? `中選會官方 ${Number(hs.officialRecordCount).toLocaleString("zh-Hant")} 筆，涵蓋 ${safeArray(hs.yearsImported).join("、")}` : "尚未完成官方歷屆匯入。"}<br><strong>排程：</strong>每天台灣時間 03:00 更新現任與候選人；每週日 04:20 更新核心歷屆資料。`;
   }
 
   function renderSources() {
