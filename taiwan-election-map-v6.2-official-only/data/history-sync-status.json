@@ -1,0 +1,12 @@
+{
+  "status": "waiting-first-import",
+  "startedAt": null,
+  "finishedAt": null,
+  "scope": "core",
+  "years": "2014,2018,2020,2022,2024",
+  "officialRecordCount": 0,
+  "officialPersonCount": 0,
+  "identityReviewCount": 0,
+  "message": "尚未執行第一次中選會官方歷屆資料匯入。",
+  "sourceUrl": "https://data.gov.tw/dataset/13119"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "taiwan-political-election-map-v6-2-official-only",
+  "version": "6.2.0",
+  "private": true,
+  "description": "台灣政治人物與選舉地圖：官方資料唯讀、禁止人工覆寫、首次同步精靈、異動守門與資料分片",
+  "type": "module",
+  "scripts": {
+    "build:data": "node scripts/build-client-data.mjs",
+    "sync:candidates": "node scripts/sync-official-data.mjs",
+    "sync:officeholders": "node scripts/sync-officeholders.mjs",
+    "sync": "node scripts/sync-all.mjs",
+    "validate": "node scripts/validate-data.mjs && node scripts/check-generated-data.mjs",
+    "test": "npm run test:cec-parser && npm run sync:history && npm run report:changes && npm run build:shards && npm run build:data && npm run validate",
+    "serve": "python3 -m http.server 8080",
+    "sync:history": "node scripts/sync-history.mjs",
+    "sync:history:official": "node scripts/sync-cec-history.mjs",
+    "test:cec-parser": "python3 scripts/test_cec_history_import.py",
+    "cache:portraits": "python3 scripts/cache_portraits.py",
+    "report:changes": "node scripts/generate-change-report.mjs",
+    "build:shards": "node scripts/build-data-shards.mjs",
+    "build:release": "npm run cache:portraits && npm run sync:history && npm run report:changes && npm run build:shards && npm run build:data"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

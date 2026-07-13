@@ -1,0 +1,862 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-13T01:59:02.729Z",
+  "date": "2026-07-13",
+  "beforeVersion": "2026.07.13-v6.1",
+  "afterVersion": "2026.07.13-v6.1",
+  "summary": {
+    "added": 2,
+    "removed": 100,
+    "changed": 0,
+    "photoUpdated": 0,
+    "historyDelta": 0
+  },
+  "officeholders": {
+    "label": "officeholders",
+    "beforeCount": 100,
+    "afterCount": 2,
+    "added": [
+      {
+        "id": "president-lai-ching-te",
+        "name": "賴清德",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "vice-president-hsiao-bi-khim",
+        "name": "蕭美琴",
+        "partyId": "dpp",
+        "roleId": "vice-president",
+        "countyId": "",
+        "district": "全國"
+      }
+    ],
+    "removed": [
+      {
+        "id": "fake-0",
+        "name": "測試人物0",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-1",
+        "name": "測試人物1",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-2",
+        "name": "測試人物2",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-3",
+        "name": "測試人物3",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-4",
+        "name": "測試人物4",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-5",
+        "name": "測試人物5",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-6",
+        "name": "測試人物6",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-7",
+        "name": "測試人物7",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-8",
+        "name": "測試人物8",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-9",
+        "name": "測試人物9",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-10",
+        "name": "測試人物10",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-11",
+        "name": "測試人物11",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-12",
+        "name": "測試人物12",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-13",
+        "name": "測試人物13",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-14",
+        "name": "測試人物14",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-15",
+        "name": "測試人物15",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-16",
+        "name": "測試人物16",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-17",
+        "name": "測試人物17",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-18",
+        "name": "測試人物18",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-19",
+        "name": "測試人物19",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-20",
+        "name": "測試人物20",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-21",
+        "name": "測試人物21",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-22",
+        "name": "測試人物22",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-23",
+        "name": "測試人物23",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-24",
+        "name": "測試人物24",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-25",
+        "name": "測試人物25",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-26",
+        "name": "測試人物26",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-27",
+        "name": "測試人物27",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-28",
+        "name": "測試人物28",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-29",
+        "name": "測試人物29",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-30",
+        "name": "測試人物30",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-31",
+        "name": "測試人物31",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-32",
+        "name": "測試人物32",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-33",
+        "name": "測試人物33",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-34",
+        "name": "測試人物34",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-35",
+        "name": "測試人物35",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-36",
+        "name": "測試人物36",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-37",
+        "name": "測試人物37",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-38",
+        "name": "測試人物38",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-39",
+        "name": "測試人物39",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-40",
+        "name": "測試人物40",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-41",
+        "name": "測試人物41",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-42",
+        "name": "測試人物42",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-43",
+        "name": "測試人物43",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-44",
+        "name": "測試人物44",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-45",
+        "name": "測試人物45",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-46",
+        "name": "測試人物46",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-47",
+        "name": "測試人物47",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-48",
+        "name": "測試人物48",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-49",
+        "name": "測試人物49",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-50",
+        "name": "測試人物50",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-51",
+        "name": "測試人物51",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-52",
+        "name": "測試人物52",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-53",
+        "name": "測試人物53",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-54",
+        "name": "測試人物54",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-55",
+        "name": "測試人物55",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-56",
+        "name": "測試人物56",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-57",
+        "name": "測試人物57",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-58",
+        "name": "測試人物58",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-59",
+        "name": "測試人物59",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-60",
+        "name": "測試人物60",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-61",
+        "name": "測試人物61",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-62",
+        "name": "測試人物62",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-63",
+        "name": "測試人物63",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-64",
+        "name": "測試人物64",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-65",
+        "name": "測試人物65",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-66",
+        "name": "測試人物66",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-67",
+        "name": "測試人物67",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-68",
+        "name": "測試人物68",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-69",
+        "name": "測試人物69",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-70",
+        "name": "測試人物70",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-71",
+        "name": "測試人物71",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-72",
+        "name": "測試人物72",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-73",
+        "name": "測試人物73",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-74",
+        "name": "測試人物74",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-75",
+        "name": "測試人物75",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-76",
+        "name": "測試人物76",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-77",
+        "name": "測試人物77",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-78",
+        "name": "測試人物78",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-79",
+        "name": "測試人物79",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-80",
+        "name": "測試人物80",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-81",
+        "name": "測試人物81",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-82",
+        "name": "測試人物82",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-83",
+        "name": "測試人物83",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-84",
+        "name": "測試人物84",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-85",
+        "name": "測試人物85",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-86",
+        "name": "測試人物86",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-87",
+        "name": "測試人物87",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-88",
+        "name": "測試人物88",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-89",
+        "name": "測試人物89",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-90",
+        "name": "測試人物90",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-91",
+        "name": "測試人物91",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-92",
+        "name": "測試人物92",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-93",
+        "name": "測試人物93",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-94",
+        "name": "測試人物94",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-95",
+        "name": "測試人物95",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-96",
+        "name": "測試人物96",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-97",
+        "name": "測試人物97",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-98",
+        "name": "測試人物98",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      },
+      {
+        "id": "fake-99",
+        "name": "測試人物99",
+        "partyId": "dpp",
+        "roleId": "president",
+        "countyId": "",
+        "district": "全國"
+      }
+    ],
+    "changed": [],
+    "photoUpdated": []
+  },
+  "candidates": {
+    "label": "candidates",
+    "beforeCount": 0,
+    "afterCount": 0,
+    "added": [],
+    "removed": [],
+    "changed": [],
+    "photoUpdated": []
+  },
+  "history": {
+    "label": "history",
+    "beforeCount": 0,
+    "afterCount": 0,
+    "addedCount": 0,
+    "removedCount": 0
+  },
+  "guard": {
+    "suspicious": true,
+    "reason": "現任公職一次移除 100/100 筆，超過安全門檻。",
+    "requiresReview": true
+  }
+}

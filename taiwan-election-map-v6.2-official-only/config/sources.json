@@ -1,0 +1,53 @@
+{
+  "timezone": "Asia/Taipei",
+  "scheduleLocalTime": "03:00",
+  "datasets": [
+    {
+      "id": "cec-election-database",
+      "name": "中選會選舉資料庫（含選舉區資料）",
+      "metadataUrl": "https://data.gov.tw/api/v2/rest/dataset/13119",
+      "homepageUrl": "https://data.gov.tw/dataset/13119",
+      "publisher": "中央選舉委員會",
+      "required": true
+    },
+    {
+      "id": "cec-open-data-list",
+      "name": "中央選舉委員會開放資料集清單",
+      "metadataUrl": "https://data.gov.tw/api/v2/rest/dataset/27647",
+      "homepageUrl": "https://data.gov.tw/dataset/27647",
+      "publisher": "中央選舉委員會",
+      "required": false
+    }
+  ],
+  "targetElection": {
+    "name": "115年地方公職人員選舉",
+    "date": "2026-11-28",
+    "includeKeywords": [
+      "115年地方公職人員選舉",
+      "115年直轄市長",
+      "115年縣市長",
+      "115年直轄市議員",
+      "115年縣市議員",
+      "115年鄉鎮市長",
+      "115年鄉鎮市民代表",
+      "115年村里長",
+      "2026地方公職人員選舉",
+      "2026地方選舉"
+    ],
+    "candidateFileNames": [
+      "elcand.csv"
+    ],
+    "partyFileNames": [
+      "elpaty.csv"
+    ],
+    "areaFileNames": [
+      "elbase.csv"
+    ]
+  },
+  "publishing": {
+    "replaceDemoWhenOfficialCandidatesExist": true,
+    "requireOfficialSourceUrl": true,
+    "manualContentPolicy": "disabled",
+    "judicialMatchingPolicy": "disabled-unless-officially-linked"
+  }
+}

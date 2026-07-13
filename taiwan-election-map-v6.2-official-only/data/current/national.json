@@ -1,0 +1,73 @@
+{
+  "generatedAt": "2026-07-13T02:41:14.731Z",
+  "countyId": null,
+  "officeholders": [
+    {
+      "id": "president-lai-ching-te",
+      "official": true,
+      "name": "賴清德",
+      "roleId": "president",
+      "role": "總統",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國",
+      "organization": "中華民國總統府",
+      "termStart": "2024-05-20",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2024-05-20",
+      "sources": [
+        {
+          "label": "中華民國總統府：賴清德總統",
+          "url": "https://www.president.gov.tw/Page/694",
+          "date": "2024-05-20"
+        }
+      ],
+      "photo": {
+        "localUrl": "assets/portraits/lai-ching-te.jpg",
+        "url": "https://www.president.gov.tw/img/Page/c9cdb96a-f8a4-411d-b7b7-c1ca40468c80.jpg",
+        "sourceUrl": "https://www.president.gov.tw/Page/694",
+        "sourceLabel": "中華民國總統府：總統玉照",
+        "credit": "中華民國總統府",
+        "license": "政府資料開放授權條款第1版",
+        "official": true,
+        "verifiedAt": "2026-07-12"
+      },
+      "personKey": "president-lai-ching-te",
+      "identityStatus": "verified-official"
+    },
+    {
+      "id": "vice-president-hsiao-bi-khim",
+      "official": true,
+      "name": "蕭美琴",
+      "roleId": "vice-president",
+      "role": "副總統",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國",
+      "organization": "中華民國總統府",
+      "termStart": "2024-05-20",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2024-05-20",
+      "sources": [
+        {
+          "label": "中華民國總統府：蕭美琴副總統",
+          "url": "https://www.president.gov.tw/Page/695",
+          "date": "2024-05-20"
+        }
+      ],
+      "photo": {
+        "localUrl": "assets/portraits/hsiao-bi-khim.jpg",
+        "url": "https://www.president.gov.tw/img/Page/510223ed-c538-45fa-9442-a48f78646995.jpg",
+        "sourceUrl": "https://www.president.gov.tw/Page/695",
+        "sourceLabel": "中華民國總統府：副總統玉照",
+        "credit": "中華民國總統府",
+        "license": "政府資料開放授權條款第1版",
+        "official": true,
+        "verifiedAt": "2026-07-12"
+      },
+      "personKey": "vice-president-hsiao-bi-khim",
+      "identityStatus": "verified-official"
+    }
+  ],
+  "candidates": []
+}

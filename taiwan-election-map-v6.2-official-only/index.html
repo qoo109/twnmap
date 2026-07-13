@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="整合現任民選公職、正式候選人與已匯入歷屆選舉結果的台灣行政區互動地圖。" />
+  <meta name="theme-color" content="#f6f6f8" />
+  <title>台灣政治人物與選舉地圖 V6.2</title>
+  <link rel="stylesheet" href="vendor/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主要內容</a>
+<header class="site-header">
+  <a class="brand-wrap" href="index.html" aria-label="回到首頁">
+    <span class="brand-mark" aria-hidden="true">選</span>
+    <span><small>TAIWAN POLITICAL MAP</small><strong>台灣政治人物與選舉地圖</strong></span>
+  </a>
+  <div class="header-actions">
+    <span class="sync-chip" id="headerSyncChip"><i></i><span>讀取資料中</span></span>
+    <button class="header-button" id="shareButton" type="button" aria-label="分享目前畫面">分享</button>
+    <button class="header-button" id="sourceButton" type="button">來源</button>
+    <button class="theme-button" id="themeButton" type="button" aria-label="切換深淺色模式">☼</button>
+  </div>
+</header>
+
+<nav class="view-tabs" aria-label="資料模式">
+  <button class="active" data-view="officeholders" type="button"><span>現任</span>政治版圖</button>
+  <button id="candidateViewButton" data-view="candidates" type="button"><span id="candidateYearLabel">候選</span>正式名單</button>
+  <button data-view="history" type="button"><span>歷屆</span>選舉結果</button>
+</nav>
+
+<main id="main">
+  <section class="app-shell">
+    <aside class="control-panel" id="controlPanel">
+      <div class="control-heading">
+        <div><p class="eyebrow" id="filterEyebrow">CURRENT OFFICIALS</p><h2 id="filterTitle">現任公職篩選</h2></div>
+        <button class="text-button" id="resetFilters" type="button">清除</button>
+      </div>
+
+      <label for="searchInput">搜尋</label>
+      <div class="search-field"><span>⌕</span><input id="searchInput" type="search" placeholder="姓名、職位、政黨或地區" autocomplete="off" /></div>
+
+      <div id="officeholderFilters">
+        <label for="roleSelect">公職類型</label>
+        <select id="roleSelect"><option value="all">全部民選公職</option></select>
+      </div>
+
+      <div id="historyFilters" hidden>
+        <label for="yearSelect">選舉年度</label>
+        <select id="yearSelect"></select>
+        <label for="historyTypeSelect">選舉類型</label>
+        <select id="historyTypeSelect"><option value="all">全部選舉類型</option></select>
+      </div>
+
+      <label for="countySelect">縣市</label>
+      <select id="countySelect"><option value="all">全台灣</option></select>
+
+      <label for="partySelect">政黨</label>
+      <select id="partySelect"><option value="all">全部政黨</option></select>
+
+      <div id="candidateFilters" hidden>
+        <select id="recordSelect" hidden aria-hidden="true"><option value="all">官方資料</option></select>
+      </div>
+
+      <div class="filter-note" id="filterNote">
+        <strong>現任名單判定方式</strong>
+        <p>中央職務依總統府與立法院；地方民選公職依內政部現任資料，每天檢查一次異動。</p>
+      </div>
+
+      <div class="role-shortcuts" id="roleShortcuts"></div>
+    </aside>
+
+    <section class="map-workspace">
+      <div class="workspace-topbar">
+        <div>
+          <p class="eyebrow" id="mapEyebrow">CURRENT POLITICAL LANDSCAPE</p>
+          <h1 id="mapTitle">現任政治版圖</h1>
+          <p id="mapSubtitle">以政黨代表色呈現地方勢力；顏色越深，代表該黨在當地的現任人數與占比越高。</p>
+        </div>
+        <div class="workspace-actions">
+          <button class="secondary-button filter-toggle" id="filterToggleButton" type="button" aria-expanded="true" aria-controls="controlPanel">收合篩選</button>
+          <div class="map-mode-switch" id="mapModeSwitch" role="group" aria-label="地圖著色方式">
+          <button class="active" data-map-mode="party-strength" type="button">政黨勢力</button>
+          <button data-map-mode="count" type="button">人數密度</button>
+          <button data-map-mode="mayor-party" type="button">首長黨籍</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="active-filter-bar" id="activeFilterBar" hidden>
+        <div class="active-filter-list" id="activeFilterList" aria-label="目前篩選條件"></div>
+        <button class="text-button" id="clearActiveFilters" type="button">清除全部</button>
+      </div>
+
+      <div class="availability-notice" id="availabilityNotice" hidden>
+        <div class="availability-icon" aria-hidden="true">i</div>
+        <div><strong id="availabilityTitle">官方資料尚未匯入</strong><p id="availabilityText">公開介面只顯示已匯入並可追溯來源的資料。</p></div>
+        <button class="secondary-button" id="availabilitySyncButton" type="button">查看更新狀態</button>
+      </div>
+
+      <div class="map-breadcrumb" aria-label="地圖層級">
+        <button id="mapHomeButton" type="button">全台</button><span>›</span><strong id="mapCrumbCounty">縣市</strong><span id="mapTownSeparator" hidden>›</span><strong id="mapCrumbTown" hidden></strong>
+      </div>
+
+      <div class="map-and-summary">
+        <div class="map-card">
+          <div id="leafletMap" class="leaflet-map" role="application" aria-label="台灣行政區互動地圖"></div>
+          <div class="map-loading" id="mapLoading"><span></span><strong>載入行政區界線中</strong><small>圖資已內建，可離線顯示</small></div>
+          <div class="map-fallback" id="mapFallback" hidden></div>
+          <div class="map-legend" id="mapLegend"></div>
+        </div>
+
+        <aside class="area-summary" id="areaSummary">
+          <button class="summary-collapse" id="summaryCollapseButton" type="button" aria-expanded="true" aria-label="收合地區資訊">−</button>
+          <p class="eyebrow" id="selectedAreaLevel">SELECTED AREA</p>
+          <h2 id="selectedCountyName">全台灣</h2>
+          <p id="selectedCountyDescription">點選縣市後，地圖會放大並顯示鄉鎮市區。</p>
+          <p class="selected-town" id="selectedTownName" hidden></p>
+          <div class="summary-grid">
+            <div><span id="summaryMetric1Label">現任人員</span><strong id="summaryMetric1">0</strong></div>
+            <div><span id="summaryMetric2Label">政黨</span><strong id="summaryMetric2">0</strong></div>
+            <div><span id="summaryMetric3Label">職位類型</span><strong id="summaryMetric3">0</strong></div>
+          </div>
+          <div class="party-breakdown" id="partyBreakdown"></div>
+          <button class="primary-button" id="showAllButton" type="button">回到全台地圖</button>
+        </aside>
+      </div>
+    </section>
+  </section>
+
+  <section class="overview-strip">
+    <div><span>目前模式</span><strong id="overviewMode">現任政治版圖</strong></div>
+    <div><span>資料筆數</span><strong id="overviewCount">—</strong></div>
+    <div><span>地方現任</span><strong id="overviewLocalCount">—</strong></div>
+    <div><span>立法委員</span><strong id="overviewLegislatorCount">—</strong></div>
+    <div><span>最後同步</span><strong id="overviewSync">尚未同步</strong></div>
+  </section>
+
+  <section class="results-section">
+    <div class="results-heading" aria-live="polite">
+      <div><p class="eyebrow" id="resultsEyebrow">OFFICEHOLDERS</p><h2 id="resultsTitle">現任公職人員</h2><p id="resultsSummary">—</p></div>
+      <div class="results-actions">
+        <select id="sortSelect" aria-label="排序方式">
+          <option value="relevance">依資料層級</option>
+          <option value="name">依姓名</option>
+          <option value="party">依政黨</option>
+        </select>
+        <button class="secondary-button" id="compareButton" type="button" disabled>比較已選人物（0）</button>
+      </div>
+    </div>
+    <div class="people-grid" id="peopleGrid"></div>
+    <div class="empty-state" id="emptyState" hidden><span>⌕</span><h3>目前沒有符合條件的資料</h3><p id="emptyStateText">請調整篩選，或等待第一次官方資料同步。</p></div>
+  </section>
+
+  <section class="history-lab-section" id="historyLabSection">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">POLITICAL TRAJECTORY</p>
+        <h2>歷屆政黨與人物軌跡</h2>
+      </div>
+      <p>把選舉結果、參選推薦政黨、當選紀錄與地方分布串成長期資料庫。</p>
+    </div>
+    <div class="history-coverage-panel" id="historyCoveragePanel">
+      <div><span>官方歷屆紀錄</span><strong id="historyOfficialRecords">等待匯入</strong></div>
+      <div><span>人物身分索引</span><strong id="historyOfficialPeople">—</strong></div>
+      <div><span>涵蓋年度</span><strong id="historyCoverageYears">—</strong></div>
+      <div><span>身分未自動合併</span><strong id="historyIdentityReview">—</strong></div>
+      <p id="historyCoverageNote">可透過手動更新選擇「核心歷屆資料」，或等待每週日 03:20 自動同步。</p>
+    </div>
+    <div class="history-dashboard">
+      <article class="history-feature-card">
+        <p class="eyebrow">PERSON TIMELINE</p>
+        <h3>人物歷屆紀錄</h3>
+        <div id="personHistoryPreview" class="timeline-preview"></div>
+      </article>
+      <article class="history-feature-card">
+        <p class="eyebrow">PARTY HISTORY</p>
+        <h3>政黨席次趨勢</h3>
+        <div id="partyHistoryPreview" class="party-history-list"></div>
+      </article>
+      <article class="history-feature-card">
+        <p class="eyebrow">DISTRICT ARCHIVE</p>
+        <h3>選區歷屆候選人</h3>
+        <div id="districtHistoryPreview" class="district-history-list"></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="data-status-section">
+    <div class="section-heading"><div><p class="eyebrow">OFFICIAL DATA SYNC</p><h2>官方資料更新</h2></div><p>每天自動更新；需要立即同步時，由管理者在獨立後台觸發 GitHub Actions。</p></div>
+
+    <div class="data-health-panel" id="dataHealthPanel">
+      <div class="data-health-summary">
+        <div><p class="eyebrow">DATA HEALTH</p><h3 id="dataHealthTitle">資料健康檢查中</h3><p id="dataHealthText">正在讀取各官方來源的同步狀態與資料新鮮度。</p></div>
+        <span class="health-score" id="dataHealthScore">—</span>
+      </div>
+      <div class="data-health-sources" id="dataHealthSources"></div>
+    </div>
+    <div class="status-grid">
+      <article><span>總統府</span><strong id="coveragePresidency">已內建</strong><p>總統與副總統現任頁面。</p></article>
+      <article><span>立法院</span><strong id="coverageLegislature">等待同步</strong><p>本屆立委、黨籍、選區與離職名單。</p></article>
+      <article><span>內政部</span><strong id="coverageLocal">等待同步</strong><p>地方首長、議員、代表與村里長。</p></article>
+      <article><span>中選會</span><strong id="coverageCandidates">等待公告</strong><p>正式候選人與歷屆選舉結果。</p></article>
+    </div>
+    <div class="sync-detail" id="syncDetail"></div>
+    <div class="public-data-note">
+      <div>
+        <p class="eyebrow">PUBLIC DATA POLICY</p>
+        <h3>公開頁只顯示可追溯資料</h3>
+        <p>網站只顯示政府機關直接發布的資料。政見與經歷僅採中選會公報或政府官方人物頁；不接受人工新增、改寫或姓名式司法裁判比對。</p>
+      </div>
+      <a class="secondary-button admin-entry" href="admin.html">管理者入口</a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div><strong>台灣政治人物與選舉地圖 V6.2</strong><p>非政府官方網站；所有資料均應回到主管機關原始頁面核對。</p></div>
+  <div class="footer-meta"><span>Daily sync 03:00 · Weekly CEC history 03:20</span><a href="admin.html">管理者入口</a></div>
+</footer>
+
+
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<dialog class="modal" id="personDialog"><div class="modal-shell"><button class="modal-close" data-close-dialog="personDialog" type="button" aria-label="關閉">×</button><div id="personDialogContent"></div></div></dialog>
+<dialog class="modal" id="sourceDialog"><div class="modal-shell"><button class="modal-close" data-close-dialog="sourceDialog" type="button" aria-label="關閉">×</button><p class="eyebrow">OFFICIAL SOURCES</p><h2>資料來源與更新用途</h2><div class="source-list" id="sourceList"></div></div></dialog>
+<dialog class="modal" id="compareDialog"><div class="modal-shell compare-shell"><button class="modal-close" data-close-dialog="compareDialog" type="button" aria-label="關閉">×</button><p class="eyebrow">COMPARE</p><h2>人物比較</h2><div id="compareContent"></div></div></dialog>
+
+<script src="data/manifest.js"></script>
+<script src="data/candidates.js"></script>
+<script src="vendor/leaflet.js"></script>
+<script src="vendor/topojson-client.min.js"></script>
+<script src="vendor/taiwan-topology.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

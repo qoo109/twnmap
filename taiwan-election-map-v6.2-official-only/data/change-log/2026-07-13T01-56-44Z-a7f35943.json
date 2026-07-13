@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-13T01:56:44.533Z",
+  "date": "2026-07-13",
+  "beforeVersion": "2026.07.13-v6.1",
+  "afterVersion": "2026.07.13-v6.1",
+  "summary": {
+    "added": 0,
+    "removed": 0,
+    "changed": 0,
+    "photoUpdated": 0,
+    "historyDelta": 0
+  },
+  "officeholders": {
+    "label": "officeholders",
+    "beforeCount": 2,
+    "afterCount": 2,
+    "added": [],
+    "removed": [],
+    "changed": [],
+    "photoUpdated": []
+  },
+  "candidates": {
+    "label": "candidates",
+    "beforeCount": 0,
+    "afterCount": 0,
+    "added": [],
+    "removed": [],
+    "changed": [],
+    "photoUpdated": []
+  },
+  "history": {
+    "label": "history",
+    "beforeCount": 0,
+    "afterCount": 0,
+    "addedCount": 0,
+    "removedCount": 0
+  },
+  "guard": {
+    "suspicious": false,
+    "reason": "未偵測到大量異常刪除。",
+    "requiresReview": false
+  }
+}

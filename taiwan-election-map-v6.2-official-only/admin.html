@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f6f6f8" />
+  <title>資料管理 V6.2｜台灣政治人物與選舉地圖</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-wrap">
+      <div class="brand-mark" aria-hidden="true">管</div>
+      <div><p class="eyebrow">OFFICIAL DATA ADMIN</p><h1>官方資料同步、驗證與異動管理</h1></div>
+    </div>
+    <div class="header-actions">
+      <a class="icon-button header-link" href="index.html">返回網站</a>
+      <button class="icon-button" id="themeButton" type="button" aria-label="切換明暗模式">☼</button>
+    </div>
+  </header>
+
+  <main class="admin-shell shell">
+    <section class="admin-hero">
+      <div>
+        <div class="status-pill"><span class="pulse"></span> 官方資料唯讀模式</div>
+        <h2>同步、驗證，再發布。</h2>
+        <p>每日 03:00 檢查總統府、立法院、內政部與中選會資料；每週日 03:20 匯入中選會核心歷屆資料。本後台不提供人工新增、改寫或匯入政治人物資料，避免政見、經歷、黨籍與司法資訊因主觀整理而產生錯誤。</p>
+      </div>
+      <div class="admin-summary card">
+        <div><span>現任公職</span><strong id="currentOfficeholderCount">—</strong></div>
+        <div><span>正式候選人</span><strong id="currentCandidateCount">—</strong></div>
+        <div><span>歷屆結果</span><strong id="currentHistoryCount">—</strong></div>
+        <div><span>官方歷屆</span><strong id="currentOfficialHistoryCount">—</strong></div>
+        <div><span>身分未自動合併</span><strong id="currentIdentityReviewCount">—</strong></div>
+        <div><span>官方來源</span><strong id="currentSourceCount">—</strong></div>
+        <div><span>資料版本</span><strong id="currentVersion">—</strong></div>
+      </div>
+    </section>
+
+    <section class="admin-card card official-policy-card">
+      <div class="validation-heading">
+        <div><p class="eyebrow">OFFICIAL-ONLY POLICY</p><h3>公開資料使用原則</h3></div>
+        <span class="validation-state ok">已啟用</span>
+      </div>
+      <div class="review-rules">
+        <div><span>1</span><p>人物、職務、黨籍、選區及選舉結果，只採政府機關直接發布的資料。</p></div>
+        <div><span>2</span><p>政見與經歷僅在中選會選舉公報或政府官方人物頁直接提供時顯示，不自行摘要或補寫。</p></div>
+        <div><span>3</span><p>不以姓名搜尋或人工判斷連結司法裁判；沒有官方明確對應資料時，公開頁不顯示司法欄位。</p></div>
+        <div><span>4</span><p>不接受 CSV／JSON 人工匯入覆寫。格式對照表只用於解析官方欄位，不改變原始事實。</p></div>
+      </div>
+    </section>
+
+    <section class="admin-health card">
+      <div class="validation-heading"><div><p class="eyebrow">DATA HEALTH</p><h3>資料健康儀表板</h3></div><span class="validation-state" id="adminHealthState">檢查中</span></div>
+      <div class="admin-health-grid" id="adminHealthGrid"></div>
+      <p class="admin-health-note" id="adminHealthNote">顯示各官方來源最後成功時間、資料筆數與是否沿用上一版。</p>
+    </section>
+
+    <section class="first-sync card" id="firstSyncWizard">
+      <div class="validation-heading">
+        <div><p class="eyebrow">FIRST SYNC WIZARD</p><h3>第一次正式同步精靈</h3></div>
+        <span class="validation-state" id="wizardOverallState">尚未開始</span>
+      </div>
+      <p class="first-sync-intro">依序確認 GitHub 權限、同步現任與候選人、匯入核心歷屆，再驗證 repository 中的正式資料。</p>
+      <div class="wizard-steps">
+        <article class="wizard-step" data-wizard-step="1"><span class="wizard-number">1</span><div><strong>檢查 GitHub 與工作流程</strong><p>確認 repository、分支、Token 權限與 daily-sync.yml 可用。</p><small id="wizardStep1Status">等待檢查</small></div><button class="secondary-button" id="wizardTestButton" type="button">開始檢查</button></article>
+        <article class="wizard-step" data-wizard-step="2"><span class="wizard-number">2</span><div><strong>同步現任公職與正式候選人</strong><p>只匯入官方來源；未公告的候選年度不會出現在公開頁。</p><small id="wizardStep2Status">等待步驟 1</small></div><button class="secondary-button" id="wizardCurrentButton" type="button" disabled>同步現任</button></article>
+        <article class="wizard-step" data-wizard-step="3"><span class="wizard-number">3</span><div><strong>匯入核心歷屆資料</strong><p>匯入總統、立委、縣市首長與議員等中選會正式紀錄。</p><small id="wizardStep3Status">等待現任同步</small></div><button class="secondary-button" id="wizardHistoryButton" type="button" disabled>同步核心歷屆</button></article>
+        <article class="wizard-step" data-wizard-step="4"><span class="wizard-number">4</span><div><strong>驗證正式發布資料</strong><p>讀取 repository 最新 election-data.json，檢查版本、筆數與同步時間。</p><small id="wizardStep4Status">等待資料發布</small></div><button class="primary-button" id="wizardVerifyButton" type="button" disabled>驗證發布</button></article>
+      </div>
+      <div class="wizard-result" id="wizardResult" role="status" aria-live="polite">填妥下方 GitHub repository 與 Token 後開始。</div>
+    </section>
+
+    <section class="change-dashboard card" id="changeDashboard">
+      <div class="validation-heading"><div><p class="eyebrow">CHANGE AUDIT</p><h3>最近一次官方資料異動</h3></div><span class="validation-state" id="changeGuardState">尚無報告</span></div>
+      <div class="change-summary" id="changeSummary"></div>
+      <div class="change-details" id="changeDetails"></div>
+      <p class="admin-health-note" id="changeGeneratedAt">首次同步後會建立新增、移除、黨籍／職務變更與照片更新紀錄。</p>
+    </section>
+
+    <section class="admin-grid">
+      <article class="admin-card card admin-sync-card">
+        <div class="admin-sync-heading">
+          <div><p class="eyebrow">MANUAL OFFICIAL SYNC</p><h3>立即更新官方資料</h3></div>
+          <span class="status-pill"><span class="pulse"></span> GitHub Actions</span>
+        </div>
+        <p>不必等到排程時間。這個按鈕只會觸發既有的官方來源同步，不會接受或發布人工編輯內容。</p>
+        <div class="admin-sync-form">
+          <label>GitHub repository<input id="manualRepoInput" type="text" placeholder="qoo109/taiwan-political-map" autocomplete="off" /></label>
+          <label>分支<input id="manualBranchInput" type="text" value="main" autocomplete="off" /></label>
+          <label class="admin-sync-token">GitHub Token<input id="manualTokenInput" type="password" placeholder="Fine-grained token，需 Actions: write" autocomplete="off" /></label>
+          <label>更新範圍<select id="manualHistoryScope"><option value="none">現任公職與正式候選人（約 3–10 分鐘）</option><option value="core">加上核心歷屆（約 8–20 分鐘）</option><option value="local">加上地方歷屆（約 12–30 分鐘）</option><option value="all">完整歷屆含村里長（約 20–45 分鐘）</option></select></label>
+          <label>歷屆年度<input id="manualHistoryYears" type="text" value="2014,2018,2020,2022,2024" autocomplete="off" /></label>
+          <label class="remember-token"><input id="manualRememberToken" type="checkbox" /><span>只記住在這台瀏覽器</span></label>
+        </div>
+        <div class="admin-sync-actions">
+          <button class="primary-button" id="manualDispatchButton" type="button">開始官方更新</button>
+          <button class="secondary-button" id="manualOpenActionsButton" type="button">開啟 Actions</button>
+          <button class="secondary-button" id="manualReloadButton" type="button">重新載入資料</button>
+        </div>
+        <div class="admin-sync-status" id="manualSyncStatus" role="status" aria-live="polite">尚未觸發更新。</div>
+        <p class="admin-security-note"><strong>安全：</strong>不要把 Token 寫進 repository。公用電腦請勿勾選記住。</p>
+      </article>
+
+      <article class="admin-card card">
+        <p class="eyebrow">OFFICIAL CEC HISTORY</p>
+        <h3>中選會歷屆自動匯入</h3>
+        <p>GitHub Actions 在雲端下載中選會官方壓縮檔、解析 Big5 檔名與 CSV，再建立人物、政黨與選區索引。</p>
+        <div class="review-rules">
+          <div><span>A</span><p><strong>core</strong>：總統、立委、縣市首長、議員。</p></div>
+          <div><span>B</span><p><strong>local</strong>：再加入鄉鎮市長與代表。</p></div>
+          <div><span>C</span><p><strong>all</strong>：包含村里長，資料量最大。</p></div>
+        </div>
+        <p><code>npm run sync:history:official</code></p>
+      </article>
+    </section>
+
+    <section class="publish-guide card">
+      <p class="eyebrow">PUBLISH</p>
+      <h3>官方資料發布流程</h3>
+      <ol>
+        <li>GitHub Actions 從政府官方來源取得資料。</li>
+        <li>執行格式驗證、人物身分比對與大量刪除保護。</li>
+        <li>驗證通過後，自動提交更新檔至 repository。</li>
+        <li>GitHub Pages 重新部署後，公開網站取得新版資料。</li>
+        <li>若來源失敗或異動異常，保留上一版並在後台顯示警示，不以人工內容補洞。</li>
+      </ol>
+    </section>
+  </main>
+
+  <script src="data/candidates.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

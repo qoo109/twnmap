@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-13T02:41:14.731Z",
+  "strategy": "hybrid-sharded",
+  "fallback": "data/candidates.js remains available for file:// offline use",
+  "counts": {
+    "officeholders": 2,
+    "candidates": 0,
+    "history": 0,
+    "personFiles": 2,
+    "currentFiles": 23,
+    "historyFiles": 0
+  },
+  "current": [
+    {
+      "countyId": "taipei",
+      "file": "current/taipei.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "new-taipei",
+      "file": "current/new-taipei.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "keelung",
+      "file": "current/keelung.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "taoyuan",
+      "file": "current/taoyuan.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "hsinchu-city",
+      "file": "current/hsinchu-city.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "hsinchu-county",
+      "file": "current/hsinchu-county.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "miaoli",
+      "file": "current/miaoli.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "taichung",
+      "file": "current/taichung.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "changhua",
+      "file": "current/changhua.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "nantou",
+      "file": "current/nantou.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "yunlin",
+      "file": "current/yunlin.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "chiayi-city",
+      "file": "current/chiayi-city.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "chiayi-county",
+      "file": "current/chiayi-county.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "tainan",
+      "file": "current/tainan.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "kaohsiung",
+      "file": "current/kaohsiung.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "pingtung",
+      "file": "current/pingtung.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "yilan",
+      "file": "current/yilan.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "hualien",
+      "file": "current/hualien.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "taitung",
+      "file": "current/taitung.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "penghu",
+      "file": "current/penghu.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "kinmen",
+      "file": "current/kinmen.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    },
+    {
+      "countyId": "lienchiang",
+      "file": "current/lienchiang.json",
+      "officeholderCount": 0,
+      "candidateCount": 0
+    }
+  ],
+  "national": "current/national.json",
+  "peopleBase": "people/",
+  "history": []
+}
