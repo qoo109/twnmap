@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="整合現任民選公職、正式候選人與已匯入歷屆選舉結果的台灣行政區互動地圖。" />
   <meta name="theme-color" content="#f6f6f8" />
-  <title>台灣政治人物與選舉地圖 V6.2</title>
+  <title>台灣政治人物與選舉地圖 V6.1.1</title>
   <link rel="stylesheet" href="vendor/leaflet.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -20,6 +20,7 @@
     <span class="sync-chip" id="headerSyncChip"><i></i><span>讀取資料中</span></span>
     <button class="header-button" id="shareButton" type="button" aria-label="分享目前畫面">分享</button>
     <button class="header-button" id="sourceButton" type="button">來源</button>
+    <a class="header-button" href="admin.html#quickFullSync">管理員更新</a>
     <button class="theme-button" id="themeButton" type="button" aria-label="切換深淺色模式">☼</button>
   </div>
 </header>
@@ -60,7 +61,13 @@
       <select id="partySelect"><option value="all">全部政黨</option></select>
 
       <div id="candidateFilters" hidden>
-        <select id="recordSelect" hidden aria-hidden="true"><option value="all">官方資料</option></select>
+        <label for="recordSelect">公開司法資料</label>
+        <select id="recordSelect">
+          <option value="all">全部狀態</option>
+          <option value="verified-none">已核對，未列有罪判決</option>
+          <option value="public-record">有公開裁判資料</option>
+          <option value="pending">待查核</option>
+        </select>
       </div>
 
       <div class="filter-note" id="filterNote">
@@ -165,7 +172,7 @@
       <div><span>官方歷屆紀錄</span><strong id="historyOfficialRecords">等待匯入</strong></div>
       <div><span>人物身分索引</span><strong id="historyOfficialPeople">—</strong></div>
       <div><span>涵蓋年度</span><strong id="historyCoverageYears">—</strong></div>
-      <div><span>身分未自動合併</span><strong id="historyIdentityReview">—</strong></div>
+      <div><span>待人工核對</span><strong id="historyIdentityReview">—</strong></div>
       <p id="historyCoverageNote">可透過手動更新選擇「核心歷屆資料」，或等待每週日 03:20 自動同步。</p>
     </div>
     <div class="history-dashboard">
@@ -208,15 +215,15 @@
       <div>
         <p class="eyebrow">PUBLIC DATA POLICY</p>
         <h3>公開頁只顯示可追溯資料</h3>
-        <p>網站只顯示政府機關直接發布的資料。政見與經歷僅採中選會公報或政府官方人物頁；不接受人工新增、改寫或姓名式司法裁判比對。</p>
+        <p>同步、匯入與 GitHub 權限操作已移至獨立管理後台。人物頭貼只採官方或人工確認來源；沒有照片時以姓名縮寫替代。</p>
       </div>
-      <a class="secondary-button admin-entry" href="admin.html">管理者入口</a>
+      <a class="secondary-button admin-entry" href="admin.html#quickFullSync">立即更新（管理員）</a>
     </div>
   </section>
 </main>
 
 <footer class="site-footer">
-  <div><strong>台灣政治人物與選舉地圖 V6.2</strong><p>非政府官方網站；所有資料均應回到主管機關原始頁面核對。</p></div>
+  <div><strong>台灣政治人物與選舉地圖 V6.1.1</strong><p>非政府官方網站；所有資料均應回到主管機關原始頁面核對。</p></div>
   <div class="footer-meta"><span>Daily sync 03:00 · Weekly CEC history 03:20</span><a href="admin.html">管理者入口</a></div>
 </footer>
 

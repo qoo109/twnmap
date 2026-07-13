@@ -18,7 +18,7 @@ import {
 } from "./lib.mjs";
 
 const config = readJson("config/sources.json");
-const officialMappings = readJson("config/official-mappings.json");
+const overrides = readJson("config/manual-overrides.json");
 const data = readJson("data/election-data.json");
 const previousSnapshot = fs.existsSync(path.join(ROOT, "data/source-snapshot.json"))
   ? readJson("data/source-snapshot.json")
@@ -117,7 +117,7 @@ function countyFromArea(areaName) {
 }
 
 function slugParty(name, code) {
-  if (officialMappings.partyAliases[name]) return officialMappings.partyAliases[name];
+  if (overrides.partyAliases[name]) return overrides.partyAliases[name];
   const existing = existingPartyByName.get(name);
   if (existing) return existing.id;
   return `party-${String(code || hash(name, 6)).replace(/\D+/g, "") || hash(name, 6)}`;
@@ -180,6 +180,8 @@ function parseCandidateFile(filePath, encoding, context) {
     const partyId = normalizeParty(String(partyCode).trim(), partyName);
     const stableKey = `${config.targetElection.name}|${prv}|${city}|${districtCode}|${township}|${village}|${number}|${name}`;
     const id = `official-${hash(stableKey, 20)}`;
+    const previous = existingCandidateById.get(id);
+    const manualJudicial = previous?.judicial && previous.judicial.status !== "pending" ? previous.judicial : null;
     const candidate = {
       id,
       demo: false,
@@ -196,8 +198,15 @@ function parseCandidateFile(filePath, encoding, context) {
       age: Number(age) || null,
       birthPlace: birthPlace || "",
       education: education ? [education] : [],
-      experience: [],
-      policies: [],
+      experience: previous?.experience || [],
+      policies: previous?.policies || [],
+      judicial: manualJudicial || {
+        status: "pending",
+        label: "待人工查核",
+        summary: "官方候選人資料已匯入；司法紀錄尚未完成身分核對與人工覆核。",
+        final: null,
+        cases: [],
+      },
       sources: [{
         label: `中央選舉委員會：${context.resource.description || config.targetElection.name}`,
         url: context.resource.url,
@@ -205,8 +214,10 @@ function parseCandidateFile(filePath, encoding, context) {
         retrievedAt: attemptAt,
       }],
       officialUpdatedAt: context.resource.modifiedAt || null,
+      verifiedAt: manualJudicial ? previous.verifiedAt || null : null,
     };
-    parsedCandidates.push(candidate);
+    const manual = overrides.candidateOverrides[id];
+    parsedCandidates.push(manual ? { ...candidate, ...manual, judicial: manual.judicial || candidate.judicial } : candidate);
   }
 }
 
@@ -278,15 +289,15 @@ if (dedupedCandidates.length > 0) {
     : [...data.candidates.filter((candidate) => !candidate.demo), ...dedupedCandidates];
   data.parties = [...parsedParties.values()];
   data.meta.mode = "official";
-  data.meta.disclaimer = "候選人資料只由中央選舉委員會公開資料自動匯入；網站不接受人工改寫或姓名式司法裁判比對。";
+  data.meta.disclaimer = "候選人資料由中央選舉委員會公開資料自動匯入；司法紀錄仍須人工覆核。";
   publicationMessage = `已匯入 ${dedupedCandidates.length} 位官方候選人。`;
 } else if (previousOfficialCount > 0) {
   publicationMessage = `本次未解析到新候選人，已保留上一版 ${previousOfficialCount} 位官方候選人。`;
 } else {
   data.meta.mode = "demo-awaiting-official";
   publicationMessage = matchingResources.length
-    ? "已發現選舉資源，但尚未解析到正式候選人檔；保留上一版官方資料並記錄解析錯誤。"
-    : "尚未發現正式候選人開放資料；公開頁維持隱藏候選人分頁。";
+    ? "已發現 2026 選舉資源，但尚未解析到候選人檔；保留展示資料並等待人工檢查。"
+    : "尚未發現 2026 正式候選人開放資料；保留展示資料。";
 }
 
 const success = metadataSucceeded > 0;

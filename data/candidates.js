@@ -1,23 +1,23 @@
 /* Auto-generated from data/election-data.json. Do not edit directly. */
 window.ELECTION_DATA = {
   "meta": {
-    "version": "2026.07.13-v6.1",
+    "version": "2026.07.13-v6.1.1",
     "electionName": "115年地方公職人員選舉",
     "electionDate": "2026-11-28",
     "mode": "official-only-awaiting-sync",
-    "disclaimer": "現任公職、正式候選人與歷屆結果均以政府機關公開資料為準；網站不接受人工改寫或姓名式司法裁判比對。",
-    "lastGeneratedAt": "2026-07-13T02:41:13.866Z",
+    "disclaimer": "現任公職資料以總統府、立法院與內政部公開資料為準；候選人展示資料不代表正式登記或政黨提名。",
+    "lastGeneratedAt": "2026-07-13T13:10:17.820Z",
     "portalName": "台灣政治人物與選舉地圖",
     "defaultView": "officeholders",
     "partyColorMethod": "各地依現任公職人數最多政黨著色；顏色深淺綜合占比與人數。並列第一時，以並列政黨代表色製作等寬斜線紋理。",
-    "featureFocus": "官方資料唯讀、禁止人工覆寫、同步健康、異動守門與分區載入",
+    "featureFocus": "一鍵完整官方更新、首次同步精靈、資料異動守門、分區載入與官方頭貼本地化",
     "historyModel": "official CEC records → identity matching → personHistory / partyHistory / districtHistory",
-    "publicDataPolicy": "只顯示政府機關直接發布並可追溯的資料；不接受人工新增、改寫或補充政治人物內容。",
-    "photoPolicy": "僅顯示政府機關官方頁面提供且可保存來源資訊的照片；無照片時以姓名縮寫替代。",
+    "publicDataPolicy": "只顯示已匯入的官方或人工核對資料；未公告年度與展示資料不出現在公開介面。",
+    "photoPolicy": "僅顯示官方機關、候選人正式來源或人工確認授權的照片；無照片時以姓名縮寫替代。",
     "dataStrategy": "hybrid-sharded",
-    "release": "V6.2",
+    "release": "V6.1.1",
     "changeGuard": "passed",
-    "dataManifestGeneratedAt": "2026-07-13T02:41:14.731Z"
+    "dataManifestGeneratedAt": "2026-07-13T13:10:18.370Z"
   },
   "parties": [
     {
@@ -356,6 +356,13 @@ window.ELECTION_DATA = {
       "note": "正式政見內容應保留原始公報頁面或檔案連結。"
     },
     {
+      "name": "司法院裁判書／資料開放平臺",
+      "type": "司法",
+      "url": "https://opendata.judicial.gov.tw/",
+      "usage": "公開裁判書、法院、案號、裁判日期及裁判結果。",
+      "note": "姓名可能同名；不得只靠姓名搜尋就認定為同一人。"
+    },
+    {
       "name": "監察院政治獻金公開查閱平臺",
       "type": "財務",
       "url": "https://ardata.cy.gov.tw/",
@@ -631,16 +638,17 @@ window.ELECTION_DATA = {
     "years": [],
     "results": [],
     "importPlan": {
-      "dailyScope": "現任公職與正式候選人每天檢查官方來源",
-      "historyScope": "歷屆資料由中選會官方資料每週同步，亦可由 GitHub Actions 手動觸發",
+      "dailyScope": "現任與 2026 候選人每天更新",
+      "historyScope": "歷屆資料較穩定，預設每次手動更新或每週同步時重建索引",
       "sourcePriority": [
         "中選會選舉資料庫",
-        "中選會開放資料"
+        "中選會開放資料",
+        "人工匯入 CSV／JSON"
       ],
       "caution": "推薦政黨與實際黨籍可能不同，歷屆資料預設顯示「參選推薦政黨」。"
     },
     "message": "尚未匯入歷屆結果；索引為空。",
-    "lastIndexedAt": "2026-07-13T02:41:13.866Z",
+    "lastIndexedAt": "2026-07-13T13:10:17.820Z",
     "indexStatus": "empty",
     "plannedRefresh": "歷屆結果可手動匯入或由官方來源同步後重建索引。",
     "coverage": {
@@ -680,7 +688,7 @@ window.ELECTION_DATA = {
   },
   "changeLog": {
     "schemaVersion": 1,
-    "generatedAt": "2026-07-13T02:41:14.302Z",
+    "generatedAt": "2026-07-13T13:10:18.096Z",
     "date": "2026-07-13",
     "beforeVersion": "2026.07.13-v6.1",
     "afterVersion": "2026.07.13-v6.1",
@@ -724,7 +732,7 @@ window.ELECTION_DATA = {
   },
   "dataManifest": {
     "schemaVersion": 1,
-    "generatedAt": "2026-07-13T02:41:14.731Z",
+    "generatedAt": "2026-07-13T13:10:18.370Z",
     "strategy": "hybrid-sharded",
     "fallback": "data/candidates.js remains available for file:// offline use",
     "counts": {
@@ -872,20 +880,5 @@ window.ELECTION_DATA = {
     "national": "current/national.json",
     "peopleBase": "people/",
     "history": []
-  },
-  "officialOnlyPolicy": {
-    "enabled": true,
-    "allowedSources": [
-      "中華民國總統府",
-      "立法院",
-      "內政部",
-      "中央選舉委員會",
-      "政府資料開放平臺及其政府資料提供機關"
-    ],
-    "manualImport": "disabled",
-    "manualOverrides": "disabled",
-    "judicialMatching": "disabled-unless-official-source-explicitly-links-person-and-record",
-    "candidatePolicies": "only-from-cec-bulletin-or-official-government-page",
-    "candidateExperience": "only-from-cec-bulletin-or-official-government-page"
   }
 };

@@ -1,8 +1,8 @@
 {
-  "name": "taiwan-political-election-map-v6-2-official-only",
-  "version": "6.2.0",
+  "name": "taiwan-political-election-map-v6-1-1-immediate-sync",
+  "version": "6.1.1",
   "private": true,
-  "description": "台灣政治人物與選舉地圖：官方資料唯讀、禁止人工覆寫、首次同步精靈、異動守門與資料分片",
+  "description": "台灣政治人物與選舉地圖：一鍵完整官方更新、首次同步精靈、異動守門、資料分片與官方頭貼本地化",
   "type": "module",
   "scripts": {
     "build:data": "node scripts/build-client-data.mjs",

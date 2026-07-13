@@ -3,12 +3,13 @@ import { readJson } from "./lib.mjs";
 const data = readJson("data/election-data.json");
 const errors = [];
 const warnings = [];
-const candidateRequired = ["id", "name", "countyId", "district", "electionType", "partyId", "sources"];
+const candidateRequired = ["id", "name", "countyId", "district", "electionType", "partyId", "judicial", "sources"];
 const officeholderRequired = ["id", "name", "roleId", "role", "partyId", "district", "status", "sources"];
 const allIds = new Set();
 const counties = new Set((data.counties || []).map((item) => item.id));
 const parties = new Set((data.parties || []).map((item) => item.id));
 const roles = new Map((data.roles || []).map((item) => [item.id, item]));
+const validJudicialStatuses = new Set(["pending", "verified-none", "public-record"]);
 
 if (!data.meta?.electionDate) errors.push("meta.electionDate 缺少");
 if (!data.meta?.portalName) errors.push("meta.portalName 缺少");
@@ -25,6 +26,7 @@ for (const candidate of data.candidates || []) {
   allIds.add(candidate.id);
   if (!counties.has(candidate.countyId)) errors.push(`${candidate.id}: countyId 不存在 (${candidate.countyId})`);
   if (!parties.has(candidate.partyId)) errors.push(`${candidate.id}: partyId 不存在 (${candidate.partyId})`);
+  if (!validJudicialStatuses.has(candidate.judicial?.status)) errors.push(`${candidate.id}: judicial.status 不合法`);
   if (!Array.isArray(candidate.sources) || candidate.sources.length === 0) errors.push(`${candidate.id}: 至少需要一個來源`);
   if (candidate.official && !candidate.demo && !candidate.sources.some((source) => /^https?:\/\//.test(source.url || ""))) {
     errors.push(`${candidate.id}: 官方候選人缺少有效來源網址`);
@@ -33,6 +35,13 @@ for (const candidate of data.candidates || []) {
     const photoUrl = candidate.photo.localUrl || candidate.photo.url;
     if (!photoUrl) errors.push(`${candidate.id}: photo 缺少 localUrl 或 url`);
     if (candidate.photo.official && !/^https?:\/\//.test(candidate.photo.sourceUrl || "")) errors.push(`${candidate.id}: 官方照片缺少 sourceUrl`);
+  }
+  if (candidate.judicial?.status === "public-record" && !candidate.demo) {
+    if (!candidate.verifiedAt) errors.push(`${candidate.id}: public-record 缺少 verifiedAt`);
+    for (const item of candidate.judicial.cases || []) {
+      for (const key of ["court", "caseNumber", "date", "result"]) if (!item[key]) errors.push(`${candidate.id}: 案件缺少 ${key}`);
+      if (typeof item.final !== "boolean") errors.push(`${candidate.id}: 案件 final 必須為 boolean`);
+    }
   }
 }
 

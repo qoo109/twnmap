@@ -49,9 +49,8 @@
     },
     "publishing": {
       "replaceDemoWhenOfficialCandidatesExist": true,
-      "requireOfficialSourceUrl": true,
-      "manualContentPolicy": "disabled",
-      "judicialMatchingPolicy": "disabled-unless-officially-linked"
+      "preserveManualJudicialRecords": true,
+      "requireOfficialSourceUrl": true
     }
   },
   "officeholderSources": {

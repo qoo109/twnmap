@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#f6f6f8" />
-  <title>資料管理 V6.2｜台灣政治人物與選舉地圖</title>
+  <title>資料管理 V6.1.1｜台灣政治人物與選舉地圖</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="admin.css" />
 </head>
@@ -12,44 +12,33 @@
   <header class="site-header">
     <div class="brand-wrap">
       <div class="brand-mark" aria-hidden="true">管</div>
-      <div><p class="eyebrow">OFFICIAL DATA ADMIN</p><h1>官方資料同步、驗證與異動管理</h1></div>
+      <div><p class="eyebrow">DATA ADMIN</p><h1>政治人物、同步、異動與歷屆資料管理</h1></div>
     </div>
     <div class="header-actions">
       <a class="icon-button header-link" href="index.html">返回網站</a>
-      <button class="icon-button" id="themeButton" type="button" aria-label="切換明暗模式">☼</button>
+      <button class="icon-button" id="themeButton" type="button">☼</button>
     </div>
   </header>
 
   <main class="admin-shell shell">
     <section class="admin-hero">
       <div>
-        <div class="status-pill"><span class="pulse"></span> 官方資料唯讀模式</div>
-        <h2>同步、驗證，再發布。</h2>
-        <p>每日 03:00 檢查總統府、立法院、內政部與中選會資料；每週日 03:20 匯入中選會核心歷屆資料。本後台不提供人工新增、改寫或匯入政治人物資料，避免政見、經歷、黨籍與司法資訊因主觀整理而產生錯誤。</p>
+        <div class="status-pill"><span class="pulse"></span> 管理操作集中於此頁</div>
+        <h2>匯入、檢查，再發布。</h2>
+        <p>每日 03:00 檢查總統府、立法院、內政部與中選會候選人；每週日 03:20 另外匯入中選會核心歷屆資料。這個頁面可觸發 GitHub Actions 立即同步。Token 只留在管理者瀏覽器，不寫進公開網站。</p>
       </div>
       <div class="admin-summary card">
         <div><span>現任公職</span><strong id="currentOfficeholderCount">—</strong></div>
-        <div><span>正式候選人</span><strong id="currentCandidateCount">—</strong></div>
+        <div><span>候選人</span><strong id="currentCandidateCount">—</strong></div>
         <div><span>歷屆結果</span><strong id="currentHistoryCount">—</strong></div>
         <div><span>官方歷屆</span><strong id="currentOfficialHistoryCount">—</strong></div>
-        <div><span>身分未自動合併</span><strong id="currentIdentityReviewCount">—</strong></div>
-        <div><span>官方來源</span><strong id="currentSourceCount">—</strong></div>
+        <div><span>身分待核對</span><strong id="currentIdentityReviewCount">—</strong></div>
+        <div><span>官方候選人</span><strong id="currentOfficialCount">—</strong></div>
+        <div><span>待司法查核</span><strong id="currentPendingCount">—</strong></div>
         <div><span>資料版本</span><strong id="currentVersion">—</strong></div>
       </div>
     </section>
 
-    <section class="admin-card card official-policy-card">
-      <div class="validation-heading">
-        <div><p class="eyebrow">OFFICIAL-ONLY POLICY</p><h3>公開資料使用原則</h3></div>
-        <span class="validation-state ok">已啟用</span>
-      </div>
-      <div class="review-rules">
-        <div><span>1</span><p>人物、職務、黨籍、選區及選舉結果，只採政府機關直接發布的資料。</p></div>
-        <div><span>2</span><p>政見與經歷僅在中選會選舉公報或政府官方人物頁直接提供時顯示，不自行摘要或補寫。</p></div>
-        <div><span>3</span><p>不以姓名搜尋或人工判斷連結司法裁判；沒有官方明確對應資料時，公開頁不顯示司法欄位。</p></div>
-        <div><span>4</span><p>不接受 CSV／JSON 人工匯入覆寫。格式對照表只用於解析官方欄位，不改變原始事實。</p></div>
-      </div>
-    </section>
 
     <section class="admin-health card">
       <div class="validation-heading"><div><p class="eyebrow">DATA HEALTH</p><h3>資料健康儀表板</h3></div><span class="validation-state" id="adminHealthState">檢查中</span></div>
@@ -57,35 +46,58 @@
       <p class="admin-health-note" id="adminHealthNote">顯示各官方來源最後成功時間、資料筆數與是否沿用上一版。</p>
     </section>
 
+
+
+
+
+    <section class="quick-full-sync card" id="quickFullSync">
+      <div class="quick-full-sync-copy">
+        <p class="eyebrow">ONE-CLICK OFFICIAL REFRESH</p>
+        <h3>立即完整更新</h3>
+        <p>一次執行現任公職、正式候選人、總統府／立法院／內政部來源、中選會核心歷屆、官方頭貼、異動報告與資料分片。歷屆年度使用官方資料庫可辨識的全部年份。</p>
+        <ul>
+          <li>一般約 10–30 分鐘；第一次同步或 GitHub Actions 排隊時可能更久。</li>
+          <li>更新成功後，GitHub Pages 通常再需 1–3 分鐘發布。</li>
+          <li>大量異常刪除會被安全門檻停止，不會直接覆蓋公開資料。</li>
+        </ul>
+      </div>
+      <div class="quick-full-sync-action">
+        <button class="accent-button quick-full-sync-button" id="quickFullSyncButton" type="button">立即完整更新</button>
+        <a class="secondary-button" href="DATA_LICENSE.md" target="_blank" rel="noopener">資料授權說明</a>
+        <div class="admin-sync-status" id="quickFullSyncStatus" role="status" aria-live="polite">請先在下方填入 GitHub repository 與 Token；按下後會直接執行核心完整同步。</div>
+      </div>
+    </section>
+
     <section class="first-sync card" id="firstSyncWizard">
       <div class="validation-heading">
         <div><p class="eyebrow">FIRST SYNC WIZARD</p><h3>第一次正式同步精靈</h3></div>
         <span class="validation-state" id="wizardOverallState">尚未開始</span>
       </div>
-      <p class="first-sync-intro">依序確認 GitHub 權限、同步現任與候選人、匯入核心歷屆，再驗證 repository 中的正式資料。</p>
+      <p class="first-sync-intro">依序完成四步，確認 GitHub 權限、匯入現任資料、匯入核心歷屆，再驗證公開網站真的已取得新版資料。每一步都可以重試。</p>
       <div class="wizard-steps">
         <article class="wizard-step" data-wizard-step="1"><span class="wizard-number">1</span><div><strong>檢查 GitHub 與工作流程</strong><p>確認 repository、分支、Token 權限與 daily-sync.yml 可用。</p><small id="wizardStep1Status">等待檢查</small></div><button class="secondary-button" id="wizardTestButton" type="button">開始檢查</button></article>
-        <article class="wizard-step" data-wizard-step="2"><span class="wizard-number">2</span><div><strong>同步現任公職與正式候選人</strong><p>只匯入官方來源；未公告的候選年度不會出現在公開頁。</p><small id="wizardStep2Status">等待步驟 1</small></div><button class="secondary-button" id="wizardCurrentButton" type="button" disabled>同步現任</button></article>
-        <article class="wizard-step" data-wizard-step="3"><span class="wizard-number">3</span><div><strong>匯入核心歷屆資料</strong><p>匯入總統、立委、縣市首長與議員等中選會正式紀錄。</p><small id="wizardStep3Status">等待現任同步</small></div><button class="secondary-button" id="wizardHistoryButton" type="button" disabled>同步核心歷屆</button></article>
-        <article class="wizard-step" data-wizard-step="4"><span class="wizard-number">4</span><div><strong>驗證正式發布資料</strong><p>讀取 repository 最新 election-data.json，檢查版本、筆數與同步時間。</p><small id="wizardStep4Status">等待資料發布</small></div><button class="primary-button" id="wizardVerifyButton" type="button" disabled>驗證發布</button></article>
+        <article class="wizard-step" data-wizard-step="2"><span class="wizard-number">2</span><div><strong>同步現任公職與正式候選人</strong><p>執行每日同步；尚未公告的候選年度不會出現在公開頁。</p><small id="wizardStep2Status">等待步驟 1</small></div><button class="secondary-button" id="wizardCurrentButton" type="button" disabled>同步現任</button></article>
+        <article class="wizard-step" data-wizard-step="3"><span class="wizard-number">3</span><div><strong>匯入核心歷屆資料</strong><p>匯入總統、立委、縣市首長與議員等核心歷屆紀錄。</p><small id="wizardStep3Status">等待現任同步</small></div><button class="secondary-button" id="wizardHistoryButton" type="button" disabled>同步核心歷屆</button></article>
+        <article class="wizard-step" data-wizard-step="4"><span class="wizard-number">4</span><div><strong>驗證公開資料</strong><p>讀取 repository 最新 election-data.json，檢查版本、筆數與同步時間。</p><small id="wizardStep4Status">等待資料發布</small></div><button class="primary-button" id="wizardVerifyButton" type="button" disabled>驗證發布</button></article>
       </div>
       <div class="wizard-result" id="wizardResult" role="status" aria-live="polite">填妥下方 GitHub repository 與 Token 後開始。</div>
     </section>
 
     <section class="change-dashboard card" id="changeDashboard">
-      <div class="validation-heading"><div><p class="eyebrow">CHANGE AUDIT</p><h3>最近一次官方資料異動</h3></div><span class="validation-state" id="changeGuardState">尚無報告</span></div>
+      <div class="validation-heading"><div><p class="eyebrow">CHANGE AUDIT</p><h3>最近一次資料異動</h3></div><span class="validation-state" id="changeGuardState">尚無報告</span></div>
       <div class="change-summary" id="changeSummary"></div>
       <div class="change-details" id="changeDetails"></div>
-      <p class="admin-health-note" id="changeGeneratedAt">首次同步後會建立新增、移除、黨籍／職務變更與照片更新紀錄。</p>
+      <p class="admin-health-note" id="changeGeneratedAt">首次同步後會自動建立新增、移除、黨籍／職務變更與照片更新紀錄。</p>
     </section>
 
     <section class="admin-grid">
+
       <article class="admin-card card admin-sync-card">
         <div class="admin-sync-heading">
           <div><p class="eyebrow">MANUAL OFFICIAL SYNC</p><h3>立即更新官方資料</h3></div>
           <span class="status-pill"><span class="pulse"></span> GitHub Actions</span>
         </div>
-        <p>不必等到排程時間。這個按鈕只會觸發既有的官方來源同步，不會接受或發布人工編輯內容。</p>
+        <p>不必等到每天 03:00。填入 repository 與 Fine-grained Token 後，可立即更新現任、正式候選人，或連同中選會歷屆資料一起更新。</p>
         <div class="admin-sync-form">
           <label>GitHub repository<input id="manualRepoInput" type="text" placeholder="qoo109/taiwan-political-map" autocomplete="off" /></label>
           <label>分支<input id="manualBranchInput" type="text" value="main" autocomplete="off" /></label>
@@ -95,36 +107,90 @@
           <label class="remember-token"><input id="manualRememberToken" type="checkbox" /><span>只記住在這台瀏覽器</span></label>
         </div>
         <div class="admin-sync-actions">
-          <button class="primary-button" id="manualDispatchButton" type="button">開始官方更新</button>
+          <button class="primary-button" id="manualDispatchButton" type="button">開始更新</button>
           <button class="secondary-button" id="manualOpenActionsButton" type="button">開啟 Actions</button>
           <button class="secondary-button" id="manualReloadButton" type="button">重新載入資料</button>
         </div>
         <div class="admin-sync-status" id="manualSyncStatus" role="status" aria-live="polite">尚未觸發更新。</div>
-        <p class="admin-security-note"><strong>安全：</strong>不要把 Token 寫進 repository。公用電腦請勿勾選記住。</p>
+        <p class="admin-security-note"><strong>安全：</strong>不要把 Token 寫進 repository。公用電腦請勿勾選記住，完成後也建議撤銷不再使用的 Token。</p>
+      </article>
+      <article class="admin-card card">
+        <p class="eyebrow">IMPORT</p>
+        <h3>匯入資料與頭貼</h3>
+        <p>支援完整的 <code>election-data.json</code>（包含現任公職、候選人及歷屆資料），或依範本製作的候選人 UTF-8 CSV；可填入官方照片網址、照片來源與授權註記。匯入後先在下方檢查，不會立刻覆寫檔案。</p>
+        <label class="file-drop" for="dataFile">
+          <input id="dataFile" type="file" accept=".json,.csv,.js,application/json,text/csv" />
+          <strong>選擇 JSON／CSV</strong>
+          <span id="fileName">尚未選擇檔案</span>
+        </label>
+        <div class="admin-actions">
+          <button class="primary-button" id="applyImport" type="button" disabled>驗證並套用</button>
+          <button class="secondary-button" id="resetWorkingData" type="button">恢復目前版本</button>
+        </div>
       </article>
 
       <article class="admin-card card">
+        <p class="eyebrow">EXPORT</p>
+        <h3>產生發布檔</h3>
+        <p>驗證成功後，下載兩個檔案並放回專案的 <code>data/</code> 資料夾；GitHub 推送後網站就會更新。</p>
+        <div class="export-list">
+          <button class="secondary-button" id="downloadJson" type="button">下載 election-data.json</button>
+          <button class="secondary-button" id="downloadJs" type="button">下載 candidates.js</button>
+          <button class="secondary-button" id="downloadTemplate" type="button">下載候選人 CSV 範本</button>
+          <button class="secondary-button" id="downloadHistoryTemplate" type="button">下載歷屆結果 CSV 範本</button>
+        </div>
+      </article>
+
+      
+      <article class="admin-card card">
         <p class="eyebrow">OFFICIAL CEC HISTORY</p>
         <h3>中選會歷屆自動匯入</h3>
-        <p>GitHub Actions 在雲端下載中選會官方壓縮檔、解析 Big5 檔名與 CSV，再建立人物、政黨與選區索引。</p>
+        <p>網站端不直接下載約百 MB 的官方壓縮檔；由 GitHub Actions 在雲端下載、解析 Big5 檔名與 CSV，再建立人物、政黨、選區索引。</p>
         <div class="review-rules">
-          <div><span>A</span><p><strong>core</strong>：總統、立委、縣市首長、議員。</p></div>
+          <div><span>A</span><p><strong>core</strong>：總統、立委、縣市首長、議員；適合一般網站使用。</p></div>
           <div><span>B</span><p><strong>local</strong>：再加入鄉鎮市長與代表。</p></div>
-          <div><span>C</span><p><strong>all</strong>：包含村里長，資料量最大。</p></div>
+          <div><span>C</span><p><strong>all</strong>：包含村里長，檔案和網站資料量會明顯增加。</p></div>
         </div>
         <p><code>npm run sync:history:official</code></p>
       </article>
+
+      <article class="admin-card card judicial-card">
+        <p class="eyebrow">JUDICIAL REVIEW</p>
+        <h3>司法資料發布門檻</h3>
+        <div class="review-rules">
+          <div><span>1</span><p>姓名相同不代表同一人，至少使用地區、職業、年齡或案件脈絡核身。</p></div>
+          <div><span>2</span><p>必填法院、案號、裁判日期、結果、審級與是否確定。</p></div>
+          <div><span>3</span><p>起訴、審理中、無罪與有罪必須分開，不能統稱「前科」。</p></div>
+          <div><span>4</span><p>司法院資料若撤下，網站也必須移除先前保存的內容。</p></div>
+        </div>
+      </article>
+    </section>
+
+    <section class="validation-card card">
+      <div class="validation-heading">
+        <div><p class="eyebrow">VALIDATION</p><h3>資料檢查結果</h3></div>
+        <span class="validation-state" id="validationState">尚未匯入</span>
+      </div>
+      <div id="validationOutput" class="validation-output">
+        <p>選擇檔案後，系統會檢查必要欄位、重複 ID、縣市／政黨對照、來源網址與司法資料格式；若為歷屆 CSV，會檢查年度、政黨、縣市、得票與當選欄位。</p>
+      </div>
+      <div class="preview-wrap">
+        <table class="preview-table">
+          <thead><tr><th>姓名</th><th>縣市／選區</th><th>政黨</th><th>資料性質</th><th>司法狀態</th></tr></thead>
+          <tbody id="previewBody"></tbody>
+        </table>
+      </div>
     </section>
 
     <section class="publish-guide card">
       <p class="eyebrow">PUBLISH</p>
-      <h3>官方資料發布流程</h3>
+      <h3>發布流程</h3>
       <ol>
-        <li>GitHub Actions 從政府官方來源取得資料。</li>
-        <li>執行格式驗證、人物身分比對與大量刪除保護。</li>
-        <li>驗證通過後，自動提交更新檔至 repository。</li>
-        <li>GitHub Pages 重新部署後，公開網站取得新版資料。</li>
-        <li>若來源失敗或異動異常，保留上一版並在後台顯示警示，不以人工內容補洞。</li>
+        <li>下載更新後的 <code>election-data.json</code> 與 <code>candidates.js</code>。</li>
+        <li>替換 repository 內 <code>data/</code> 的同名檔案。</li>
+        <li>執行 <code>npm run validate</code>，再提交到 GitHub。</li>
+        <li>GitHub Pages 重新部署後，網站即更新；下一次每日同步會更新官方現任名單，並保留人工覆核的候選人司法資料。</li>
+        <li>歷屆結果匯入後，可執行 <code>npm run sync:history</code> 重建人物軌跡、政黨席次與選區歷史索引。</li>
       </ol>
     </section>
   </main>

@@ -28,7 +28,7 @@
     county: urlParams.get("county") || "all",
     party: urlParams.get("party") || "all",
     role: urlParams.get("role") || "all",
-    record: "all",
+    record: urlParams.get("record") || "all",
     year: urlParams.get("year") || (availableHistoryYears.length ? String(availableHistoryYears[0]) : ""),
     historyType: urlParams.get("type") || "all",
     query: urlParams.get("q") || "",
@@ -166,6 +166,7 @@
     if (state.county !== "all") params.set("county", state.county);
     if (state.party !== "all") params.set("party", state.party);
     if (state.view === "officeholders" && state.role !== "all") params.set("role", state.role);
+    if (state.view === "candidates" && state.record !== "all") params.set("record", state.record);
     if (state.view === "history" && state.year) params.set("year", state.year);
     if (state.view === "history" && state.historyType !== "all") params.set("type", state.historyType);
     if (state.query.trim()) params.set("q", state.query.trim());
@@ -236,6 +237,7 @@
     if (state.town?.name) entries.push({ key: "town", label: state.town.name });
     if (state.party !== "all") entries.push({ key: "party", label: partyById.get(state.party)?.shortName || state.party });
     if (state.view === "officeholders" && state.role !== "all") entries.push({ key: "role", label: roleById.get(state.role)?.name || state.role });
+    if (state.view === "candidates" && state.record !== "all") entries.push({ key: "record", label: recordLabel(state.record) });
     if (state.view === "history" && state.year && state.year !== String(availableHistoryYears[0] || "")) entries.push({ key: "year", label: `${state.year} 年` });
     if (state.view === "history" && state.historyType !== "all") entries.push({ key: "historyType", label: roleById.get(state.historyType)?.name || state.historyType });
     return entries;
@@ -252,6 +254,7 @@
     if (key === "town") { state.town = null; if (state.county !== "all") focusMapOnCounty(state.county); }
     if (key === "party") { state.party = "all"; els.partySelect.value = "all"; }
     if (key === "role") { state.role = "all"; els.roleSelect.value = "all"; }
+    if (key === "record") { state.record = "all"; els.recordSelect.value = "all"; }
     if (key === "historyType") { state.historyType = "all"; if (els.historyTypeSelect) els.historyTypeSelect.value = "all"; }
     if (key === "year") { state.year = availableHistoryYears.length ? String(availableHistoryYears[0]) : ""; els.yearSelect.value = state.year; }
     renderAll();
@@ -286,6 +289,7 @@
       if (!ignoreParty && state.party !== "all" && item.partyId !== state.party) return false;
       if (state.view === "officeholders" && state.role !== "all" && item.roleId !== state.role) return false;
       if (state.view === "history" && state.historyType !== "all" && item.roleId !== state.historyType) return false;
+      if (state.view === "candidates" && state.record !== "all" && item.judicial?.status !== state.record) return false;
       if (state.town?.name) {
         const location = `${item.district || ""} ${item.organization || ""} ${item.town || ""}`;
         if (!location.includes(state.town.name)) return false;
@@ -783,6 +787,7 @@
     }).join("") || `<p style="color:var(--muted);font-size:.75rem">此篩選目前尚無地方資料；第一次每日同步後會自動補入。</p>`;
   }
 
+  function recordLabel(status) { return { pending: "司法資料待查核", "verified-none": "已核對，未列有罪判決", "public-record": "有公開裁判資料" }[status] || "未提供"; }
   function renderResults() {
     const items = filteredItems();
     els.peopleGrid.innerHTML = ""; els.emptyState.hidden = items.length > 0;
@@ -792,7 +797,7 @@
       const p = party(item); const r = role(item); const itemSources = safeArray(item.sources); const sourceDate = item.sourceUpdatedAt || item.officialUpdatedAt || item.verifiedAt || itemSources[0]?.date || "未標示";
       const trustLabel = itemSources.length ? "官方來源" : "來源待補";
       const subtitle = item.kind === "candidate" ? `${item.district || "選區待補"} · ${item.electionType || "選舉類型待補"}` : item.kind === "history" ? `${item.district || ""} · ${item.year || state.year}` : `${item.organization || item.district || "機關待補"}`;
-      const facts = item.kind === "candidate" ? [["號次", item.number ?? "待公告"], ["現任", item.incumbent ? "是" : "否／未提供"], ["來源", itemSources.length ? `${itemSources.length} 個官方來源` : "待官方同步"]] : item.kind === "history" ? [["得票", item.votes ?? "—"], ["得票率", item.voteRate != null ? `${item.voteRate}%` : "—"], ["結果", item.elected ? "當選" : "未當選"]] : [["地區", item.district || "全國"], ["就任", item.termStart || "未提供"], ["更新", sourceDate]];
+      const facts = item.kind === "candidate" ? [["號次", item.number ?? "待公告"], ["現任", item.incumbent ? "是" : "否／未提供"], ["司法", recordLabel(item.judicial?.status)]] : item.kind === "history" ? [["得票", item.votes ?? "—"], ["得票率", item.voteRate != null ? `${item.voteRate}%` : "—"], ["結果", item.elected ? "當選" : "未當選"]] : [["地區", item.district || "全國"], ["就任", item.termStart || "未提供"], ["更新", sourceDate]];
       return `<article class="person-card" style="--party-color:${escapeHtml(p.color)}">
         <div class="card-top"><span class="role-badge">${escapeHtml(r.name)}</span><span class="party-badge">${escapeHtml(p.shortName)}</span></div>
         <div class="person-identity">${avatarHtml(item)}<div><h3>${escapeHtml(item.name || "未命名")}</h3><p class="person-subtitle">${escapeHtml(subtitle)}</p></div></div>
@@ -890,6 +895,7 @@
     const fallback = getItemById(id); if (!fallback) return;
     const item = await loadPersonDetail(id, fallback);
     state.person = id; syncUrl(); const p = party(item); const r = role(item); const sources = safeArray(item.sources); const sourceUpdated = item.sourceUpdatedAt || item.officialUpdatedAt || item.verifiedAt || sources[0]?.date || "未標示";
+    const judicial = item.kind === "candidate" ? `<div class="modal-section"><h3>公開司法資料</h3><p><strong>${escapeHtml(recordLabel(item.judicial?.status))}</strong></p><p class="modal-subtitle">${escapeHtml(item.judicial?.summary || "尚未查核")}</p></div>` : "";
     const personHistory = historyRecordsFor(item);
     const historyTimeline = `<div class="modal-section"><h3>歷屆紀錄</h3>${personHistory.length ? `<div class="person-timeline">${personHistory.map(historyRecordHtml).join("")}</div>` : `<p class="modal-subtitle">尚未匯入此人的歷屆選舉紀錄。</p>`}<p class="modal-hint">注意：此處顯示的是「參選推薦政黨」與選舉結果，不必然等同實際黨籍。</p></div>`;
     const photo = photoInfo(item);
@@ -906,9 +912,10 @@
       ${item.education || item.experience ? `<div class="modal-section"><h3>公開簡歷</h3><div class="detail-list"><div class="detail-item"><span>學歷</span><strong>${safeArray(item.education).map(escapeHtml).join("<br>") || "未提供"}</strong></div><div class="detail-item"><span>經歷</span><strong>${safeArray(item.experience).map(escapeHtml).join("<br>") || "未提供"}</strong></div></div></div>` : ""}
       <div class="modal-section"><h3>人物識別與政黨軌跡</h3><div class="detail-list"><div class="detail-item"><span>人物識別</span><strong>${escapeHtml(item.identityStatus === "verified-official" || item.personKey ? "已建立人物索引" : "待建立人物索引")}</strong></div><div class="detail-item"><span>目前政黨</span><strong>${escapeHtml(p.name)}</strong></div></div>${partyTrail ? `<div class="party-trail">${partyTrail}</div><p class="modal-hint">歷屆欄位代表當次參選推薦政黨，不直接等同當時正式黨籍。</p>` : `<p class="modal-subtitle">尚未匯入可比對的歷屆政黨紀錄。</p>`}</div>
       <div class="modal-section"><h3>頭貼來源</h3>${photo.url ? `<a class="source-link" href="${escapeHtml(photo.sourceUrl || photo.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(photo.sourceLabel)} ↗</a><p class="modal-hint">${escapeHtml([photo.credit, photo.license, photo.verifiedAt ? `查核 ${photo.verifiedAt}` : ""].filter(Boolean).join(" · "))}</p>` : `<p class="modal-subtitle">目前沒有可確認來源的頭貼，介面以姓名縮寫替代。</p>`}</div>
+      ${judicial}
       ${historyTimeline}
       <div class="modal-section"><h3>官方來源</h3>${sources.length ? sources.map((source) => `<a class="source-link" href="${escapeHtml(source.url || "#")}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.label || "官方來源")} ${source.date ? `· ${escapeHtml(source.date)}` : ""} ↗</a>`).join("") : `<p class="modal-subtitle">尚未提供來源。</p>`}</div>
-      <div class="modal-section report-section"><div><h3>發現資料有誤？</h3><p class="modal-subtitle">回報用於核對官方來源，不會直接改動公開資料或加入非官方內容。</p></div><button class="secondary-button" id="reportPersonButton" type="button">回報資料錯誤</button></div>`;
+      <div class="modal-section report-section"><div><h3>發現資料有誤？</h3><p class="modal-subtitle">回報只會進入待審核，不會直接改動公開資料。</p></div><button class="secondary-button" id="reportPersonButton" type="button">回報資料錯誤</button></div>`;
     els.personDialogContent.querySelector("#reportPersonButton")?.addEventListener("click", () => reportPersonIssue(item));
     els.personDialog.showModal();
   }
