@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T16:05:20.189Z",
+  "generatedAt": "2026-07-13T16:53:46.437Z",
   "person": {
     "id": "legislator-王安祥-5e32655e",
     "official": true,
@@ -13,14 +13,14 @@
     "organization": "立法院",
     "termStart": "2026-02-03",
     "status": "incumbent",
-    "sourceUpdatedAt": "2026-07-13",
+    "sourceUpdatedAt": "2026-07-14",
     "photo": {
       "url": "https://www.ly.gov.tw/Images/Legislators/110119.jpg",
       "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56418",
       "sourceLabel": "立法院官方照片：王安祥",
       "credit": "立法院",
       "official": true,
-      "retrievedAt": "2026-07-13T15:59:43.107Z",
+      "retrievedAt": "2026-07-13T16:48:45.935Z",
       "localUrl": "assets/portraits/cache/legislator-王安祥-5e32655e-0790beeb543577e9.webp",
       "cachedFormat": "webp",
       "cachedWidth": 390,
@@ -30,8 +30,8 @@
       {
         "label": "立法院本屆立委：王安祥",
         "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56418",
-        "date": "2026-07-13",
-        "retrievedAt": "2026-07-13T15:59:43.107Z"
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-13T16:48:45.935Z"
       }
     ],
     "gender": "男"

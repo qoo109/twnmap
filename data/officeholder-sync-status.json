@@ -3,9 +3,9 @@
   "schedule": "daily",
   "timezone": "Asia/Taipei",
   "plannedTime": "03:00",
-  "lastAttemptAt": "2026-07-13T15:59:43.107Z",
-  "lastSuccessAt": "2026-07-13T15:59:43.107Z",
-  "lastOfficialChangeAt": "2026-07-13T15:59:43.107Z",
+  "lastAttemptAt": "2026-07-13T16:48:45.935Z",
+  "lastSuccessAt": "2026-07-13T16:48:45.935Z",
+  "lastOfficialChangeAt": "2026-07-13T16:48:45.935Z",
   "officeholderCount": 117,
   "localOfficeholderCount": 0,
   "legislatorCount": 115,
@@ -39,7 +39,7 @@
       "name": "總統",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://www.president.gov.tw/Page/694"
     },
     {
@@ -47,15 +47,15 @@
       "name": "副總統",
       "status": "ok",
       "count": 1,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://www.president.gov.tw/Page/695"
     },
     {
       "id": "county-councilor-csv",
       "name": "county-councilor-csv",
-      "status": "parsed",
-      "count": 16,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "status": "fallback-needed",
+      "count": 0,
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/AE72C2EA-ED1E-459A-B48A-D38EDF6B500B/resource/4DA332C5-A7DB-408D-92F6-FA80C4A2475E/download"
     },
     {
@@ -63,15 +63,15 @@
       "name": "municipal-councilor-csv",
       "status": "fallback-needed",
       "count": 0,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/3965DD10-D052-4EBA-9FD6-D09EAA79CEF0/resource/4B82ECF5-0CA6-4705-8797-CDAF5315872A/download"
     },
     {
       "id": "township-representative-csv",
       "name": "township-representative-csv",
-      "status": "parsed",
-      "count": 16,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "status": "fallback-needed",
+      "count": 0,
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/BCDE60BE-666F-43FF-BA53-276642310616/resource/EEC5F74F-0325-4D91-B976-327320C41230/download"
     },
     {
@@ -79,7 +79,7 @@
       "name": "municipal-mayor-csv",
       "status": "fallback-needed",
       "count": 0,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/55BDF455-83C3-48A1-95DB-2C2A94EC8CD1/resource/094C3724-BD6D-403E-B7EA-42CAF221B82B/download"
     },
     {
@@ -87,7 +87,7 @@
       "name": "county-mayor-csv",
       "status": "fallback-needed",
       "count": 0,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/F108D256-4986-48FB-BD50-070324AC5C10/resource/776C6DA0-DF47-40A6-B73E-EA7D02ECF620/download"
     },
     {
@@ -95,7 +95,7 @@
       "name": "township-mayor-csv",
       "status": "fallback-needed",
       "count": 0,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/5CD858EF-EFDC-4421-9C76-E2C1C4D1CFDF/resource/7F89EA18-9B44-4E4F-8EE2-7D3292239D4E/download"
     },
     {
@@ -103,7 +103,7 @@
       "name": "village-chief-csv",
       "status": "fallback-needed",
       "count": 0,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://opdadm.moi.gov.tw/api/v1/no-auth/resource/api/dataset/28BBC192-30FF-4A3E-98E6-1BD6742D5C4F/resource/2C40659F-6771-4292-A024-5A894D2A34EC/download"
     },
     {
@@ -111,7 +111,7 @@
       "name": "立法院本屆立委",
       "status": "ok",
       "count": 115,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=109"
     },
     {
@@ -119,7 +119,7 @@
       "name": "直轄市議員",
       "status": "preserved-previous",
       "count": 0,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573",
       "message": "僅解析到 0 位，低於安全門檻"
     },
@@ -128,7 +128,7 @@
       "name": "縣市議員",
       "status": "preserved-previous",
       "count": 0,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574",
       "message": "僅解析到 0 位，低於安全門檻"
     },
@@ -137,7 +137,7 @@
       "name": "鄉鎮市民代表",
       "status": "preserved-previous",
       "count": 0,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575",
       "message": "僅解析到 0 位，低於安全門檻"
     },
@@ -146,7 +146,7 @@
       "name": "直轄市原住民區代表",
       "status": "preserved-previous",
       "count": 0,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576",
       "message": "僅解析到 0 位，低於安全門檻"
     },
@@ -155,7 +155,7 @@
       "name": "直轄市長",
       "status": "preserved-previous",
       "count": 0,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0004&n=578",
       "message": "僅解析到 0 位，低於安全門檻"
     },
@@ -164,7 +164,7 @@
       "name": "縣市長",
       "status": "preserved-previous",
       "count": 0,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0005&n=579",
       "message": "僅解析到 0 位，低於安全門檻"
     },
@@ -173,7 +173,7 @@
       "name": "鄉鎮市長",
       "status": "preserved-previous",
       "count": 0,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580",
       "message": "僅解析到 0 位，低於安全門檻"
     },
@@ -182,7 +182,7 @@
       "name": "村里長",
       "status": "preserved-previous",
       "count": 0,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577",
       "message": "僅解析到 0 位，低於安全門檻"
     },
@@ -191,7 +191,7 @@
       "name": "直轄市原住民區長",
       "status": "preserved-previous",
       "count": 0,
-      "checkedAt": "2026-07-13T15:59:43.107Z",
+      "checkedAt": "2026-07-13T16:48:45.935Z",
       "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0009&n=581",
       "message": "僅解析到 0 位，低於安全門檻"
     }

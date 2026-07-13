@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T16:05:20.189Z",
+  "generatedAt": "2026-07-13T16:53:46.437Z",
   "countyId": "changhua",
   "officeholders": [
     {
@@ -15,14 +15,14 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-13",
+      "sourceUpdatedAt": "2026-07-14",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110064.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46814",
         "sourceLabel": "立法院官方照片：陳秀寳",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T15:59:43.107Z",
+        "retrievedAt": "2026-07-13T16:48:45.935Z",
         "localUrl": "assets/portraits/cache/legislator-陳秀寳-db4a3831-ff22ea34f39500f7.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -32,8 +32,8 @@
         {
           "label": "立法院本屆立委：陳秀寳",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46814",
-          "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T15:59:43.107Z"
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-13T16:48:45.935Z"
         }
       ],
       "gender": "女"
@@ -51,14 +51,14 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-13",
+      "sourceUpdatedAt": "2026-07-14",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110069.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46818",
         "sourceLabel": "立法院官方照片：陳素月",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T15:59:43.107Z",
+        "retrievedAt": "2026-07-13T16:48:45.935Z",
         "localUrl": "assets/portraits/cache/legislator-陳素月-6387a7ac-a44f4a84c4119e73.webp",
         "cachedFormat": "webp",
         "cachedWidth": 624,
@@ -68,8 +68,8 @@
         {
           "label": "立法院本屆立委：陳素月",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46818",
-          "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T15:59:43.107Z"
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-13T16:48:45.935Z"
         }
       ],
       "gender": "女"
@@ -87,14 +87,14 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-13",
+      "sourceUpdatedAt": "2026-07-14",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110080.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46828",
         "sourceLabel": "立法院官方照片：黃秀芳",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T15:59:43.107Z",
+        "retrievedAt": "2026-07-13T16:48:45.935Z",
         "localUrl": "assets/portraits/cache/legislator-黃秀芳-e5f86414-af42799e5ea437b1.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -104,8 +104,8 @@
         {
           "label": "立法院本屆立委：黃秀芳",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46828",
-          "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T15:59:43.107Z"
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-13T16:48:45.935Z"
         }
       ],
       "gender": "女"
@@ -123,14 +123,14 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-13",
+      "sourceUpdatedAt": "2026-07-14",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110103.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46851",
         "sourceLabel": "立法院官方照片：謝衣鳯",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T15:59:43.107Z",
+        "retrievedAt": "2026-07-13T16:48:45.935Z",
         "localUrl": "assets/portraits/cache/legislator-謝衣鳯-b31da483-64c8a8899c8b5298.webp",
         "cachedFormat": "webp",
         "cachedWidth": 633,
@@ -140,8 +140,8 @@
         {
           "label": "立法院本屆立委：謝衣鳯",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46851",
-          "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T15:59:43.107Z"
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-13T16:48:45.935Z"
         }
       ],
       "gender": "女"

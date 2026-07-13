@@ -3,8 +3,8 @@
   "timezone": "Asia/Taipei",
   "plannedTime": "03:00",
   "status": "waiting-official-release",
-  "lastAttemptAt": "2026-07-13T15:59:42.202Z",
-  "lastSuccessAt": "2026-07-13T15:59:42.202Z",
+  "lastAttemptAt": "2026-07-13T16:48:44.882Z",
+  "lastSuccessAt": "2026-07-13T16:48:44.882Z",
   "lastOfficialChangeAt": null,
   "officialCandidateCount": 0,
   "demoCandidateCount": 0,
@@ -19,7 +19,7 @@
       "homepageUrl": "https://data.gov.tw/dataset/13119",
       "metadataUrl": "https://data.gov.tw/api/v2/rest/dataset/13119",
       "status": "ok",
-      "checkedAt": "2026-07-13T15:59:42.202Z",
+      "checkedAt": "2026-07-13T16:48:44.882Z",
       "resourceCount": 1,
       "matchingResourceCount": 0
     },
@@ -29,7 +29,7 @@
       "homepageUrl": "https://data.gov.tw/dataset/27647",
       "metadataUrl": "https://data.gov.tw/api/v2/rest/dataset/27647",
       "status": "ok",
-      "checkedAt": "2026-07-13T15:59:42.202Z",
+      "checkedAt": "2026-07-13T16:48:44.882Z",
       "resourceCount": 8,
       "matchingResourceCount": 0
     }

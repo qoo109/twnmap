@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T16:05:20.189Z",
+  "generatedAt": "2026-07-13T16:53:46.437Z",
   "countyId": "tainan",
   "officeholders": [
     {
@@ -15,14 +15,14 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-13",
+      "sourceUpdatedAt": "2026-07-14",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110005.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46760",
         "sourceLabel": "立法院官方照片：王定宇",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T15:59:43.107Z",
+        "retrievedAt": "2026-07-13T16:48:45.935Z",
         "localUrl": "assets/portraits/cache/legislator-王定宇-f4af43a9-972dc89aec49844d.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -32,8 +32,8 @@
         {
           "label": "立法院本屆立委：王定宇",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46760",
-          "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T15:59:43.107Z"
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-13T16:48:45.935Z"
         }
       ],
       "gender": "男"
@@ -51,14 +51,14 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-13",
+      "sourceUpdatedAt": "2026-07-14",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110026.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46779",
         "sourceLabel": "立法院官方照片：林宜瑾",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T15:59:43.107Z",
+        "retrievedAt": "2026-07-13T16:48:45.935Z",
         "localUrl": "assets/portraits/cache/legislator-林宜瑾-203d29aa-5967e41a1d26d087.webp",
         "cachedFormat": "webp",
         "cachedWidth": 630,
@@ -68,8 +68,8 @@
         {
           "label": "立法院本屆立委：林宜瑾",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46779",
-          "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T15:59:43.107Z"
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-13T16:48:45.935Z"
         }
       ],
       "gender": "女"
@@ -87,14 +87,14 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-13",
+      "sourceUpdatedAt": "2026-07-14",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110028.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46781",
         "sourceLabel": "立法院官方照片：林俊憲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T15:59:43.107Z",
+        "retrievedAt": "2026-07-13T16:48:45.935Z",
         "localUrl": "assets/portraits/cache/legislator-林俊憲-7325ad0c-b9f5ca0a1505ccc2.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -104,8 +104,8 @@
         {
           "label": "立法院本屆立委：林俊憲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46781",
-          "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T15:59:43.107Z"
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-13T16:48:45.935Z"
         }
       ],
       "gender": "男"
@@ -123,14 +123,14 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-13",
+      "sourceUpdatedAt": "2026-07-14",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110061.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46811",
         "sourceLabel": "立法院官方照片：郭國文",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T15:59:43.107Z",
+        "retrievedAt": "2026-07-13T16:48:45.935Z",
         "localUrl": "assets/portraits/cache/legislator-郭國文-9dc697a7-9779a424bc0536d1.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -140,8 +140,8 @@
         {
           "label": "立法院本屆立委：郭國文",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46811",
-          "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T15:59:43.107Z"
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-13T16:48:45.935Z"
         }
       ],
       "gender": "男"
@@ -159,14 +159,14 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-13",
+      "sourceUpdatedAt": "2026-07-14",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110065.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46815",
         "sourceLabel": "立法院官方照片：陳亭妃",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T15:59:43.107Z",
+        "retrievedAt": "2026-07-13T16:48:45.935Z",
         "localUrl": "assets/portraits/cache/legislator-陳亭妃-93fa4653-fc5e73b032d503e3.webp",
         "cachedFormat": "webp",
         "cachedWidth": 413,
@@ -176,8 +176,8 @@
         {
           "label": "立法院本屆立委：陳亭妃",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46815",
-          "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T15:59:43.107Z"
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-13T16:48:45.935Z"
         }
       ],
       "gender": "女"
@@ -195,14 +195,14 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-13",
+      "sourceUpdatedAt": "2026-07-14",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110101.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46849",
         "sourceLabel": "立法院官方照片：賴惠員",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T15:59:43.107Z",
+        "retrievedAt": "2026-07-13T16:48:45.935Z",
         "localUrl": "assets/portraits/cache/legislator-賴惠員-06ed64af-793c478cc74329af.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -212,8 +212,8 @@
         {
           "label": "立法院本屆立委：賴惠員",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46849",
-          "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T15:59:43.107Z"
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-13T16:48:45.935Z"
         }
       ],
       "gender": "女"

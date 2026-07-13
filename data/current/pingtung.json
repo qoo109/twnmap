@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T16:05:20.189Z",
+  "generatedAt": "2026-07-13T16:53:46.437Z",
   "countyId": "pingtung",
   "officeholders": [
     {
@@ -15,14 +15,14 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-13",
+      "sourceUpdatedAt": "2026-07-14",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110047.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46798",
         "sourceLabel": "立法院官方照片：徐富癸",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T15:59:43.107Z",
+        "retrievedAt": "2026-07-13T16:48:45.935Z",
         "localUrl": "assets/portraits/cache/legislator-徐富癸-0df8a1d4-9799a20f3c520222.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -32,8 +32,8 @@
         {
           "label": "立法院本屆立委：徐富癸",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46798",
-          "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T15:59:43.107Z"
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-13T16:48:45.935Z"
         }
       ],
       "gender": "男"
@@ -51,14 +51,14 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-13",
+      "sourceUpdatedAt": "2026-07-14",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110105.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46853",
         "sourceLabel": "立法院官方照片：鍾佳濱",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-13T15:59:43.107Z",
+        "retrievedAt": "2026-07-13T16:48:45.935Z",
         "localUrl": "assets/portraits/cache/legislator-鍾佳濱-a81ad8bd-9eb6d45ca3669fbb.webp",
         "cachedFormat": "webp",
         "cachedWidth": 622,
@@ -68,8 +68,8 @@
         {
           "label": "立法院本屆立委：鍾佳濱",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46853",
-          "date": "2026-07-13",
-          "retrievedAt": "2026-07-13T15:59:43.107Z"
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-13T16:48:45.935Z"
         }
       ],
       "gender": "男"

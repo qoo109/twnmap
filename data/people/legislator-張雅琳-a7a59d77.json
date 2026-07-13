@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T16:05:20.189Z",
+  "generatedAt": "2026-07-13T16:53:46.437Z",
   "person": {
     "id": "legislator-張雅琳-a7a59d77",
     "official": true,
@@ -13,14 +13,14 @@
     "organization": "立法院",
     "termStart": "2024-02-01",
     "status": "incumbent",
-    "sourceUpdatedAt": "2026-07-13",
+    "sourceUpdatedAt": "2026-07-14",
     "photo": {
       "url": "https://www.ly.gov.tw/Images/Legislators/110055.jpg",
       "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46805",
       "sourceLabel": "立法院官方照片：張雅琳",
       "credit": "立法院",
       "official": true,
-      "retrievedAt": "2026-07-13T15:59:43.107Z",
+      "retrievedAt": "2026-07-13T16:48:45.935Z",
       "localUrl": "assets/portraits/cache/legislator-張雅琳-a7a59d77-87d2914692c7233d.webp",
       "cachedFormat": "webp",
       "cachedWidth": 622,
@@ -30,8 +30,8 @@
       {
         "label": "立法院本屆立委：張雅琳",
         "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46805",
-        "date": "2026-07-13",
-        "retrievedAt": "2026-07-13T15:59:43.107Z"
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-13T16:48:45.935Z"
       }
     ],
     "gender": "女"
