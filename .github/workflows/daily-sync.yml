@@ -1,26 +1,24 @@
 name: Daily official data sync
-run-name: ${{ github.event_name == 'workflow_dispatch' && 'Manual official data sync' || 'Daily official data sync' }}
+run-name: ${{ github.event_name == 'workflow_dispatch' && format('Manual official data sync · {0}', inputs.officeholder_batch) || 'Scheduled official data sync' }}
 
 on:
   schedule:
-    # GitHub cron uses UTC. 19:00 UTC = 03:00 the next day in Asia/Taipei.
+    # UTC → Asia/Taipei: 03:00 core, 03:40 representatives, 04:20 village chiefs.
     - cron: "0 19 * * *"
+    - cron: "40 19 * * *"
+    - cron: "20 20 * * *"
   workflow_dispatch:
     inputs:
-      reason:
-        description: "Why this workflow was triggered"
-        required: false
-        default: "manual-refresh"
-      officeholder_scope:
-        description: "現任公職範圍；full 會抓取議員、首長、代表、原住民區與村里長全部頁面"
+      officeholder_batch:
+        description: "現任公職批次；all 建議只在測試時使用，日常排程會自動分三批"
         required: true
-        default: "full"
+        default: "core"
         type: choice
-        options: [full, standard]
+        options: [core, representatives, village, all]
       history_scope:
-        description: "歷屆資料範圍；排程執行時固定為 none，手動完整更新可選 all"
+        description: "歷屆資料範圍；現任同步測試請選 none"
         required: true
-        default: "all"
+        default: "none"
         type: choice
         options: [none, core, local, all]
       history_years:
@@ -38,7 +36,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 100
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -53,18 +51,56 @@ jobs:
           python-version: "3.12"
       - name: Install project metadata
         run: npm ci --ignore-scripts
+      - name: Resolve scheduled batch
+        shell: bash
+        env:
+          MANUAL_BATCH: ${{ inputs.officeholder_batch }}
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            BATCH="${MANUAL_BATCH:-core}"
+          elif [ "$EVENT_SCHEDULE" = "0 19 * * *" ]; then
+            BATCH="core"
+          elif [ "$EVENT_SCHEDULE" = "40 19 * * *" ]; then
+            BATCH="representatives"
+          else
+            BATCH="village"
+          fi
+          case "$BATCH" in
+            core)
+              FILTER="president,vice-president,legislator,municipal-mayor,county-mayor,municipal-councilor,county-councilor,township-mayor,indigenous-district-mayor"
+              ;;
+            representatives)
+              FILTER="township-representative,indigenous-district-representative"
+              ;;
+            village)
+              FILTER="village-chief"
+              ;;
+            all)
+              FILTER=""
+              ;;
+            *)
+              echo "Unknown batch: $BATCH" >&2
+              exit 1
+              ;;
+          esac
+          echo "OFFICEHOLDER_BATCH=$BATCH" >> "$GITHUB_ENV"
+          echo "OFFICEHOLDER_ROLE_FILTER=$FILTER" >> "$GITHUB_ENV"
+          echo "Resolved batch: $BATCH"
+          echo "Role filter: ${FILTER:-all}"
       - name: Verify MOI local-office parser fixture
         run: npm run test:moi-parser
-      - name: Install image tools
-        run: python -m pip install --disable-pip-version-check pillow
       - name: Preserve previous public data
         run: cp data/election-data.json /tmp/election-data-before.json
       - name: Sync current official data
         env:
-          OFFICEHOLDER_SCOPE: ${{ github.event_name == 'workflow_dispatch' && inputs.officeholder_scope || 'full' }}
-          MOI_REQUEST_DELAY_MS: "180"
-          MOI_FETCH_RETRIES: "3"
-          MOI_PAGE_CONCURRENCY: "3"
+          OFFICEHOLDER_SCOPE: "full"
+          OFFICEHOLDER_ROLE_FILTER: ${{ env.OFFICEHOLDER_ROLE_FILTER }}
+          MOI_DATASET_MODE: "skip"
+          MOI_FAST_PROBE: "1"
+          MOI_REQUEST_DELAY_MS: "80"
+          MOI_FETCH_RETRIES: "2"
+          MOI_PAGE_CONCURRENCY: "5"
           MOI_HARD_PAGE_CAP: "600"
         run: npm run sync
       - name: Show MOI local-office diagnostics
@@ -72,7 +108,7 @@ jobs:
         shell: bash
         run: |
           if [ -f data/reports/moi-parser-diagnostics.json ]; then
-            node -e 'const d=require("./data/reports/moi-parser-diagnostics.json"); for (const x of d.diagnostics||[]) console.log(`${x.name}: ${x.count} records, ${x.pagesFetched||0}/${x.pagesPlanned||0} pages, page size ${x.selectedPageSize||"?"}`)'
+            node -e 'const d=require("./data/reports/moi-parser-diagnostics.json"); for (const x of d.diagnostics||[]) console.log(`${x.name}: ${x.count} records, ${x.pagesFetched||0}/${x.pagesPlanned||0} pages`)'
           else
             echo "No MOI diagnostics file was generated."
           fi
@@ -80,10 +116,10 @@ jobs:
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
-          name: moi-parser-diagnostics
+          name: moi-parser-diagnostics-${{ env.OFFICEHOLDER_BATCH }}
           path: data/reports/moi-parser-diagnostics.json
           if-no-files-found: ignore
-          retention-days: 7
+          retention-days: 14
       - name: Sync official CEC history when requested
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.history_scope != 'none' }}
         env:
@@ -91,30 +127,42 @@ jobs:
           CEC_HISTORY_YEARS: ${{ inputs.history_years }}
           CEC_HISTORY_REFRESH: "1"
         run: npm run sync:history:official
-      - name: Localize official portraits
-        run: npm run cache:portraits
       - name: Build history indexes
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.history_scope != 'none' }}
         run: npm run sync:history
       - name: Generate change report and guard mass deletion
         env:
           BEFORE_DATA_PATH: /tmp/election-data-before.json
           CHANGE_GUARD: "1"
         run: npm run report:changes
-      - name: Build county and person shards
+      - name: Build optimized county and person shards
         run: npm run build:shards
       - name: Build browser data
         run: npm run build:data
       - name: Validate generated files
         run: npm run validate
+      - name: Upload current-data backup
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: current-data-backup-${{ env.OFFICEHOLDER_BATCH }}-${{ github.run_number }}
+          path: |
+            data/election-data.json
+            data/officeholder-sync-status.json
+            data/sync-status.json
+            data/change-log/latest.json
+            data/reports/moi-parser-diagnostics.json
+          if-no-files-found: warn
+          retention-days: 14
       - name: Commit changed data
         shell: bash
         run: |
           git config user.name "election-data-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data assets/portraits/cache
+          git add data
           if git diff --cached --quiet; then
             echo "No data changes to commit."
             exit 0
           fi
-          git commit -m "data: official sync $(TZ=Asia/Taipei date +%F)"
+          git commit -m "data: official ${OFFICEHOLDER_BATCH} sync $(TZ=Asia/Taipei date +%F)"
           git push

@@ -1,0 +1,72 @@
+name: Weekly CEC history sync
+run-name: Weekly CEC core history sync
+
+on:
+  schedule:
+    # Saturday 20:20 UTC = Sunday 05:20 in Asia/Taipei.
+    - cron: "20 21 * * 6"
+  workflow_dispatch:
+    inputs:
+      history_scope:
+        description: "歷屆匯入範圍"
+        required: true
+        default: "core"
+        type: choice
+        options: [core, local, all]
+      history_years:
+        description: "西元年度，以逗號分隔；all 代表全部"
+        required: false
+        default: "2014,2018,2020,2022,2024"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: election-data-sync
+  cancel-in-progress: false
+
+jobs:
+  history:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: npm ci --ignore-scripts
+      - run: python -m pip install --disable-pip-version-check pillow
+      - name: Preserve previous public data
+        run: cp data/election-data.json /tmp/election-data-before.json
+      - name: Import official CEC history
+        env:
+          CEC_HISTORY_SCOPE: ${{ github.event.inputs.history_scope || 'core' }}
+          CEC_HISTORY_YEARS: ${{ github.event.inputs.history_years || '2014,2018,2020,2022,2024' }}
+          CEC_HISTORY_REFRESH: "1"
+        run: npm run sync:history:official
+      - run: npm run cache:portraits
+      - run: npm run sync:history
+      - name: Generate change report
+        env:
+          BEFORE_DATA_PATH: /tmp/election-data-before.json
+          CHANGE_GUARD: "1"
+        run: npm run report:changes
+      - run: npm run build:shards
+      - run: npm run build:data
+      - run: npm run validate
+      - name: Commit historical data
+        shell: bash
+        run: |
+          git config user.name "election-data-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data assets/portraits/cache
+          if git diff --cached --quiet; then
+            echo "No historical data changes to commit."
+            exit 0
+          fi
+          git commit -m "data: weekly CEC history sync $(TZ=Asia/Taipei date +%F)"
+          git push

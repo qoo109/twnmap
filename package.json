@@ -1,6 +1,6 @@
 {
-  "name": "taiwan-election-report-v6-1-7",
-  "version": "6.1.7",
+  "name": "taiwan-election-report-v6-1-8",
+  "version": "6.1.8",
   "private": true,
   "description": "台灣選舉報報：官方現任、候選人與歷屆資料同步，依政黨分組並支援全資料抓取",
   "type": "module",

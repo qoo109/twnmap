@@ -1,0 +1,22 @@
+台灣選舉報報 V6.1.8 安裝
+
+1. GitHub Desktop → twnmap → Show in Finder。
+2. 將修正包內全部內容拖進正式 twnmap。
+3. 資料夾選「合併」，同名檔案選「取代」。
+4. GitHub Desktop Summary：
+   Split local official sync into safe batches
+5. Commit to main → Push origin。
+
+首次補齊資料請依序手動執行三次：
+A. Daily official data sync → officeholder_batch：core → history_scope：none
+B. Daily official data sync → officeholder_batch：representatives → history_scope：none
+C. Daily official data sync → officeholder_batch：village → history_scope：none
+
+每一批完成並出現綠色勾勾後，再執行下一批。
+之後排程會每天自動分三批執行，不需要手動選擇。
+
+新排程（台灣時間）：
+03:00 核心公職
+03:40 鄉鎮市民代表與原住民區代表
+04:20 村里長
+每週日 05:20 中選會歷屆資料

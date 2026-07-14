@@ -36,6 +36,14 @@ const moiFetchRetries = Math.max(1, Number(process.env.MOI_FETCH_RETRIES || 3));
 const moiPageConcurrency = Math.max(1, Math.min(5, Number(process.env.MOI_PAGE_CONCURRENCY || 3)));
 const moiHardPageCap = Math.max(1, Number(process.env.MOI_HARD_PAGE_CAP || 600));
 const standardLocalRoles = new Set(["municipal-councilor", "county-councilor", "municipal-mayor", "county-mayor", "township-mayor"]);
+const requestedRoleFilter = new Set(String(process.env.OFFICEHOLDER_ROLE_FILTER || "")
+  .split(",")
+  .map((value) => value.trim())
+  .filter(Boolean));
+const hasRoleFilter = requestedRoleFilter.size > 0;
+const includeRole = (roleId) => !hasRoleFilter || requestedRoleFilter.has(roleId);
+const moiDatasetMode = String(process.env.MOI_DATASET_MODE || "skip").toLowerCase();
+const moiFastProbe = String(process.env.MOI_FAST_PROBE || "1") !== "0";
 
 function sleep(ms) { return new Promise((resolve) => setTimeout(resolve, ms)); }
 
@@ -493,13 +501,18 @@ async function probeMoiFirstPage(source) {
         const html = await fetchMoiHtml(url);
         const parsed = parseMoiPage(html, source, url);
         candidates.push({ url, pageSize, includeSms, htmlLength: html.length, ...parsed });
-        if (parsed.items.length >= Math.min(pageSize, 50)) break;
+        const totalRecords = Number(parsed.diagnostics?.totalRecords || 0);
+        const completeFirstPage = parsed.items.length > 0 && totalRecords > 0 && totalRecords <= pageSize && parsed.items.length >= Math.max(1, totalRecords - 3);
+        const healthyLargePage = parsed.items.length >= Math.min(pageSize, 50);
+        if (moiFastProbe && (completeFirstPage || healthyLargePage)) break;
       } catch (error) {
         candidates.push({ url, pageSize, includeSms, items: [], totalPages: 1, diagnostics: { error: error.message } });
       }
     }
     const bestNow = candidates.reduce((best, item) => (item.items?.length || 0) > (best.items?.length || 0) ? item : best, candidates[0] || { items: [] });
-    if ((bestNow.items?.length || 0) >= Math.min(pageSize, 50)) break;
+    const bestTotal = Number(bestNow.diagnostics?.totalRecords || 0);
+    const bestComplete = (bestNow.items?.length || 0) > 0 && bestTotal > 0 && bestTotal <= pageSize && (bestNow.items?.length || 0) >= Math.max(1, bestTotal - 3);
+    if (moiFastProbe && (bestComplete || (bestNow.items?.length || 0) >= Math.min(pageSize, 50))) break;
   }
   candidates.sort((a, b) => (b.items?.length || 0) - (a.items?.length || 0));
   const best = candidates[0] || { url: withPage(source.url, 1), items: [], totalPages: 1, diagnostics: { error: "無可用回應" }, pageSize: 200, includeSms: true };
@@ -665,7 +678,7 @@ async function main() {
   const replacementByRole = new Map();
 
   // Presidency is stored as verified seed data. The daily job checks that the source pages remain reachable.
-  for (const source of officeConfig.presidency || []) {
+  for (const source of (officeConfig.presidency || []).filter((item) => includeRole(item.roleId))) {
     try {
       await fetchWithTimeout(source.url, { headers: { accept: "text/html,*/*" } }, 60_000);
       reports.push({ id: source.id, name: source.name, status: "ok", count: existing.filter((item) => item.roleId === source.roleId).length, checkedAt: attemptAt, url: source.url });
@@ -677,7 +690,9 @@ async function main() {
 
   // Try compact government dataset downloads first. If they are catalogs or binary office files, HTML pages are used below.
   const datasetResults = new Map();
-  const datasetSources = (officeConfig.officialDatasets || []).filter((source) => officeholderScope === "full" || standardLocalRoles.has(source.roleId));
+  const datasetSources = moiDatasetMode === "skip" ? [] : (officeConfig.officialDatasets || [])
+    .filter((source) => includeRole(source.roleId))
+    .filter((source) => officeholderScope === "full" || standardLocalRoles.has(source.roleId));
   for (const source of datasetSources) {
     try {
       const items = [...new Map((await fetchDatasetItems(source)).map((item) => [item.id, item])).values()];
@@ -689,7 +704,7 @@ async function main() {
     }
   }
 
-  try {
+  if (includeRole(officeConfig.legislature.roleId)) try {
     const source = officeConfig.legislature;
     const items = await syncLegislature(source);
     if (items.length < minimumExpected(source.roleId)) throw new Error(`僅解析到 ${items.length} 位，低於安全門檻`);
@@ -700,7 +715,9 @@ async function main() {
     reports.push({ id: officeConfig.legislature.id, name: officeConfig.legislature.name, status: "preserved-previous", count: existing.filter((item) => item.roleId === "legislator").length, checkedAt: attemptAt, url: officeConfig.legislature.url, message: error.message });
   }
 
-  const localSources = (officeConfig.localPages || []).filter((source) => officeholderScope === "full" || standardLocalRoles.has(source.roleId));
+  const localSources = (officeConfig.localPages || [])
+    .filter((source) => includeRole(source.roleId))
+    .filter((source) => officeholderScope === "full" || standardLocalRoles.has(source.roleId));
   for (const source of localSources) {
     if (datasetResults.has(source.roleId)) {
       const items = datasetResults.get(source.roleId);
@@ -774,6 +791,8 @@ async function main() {
     },
     errors,
     scope: officeholderScope,
+    roleFilter: hasRoleFilter ? [...requestedRoleFilter] : [],
+    datasetMode: moiDatasetMode,
     sources: reports,
   };
 

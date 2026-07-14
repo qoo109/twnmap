@@ -31,7 +31,9 @@ writeJson("data/current/national.json", {
 });
 
 const people = [...(data.officeholders || []), ...(data.candidates || [])];
-for (const person of people) writeJson(`data/people/${person.id}.json`, { generatedAt, person });
+const omittedPersonShardRoles = new Set(["village-chief", "township-representative", "indigenous-district-representative"]);
+const shardedPeople = people.filter((person) => !omittedPersonShardRoles.has(person.roleId));
+for (const person of shardedPeople) writeJson(`data/people/${person.id}.json`, { generatedAt, person });
 
 const historyFiles = [];
 const byYearCounty = new Map();
@@ -58,13 +60,15 @@ const manifest = {
     officeholders: data.officeholders?.length || 0,
     candidates: data.candidates?.length || 0,
     history: data.history?.results?.length || 0,
-    personFiles: people.length,
+    personFiles: shardedPeople.length,
+    personFilesOmitted: people.length - shardedPeople.length,
     currentFiles: currentFiles.length + 1,
     historyFiles: historyFiles.length,
   },
   current: currentFiles,
   national: "current/national.json",
   peopleBase: "people/",
+  peopleOmittedRoles: [...omittedPersonShardRoles],
   history: historyFiles,
 };
 writeJson("data/manifest.json", manifest);
