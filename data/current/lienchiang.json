@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:54:52.301Z",
+  "generatedAt": "2026-07-14T02:58:41.249Z",
   "countyId": "lienchiang",
   "officeholders": [
     {
@@ -936,6 +936,584 @@
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
           "date": "2026-07-14",
           "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-王若蓉-9443d634",
+      "official": true,
+      "name": "王若蓉",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-王禮好-6d4cbdbc",
+      "official": true,
+      "name": "王禮好",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林建中-0bf17ccf",
+      "official": true,
+      "name": "林建中",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-侯全寶-d9a88dc8",
+      "official": true,
+      "name": "侯全寶",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/699faf25-8a09-40ea-a3ef-6e228a1fbe87.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=31&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=31&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-曹爾嵐-d7bfd81f",
+      "official": true,
+      "name": "曹爾嵐",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ccb16237-021c-4e5d-95b6-b77193b4b355.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳世朝-df455aa4",
+      "official": true,
+      "name": "陳世朝",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳志忠-904ba207",
+      "official": true,
+      "name": "陳志忠",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=31&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳昌龍-a2c9fa48",
+      "official": true,
+      "name": "陳昌龍",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=31&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳秉傑-312d538b",
+      "official": true,
+      "name": "陳秉傑",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳美貴-735b3d04",
+      "official": true,
+      "name": "陳美貴",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0300725e-fde1-4875-83d5-9deddb411d59.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳家信-61fc524d",
+      "official": true,
+      "name": "陳家信",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳常玉-0caf605e",
+      "official": true,
+      "name": "陳常玉",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6c75eef9-50bf-460e-bda5-4f476f12fcb8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳善安-33ed54d7",
+      "official": true,
+      "name": "陳善安",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/58f61714-878c-4c90-8644-adad432989dc.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳智偉-c82115fa",
+      "official": true,
+      "name": "陳智偉",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/140e82e4-2d07-4e23-91d1-6d8419e61e6b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳道勳-740f78fa",
+      "official": true,
+      "name": "陳道勳",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳鈺麟-f178da05",
+      "official": true,
+      "name": "陳鈺麟",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳震森-96b8935b",
+      "official": true,
+      "name": "陳震森",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0d868149-63e9-4941-9237-df5b6ae2ffc6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=31&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=31&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳麗君-9a5bea68",
+      "official": true,
+      "name": "陳麗君",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃寶清-de5f2c68",
+      "official": true,
+      "name": "黃寶清",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0b7c4cd7-111f-46d3-9d04-19c9992956eb.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-劉用順-70127038",
+      "official": true,
+      "name": "劉用順",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/12d0eb39-86dc-43ce-a493-a8f2a6b9d973.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-鄭光武-fe8c8761",
+      "official": true,
+      "name": "鄭光武",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-鄭智新-369bea13",
+      "official": true,
+      "name": "鄭智新",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "lienchiang",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
         }
       ]
     }
