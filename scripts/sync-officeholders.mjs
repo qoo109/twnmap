@@ -241,6 +241,38 @@ function buildOfficeholder({ name, roleId, party, countyId, district, organizati
   };
 }
 
+
+function semanticIdentityKey(item) {
+  const roleId = normalizeSpace(item?.roleId || "");
+  const name = normalizeSpace(item?.name || "").replace(/[\s　·・．.]/g, "");
+  if (!roleId || !name) return "";
+  if (["president", "vice-president", "legislator"].includes(roleId)) {
+    return `${roleId}|${name}`;
+  }
+  return `${roleId}|${name}|${normalizeSpace(item?.countyId || "")}`;
+}
+
+function preserveExistingStableIds(existingItems, replacementItems) {
+  const oldGroups = new Map();
+  const newGroups = new Map();
+  const add = (map, key, item) => {
+    if (!key) return;
+    if (!map.has(key)) map.set(key, []);
+    map.get(key).push(item);
+  };
+  for (const item of existingItems) add(oldGroups, semanticIdentityKey(item), item);
+  for (const item of replacementItems) add(newGroups, semanticIdentityKey(item), item);
+
+  let preserved = 0;
+  for (const [key, currentGroup] of newGroups) {
+    const previousGroup = oldGroups.get(key) || [];
+    if (previousGroup.length !== 1 || currentGroup.length !== 1) continue;
+    currentGroup[0].id = previousGroup[0].id;
+    preserved += 1;
+  }
+  return preserved;
+}
+
 function objectRowsFromCsv(text) {
   const rows = parseCsv(text);
   if (rows.length < 2) return [];
@@ -742,6 +774,8 @@ async function main() {
 
   const untouched = existing.filter((item) => !replacementByRole.has(item.roleId));
   const replacements = [...replacementByRole.values()].flat();
+  const preservedStableIds = preserveExistingStableIds(existing, replacements);
+  if (preservedStableIds) console.log(`沿用 ${preservedStableIds} 位既有人物的穩定 ID。`);
   const existingById = new Map(existing.map((item) => [item.id, item]));
   for (const item of replacements) { if (!item.photo && existingById.get(item.id)?.photo) item.photo = existingById.get(item.id).photo; }
   const merged = [...new Map([...untouched, ...replacements].map((item) => [item.id, item])).values()]
