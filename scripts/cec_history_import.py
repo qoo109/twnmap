@@ -39,6 +39,20 @@ COUNTIES = {
     "澎湖縣": "penghu", "金門縣": "kinmen", "連江縣": "lienchiang",
 }
 
+COUNTY_CODES = {
+    "63000": ("taipei", "臺北市"), "64000": ("kaohsiung", "高雄市"),
+    "65000": ("new-taipei", "新北市"), "66000": ("taichung", "臺中市"),
+    "67000": ("tainan", "臺南市"), "68000": ("taoyuan", "桃園市"),
+    "10002": ("yilan", "宜蘭縣"), "10004": ("hsinchu-county", "新竹縣"),
+    "10005": ("miaoli", "苗栗縣"), "10007": ("changhua", "彰化縣"),
+    "10008": ("nantou", "南投縣"), "10009": ("yunlin", "雲林縣"),
+    "10010": ("chiayi-county", "嘉義縣"), "10013": ("pingtung", "屏東縣"),
+    "10014": ("taitung", "臺東縣"), "10015": ("hualien", "花蓮縣"),
+    "10016": ("penghu", "澎湖縣"), "10017": ("keelung", "基隆市"),
+    "10018": ("hsinchu-city", "新竹市"), "10020": ("chiayi-city", "嘉義市"),
+    "09020": ("kinmen", "金門縣"), "09007": ("lienchiang", "連江縣"),
+}
+
 PARTY_ALIASES = {
     "民主進步黨": "dpp", "民進黨": "dpp",
     "中國國民黨": "kmt", "國民黨": "kmt",
@@ -51,18 +65,39 @@ PARTY_ALIASES = {
 
 # More specific patterns must appear first.
 ROLE_RULES = [
-    ("indigenous-district-representative", "原住民區民代表", ["山地原住民區民代表", "原住民區民代表", "原住民區代表"]),
-    ("indigenous-district-mayor", "原住民區長", ["山地原住民區長", "原住民區長"]),
-    ("township-representative", "鄉鎮市民代表", ["鄉鎮市民代表", "鄉鎮市區民代表", "鄉鎮市代表"]),
+    ("indigenous-district-representative", "原住民區民代表", ["山地原住民區民代表", "原住民區民代表", "原住民區代表", "直轄市區民代表"]),
+    ("indigenous-district-mayor", "原住民區長", ["山地原住民區長", "原住民區長", "直轄市區長"]),
+    ("township-representative", "鄉鎮市民代表", ["鄉鎮市民平原代表", "鄉鎮市民代表", "鄉鎮市區民代表", "鄉鎮市代表"]),
     ("township-mayor", "鄉鎮市長", ["鄉鎮市長"]),
-    ("municipal-councilor", "直轄市議員", ["直轄市議員"]),
-    ("county-councilor", "縣市議員", ["縣市議員", "縣(市)議員", "縣市議會議員"]),
-    ("municipal-mayor", "直轄市長", ["直轄市長"]),
-    ("county-mayor", "縣市長", ["縣市長", "縣(市)長"]),
+    ("municipal-councilor", "直轄市議員", ["直轄市區域議員", "直轄市山原議員", "直轄市平原議員", "直轄市議員"]),
+    ("county-councilor", "縣市議員", ["縣市區域議員", "縣市山原議員", "縣市平原議員", "縣市議員", "縣(市)議員", "縣市議會議員"]),
+    ("municipal-mayor", "直轄市長", ["直轄市市長", "直轄市長"]),
+    ("county-mayor", "縣市長", ["縣市市長", "縣市長", "縣(市)長"]),
     ("village-chief", "村里長", ["村里長", "村(里)長", "里長", "村長"]),
     ("legislator", "立法委員", ["立法委員", "區域立委", "不分區立委", "立委"]),
     ("president", "總統副總統", ["總統副總統", "總統、副總統", "總統"]),
 ]
+
+# The 2022 official archive replaced descriptive directory names with subject
+# codes.  Its ``city`` branch contains counties/cities, while ``prv`` contains
+# special municipalities; this is the archive's naming, not an inference from
+# the English words.
+CODE_ROLE_RULES = {
+    "C1/city": ("county-mayor", "縣市長"),
+    "C1/prv": ("municipal-mayor", "直轄市長"),
+    "D1": ("township-mayor", "鄉鎮市長"),
+    "D2": ("indigenous-district-mayor", "原住民區長"),
+    "R1": ("township-representative", "鄉鎮市民代表"),
+    "R2": ("township-representative", "鄉鎮市民代表"),
+    "R3": ("indigenous-district-representative", "原住民區民代表"),
+    "T1/city": ("county-councilor", "縣市議員"),
+    "T2/city": ("county-councilor", "縣市議員"),
+    "T3/city": ("county-councilor", "縣市議員"),
+    "T1/prv": ("municipal-councilor", "直轄市議員"),
+    "T2/prv": ("municipal-councilor", "直轄市議員"),
+    "T3/prv": ("municipal-councilor", "直轄市議員"),
+    "V1": ("village-chief", "村里長"),
+}
 
 SCOPE_ROLES = {
     "core": {"president", "vice-president", "legislator", "municipal-mayor", "county-mayor", "municipal-councilor", "county-councilor"},
@@ -120,6 +155,11 @@ def classify_role(path_text: str) -> tuple[str | None, str | None]:
     # specific child such as “總統副總統”.  Classify from the deepest path
     # component first so the broad parent does not win accidentally.
     components = [part for part in re.split(r"[/\\]+", path_text) if part and normalize_text(part).lower() not in {"rawdata", "data"}]
+    code_tail = "/".join(components[-2:])
+    if code_tail in CODE_ROLE_RULES:
+        return CODE_ROLE_RULES[code_tail]
+    if components and components[-1] in CODE_ROLE_RULES:
+        return CODE_ROLE_RULES[components[-1]]
     for component in reversed(components):
         compact = normalize_text(component)
         for role_id, label, keywords in ROLE_RULES:
@@ -140,6 +180,27 @@ def county_from_text(text: str) -> tuple[str | None, str | None]:
             canonical_name = next((n for n, cid in COUNTIES.items() if cid == county_id and "臺" in n), name)
             return county_id, canonical_name
     return None, None
+
+
+def county_from_codes(codes: list[str]) -> tuple[str | None, str | None]:
+    if len(codes) < 2:
+        return None, None
+    key = f"{str(codes[0]).strip().zfill(2)}{str(codes[1]).strip().zfill(3)}"
+    return COUNTY_CODES.get(key, (None, None))
+
+
+def town_from_codes(codes: list[str], areas: dict[tuple[str, ...], str]) -> str | None:
+    if len(codes) < 5:
+        return None
+    candidates = [
+        (codes[0], codes[1], "00", codes[3], "0000"),
+        (codes[0], codes[1], codes[2], codes[3], "0000"),
+    ]
+    for key in candidates:
+        name = str(areas.get(tuple(key), "")).strip()
+        if name and re.search(r"[區鄉鎮市]$", name):
+            return name
+    return None
 
 
 def party_id(name: str) -> str:
@@ -272,6 +333,9 @@ def build_records_for_group(archive: zipfile.ZipFile, group_path: str, files: di
         elected = candidate_mark in {"*", "!"} or vote_mark in {"*", "!"}
         area_name = areas.get(tuple(codes), "")
         county_id, county_name = county_from_text(f"{area_name} {group_path}")
+        if not county_id:
+            county_id, county_name = county_from_codes(codes)
+        town_name = town_from_codes(codes, areas)
         district = area_name or Path(group_path).name
         raw_birth = str(row[9]).strip()
         identity_base = [normalize_text(name), gender or "", birth_date or raw_birth or ""]
@@ -296,6 +360,7 @@ def build_records_for_group(archive: zipfile.ZipFile, group_path: str, files: di
             "roleId": effective_role,
             "countyId": county_id,
             "countyName": county_name,
+            "town": town_name,
             "district": district,
             "areaCodes": {"prv": codes[0], "city": codes[1], "area": codes[2], "dept": codes[3], "li": codes[4]},
             "number": int(number) if number.isdigit() else number,
@@ -352,7 +417,7 @@ def parse_archive(archive_path: Path, scope: str, years: set[int] | None) -> dic
             "datasetGroups": len(groups_meta),
             "importedGroups": sum(1 for group in groups_meta if group["status"] == "ok"),
             "recordCount": len(records),
-            "parserVersion": "5.5.0",
+            "parserVersion": "5.5.1",
             "groups": groups_meta,
         },
         "records": records,

@@ -1,0 +1,179 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "year": 2024,
+  "countyId": "miaoli",
+  "records": [
+    {
+      "id": "cec-4cde7cf98d54c450fe64",
+      "demo": false,
+      "official": true,
+      "personKey": "person-9c2d39354dd900a75e87",
+      "identityConfidence": "exact",
+      "name": "康世明",
+      "gender": "男",
+      "birthDate": "1969-11-26",
+      "birthYear": 1969,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "miaoli",
+      "countyName": "苗栗縣",
+      "district": "苗栗縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "005",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 60358,
+      "voteRate": 43.15,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-a341cfadb542655291d4",
+      "demo": false,
+      "official": true,
+      "personKey": "person-ac56f7062153dd5d774f",
+      "identityConfidence": "exact",
+      "name": "陳超明",
+      "gender": "男",
+      "birthDate": "1951-12-17",
+      "birthYear": 1951,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "miaoli",
+      "countyName": "苗栗縣",
+      "district": "苗栗縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "005",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 79521,
+      "voteRate": 56.85,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-45ecad10dba5cd06e2b8",
+      "demo": false,
+      "official": true,
+      "personKey": "person-1411e0bb3f0d406ac386",
+      "identityConfidence": "exact",
+      "name": "邱鎮軍",
+      "gender": "男",
+      "birthDate": "1971-12-07",
+      "birthYear": 1971,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "miaoli",
+      "countyName": "苗栗縣",
+      "district": "苗栗縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "005",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 89111,
+      "voteRate": 55.05,
+      "rank": 1,
+      "elected": true,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-981325f21f9825f400e0",
+      "demo": false,
+      "official": true,
+      "personKey": "person-f2f74ee8ea3cf1f3306c",
+      "identityConfidence": "exact",
+      "name": "曾玟學",
+      "gender": "男",
+      "birthDate": "1987-12-19",
+      "birthYear": 1987,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "miaoli",
+      "countyName": "苗栗縣",
+      "district": "苗栗縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "005",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 72749,
+      "voteRate": 44.95,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

@@ -1,0 +1,3170 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "countyId": "chiayi-city",
+  "officeholders": [
+    {
+      "id": "county-councilor-王浩-62cdbe7a",
+      "official": true,
+      "name": "王浩",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "npp",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ca6cec6d-6120-4796-abff-acbddb7e974c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-李忠曆-8866fb76",
+      "official": true,
+      "name": "李忠曆",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/023ddbc2-5aef-46c7-b880-b67340d14328.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-林煒軒-f4117123",
+      "official": true,
+      "name": "林煒軒",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ff0a06b5-b17a-4d0f-82c4-fcd30838ba19.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-孫貫志-6ee65298",
+      "official": true,
+      "name": "孫貫志",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a1ae603e-e2d5-450d-8068-300872619d9e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-張秀華-695592e1",
+      "official": true,
+      "name": "張秀華",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5dfc346d-0fc4-4992-94c0-1b8ac70145e9.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-張敏琪-2cf41612",
+      "official": true,
+      "name": "張敏琪",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ec92d93d-7470-41c5-a2cb-3d84b2c8b10c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-張榮藏-061b89fb",
+      "official": true,
+      "name": "張榮藏",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "副議長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "副議長",
+      "organization": "副議長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/bf30f885-3ce8-4b95-8d49-018200fcfe02.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-郭定緯-e2a1c492",
+      "official": true,
+      "name": "郭定緯",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/97c4c2e4-606e-403a-8784-263b19ab07e0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-陳姿妏-b10577c3",
+      "official": true,
+      "name": "陳姿妏",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "議長",
+      "organization": "議長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0b8dbc4b-b7e3-4ce4-ad73-513e71ca9ec6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-陳家平-e1fc6183",
+      "official": true,
+      "name": "陳家平",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9f4a597a-2e2b-43e3-b4e4-025588f4cace.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-傅大偉-96006f47",
+      "official": true,
+      "name": "傅大偉",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e4568fee-d738-439e-90f0-b45229d51f1e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-黃大祐-2e1fab5f",
+      "official": true,
+      "name": "黃大祐",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0757d826-b3fa-4268-bf15-76c6d45ba259.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-黃思婷-69444579",
+      "official": true,
+      "name": "黃思婷",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c84af10f-4406-4dbe-9ff9-3e42a720d50c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-黃盈智-f57bd504",
+      "official": true,
+      "name": "黃盈智",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a35c4f80-17e1-4a53-a645-3964007b50eb.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-黃敏修-e7e0cba9",
+      "official": true,
+      "name": "黃敏修",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9707d5bc-1a2d-46c7-ae5d-841ae0982c1f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-黃露慧-255693ad",
+      "official": true,
+      "name": "黃露慧",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/861b4a3e-94fd-4b85-bee2-0a372b20e51b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-蔡坤叡-f03ec099",
+      "official": true,
+      "name": "蔡坤叡",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b9fb0daa-e079-4dac-892d-d00f66e7acdc.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-鄭光宏-5ec6b5ad",
+      "official": true,
+      "name": "鄭光宏",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ac231630-d461-464b-9291-c1e197920f98.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-顏翎熹-32c23f42",
+      "official": true,
+      "name": "顏翎熹",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b96ecb09-7507-499f-bbd4-bf4539afe840.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-蘇澤峰-f4180c4d",
+      "official": true,
+      "name": "蘇澤峰",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/80dd1596-292b-451d-a78e-34c4ff16026b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "legislator-王美惠委員照片-民主進步黨徽章-王美惠-edf3af67",
+      "official": true,
+      "name": "王美惠委員照片 民主進步黨徽章 王美惠",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": "chiayi-city",
+      "district": "嘉義市選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110006.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46761",
+        "sourceLabel": "立法院官方照片：王美惠委員照片 民主進步黨徽章 王美惠",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：王美惠委員照片 民主進步黨徽章 王美惠",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46761",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "village-chief-王張錦淑-206d43ff",
+      "official": true,
+      "name": "王張錦淑",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c657fadd-ca40-4459-9fc7-95a37fd6bdfd.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-江振章-d0d39b49",
+      "official": true,
+      "name": "江振章",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f5a85193-9139-422f-898b-b265b63b62bc.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-吳永豐-21c7d151",
+      "official": true,
+      "name": "吳永豐",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ecb4ff4b-25c7-46db-a9ee-aaeacb3fce09.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-吳名城-54373806",
+      "official": true,
+      "name": "吳名城",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/999218ef-e3f4-4cd3-bf0c-2959a2a3359a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-吳美珠-ee3f4d78",
+      "official": true,
+      "name": "吳美珠",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/42353cb4-76cb-41f3-a642-e4fdaf7c72ce.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-吳張秀英-26bf836b",
+      "official": true,
+      "name": "吳張秀英",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/723d8a29-7a28-4315-bb03-93b3ba27f3f8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-吳璟祈-c51ddba9",
+      "official": true,
+      "name": "吳璟祈",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/20b17aea-1765-4577-b328-5f4c020fb04e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-呂文章-4c40d04b",
+      "official": true,
+      "name": "呂文章",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/29e81096-4582-46c3-a1b3-e1a0254d5f97.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-呂純足-06ec6849",
+      "official": true,
+      "name": "呂純足",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c6a88d0a-4936-4e68-97d2-e24c1eb91531.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-宋燕生-749cfc44",
+      "official": true,
+      "name": "宋燕生",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8c833d81-7f35-4c0d-abef-ef888b615a20.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-李茂山-e0cf821c",
+      "official": true,
+      "name": "李茂山",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0babe165-6feb-4395-8d3d-b431c946012f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-李振煌-6890fb03",
+      "official": true,
+      "name": "李振煌",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ea1e4dc7-99b9-4b1d-8e9e-a23c88c23215.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-李高滿足-1b59d825",
+      "official": true,
+      "name": "李高滿足",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/64fa3501-e88c-4644-bd72-93c8c563df1c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-李添益-d289b9b7",
+      "official": true,
+      "name": "李添益",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/94b01293-1be1-486f-a5e4-5ff71c5ff5a8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林允成-4ee6e1f0",
+      "official": true,
+      "name": "林允成",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f309b06f-c320-4198-9c7d-e190b238cc1c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林昇賢-c8ae9027",
+      "official": true,
+      "name": "林昇賢",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1c03bd77-11ee-49d2-b380-b8993dccce95.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林芳志-13a420a7",
+      "official": true,
+      "name": "林芳志",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/220f4395-2d7f-4a8f-b92e-eeba7c9ea128.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林峯輝-8f1a6bad",
+      "official": true,
+      "name": "林峯輝",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5b5316a6-9e52-430c-902e-e9e37aa6903c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林桂洲-c709618a",
+      "official": true,
+      "name": "林桂洲",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b210218b-3e6f-466f-b315-188d92fbb54e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林砡朱-b71ca987",
+      "official": true,
+      "name": "林砡朱",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7c911165-80e0-4d22-87bf-287bd2be9620.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林靜賢-23d3e47d",
+      "official": true,
+      "name": "林靜賢",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/18c1a6bf-4a07-4992-af27-bc87f767237c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-邱威誠-3e5ef43c",
+      "official": true,
+      "name": "邱威誠",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ffe35bde-9e7a-43ae-966c-0930aa809128.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-邱繼賢-a7981afb",
+      "official": true,
+      "name": "邱繼賢",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/dab167de-a4b0-4a21-9685-e4402deb0259.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-凃淑慧-30a0bdab",
+      "official": true,
+      "name": "凃淑慧",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5ab9aa0a-4d05-47dc-b9f0-207d7ca48f8f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-施欣成-3b0a14be",
+      "official": true,
+      "name": "施欣成",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e035529d-659f-48be-a1b6-8160d724fdc8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-柯靜宜-7c534afa",
+      "official": true,
+      "name": "柯靜宜",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1fd9eef6-5806-45bc-ba45-af7ee375f7db.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-洪修富-d8151098",
+      "official": true,
+      "name": "洪修富",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b79a5002-6728-435d-8010-0b9592b84616.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-洪義松-f09ced43",
+      "official": true,
+      "name": "洪義松",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d058232b-594d-4663-a6df-6ea277d15c9b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-洪嘉文-14e21513",
+      "official": true,
+      "name": "洪嘉文",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4642d095-a552-4efe-948f-47da410e8ba9.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-洪豐盛-eaf1acb1",
+      "official": true,
+      "name": "洪豐盛",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c28302c3-5e61-4909-a375-6d878f90b0ea.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-洪麗雪-c6a6784b",
+      "official": true,
+      "name": "洪麗雪",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2c732302-028d-41eb-a196-b4445497121f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-徐國榮-834df3af",
+      "official": true,
+      "name": "徐國榮",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0a473b61-5651-4ddc-9a01-7f156bb236ae.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-殷大為-407d300e",
+      "official": true,
+      "name": "殷大為",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1724d9cf-b9b8-4499-a8b4-0cd1b0712bcd.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-馬久彥-b9c54e54",
+      "official": true,
+      "name": "馬久彥",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/53d6cf67-93e7-4cb6-8804-4fb98ae53769.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-馬鳳凰-329b6eca",
+      "official": true,
+      "name": "馬鳳凰",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0a7e34d9-9838-4f75-8c40-7d015d79b2d5.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-高順能-1d8e10b9",
+      "official": true,
+      "name": "高順能",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/66762a35-8c10-48a2-ba86-15f28b813054.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-張家銀-431aa440",
+      "official": true,
+      "name": "張家銀",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/cd547fc2-13fa-43dd-87ed-ec27fc9e50f6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-莊天基-97573234",
+      "official": true,
+      "name": "莊天基",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/26f60f9b-ca72-47ba-8dc3-80fb1c46570f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許玉屏-e4c34a7f",
+      "official": true,
+      "name": "許玉屏",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/39ed6279-353d-46fc-93df-8002d4a49dcf.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許美英-6e55364b",
+      "official": true,
+      "name": "許美英",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/078d617c-345a-4fca-9a0e-c24b6763cc89.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許益銨-d6990ee9",
+      "official": true,
+      "name": "許益銨",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/be45f623-4f5e-4a14-8766-4df7948bcbfb.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許雪賢-c61803c2",
+      "official": true,
+      "name": "許雪賢",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a648b37d-ddbf-4e1c-bc85-f0215ba92466.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-連淑雲-c7a0e2db",
+      "official": true,
+      "name": "連淑雲",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/38e8a605-95a7-42fc-ace3-fe0649b51dcd.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-郭劉秀珠-40a86df0",
+      "official": true,
+      "name": "郭劉秀珠",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7bf580a9-4bb5-4230-9ed1-e90054dca7dc.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳文彬-03a94140",
+      "official": true,
+      "name": "陳文彬",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/52828784-8cb2-4bf2-8381-4a234ead1dcf.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳金川-1b94c139",
+      "official": true,
+      "name": "陳金川",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/912beeea-df82-45cc-8041-409ea30492e2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳金虎-98a15cf5",
+      "official": true,
+      "name": "陳金虎",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/fdc66889-b749-4549-9f8e-4772fabada52.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳冠名-f3cd4464",
+      "official": true,
+      "name": "陳冠名",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/630b5c13-38c0-485a-a48b-fd07e3e799e5.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳淑娥-b841d757",
+      "official": true,
+      "name": "陳淑娥",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3b13dfd4-47df-4109-9893-853a71ce8291.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃正一-8943ca29",
+      "official": true,
+      "name": "黃正一",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ecd340eb-0c4a-476a-b435-ba2918f263fa.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃純美-19c083e4",
+      "official": true,
+      "name": "黃純美",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3b8ba60d-1987-4efe-9fc5-388d36800e54.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃琮榮-513c8b07",
+      "official": true,
+      "name": "黃琮榮",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9fc4def8-c4be-412d-9132-22fcb6788fd2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃榮茂-617c1afc",
+      "official": true,
+      "name": "黃榮茂",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/bbb7875c-1499-4940-b1ea-7f6900c63cd1.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃麗桑-f2fd8ce0",
+      "official": true,
+      "name": "黃麗桑",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/76d9c0c2-1049-4d18-8623-5c93ea26b67b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黄福林-6f718ea7",
+      "official": true,
+      "name": "黄福林",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/64bc8028-f879-403a-9cad-3413b7d1cb83.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-楊文玲-2d3d123f",
+      "official": true,
+      "name": "楊文玲",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f09492f0-d5e2-411c-b263-54a5a9aab7e7.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-楊鳳祥-45c5dc44",
+      "official": true,
+      "name": "楊鳳祥",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d5e41cf0-f574-41af-93b0-4fa9a096bff0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-葉勝利-15bbf2f2",
+      "official": true,
+      "name": "葉勝利",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0ba2a199-a85e-41b3-ac9d-21959234c45f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-葉寬鴻-bb484ae9",
+      "official": true,
+      "name": "葉寬鴻",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0880636c-18a6-4f0f-b4b7-69eb221635b2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-廖梅江-14a4b8d9",
+      "official": true,
+      "name": "廖梅江",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "dpp",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f27ab285-f0e3-4dd0-9e74-108b4fe2c132.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-廖淑玲-22b4acd4",
+      "official": true,
+      "name": "廖淑玲",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/cfb372e1-3d2f-4661-8ab8-00897307cfa6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-劉丙伍-59ecfcec",
+      "official": true,
+      "name": "劉丙伍",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3468e257-c33e-42d5-acf9-a02f06d512aa.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-劉宗源-f2072709",
+      "official": true,
+      "name": "劉宗源",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4426b252-7a4a-4a2d-baf6-0b4d629107b4.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-劉怡慧-c4b2d786",
+      "official": true,
+      "name": "劉怡慧",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8cf24df0-5da9-4dbd-bf09-eef5b04b0ba0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-歐陽明-465de477",
+      "official": true,
+      "name": "歐陽明",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9ec50d6e-9298-4dde-8a6a-8f27bd379e04.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡正平-b0cfc36d",
+      "official": true,
+      "name": "蔡正平",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/85f314d4-4b7b-43f8-a498-d14e746ef086.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡宗坤-dd8b9bec",
+      "official": true,
+      "name": "蔡宗坤",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0d02705b-751e-4942-9f11-5d965168183a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡旻岳-25dcc353",
+      "official": true,
+      "name": "蔡旻岳",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/da309606-4f4b-4cc4-b111-79420317b642.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡振盛-6b90ccd3",
+      "official": true,
+      "name": "蔡振盛",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c01a2287-5444-410b-9e15-e1aaf8260758.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡國樑-670802d7",
+      "official": true,
+      "name": "蔡國樑",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/38fa08c3-c9ed-41d9-9655-2e2847e531be.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-鄭秀玉-f9cbd72d",
+      "official": true,
+      "name": "鄭秀玉",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/115c8e5c-85b0-4a63-a3ad-59b99a43cd06.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-鄭苡芹-8ae50c5e",
+      "official": true,
+      "name": "鄭苡芹",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d7bf98e1-c3fd-48a1-bd1f-6013d48d2794.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蕭友林-e94eee0c",
+      "official": true,
+      "name": "蕭友林",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a9b4e017-6ee2-4273-99d1-3c173883c484.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蕭建林-a8c82bb6",
+      "official": true,
+      "name": "蕭建林",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a54a6de5-929c-4ef7-9192-2c6c115b90b7.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蕭慶順-1ce661ff",
+      "official": true,
+      "name": "蕭慶順",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/87548c19-3483-4136-8dbc-d28dbbca014c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蕭蘇明珠-aeca6e87",
+      "official": true,
+      "name": "蕭蘇明珠",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ec9f6d29-59ed-4917-af16-56468062a06b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-謝芳芳-2c4dd815",
+      "official": true,
+      "name": "謝芳芳",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4dc8c98d-2117-4425-93f9-24dd1819919c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-謝金榮-b2801eb0",
+      "official": true,
+      "name": "謝金榮",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e53dd817-e278-4ac0-8c42-ac152da886a9.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=20&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-謝銘亮-2fec953d",
+      "official": true,
+      "name": "謝銘亮",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6bd798ee-8385-4c08-b3ae-226f59a63db5.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-魏正城-e259696e",
+      "official": true,
+      "name": "魏正城",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/bcf1ad1f-3804-405b-a496-84e6e4fcb12f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-羅鳳住-9401ae4c",
+      "official": true,
+      "name": "羅鳳住",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "chiayi-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9e22d9eb-4ae1-4505-9bfb-0bd2244965de.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=34&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    }
+  ],
+  "candidates": []
+}

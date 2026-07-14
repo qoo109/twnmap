@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "legislator-廖先翔委員照片-中國國民黨徽章-廖先翔-be59f1f1",
+    "official": true,
+    "name": "廖先翔委員照片 中國國民黨徽章 廖先翔",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "kmt",
+    "countyId": "new-taipei",
+    "district": "新北市第12選舉區",
+    "organization": "立法院",
+    "termStart": "2024-02-01",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "photo": {
+      "url": "https://www.ly.gov.tw/Images/Legislators/110091.jpg",
+      "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46839",
+      "sourceLabel": "立法院官方照片：廖先翔委員照片 中國國民黨徽章 廖先翔",
+      "credit": "立法院",
+      "official": true,
+      "retrievedAt": "2026-07-14T02:36:47.005Z"
+    },
+    "sources": [
+      {
+        "label": "立法院本屆立委：廖先翔委員照片 中國國民黨徽章 廖先翔",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46839",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ],
+    "gender": "男"
+  }
+}

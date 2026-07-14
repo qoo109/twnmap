@@ -1,0 +1,265 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "year": 2024,
+  "countyId": "yilan",
+  "records": [
+    {
+      "id": "cec-e7ea0c52fc236fc3da23",
+      "demo": false,
+      "official": true,
+      "personKey": "person-a535256945006c18a517",
+      "identityConfidence": "exact",
+      "name": "陳俊宇",
+      "gender": "男",
+      "birthDate": "1975-03-14",
+      "birthYear": 1975,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yilan",
+      "countyName": "宜蘭縣",
+      "district": "宜蘭縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "002",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 107308,
+      "voteRate": 41.99,
+      "rank": 1,
+      "elected": true,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-3457441fa2572a306296",
+      "demo": false,
+      "official": true,
+      "personKey": "person-26108e554aa7eb0ff010",
+      "identityConfidence": "exact",
+      "name": "林錦坤",
+      "gender": "男",
+      "birthDate": "1964-12-06",
+      "birthYear": 1964,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yilan",
+      "countyName": "宜蘭縣",
+      "district": "宜蘭縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "002",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 1754,
+      "voteRate": 0.69,
+      "rank": 5,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-446c2884c21264408287",
+      "demo": false,
+      "official": true,
+      "personKey": "person-8b2c4ff4cc42a6bd72d3",
+      "identityConfidence": "exact",
+      "name": "邱介勲",
+      "gender": "男",
+      "birthDate": "1954-04-28",
+      "birthYear": 1954,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yilan",
+      "countyName": "宜蘭縣",
+      "district": "宜蘭縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "002",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "other",
+      "partyNameRaw": "制度救世島",
+      "votes": 647,
+      "voteRate": 0.25,
+      "rank": 6,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-d9545d7a2c57124ea2fe",
+      "demo": false,
+      "official": true,
+      "personKey": "person-37de036159229db510d4",
+      "identityConfidence": "exact",
+      "name": "陳琬惠",
+      "gender": "女",
+      "birthDate": "1974-09-11",
+      "birthYear": 1974,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yilan",
+      "countyName": "宜蘭縣",
+      "district": "宜蘭縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "002",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "tpp",
+      "partyNameRaw": "台灣民眾黨",
+      "votes": 53499,
+      "voteRate": 20.94,
+      "rank": 3,
+      "elected": false,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-a913ec63c499db4771c4",
+      "demo": false,
+      "official": true,
+      "personKey": "person-654ad95f9eaf1c5053f8",
+      "identityConfidence": "exact",
+      "name": "林意評",
+      "gender": "男",
+      "birthDate": "1989-03-04",
+      "birthYear": 1989,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yilan",
+      "countyName": "宜蘭縣",
+      "district": "宜蘭縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "002",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 5,
+      "partyId": "tsp",
+      "partyNameRaw": "台灣基進",
+      "votes": 6201,
+      "voteRate": 2.43,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-0892b66db6cb3583b500",
+      "demo": false,
+      "official": true,
+      "personKey": "person-d8e891dea7275ecb66bb",
+      "identityConfidence": "exact",
+      "name": "黃琤婷",
+      "gender": "女",
+      "birthDate": "1978-12-20",
+      "birthYear": 1978,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yilan",
+      "countyName": "宜蘭縣",
+      "district": "宜蘭縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "002",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 6,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 86120,
+      "voteRate": 33.7,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "municipal-mayor-侯友宜-8f9532e5",
+    "official": true,
+    "name": "侯友宜",
+    "roleId": "municipal-mayor",
+    "role": "直轄市長",
+    "title": "市長",
+    "partyId": "kmt",
+    "countyId": "new-taipei",
+    "district": "市長",
+    "organization": "市長",
+    "termStart": null,
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "photo": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/90ab5688-456a-4da2-b5ce-6101932887a6.jpg",
+      "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0004&n=578&page=1&sms=11395",
+      "sourceLabel": "官方人物照片",
+      "credit": "www.moi.gov.tw",
+      "official": true,
+      "retrievedAt": "2026-07-14T02:36:47.005Z"
+    },
+    "sources": [
+      {
+        "label": "內政部地方公職人員資訊專區：直轄市長",
+        "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0004&n=578&page=1&sms=11395",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "schedule": "daily",
+  "timezone": "Asia/Taipei",
+  "plannedTime": "03:00",
+  "status": "not-run",
+  "lastAttemptAt": null,
+  "lastSuccessAt": null,
+  "lastOfficialChangeAt": null,
+  "officialCandidateCount": 0,
+  "demoCandidateCount": 0,
+  "message": "尚未執行官方資料同步。",
+  "sources": []
+}

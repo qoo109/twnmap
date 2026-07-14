@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "municipal-councilor-徐其萬-5b6e58e2",
+    "official": true,
+    "name": "徐其萬",
+    "roleId": "municipal-councilor",
+    "role": "直轄市議員",
+    "title": "議員",
+    "partyId": "kmt",
+    "countyId": "taoyuan",
+    "district": "議員",
+    "organization": "議員",
+    "termStart": null,
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "photo": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8fb525d8-0060-4f29-8128-3def9b4aaf8d.jpg",
+      "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+      "sourceLabel": "官方人物照片",
+      "credit": "www.moi.gov.tw",
+      "official": true,
+      "retrievedAt": "2026-07-14T02:36:47.005Z"
+    },
+    "sources": [
+      {
+        "label": "內政部地方公職人員資訊專區：直轄市議員",
+        "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ]
+  }
+}

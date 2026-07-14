@@ -1,0 +1,1313 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "countyId": null,
+  "officeholders": [
+    {
+      "id": "legislator-王正旭委員照片-民主進步黨徽章-王正旭-9bcd84f3",
+      "official": true,
+      "name": "王正旭委員照片 民主進步黨徽章 王正旭",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-19",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110114.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=55030",
+        "sourceLabel": "立法院官方照片：王正旭委員照片 民主進步黨徽章 王正旭",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：王正旭委員照片 民主進步黨徽章 王正旭",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=55030",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-王安祥委員照片-臺灣民眾黨徽章-王安祥-2a2f8148",
+      "official": true,
+      "name": "王安祥委員照片 臺灣民眾黨徽章 王安祥",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "tpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2026-02-03",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110119.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56418",
+        "sourceLabel": "立法院官方照片：王安祥委員照片 臺灣民眾黨徽章 王安祥",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：王安祥委員照片 臺灣民眾黨徽章 王安祥",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56418",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-王義川委員照片-民主進步黨徽章-王義川-e27accbe",
+      "official": true,
+      "name": "王義川委員照片 民主進步黨徽章 王義川",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-12-02",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110115.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=55855",
+        "sourceLabel": "立法院官方照片：王義川委員照片 民主進步黨徽章 王義川",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：王義川委員照片 民主進步黨徽章 王義川",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=55855",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-邱慧洳委員照片-臺灣民眾黨徽章-邱慧洳-a3abc67b",
+      "official": true,
+      "name": "邱慧洳委員照片 臺灣民眾黨徽章 邱慧洳",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "tpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2026-02-03",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110120.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56438",
+        "sourceLabel": "立法院官方照片：邱慧洳委員照片 臺灣民眾黨徽章 邱慧洳",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：邱慧洳委員照片 臺灣民眾黨徽章 邱慧洳",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56438",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-洪毓祥委員照片-臺灣民眾黨徽章-洪毓祥-60a6fe25",
+      "official": true,
+      "name": "洪毓祥委員照片 臺灣民眾黨徽章 洪毓祥",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "tpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2026-02-03",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110117.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56378",
+        "sourceLabel": "立法院官方照片：洪毓祥委員照片 臺灣民眾黨徽章 洪毓祥",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：洪毓祥委員照片 臺灣民眾黨徽章 洪毓祥",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56378",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-院長-f1a2a656",
+      "official": true,
+      "name": "院長",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "立法院本屆立委：院長",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=120",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-王育敏委員照片-中國國民黨徽章-王育敏-3912fbe1",
+      "official": true,
+      "name": "王育敏委員照片 中國國民黨徽章 王育敏",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110004.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46759",
+        "sourceLabel": "立法院官方照片：王育敏委員照片 中國國民黨徽章 王育敏",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：王育敏委員照片 中國國民黨徽章 王育敏",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46759",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-吳宗憲委員照片-中國國民黨徽章-吳宗憲-2167c83b",
+      "official": true,
+      "name": "吳宗憲委員照片 中國國民黨徽章 吳宗憲",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110012.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46767",
+        "sourceLabel": "立法院官方照片：吳宗憲委員照片 中國國民黨徽章 吳宗憲",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：吳宗憲委員照片 中國國民黨徽章 吳宗憲",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46767",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-沈伯洋委員照片-民主進步黨徽章-沈伯洋-c79e4b4c",
+      "official": true,
+      "name": "沈伯洋委員照片 民主進步黨徽章 沈伯洋",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110022.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46775",
+        "sourceLabel": "立法院官方照片：沈伯洋委員照片 民主進步黨徽章 沈伯洋",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：沈伯洋委員照片 民主進步黨徽章 沈伯洋",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46775",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-沈發惠委員照片-民主進步黨徽章-沈發惠-c3c5cd96",
+      "official": true,
+      "name": "沈發惠委員照片 民主進步黨徽章 沈發惠",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110023.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46776",
+        "sourceLabel": "立法院官方照片：沈發惠委員照片 民主進步黨徽章 沈發惠",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：沈發惠委員照片 民主進步黨徽章 沈發惠",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46776",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-林月琴委員照片-民主進步黨徽章-林月琴-ca191ede",
+      "official": true,
+      "name": "林月琴委員照片 民主進步黨徽章 林月琴",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110024.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46777",
+        "sourceLabel": "立法院官方照片：林月琴委員照片 民主進步黨徽章 林月琴",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：林月琴委員照片 民主進步黨徽章 林月琴",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46777",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-林倩綺委員照片-中國國民黨徽章-林倩綺-a39dba20",
+      "official": true,
+      "name": "林倩綺委員照片 中國國民黨徽章 林倩綺",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110030.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46783",
+        "sourceLabel": "立法院官方照片：林倩綺委員照片 中國國民黨徽章 林倩綺",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：林倩綺委員照片 中國國民黨徽章 林倩綺",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46783",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-林楚茵委員照片-民主進步黨徽章-林楚茵-6bbde78c",
+      "official": true,
+      "name": "林楚茵委員照片 民主進步黨徽章 林楚茵",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110033.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46786",
+        "sourceLabel": "立法院官方照片：林楚茵委員照片 民主進步黨徽章 林楚茵",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：林楚茵委員照片 民主進步黨徽章 林楚茵",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46786",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-柯志恩委員照片-中國國民黨徽章-柯志恩-d3a62972",
+      "official": true,
+      "name": "柯志恩委員照片 中國國民黨徽章 柯志恩",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110040.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46792",
+        "sourceLabel": "立法院官方照片：柯志恩委員照片 中國國民黨徽章 柯志恩",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：柯志恩委員照片 中國國民黨徽章 柯志恩",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46792",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-柯建銘委員照片-民主進步黨徽章-柯建銘-bdc52c17",
+      "official": true,
+      "name": "柯建銘委員照片 民主進步黨徽章 柯建銘",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110041.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46793",
+        "sourceLabel": "立法院官方照片：柯建銘委員照片 民主進步黨徽章 柯建銘",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：柯建銘委員照片 民主進步黨徽章 柯建銘",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46793",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-范雲委員照片-民主進步黨徽章-范雲-a6ff1b95",
+      "official": true,
+      "name": "范雲委員照片 民主進步黨徽章 范雲",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110044.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46795",
+        "sourceLabel": "立法院官方照片：范雲委員照片 民主進步黨徽章 范雲",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：范雲委員照片 民主進步黨徽章 范雲",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46795",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-翁曉玲委員照片-中國國民黨徽章-翁曉玲-b5da228b",
+      "official": true,
+      "name": "翁曉玲委員照片 中國國民黨徽章 翁曉玲",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110049.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46754",
+        "sourceLabel": "立法院官方照片：翁曉玲委員照片 中國國民黨徽章 翁曉玲",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：翁曉玲委員照片 中國國民黨徽章 翁曉玲",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46754",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-高金素梅委員照片-無徽章-高金素梅-2c5f0ccf",
+      "official": true,
+      "name": "高金素梅委員照片 無徽章 高金素梅",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "ind",
+      "countyId": null,
+      "district": "山地原住民選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110051.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46801",
+        "sourceLabel": "立法院官方照片：高金素梅委員照片 無徽章 高金素梅",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：高金素梅委員照片 無徽章 高金素梅",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46801",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-張雅琳委員照片-民主進步黨徽章-張雅琳-779f0c45",
+      "official": true,
+      "name": "張雅琳委員照片 民主進步黨徽章 張雅琳",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110055.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46805",
+        "sourceLabel": "立法院官方照片：張雅琳委員照片 民主進步黨徽章 張雅琳",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：張雅琳委員照片 民主進步黨徽章 張雅琳",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46805",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-張嘉郡委員照片-中國國民黨徽章-張嘉郡-b45aeabf",
+      "official": true,
+      "name": "張嘉郡委員照片 中國國民黨徽章 張嘉郡",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110056.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46806",
+        "sourceLabel": "立法院官方照片：張嘉郡委員照片 中國國民黨徽章 張嘉郡",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：張嘉郡委員照片 中國國民黨徽章 張嘉郡",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46806",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-莊瑞雄委員照片-民主進步黨徽章-莊瑞雄-fba2eb82",
+      "official": true,
+      "name": "莊瑞雄委員照片 民主進步黨徽章 莊瑞雄",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110057.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46807",
+        "sourceLabel": "立法院官方照片：莊瑞雄委員照片 民主進步黨徽章 莊瑞雄",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：莊瑞雄委員照片 民主進步黨徽章 莊瑞雄",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46807",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-許宇甄委員照片-中國國民黨徽章-許宇甄-13d56504",
+      "official": true,
+      "name": "許宇甄委員照片 中國國民黨徽章 許宇甄",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110058.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46808",
+        "sourceLabel": "立法院官方照片：許宇甄委員照片 中國國民黨徽章 許宇甄",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：許宇甄委員照片 中國國民黨徽章 許宇甄",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46808",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-許忠信委員照片-臺灣民眾黨徽章-許忠信-7adb79f6",
+      "official": true,
+      "name": "許忠信委員照片 臺灣民眾黨徽章 許忠信",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "tpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2026-04-22",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110123.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56585",
+        "sourceLabel": "立法院官方照片：許忠信委員照片 臺灣民眾黨徽章 許忠信",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：許忠信委員照片 臺灣民眾黨徽章 許忠信",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56585",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-郭昱晴委員照片-民主進步黨徽章-郭昱晴-caee4ac7",
+      "official": true,
+      "name": "郭昱晴委員照片 民主進步黨徽章 郭昱晴",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110060.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46810",
+        "sourceLabel": "立法院官方照片：郭昱晴委員照片 民主進步黨徽章 郭昱晴",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：郭昱晴委員照片 民主進步黨徽章 郭昱晴",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46810",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-陳永康委員照片-中國國民黨徽章-陳永康-6bfd9372",
+      "official": true,
+      "name": "陳永康委員照片 中國國民黨徽章 陳永康",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110062.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46812",
+        "sourceLabel": "立法院官方照片：陳永康委員照片 中國國民黨徽章 陳永康",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：陳永康委員照片 中國國民黨徽章 陳永康",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46812",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-陳昭姿委員照片-臺灣民眾黨徽章-陳昭姿-05579e46",
+      "official": true,
+      "name": "陳昭姿委員照片 臺灣民眾黨徽章 陳昭姿",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "tpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110068.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46755",
+        "sourceLabel": "立法院官方照片：陳昭姿委員照片 臺灣民眾黨徽章 陳昭姿",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：陳昭姿委員照片 臺灣民眾黨徽章 陳昭姿",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46755",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-陳培瑜委員照片-民主進步黨徽章-陳培瑜-6967d9bd",
+      "official": true,
+      "name": "陳培瑜委員照片 民主進步黨徽章 陳培瑜",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110070.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46819",
+        "sourceLabel": "立法院官方照片：陳培瑜委員照片 民主進步黨徽章 陳培瑜",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：陳培瑜委員照片 民主進步黨徽章 陳培瑜",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46819",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-陳清龍委員照片-臺灣民眾黨徽章-陳清龍-be2ce8d3",
+      "official": true,
+      "name": "陳清龍委員照片 臺灣民眾黨徽章 陳清龍",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "tpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2026-02-03",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110121.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56458",
+        "sourceLabel": "立法院官方照片：陳清龍委員照片 臺灣民眾黨徽章 陳清龍",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：陳清龍委員照片 臺灣民眾黨徽章 陳清龍",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56458",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-陳菁徽委員照片-中國國民黨徽章-陳菁徽-8ab695ef",
+      "official": true,
+      "name": "陳菁徽委員照片 中國國民黨徽章 陳菁徽",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110072.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46821",
+        "sourceLabel": "立法院官方照片：陳菁徽委員照片 中國國民黨徽章 陳菁徽",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：陳菁徽委員照片 中國國民黨徽章 陳菁徽",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46821",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-陳瑩委員照片-民主進步黨徽章-陳瑩-37196200",
+      "official": true,
+      "name": "陳瑩委員照片 民主進步黨徽章 陳瑩",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "平地原住民選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110074.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46823",
+        "sourceLabel": "立法院官方照片：陳瑩委員照片 民主進步黨徽章 陳瑩",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：陳瑩委員照片 民主進步黨徽章 陳瑩",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46823",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-黃仁委員照片-中國國民黨徽章-黃仁-9b5403e8",
+      "official": true,
+      "name": "黃仁委員照片 中國國民黨徽章 黃仁",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "平地原住民選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110079.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46827",
+        "sourceLabel": "立法院官方照片：黃仁委員照片 中國國民黨徽章 黃仁",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：黃仁委員照片 中國國民黨徽章 黃仁",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46827",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-劉書彬委員照片-臺灣民眾黨徽章-劉書彬-ce918ea1",
+      "official": true,
+      "name": "劉書彬委員照片 臺灣民眾黨徽章 劉書彬",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "tpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2025-03-14",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110116.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=77699",
+        "sourceLabel": "立法院官方照片：劉書彬委員照片 臺灣民眾黨徽章 劉書彬",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：劉書彬委員照片 臺灣民眾黨徽章 劉書彬",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=77699",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-葛如鈞委員照片-中國國民黨徽章-葛如鈞-e7abc053",
+      "official": true,
+      "name": "葛如鈞委員照片 中國國民黨徽章 葛如鈞",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110090.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46838",
+        "sourceLabel": "立法院官方照片：葛如鈞委員照片 中國國民黨徽章 葛如鈞",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：葛如鈞委員照片 中國國民黨徽章 葛如鈞",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46838",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-蔡春綢委員照片-臺灣民眾黨徽章-蔡春綢-acd55d50",
+      "official": true,
+      "name": "蔡春綢委員照片 臺灣民眾黨徽章 蔡春綢",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "tpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2026-02-03",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110118.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56398",
+        "sourceLabel": "立法院官方照片：蔡春綢委員照片 臺灣民眾黨徽章 蔡春綢",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：蔡春綢委員照片 臺灣民眾黨徽章 蔡春綢",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56398",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-盧縣一委員照片-中國國民黨徽章-盧縣一-d1df712b",
+      "official": true,
+      "name": "盧縣一委員照片 中國國民黨徽章 盧縣一",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "山地原住民選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110099.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46847",
+        "sourceLabel": "立法院官方照片：盧縣一委員照片 中國國民黨徽章 盧縣一",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：盧縣一委員照片 中國國民黨徽章 盧縣一",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46847",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-謝龍介委員照片-中國國民黨徽章-謝龍介-f2a71f12",
+      "official": true,
+      "name": "謝龍介委員照片 中國國民黨徽章 謝龍介",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110104.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46852",
+        "sourceLabel": "立法院官方照片：謝龍介委員照片 中國國民黨徽章 謝龍介",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：謝龍介委員照片 中國國民黨徽章 謝龍介",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46852",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-韓國瑜委員照片-中國國民黨徽章-韓國瑜-fbce1c5a",
+      "official": true,
+      "name": "韓國瑜委員照片 中國國民黨徽章 韓國瑜",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110106.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46854",
+        "sourceLabel": "立法院官方照片：韓國瑜委員照片 中國國民黨徽章 韓國瑜",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：韓國瑜委員照片 中國國民黨徽章 韓國瑜",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46854",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "legislator-羅美玲委員照片-民主進步黨徽章-羅美玲-d4f543be",
+      "official": true,
+      "name": "羅美玲委員照片 民主進步黨徽章 羅美玲",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110110.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46858",
+        "sourceLabel": "立法院官方照片：羅美玲委員照片 民主進步黨徽章 羅美玲",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：羅美玲委員照片 民主進步黨徽章 羅美玲",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46858",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "legislator-蘇清泉委員照片-中國國民黨徽章-蘇清泉-92910f89",
+      "official": true,
+      "name": "蘇清泉委員照片 中國國民黨徽章 蘇清泉",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": null,
+      "district": "全國不分區及僑居國外國民",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110113.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46861",
+        "sourceLabel": "立法院官方照片：蘇清泉委員照片 中國國民黨徽章 蘇清泉",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：蘇清泉委員照片 中國國民黨徽章 蘇清泉",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46861",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "president-lai-ching-te",
+      "official": true,
+      "name": "賴清德",
+      "roleId": "president",
+      "role": "總統",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國",
+      "organization": "中華民國總統府",
+      "termStart": "2024-05-20",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2024-05-20",
+      "sources": [
+        {
+          "label": "中華民國總統府：賴清德總統",
+          "url": "https://www.president.gov.tw/Page/694",
+          "date": "2024-05-20"
+        }
+      ],
+      "photo": {
+        "localUrl": "assets/portraits/lai-ching-te.jpg",
+        "url": "https://www.president.gov.tw/img/Page/c9cdb96a-f8a4-411d-b7b7-c1ca40468c80.jpg",
+        "sourceUrl": "https://www.president.gov.tw/Page/694",
+        "sourceLabel": "中華民國總統府：總統玉照",
+        "credit": "中華民國總統府",
+        "license": "政府資料開放授權條款第1版",
+        "official": true,
+        "verifiedAt": "2026-07-12"
+      },
+      "personKey": "president-lai-ching-te",
+      "identityStatus": "verified-official"
+    },
+    {
+      "id": "vice-president-hsiao-bi-khim",
+      "official": true,
+      "name": "蕭美琴",
+      "roleId": "vice-president",
+      "role": "副總統",
+      "partyId": "dpp",
+      "countyId": null,
+      "district": "全國",
+      "organization": "中華民國總統府",
+      "termStart": "2024-05-20",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2024-05-20",
+      "sources": [
+        {
+          "label": "中華民國總統府：蕭美琴副總統",
+          "url": "https://www.president.gov.tw/Page/695",
+          "date": "2024-05-20"
+        }
+      ],
+      "photo": {
+        "localUrl": "assets/portraits/hsiao-bi-khim.jpg",
+        "url": "https://www.president.gov.tw/img/Page/510223ed-c538-45fa-9442-a48f78646995.jpg",
+        "sourceUrl": "https://www.president.gov.tw/Page/695",
+        "sourceLabel": "中華民國總統府：副總統玉照",
+        "credit": "中華民國總統府",
+        "license": "政府資料開放授權條款第1版",
+        "official": true,
+        "verifiedAt": "2026-07-12"
+      },
+      "personKey": "vice-president-hsiao-bi-khim",
+      "identityStatus": "verified-official"
+    }
+  ],
+  "candidates": []
+}

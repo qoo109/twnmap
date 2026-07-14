@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "county-councilor-蔣家煌-95da7e57",
+    "official": true,
+    "name": "蔣家煌",
+    "roleId": "county-councilor",
+    "role": "縣市議員",
+    "title": "議員",
+    "partyId": "ind",
+    "countyId": "pingtung",
+    "district": "議員",
+    "organization": "議員",
+    "termStart": null,
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "sources": [
+      {
+        "label": "內政部地方公職人員資訊專區：縣市議員",
+        "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ]
+  }
+}

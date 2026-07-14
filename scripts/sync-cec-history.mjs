@@ -66,11 +66,17 @@ try {
   data.history.years = [...new Set(data.history.results.map((record) => Number(record.year)).filter(Boolean))]
     .sort((a, b) => b - a)
     .map((year) => {
-      const officialCount = data.history.results.filter((record) => Number(record.year) === year && record.sourceType === "cec-official-history").length;
+      const yearRecords = data.history.results.filter((record) => Number(record.year) === year);
+      const officialCount = yearRecords.filter((record) => record.sourceType === "cec-official-history").length;
+      const roles = new Set(yearRecords.map((record) => record.roleId));
+      const hasNational = ["president", "vice-president", "legislator"].some((roleId) => roles.has(roleId));
+      const hasLocal = [...roles].some((roleId) => !["president", "vice-president", "legislator"].includes(roleId));
+      const generatedLabel = hasLocal && hasNational ? `${year} 全國與地方選舉` : hasLocal ? `${year} 地方選舉` : hasNational ? `${year} 總統與立委選舉` : `${year} 選舉`;
+      const previousLabel = previousYearMeta.get(year)?.label;
       return {
         ...(previousYearMeta.get(year) || {}),
         year,
-        label: previousYearMeta.get(year)?.label || `${year} 選舉`,
+        label: previousLabel && previousLabel !== `${year} 選舉` ? previousLabel : generatedLabel,
         status: officialCount ? "official-imported" : "manual-import",
         officialCount,
       };
@@ -142,7 +148,7 @@ try {
     importDurationSeconds: imported.metadata.durationSeconds,
   };
   data.history.lastOfficialImport = imported.metadata;
-  data.meta.version = `${new Date().toISOString().slice(0, 10).replaceAll("-", ".")}-v6.1.2`;
+  data.meta.version = `${new Date().toISOString().slice(0, 10).replaceAll("-", ".")}-v6.1.13`;
   data.meta.lastGeneratedAt = nowIso();
   writeJson("data/election-data.json", data);
   writeJson(reviewPath, review);

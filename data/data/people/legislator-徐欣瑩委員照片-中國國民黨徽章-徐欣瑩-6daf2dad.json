@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "legislator-徐欣瑩委員照片-中國國民黨徽章-徐欣瑩-6daf2dad",
+    "official": true,
+    "name": "徐欣瑩委員照片 中國國民黨徽章 徐欣瑩",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "kmt",
+    "countyId": "hsinchu-county",
+    "district": "新竹縣第1選舉區",
+    "organization": "立法院",
+    "termStart": "2024-02-01",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "photo": {
+      "url": "https://www.ly.gov.tw/Images/Legislators/110046.jpg",
+      "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46797",
+      "sourceLabel": "立法院官方照片：徐欣瑩委員照片 中國國民黨徽章 徐欣瑩",
+      "credit": "立法院",
+      "official": true,
+      "retrievedAt": "2026-07-14T02:36:47.005Z"
+    },
+    "sources": [
+      {
+        "label": "立法院本屆立委：徐欣瑩委員照片 中國國民黨徽章 徐欣瑩",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46797",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ],
+    "gender": "女"
+  }
+}

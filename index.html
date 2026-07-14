@@ -5,11 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="整合現任民選公職、正式候選人與已匯入歷屆選舉結果的台灣行政區互動地圖。" />
   <meta name="theme-color" content="#f6f6f8" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta property="og:site_name" content="台灣選舉報報" />
+  <meta property="og:title" content="台灣選舉報報｜現任公職與歷屆選舉互動地圖" />
+  <meta property="og:description" content="以官方資料查看台灣現任民選公職、政黨版圖與 2018、2020、2022、2024 歷屆選舉結果。" />
+  <meta property="og:url" content="https://qoo109.github.io/twnmap/" />
+  <meta property="og:image" content="https://qoo109.github.io/twnmap/assets/og-election-report.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="台灣選舉報報互動地圖" />
+  <meta name="twitter:card" content="summary_large_image" />
   <title>台灣選舉報報</title>
   <link rel="stylesheet" href="vendor/leaflet.css?v=6.1.6" />
-  <link rel="stylesheet" href="styles.css?v=6.1.12" />
+  <link rel="stylesheet" href="styles.css?v=6.1.14" />
 </head>
-<body>
+<body class="app-loading">
 <a class="skip-link" href="#main">跳到主要內容</a>
 <header class="site-header">
   <a class="brand-wrap" href="index.html" aria-label="回到首頁">
@@ -25,12 +36,11 @@
     <button class="sync-chip" id="headerSyncChip" type="button" aria-haspopup="dialog" aria-controls="syncStatusDialog" title="查看官方資料同步狀態"><i></i><span>讀取資料中</span></button>
     <button class="header-button" id="shareButton" type="button" aria-label="分享目前畫面">分享</button>
     <button class="header-button" id="sourceButton" type="button">來源</button>
-    <a class="header-button admin-header-link" href="admin.html#quickFullSync">管理員更新</a>
     <button class="theme-button" id="themeButton" type="button" aria-label="切換深淺色模式">☼</button>
   </div>
 </header>
 
-<main id="main">
+<main id="main" aria-busy="true">
   <section class="app-shell">
     <aside class="control-panel" id="controlPanel">
       <div class="control-heading">
@@ -100,6 +110,12 @@
         <button class="secondary-button" id="availabilitySyncButton" type="button">查看更新狀態</button>
       </div>
 
+      <div class="deep-link-notice" id="deepLinkNotice" role="status" aria-live="polite" hidden>
+        <div class="deep-link-notice-icon" aria-hidden="true">i</div>
+        <div><strong id="deepLinkNoticeTitle">已開啟最接近的資料層級</strong><p id="deepLinkNoticeText"></p></div>
+        <button class="text-button" id="deepLinkNoticeClose" type="button" aria-label="關閉網址提示">關閉</button>
+      </div>
+
       <section class="map-explorer-bar" aria-label="快速地區導覽與版圖摘要">
         <div class="map-jump-controls">
           <div class="map-explorer-title"><span>快速找地區</span><small>從全台一路看到鄉鎮市區</small></div>
@@ -119,9 +135,9 @@
       </div>
 
       <div class="map-and-summary">
-        <div class="map-card">
+        <div class="map-card" id="mapCard" aria-busy="true">
           <div id="leafletMap" class="leaflet-map" role="application" aria-label="台灣行政區互動地圖"></div>
-          <div class="map-loading" id="mapLoading"><span></span><strong>載入行政區界線中</strong><small>圖資已內建，可離線顯示</small></div>
+          <div class="map-loading" id="mapLoading" role="status" aria-live="polite"><span aria-hidden="true"></span><strong>載入行政區界線中</strong><small>圖資已內建，可離線顯示</small></div>
           <div class="map-fallback" id="mapFallback" hidden></div>
           <div class="map-guide-chip" id="mapGuideChip" aria-live="polite">滑過查看縣市 · 點選進入鄉鎮市區</div>
           <div class="map-legend" id="mapLegend" hidden></div>
@@ -220,7 +236,7 @@
       <article><span>總統府</span><strong id="coveragePresidency">已內建</strong><p>總統與副總統現任頁面。</p></article>
       <article><span>立法院</span><strong id="coverageLegislature">等待同步</strong><p>本屆立委、黨籍、選區與離職名單。</p></article>
       <article><span>內政部</span><strong id="coverageLocal">等待同步</strong><p>地方首長、議員、代表與村里長。</p></article>
-      <article><span>中選會</span><strong id="coverageCandidates">等待公告</strong><p>正式候選人與歷屆選舉結果。</p></article>
+      <article><span>中選會</span><strong id="coverageCandidates">讀取歷屆資料</strong><p id="coverageCecNote">歷屆結果與正式候選人分開標示。</p></article>
     </div>
     <div class="sync-detail" id="syncDetail"></div>
     <div class="public-data-note">
@@ -229,14 +245,13 @@
         <h3>公開頁只顯示可追溯資料</h3>
         <p>同步、匯入與 GitHub 權限操作已移至獨立管理後台。人物頭貼只採官方或人工確認來源；沒有照片時以姓名縮寫替代。</p>
       </div>
-      <a class="secondary-button admin-entry" href="admin.html#quickFullSync">立即更新（管理員）</a>
     </div>
   </section>
 </main>
 
 <footer class="site-footer">
   <div><strong>台灣選舉報報</strong><p>非政府官方網站；所有資料均應回到主管機關原始頁面核對。</p></div>
-  <div class="footer-meta"><span>Daily sync 03:00 · Weekly CEC history 03:20</span><a href="admin.html">管理者入口</a></div>
+  <div class="footer-meta"><span>Daily sync 03:00 · Weekly CEC history 03:20</span><a href="admin.html" aria-label="開啟資料管理頁">資料管理</a></div>
 </footer>
 
 
@@ -245,7 +260,7 @@
 <dialog class="modal" id="personDialog"><div class="modal-shell"><button class="modal-close" data-close-dialog="personDialog" type="button" aria-label="關閉">×</button><div id="personDialogContent"></div></div></dialog>
 <dialog class="modal" id="sourceDialog"><div class="modal-shell"><button class="modal-close" data-close-dialog="sourceDialog" type="button" aria-label="關閉">×</button><p class="eyebrow">OFFICIAL SOURCES</p><h2>資料來源與更新用途</h2><div class="source-list" id="sourceList"></div></div></dialog>
 <dialog class="modal" id="compareDialog"><div class="modal-shell compare-shell"><button class="modal-close" data-close-dialog="compareDialog" type="button" aria-label="關閉">×</button><p class="eyebrow">COMPARE</p><h2>人物比較</h2><div id="compareContent"></div></div></dialog>
-<dialog class="modal sync-status-dialog" id="syncStatusDialog"><div class="modal-shell"><button class="modal-close" data-close-dialog="syncStatusDialog" type="button" aria-label="關閉">×</button><p class="eyebrow">SYNC TRANSPARENCY</p><h2>官方資料同步狀態</h2><p class="modal-subtitle">顯示目前網站已載入的官方來源、資料筆數與最後成功時間。</p><div class="sync-dialog-grid" id="syncStatusDialogContent"></div><div class="sync-dialog-actions"><button class="secondary-button" id="syncDialogRefreshButton" type="button">重新檢查</button><a class="primary-button" href="admin.html#quickFullSync">管理員更新</a></div></div></dialog>
+<dialog class="modal sync-status-dialog" id="syncStatusDialog"><div class="modal-shell"><button class="modal-close" data-close-dialog="syncStatusDialog" type="button" aria-label="關閉">×</button><p class="eyebrow">SYNC TRANSPARENCY</p><h2>官方資料同步狀態</h2><p class="modal-subtitle">顯示目前網站已載入的官方來源、資料筆數與最後成功時間。</p><div class="sync-dialog-grid" id="syncStatusDialogContent"></div><div class="sync-dialog-actions"><button class="secondary-button" id="syncDialogRefreshButton" type="button">重新檢查</button></div></div></dialog>
 <div class="new-data-banner" id="newDataBanner" hidden><div><strong>偵測到較新的官方資料</strong><span>重新載入即可顯示最新同步結果。</span></div><button class="primary-button" id="reloadNewDataButton" type="button">重新載入</button><button class="text-button" id="dismissNewDataButton" type="button">稍後</button></div>
 
 <script>
@@ -257,6 +272,6 @@
 <script src="vendor/leaflet.js?v=6.1.5"></script>
 <script src="vendor/topojson-client.min.js?v=6.1.5"></script>
 <script src="vendor/taiwan-topology.js?v=6.1.5"></script>
-<script src="app.js?v=6.1.12"></script>
+<script src="app.js?v=6.1.14"></script>
 </body>
 </html>

@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "legislator-何欣純委員照片-民主進步黨徽章-何欣純-213dcd67",
+    "official": true,
+    "name": "何欣純委員照片 民主進步黨徽章 何欣純",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "dpp",
+    "countyId": "taichung",
+    "district": "臺中市第7選舉區",
+    "organization": "立法院",
+    "termStart": "2024-02-01",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "photo": {
+      "url": "https://www.ly.gov.tw/Images/Legislators/110010.jpg",
+      "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46765",
+      "sourceLabel": "立法院官方照片：何欣純委員照片 民主進步黨徽章 何欣純",
+      "credit": "立法院",
+      "official": true,
+      "retrievedAt": "2026-07-14T02:36:47.005Z"
+    },
+    "sources": [
+      {
+        "label": "立法院本屆立委：何欣純委員照片 民主進步黨徽章 何欣純",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46765",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ],
+    "gender": "女"
+  }
+}

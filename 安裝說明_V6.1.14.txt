@@ -1,0 +1,21 @@
+V6.1.14 是深層連結、分享、載入狀態與手機操作體驗更新包。
+
+本包完整保留：
+- 現任公職 11,009 筆
+- 中選會歷屆結果 4,416 筆
+- 2018、2020、2022、2024 選舉資料
+- 正式候選人 0 筆；不包含 2026 推測名單
+
+安裝方式：
+1. 將壓縮檔下載到 Mac 的「下載項目」。
+2. 使用 GitHub Desktop 開啟 qoo109/twnmap。
+3. 點選 Repository → Open in Terminal。
+4. 執行：
+   ditto -x -k ~/Downloads/taiwan-election-map-v6.1.14-deep-link-mobile.zip .
+5. 回到 GitHub Desktop，Commit to main，再按 Push origin。
+6. 等候 GitHub Pages 完成後，以 Safari Command + Option + R 強制重新整理。
+
+測試網址：
+https://qoo109.github.io/twnmap/?view=history&county=new-taipei&year=2024&town=65000020
+
+2024 新北市資料以立法委員選舉區為單位，無法可靠對應整個三重區，因此畫面會保留 2024 與新北市，並顯示資料層級提示。這是正確防呆，不是載入失敗。

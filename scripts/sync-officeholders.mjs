@@ -794,7 +794,7 @@ async function main() {
 
   data.officeholders = merged;
   data.parties = [...partyById.values()];
-  data.meta.version = `${taipeiDate(attemptAt).replaceAll("-", ".")}-v6.1.7`;
+  data.meta.version = `${taipeiDate(attemptAt).replaceAll("-", ".")}-v6.1.13`;
   data.meta.lastGeneratedAt = attemptAt;
   const localCount = merged.filter((item) => !["president", "vice-president", "legislator"].includes(item.roleId)).length;
   const legislatorCount = merged.filter((item) => item.roleId === "legislator").length;

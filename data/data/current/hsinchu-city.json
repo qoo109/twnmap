@@ -1,0 +1,4844 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "countyId": "hsinchu-city",
+  "officeholders": [
+    {
+      "id": "county-councilor-田雅芳-4bef1625",
+      "official": true,
+      "name": "田雅芳",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/57acdef1-9c2a-43dc-8065-2cebd1f67a1f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-余邦彥-d3ff668b",
+      "official": true,
+      "name": "余邦彥",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "副議長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "副議長",
+      "organization": "副議長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7129ef9c-d7f4-4c04-b3a8-31bc66d4a1ae.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-吳旭豐-f7e5ec51",
+      "official": true,
+      "name": "吳旭豐",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d31e46dd-6357-409b-82d0-8f010b25fa49.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-吳國寶-74ccaafb",
+      "official": true,
+      "name": "吳國寶",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/261ded75-93a1-4d7f-a1bf-f3d4b60d534f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-宋品瑩-0ab02d91",
+      "official": true,
+      "name": "宋品瑩",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "tpp",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/40bf2fc6-ad25-4c6b-9792-ccb83a29ad87.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-李國璋-84135126",
+      "official": true,
+      "name": "李國璋",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "tpp",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/56bfda66-4994-43ba-bc09-2263e25838c1.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-林彥甫-565697d5",
+      "official": true,
+      "name": "林彥甫",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "npp",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9fce1427-f380-4f22-a02a-8647bbe9bf9f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-林盈徹-16e70f85",
+      "official": true,
+      "name": "林盈徹",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ca8687d4-f74b-4179-8f73-2e80c46b0513.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-林慈愛-f21c1396",
+      "official": true,
+      "name": "林慈愛",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/12d9de72-b73d-427d-9957-704680e76d7d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-施乃如-60b75d36",
+      "official": true,
+      "name": "施乃如",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e4943d4c-05a3-4466-9bb3-11a57038653e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-段孝芳-5c10d6e9",
+      "official": true,
+      "name": "段孝芳",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/df45a949-729e-476e-9c32-f0bd11fb8685.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-孫鍚洲-1cfc97de",
+      "official": true,
+      "name": "孫鍚洲",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6bc16db8-9786-46c9-8ceb-cff11cb73772.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-徐美惠-74eeab64",
+      "official": true,
+      "name": "徐美惠",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d6157cb1-b729-48d3-8024-31cc3dc6c48c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-張祖琰-b97708b3",
+      "official": true,
+      "name": "張祖琰",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/964d21fc-9688-4659-99e1-0051e5a4e329.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-許修睿-59057f25",
+      "official": true,
+      "name": "許修睿",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議長",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "議長",
+      "organization": "議長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6cde7717-a398-40f5-80ab-5aa6b1eee3fd.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-陳治雄-aeced8c7",
+      "official": true,
+      "name": "陳治雄",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/23d93b80-ac92-47d9-840b-d427051e90d6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-陳建名-67f00980",
+      "official": true,
+      "name": "陳建名",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c47a9795-76d0-4b23-b838-76820442cd03.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-陳啓源-bfc802f6",
+      "official": true,
+      "name": "陳啓源",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/66fd448a-a3aa-4bef-92e0-a1606a78b0a0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-陳慶齡-7f5d8776",
+      "official": true,
+      "name": "陳慶齡",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9d821156-2c8e-4b93-bb9c-f9e7b0160cec.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-彭昆耀-057ba1a1",
+      "official": true,
+      "name": "彭昆耀",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/60790058-730d-401c-8082-0a6b789c085a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-曾資程-8e8e6bb9",
+      "official": true,
+      "name": "曾資程",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e4b1d3d3-14e3-456f-b970-07c103bcf0bf.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-黃文政-dd992d66",
+      "official": true,
+      "name": "黃文政",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/18c1ce8c-97ee-4626-a549-5f16265ea496.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-黃美慧-38197bc3",
+      "official": true,
+      "name": "黃美慧",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a13e10f7-bdb6-425b-a04b-3d41ae2f6d98.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-楊玲宜-a0bed267",
+      "official": true,
+      "name": "楊玲宜",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/eab31f35-1d8c-4019-b474-fe1ca1540fda.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-廖子齊-dd148e10",
+      "official": true,
+      "name": "廖子齊",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "npp",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8c6506d5-2e38-4d58-9a15-b5d9e46ce43d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-劉彥伶-411393e6",
+      "official": true,
+      "name": "劉彥伶",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d818bfe9-1551-4eb3-96aa-818688c9504f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-劉崇顯-340a52f7",
+      "official": true,
+      "name": "劉崇顯",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "green",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b05ac5b9-a5ea-4237-826f-9facf8c7c565.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-劉康彥-767ea6ca",
+      "official": true,
+      "name": "劉康彥",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1f104666-afe0-4ffc-852e-d9deee3ab53f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-蔡惠婷-89d8cd85",
+      "official": true,
+      "name": "蔡惠婷",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "npp",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/188cf134-f0ec-4ee2-ad52-6fc21d9b0087.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-鄭成光-ccfe1b9a",
+      "official": true,
+      "name": "鄭成光",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1e04ffc7-964d-4489-aaf1-fa436518493a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-鄭美娟-73a1b39a",
+      "official": true,
+      "name": "鄭美娟",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7fa85005-fd32-40ca-baef-341b975d74c7.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-鄭慶欽-5273bf60",
+      "official": true,
+      "name": "鄭慶欽",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7ac153da-d0f8-4a25-82a3-0d07a26c1050.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-蕭志潔-2026d02b",
+      "official": true,
+      "name": "蕭志潔",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/439344ea-5b95-43c3-88cc-9d500e1073da.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-鍾淑英-3bb01f98",
+      "official": true,
+      "name": "鍾淑英",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/313c244a-a2ed-49b8-9fdc-9db132fefc82.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "legislator-鄭正鈐委員照片-中國國民黨徽章-鄭正鈐-9a04e15b",
+      "official": true,
+      "name": "鄭正鈐委員照片 中國國民黨徽章 鄭正鈐",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "新竹市選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110097.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46845",
+        "sourceLabel": "立法院官方照片：鄭正鈐委員照片 中國國民黨徽章 鄭正鈐",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：鄭正鈐委員照片 中國國民黨徽章 鄭正鈐",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46845",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "village-chief-王立業-a8d6a2b4",
+      "official": true,
+      "name": "王立業",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002587.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-王峯清-753982d4",
+      "official": true,
+      "name": "王峯清",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/124b185b-cc90-4940-8380-1d29960061cd.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-王泰山-3c9d3504",
+      "official": true,
+      "name": "王泰山",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002573.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-王斌展-12a7d6ad",
+      "official": true,
+      "name": "王斌展",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/38bcc53b-f56d-4e5b-ad11-72b6641c2a12.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-古秀芬-bb88448c",
+      "official": true,
+      "name": "古秀芬",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f065959e-3364-48ce-a552-9f54a98dd9d5.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-石添益-db77ab58",
+      "official": true,
+      "name": "石添益",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7b16e672-f17e-4723-b7e2-825cdc99e60e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-朱倖儀-2097c68a",
+      "official": true,
+      "name": "朱倖儀",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/eeeabadc-2837-4780-b7c9-e173a9ba3014.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-朱毅-dd9627b1",
+      "official": true,
+      "name": "朱毅",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002519.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-何芝寧-8841b43c",
+      "official": true,
+      "name": "何芝寧",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/dc36f3be-02de-4046-b612-e2d39aee4a8f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-吳春生-aff65c04",
+      "official": true,
+      "name": "吳春生",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/21faae17-a0a7-495f-bc73-1de7dbe00a9c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-吳烈如-0007101b",
+      "official": true,
+      "name": "吳烈如",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5362d5df-db07-4168-bdf4-44ba9c2d58e9.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-呂賢輝-3442f519",
+      "official": true,
+      "name": "呂賢輝",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/50c928c1-dd7e-4e6f-9b26-1834d74d6388.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-李文中-76d660c4",
+      "official": true,
+      "name": "李文中",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002579.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-李文正-e7ecb1b3",
+      "official": true,
+      "name": "李文正",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/cc237d70-952a-427d-8dda-4546f525005e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-李文桂-c420309c",
+      "official": true,
+      "name": "李文桂",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9b3ca28d-47d5-4740-873d-add440eede3b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-李思民-14a2a0cb",
+      "official": true,
+      "name": "李思民",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002574.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-李臺生-3668ade5",
+      "official": true,
+      "name": "李臺生",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5505fd86-d232-46c1-b460-0732a868b181.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-沈威志-b2b1d477",
+      "official": true,
+      "name": "沈威志",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d5e1b73d-d66c-4dba-b8eb-4f14a309b824.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-沈復環-ddb7b4ea",
+      "official": true,
+      "name": "沈復環",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c4869afe-6ceb-4008-98e5-afc31cc0bbd9.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-沈朝旺-79ebf98d",
+      "official": true,
+      "name": "沈朝旺",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002518.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-沈雄輝-bf841e14",
+      "official": true,
+      "name": "沈雄輝",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/530934f1-e7b6-44c1-9bcc-14e37f2c7932.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-周彥甫-0cbcfa3c",
+      "official": true,
+      "name": "周彥甫",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/565235fc-3163-42fc-9b8e-2c865a00f5d0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林文烽-0d68b23e",
+      "official": true,
+      "name": "林文烽",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/96d687b5-679e-4b3e-87f0-a3e94069e19c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林正雄-879c0bde",
+      "official": true,
+      "name": "林正雄",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/09564bef-78cb-4559-9a0f-4487bb8b6b74.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林再興-3878f01b",
+      "official": true,
+      "name": "林再興",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002592.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林汶蓉-bf6b3d7e",
+      "official": true,
+      "name": "林汶蓉",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e26855b7-02fd-4e0a-b649-8147e3bf56a5.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林季蓉-cd81d70f",
+      "official": true,
+      "name": "林季蓉",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b19fb517-9e33-4756-bafc-5363c78f3891.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=39&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=39&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林武鍾-f9620345",
+      "official": true,
+      "name": "林武鍾",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ad7902f3-5ea5-4b82-9b53-2695ad341018.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林俊縢-f5618a80",
+      "official": true,
+      "name": "林俊縢",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002550.png",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林美玉-f47282ed",
+      "official": true,
+      "name": "林美玉",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/dc1c816a-3590-49e1-baca-dc26de6ce105.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林宸玉-f635ad75",
+      "official": true,
+      "name": "林宸玉",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/857644bb-ffb1-41a7-a413-38e8625cdfbf.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林輝雄-e1f92bc9",
+      "official": true,
+      "name": "林輝雄",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002520.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-邱坤源-80b30b6b",
+      "official": true,
+      "name": "邱坤源",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/917067c8-eb40-43f7-93eb-9cb3eb9ea0c3.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-邱漢奇-b6dded95",
+      "official": true,
+      "name": "邱漢奇",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/79e99b35-0860-4122-b99f-59482aa1b6b4.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-洪炎輝-e5866bff",
+      "official": true,
+      "name": "洪炎輝",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/db85b8e0-6d48-4fdf-8ff1-aead1b6ed348.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-胡銘煌-4232a96c",
+      "official": true,
+      "name": "胡銘煌",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ee22f501-2080-4b66-b6fe-8bdb5621bec9.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-范姜財-edc1ee1f",
+      "official": true,
+      "name": "范姜財",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/dd979336-f0b1-4b4a-bab2-46100e6d5101.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-韋宗賢-cf65f5d7",
+      "official": true,
+      "name": "韋宗賢",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002523.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-徐水蓮-ae66ce15",
+      "official": true,
+      "name": "徐水蓮",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b5b87236-9a58-459d-8b3f-1ee5d9cf83dc.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-徐兆生-eedecef7",
+      "official": true,
+      "name": "徐兆生",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b08d5ca2-726f-4867-abe3-151a51e420b1.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-徐瑞龍-3766f88a",
+      "official": true,
+      "name": "徐瑞龍",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3e1f0654-b291-477e-af18-85da4b1ed13a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-翁秀瓊-7f5787f2",
+      "official": true,
+      "name": "翁秀瓊",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/440afdd4-0ee3-485d-8aef-f43cc4a341d8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-張金滄-5cebf929",
+      "official": true,
+      "name": "張金滄",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c65ea6b0-a5b1-4297-ac41-73b7f0879ea0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-張金潔-7bc7934a",
+      "official": true,
+      "name": "張金潔",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002515.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-張雲錦-aea95137",
+      "official": true,
+      "name": "張雲錦",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f9c2cd2a-e6d1-4fc9-98d1-2941f8f5672d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-張慶榮-08f9b80f",
+      "official": true,
+      "name": "張慶榮",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002578.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-張麗芬-a0a4be52",
+      "official": true,
+      "name": "張麗芬",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/bd3cdff1-844b-4c9e-a548-f37f6f904299.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-莊火炎-15df9de6",
+      "official": true,
+      "name": "莊火炎",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002526.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-莊金清-39d32d0c",
+      "official": true,
+      "name": "莊金清",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1c40b217-b12c-47f8-bc1e-3f5bd28338fa.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許典維-fdc96b6b",
+      "official": true,
+      "name": "許典維",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d01fa1bd-3c50-4237-b8dc-2a2589d3e031.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許明霞-1ec3f69b",
+      "official": true,
+      "name": "許明霞",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/aa71f43b-c97f-403f-ae96-a1b085e027bb.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許謝胤-166417f8",
+      "official": true,
+      "name": "許謝胤",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ee6b0f0b-55af-4a26-a310-beb511ce7f4e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許麗君-ccecba85",
+      "official": true,
+      "name": "許麗君",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5d323537-7355-4698-9d73-34b4b369902d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-郭天寶-689f8cc6",
+      "official": true,
+      "name": "郭天寶",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e90c974c-70aa-4a21-870c-be5d49b6b25c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-郭文銘-5a6ef323",
+      "official": true,
+      "name": "郭文銘",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002586.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-郭朋鑫-cc15818f",
+      "official": true,
+      "name": "郭朋鑫",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c35c9dda-aa8e-462a-96df-889d6277da06.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-郭瑞誠-0c0fb99b",
+      "official": true,
+      "name": "郭瑞誠",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002521.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳士樺-5688e18f",
+      "official": true,
+      "name": "陳士樺",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/53762514-b748-4568-a58e-382901c3cac7.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳心嵐-cc9dc4cf",
+      "official": true,
+      "name": "陳心嵐",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/46714b02-fa96-4757-b3a0-95f38a0c566e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳文榮-d8f9b355",
+      "official": true,
+      "name": "陳文榮",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/839b6920-1216-473c-ab61-4e2a5b0af864.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳文賢-667ffe5d",
+      "official": true,
+      "name": "陳文賢",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0b16da08-4e11-41e4-8072-cd3c6b9b5d03.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳牡丹-28e95f1f",
+      "official": true,
+      "name": "陳牡丹",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/56bf2a46-0482-4482-8299-c2cc390f1251.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=25&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=25&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳居財-46068024",
+      "official": true,
+      "name": "陳居財",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/aba72b06-6e3c-41c3-9906-cb335515e9b6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳宣孝-3c636a63",
+      "official": true,
+      "name": "陳宣孝",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f8a68532-9354-495d-a1d7-44c44c3d7494.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳桂廷-2b97b5e3",
+      "official": true,
+      "name": "陳桂廷",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8af2405b-b7e5-4cd6-8a02-51b412d2a1bd.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳海鋒-10cb7bc1",
+      "official": true,
+      "name": "陳海鋒",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/fb08aa89-369a-4901-9569-7c3608a89543.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳梨娟-b3b8b493",
+      "official": true,
+      "name": "陳梨娟",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/867dc874-6d1d-43e2-a546-756c5464c8cd.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳煥勝-e39dd799",
+      "official": true,
+      "name": "陳煥勝",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/db4457d3-d7a9-4c3f-9505-eaf1545ab7ec.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=25&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=25&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳瑞麟-a9a22709",
+      "official": true,
+      "name": "陳瑞麟",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/393e02c0-f4c8-41ae-ad47-0f3de5c521fa.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳嘉福-75dad587",
+      "official": true,
+      "name": "陳嘉福",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/72137704-f58c-4919-b447-c92381172e0d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳駿翔-b38e3518",
+      "official": true,
+      "name": "陳駿翔",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0e0c5bbb-5003-485c-9247-2d8016eae38f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-彭永泰-56e6f1dd",
+      "official": true,
+      "name": "彭永泰",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002594.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-彭垂東-46a141e5",
+      "official": true,
+      "name": "彭垂東",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002570.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-彭陳玉真-2cf3f851",
+      "official": true,
+      "name": "彭陳玉真",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002589.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-曾一德-6256ddc6",
+      "official": true,
+      "name": "曾一德",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e2fe5a13-fdff-4a51-ba54-f15ba4f49f36.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-曾再霖-48cfb713",
+      "official": true,
+      "name": "曾再霖",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002568.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-曾春慧-e621d3eb",
+      "official": true,
+      "name": "曾春慧",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/255f9be8-50b3-451f-a6a1-2b7cc04f12cc.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-曾欽裕-22778b4c",
+      "official": true,
+      "name": "曾欽裕",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002595.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-曾發-35d1d59f",
+      "official": true,
+      "name": "曾發",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002528.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-曾資強-5fff43ae",
+      "official": true,
+      "name": "曾資強",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/184154f0-891f-418c-b263-c1586ca942e6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-曾翰揚-d82da8b4",
+      "official": true,
+      "name": "曾翰揚",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a2112630-df5f-4241-a2de-231395d901e9.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-温文泰-bed6cd1e",
+      "official": true,
+      "name": "温文泰",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/623fe985-50ce-4155-aa78-714a66238dde.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-温承杰-b3ede16c",
+      "official": true,
+      "name": "温承杰",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/24bf0f88-ba59-4a8b-9a0c-a48b99f9fb72.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃千芳-04fadc35",
+      "official": true,
+      "name": "黃千芳",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0085f4be-c4ab-43cb-b8b3-ed3338f06313.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃文濱-035b5ab7",
+      "official": true,
+      "name": "黃文濱",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/089ffcc5-0a50-43db-886f-cb7b63d2aee4.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃玉卿-03707710",
+      "official": true,
+      "name": "黃玉卿",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8006f77a-b901-46aa-b79a-794e84e63703.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃丞廷-078bbfb0",
+      "official": true,
+      "name": "黃丞廷",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002517.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃建廷-fc037748",
+      "official": true,
+      "name": "黃建廷",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b662932e-1924-49a4-bf3e-f21aaa934dc9.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃彥翔-86912bed",
+      "official": true,
+      "name": "黃彥翔",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1671a16b-74b5-4a2c-882c-929124bfb968.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃郁淳-e55db6d7",
+      "official": true,
+      "name": "黃郁淳",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/af452962-d439-4e4d-8a5d-3f14533e3177.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃桂蘭-42744991",
+      "official": true,
+      "name": "黃桂蘭",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/77d3daac-1d64-4c8c-afa1-f8c8ca96a9c7.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃偉文-34ccb0f4",
+      "official": true,
+      "name": "黃偉文",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002524.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃詠歆-c62bf46b",
+      "official": true,
+      "name": "黃詠歆",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "代理里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "代理里長",
+      "organization": "代理里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/feca7c90-a130-4062-8fad-492456f03860.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃雅卿-44fb2070",
+      "official": true,
+      "name": "黃雅卿",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3e34b0db-cbe2-4bb5-b774-8763554767f5.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-楊松棋-ce68b6ac",
+      "official": true,
+      "name": "楊松棋",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6ed82c2a-2c0d-459a-a63c-333f327adf58.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-楊金土-1634fd43",
+      "official": true,
+      "name": "楊金土",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002516.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-溫國文-039ae831",
+      "official": true,
+      "name": "溫國文",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/37a650f5-b390-4ecd-a391-ddca47650823.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-葉家榮-e6ec5fbc",
+      "official": true,
+      "name": "葉家榮",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7d2978b6-cbc7-4829-a698-3b4a2637f569.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-鄔滬生-730494d6",
+      "official": true,
+      "name": "鄔滬生",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002590.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-廖火桂-11e59f2f",
+      "official": true,
+      "name": "廖火桂",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/fa153ced-567f-4b6f-9bb0-ec30a7a62368.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-廖成章-d1d8b875",
+      "official": true,
+      "name": "廖成章",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002584.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-廖佐華-1675cf54",
+      "official": true,
+      "name": "廖佐華",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002522.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-趙強-560d65fb",
+      "official": true,
+      "name": "趙強",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b52d3784-5ce7-4a7a-a8d3-38b2411c6c53.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-劉晉隆-79dfb617",
+      "official": true,
+      "name": "劉晉隆",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "代理里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "代理里長",
+      "organization": "代理里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a6182d29-0dcb-410e-b121-900014719d51.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-潘柏璋-9c6d7845",
+      "official": true,
+      "name": "潘柏璋",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/230747eb-5d0f-4631-9e61-fe0e821dfd37.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡志堅-504cfcab",
+      "official": true,
+      "name": "蔡志堅",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/91ed4569-c3d4-4140-a143-c2582ab1958d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡松根-9a4c40eb",
+      "official": true,
+      "name": "蔡松根",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002593.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡黃棟-a0645d70",
+      "official": true,
+      "name": "蔡黃棟",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6bafafe1-88ef-40a4-8679-74a85db7abed.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡萱燁-691d7ada",
+      "official": true,
+      "name": "蔡萱燁",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ad0990a1-dab7-456d-94d3-ebfcbfc40a57.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡頴德-6babb33a",
+      "official": true,
+      "name": "蔡頴德",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "tpp",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/78c6b8c4-87a6-423b-928f-721d2ab417f9.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-鄭妙評-3c1aefdb",
+      "official": true,
+      "name": "鄭妙評",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "代理里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "代理里長",
+      "organization": "代理里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a165f470-a598-4a14-b267-bf7a83c87ac1.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-鄭勁譹-34ed5f1d",
+      "official": true,
+      "name": "鄭勁譹",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/551638ff-7481-4abd-bab9-df2870cf8ae8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-鄭陳秀芳-40f58292",
+      "official": true,
+      "name": "鄭陳秀芳",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/177e492a-14db-4370-aee9-8b253a782300.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-鄭瑞鉦-b2f8a424",
+      "official": true,
+      "name": "鄭瑞鉦",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d0dedef5-7900-47ea-81f5-c21b6c678d38.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-盧秋永-8fcc2c7e",
+      "official": true,
+      "name": "盧秋永",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/81065e04-056f-4106-95db-1bd0008a2a2b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-戴金河-92b33c0f",
+      "official": true,
+      "name": "戴金河",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6cc5ceb6-fbdf-4dc3-8b0e-5091c8b0f3b6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-謝金財-1c2dde46",
+      "official": true,
+      "name": "謝金財",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sc11/10712G002585.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蘇竹勝-33e9097c",
+      "official": true,
+      "name": "蘇竹勝",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4597d376-95e9-44af-83dc-aa005e443241.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=36&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蘇虹宇-9f74a3cc",
+      "official": true,
+      "name": "蘇虹宇",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5323a07d-3381-4a82-a580-aa56ebbd597d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蘇瑞林-9ea2d3a3",
+      "official": true,
+      "name": "蘇瑞林",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0e63892d-9e6e-4492-84a3-c9970984ec56.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-饒彬義-dcef467d",
+      "official": true,
+      "name": "饒彬義",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "hsinchu-city",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/03910734-7e9c-4d34-aaf9-a0041e832d5b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=24&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    }
+  ],
+  "candidates": []
+}

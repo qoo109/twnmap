@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "legislator-林俊憲委員照片-民主進步黨徽章-林俊憲-64e5f05e",
+    "official": true,
+    "name": "林俊憲委員照片 民主進步黨徽章 林俊憲",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "dpp",
+    "countyId": "tainan",
+    "district": "臺南市第5選舉區",
+    "organization": "立法院",
+    "termStart": "2024-02-01",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "photo": {
+      "url": "https://www.ly.gov.tw/Images/Legislators/110028.jpg",
+      "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46781",
+      "sourceLabel": "立法院官方照片：林俊憲委員照片 民主進步黨徽章 林俊憲",
+      "credit": "立法院",
+      "official": true,
+      "retrievedAt": "2026-07-14T02:36:47.005Z"
+    },
+    "sources": [
+      {
+        "label": "立法院本屆立委：林俊憲委員照片 民主進步黨徽章 林俊憲",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46781",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ],
+    "gender": "男"
+  }
+}

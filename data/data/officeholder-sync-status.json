@@ -1,0 +1,15 @@
+{
+  "status": "seed-only",
+  "lastAttemptAt": null,
+  "lastSuccessAt": null,
+  "officeholderCount": 2,
+  "localOfficeholderCount": 0,
+  "legislatorCount": 0,
+  "message": "目前內建總統與副總統官方種子資料；部署到 GitHub 後執行每日同步，將匯入立法院與內政部現任名單。",
+  "coverage": {
+    "presidency": "seeded",
+    "legislature": "waiting-first-sync",
+    "local": "waiting-first-sync"
+  },
+  "errors": []
+}

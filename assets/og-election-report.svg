@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Taiwan Election Report</title>
+  <desc id="desc">Official-data election map covering Taiwan election results from 2018 to 2024.</desc>
+  <defs>
+    <linearGradient id="background" x1="80" y1="40" x2="1120" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9FBFC"/>
+      <stop offset="0.58" stop-color="#EEF5F6"/>
+      <stop offset="1" stop-color="#E5F0F4"/>
+    </linearGradient>
+    <linearGradient id="island" x1="855" y1="80" x2="1035" y2="550" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#44B48B"/>
+      <stop offset="0.52" stop-color="#2AA7AD"/>
+      <stop offset="1" stop-color="#3E63A8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="24" flood-color="#111A4A" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <circle cx="1080" cy="45" r="310" fill="#88DEEB" opacity="0.18"/>
+  <circle cx="95" cy="620" r="270" fill="#44B48B" opacity="0.10"/>
+  <path d="M0 514C198 470 301 533 452 503C653 463 740 352 906 362C1027 369 1101 427 1200 412V630H0Z" fill="#FFFFFF" opacity="0.62"/>
+
+  <g transform="translate(82 76)">
+    <rect width="74" height="74" rx="16" fill="#111A4A"/>
+    <path d="M23 25H51V32H35V37H49V44H35V49H52V56H23Z" fill="#FFFFFF"/>
+    <circle cx="55" cy="19" r="6" fill="#EC652B"/>
+  </g>
+
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="82" y="196" fill="#167E6C" font-size="24" font-weight="700" letter-spacing="6">TAIWAN ELECTION REPORT</text>
+    <text x="82" y="282" fill="#111A4A" font-size="66" font-weight="700" letter-spacing="-2">OFFICIAL DATA.</text>
+    <text x="82" y="354" fill="#111A4A" font-size="66" font-weight="700" letter-spacing="-2">CLEAR RESULTS.</text>
+    <text x="84" y="412" fill="#5E6472" font-size="25">Officeholders, party landscape and election history</text>
+    <g transform="translate(82 460)">
+      <rect width="235" height="52" rx="26" fill="#111A4A"/>
+      <circle cx="28" cy="26" r="7" fill="#44B48B"/>
+      <text x="48" y="34" fill="#FFFFFF" font-size="20" font-weight="700">2018 — 2024</text>
+      <rect x="251" width="278" height="52" rx="26" fill="#FFFFFF" stroke="#D9E0E5"/>
+      <text x="279" y="34" fill="#111A4A" font-size="18" font-weight="700">INTERACTIVE MAP</text>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)" transform="translate(773 54)">
+    <path d="M203 9C235 30 242 61 238 91C234 120 248 143 233 173C220 200 201 213 191 241C180 271 183 300 162 327C143 351 132 383 104 400C78 417 70 451 49 478C31 501 8 517 2 545C-2 561 10 574 24 566C52 549 71 526 94 504C116 483 143 470 158 444C174 417 178 386 198 361C217 337 230 309 237 280C244 251 267 227 270 197C274 162 259 132 268 99C275 73 263 43 239 25C225 15 214 8 203 9Z" fill="url(#island)" stroke="#111A4A" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M221 73L174 112L230 151M174 112L145 174L218 207M145 174L112 239L203 261M112 239L85 310L174 343M85 310L54 385L133 420M54 385L36 471L91 501" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.78"/>
+    <circle cx="237" cy="307" r="8" fill="#F2936B" stroke="#FFFFFF" stroke-width="4"/>
+    <circle cx="110" cy="239" r="8" fill="#F2936B" stroke="#FFFFFF" stroke-width="4"/>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "legislator-邱慧洳委員照片-臺灣民眾黨徽章-邱慧洳-a3abc67b",
+    "official": true,
+    "name": "邱慧洳委員照片 臺灣民眾黨徽章 邱慧洳",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "tpp",
+    "countyId": null,
+    "district": "全國不分區及僑居國外國民",
+    "organization": "立法院",
+    "termStart": "2026-02-03",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "photo": {
+      "url": "https://www.ly.gov.tw/Images/Legislators/110120.jpg",
+      "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56438",
+      "sourceLabel": "立法院官方照片：邱慧洳委員照片 臺灣民眾黨徽章 邱慧洳",
+      "credit": "立法院",
+      "official": true,
+      "retrievedAt": "2026-07-14T02:36:47.005Z"
+    },
+    "sources": [
+      {
+        "label": "立法院本屆立委：邱慧洳委員照片 臺灣民眾黨徽章 邱慧洳",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=56438",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ],
+    "gender": "女"
+  }
+}

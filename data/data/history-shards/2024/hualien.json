@@ -1,0 +1,179 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "year": 2024,
+  "countyId": "hualien",
+  "records": [
+    {
+      "id": "cec-1f3e5bd7e02d5593bd76",
+      "demo": false,
+      "official": true,
+      "personKey": "person-c634ef3d62f20a1e684f",
+      "identityConfidence": "exact",
+      "name": "許願神",
+      "gender": "男",
+      "birthDate": "1954-06-12",
+      "birthYear": 1954,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "hualien",
+      "countyName": "花蓮縣",
+      "district": "花蓮縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "015",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 6493,
+      "voteRate": 5.08,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-c23a820d251853499398",
+      "demo": false,
+      "official": true,
+      "personKey": "person-9ef788f8dbeeb93e7882",
+      "identityConfidence": "exact",
+      "name": "張美慧",
+      "gender": "女",
+      "birthDate": "1970-12-03",
+      "birthYear": 1970,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "hualien",
+      "countyName": "花蓮縣",
+      "district": "花蓮縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "015",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 51732,
+      "voteRate": 40.45,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-b4104a8c25ebde2d68fb",
+      "demo": false,
+      "official": true,
+      "personKey": "person-c73e249e77ff37f714ca",
+      "identityConfidence": "exact",
+      "name": "傅崐萁",
+      "gender": "男",
+      "birthDate": "1962-05-08",
+      "birthYear": 1962,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "hualien",
+      "countyName": "花蓮縣",
+      "district": "花蓮縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "015",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 68786,
+      "voteRate": 53.79,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-ae1b4fb373056acddc74",
+      "demo": false,
+      "official": true,
+      "personKey": "person-f1044ff10352bbbcd1aa",
+      "identityConfidence": "exact",
+      "name": "周玉梅",
+      "gender": "女",
+      "birthDate": "1976-03-06",
+      "birthYear": 1976,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "hualien",
+      "countyName": "花蓮縣",
+      "district": "花蓮縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "015",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "other",
+      "partyNameRaw": "制度救世島",
+      "votes": 879,
+      "voteRate": 0.69,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

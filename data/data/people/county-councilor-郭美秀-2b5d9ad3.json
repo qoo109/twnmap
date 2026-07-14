@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "county-councilor-郭美秀-2b5d9ad3",
+    "official": true,
+    "name": "郭美秀",
+    "roleId": "county-councilor",
+    "role": "縣市議員",
+    "title": "議員",
+    "partyId": "pfp",
+    "countyId": "keelung",
+    "district": "議員",
+    "organization": "議員",
+    "termStart": null,
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "photo": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/27f0bb16-2e48-40db-bede-9770e1ea8ed7.jpg",
+      "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+      "sourceLabel": "官方人物照片",
+      "credit": "www.moi.gov.tw",
+      "official": true,
+      "retrievedAt": "2026-07-14T02:36:47.005Z"
+    },
+    "sources": [
+      {
+        "label": "內政部地方公職人員資訊專區：縣市議員",
+        "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ]
+  }
+}

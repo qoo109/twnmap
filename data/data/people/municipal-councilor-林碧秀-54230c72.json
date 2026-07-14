@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "municipal-councilor-林碧秀-54230c72",
+    "official": true,
+    "name": "林碧秀",
+    "roleId": "municipal-councilor",
+    "role": "直轄市議員",
+    "title": "議員",
+    "partyId": "kmt",
+    "countyId": "taichung",
+    "district": "議員",
+    "organization": "議員",
+    "termStart": null,
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "photo": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0907a019-119e-4de2-b045-c669cbd82990.jpg",
+      "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+      "sourceLabel": "官方人物照片",
+      "credit": "www.moi.gov.tw",
+      "official": true,
+      "retrievedAt": "2026-07-14T02:36:47.005Z"
+    },
+    "sources": [
+      {
+        "label": "內政部地方公職人員資訊專區：直轄市議員",
+        "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ]
+  }
+}

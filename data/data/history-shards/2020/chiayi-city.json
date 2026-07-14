@@ -1,0 +1,351 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "year": 2020,
+  "countyId": "chiayi-city",
+  "records": [
+    {
+      "id": "cec-04ef4cbc846884903839",
+      "demo": false,
+      "official": true,
+      "personKey": "person-850c6bcccc9ffc8c91b0",
+      "identityConfidence": "exact",
+      "name": "陳泰山",
+      "gender": "男",
+      "birthDate": "1949-10-05",
+      "birthYear": 1949,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "chiayi-city",
+      "countyName": "嘉義市",
+      "district": "嘉義市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "020",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 215,
+      "voteRate": 0.13,
+      "rank": 8,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-6b628e02e2f0652d41cd",
+      "demo": false,
+      "official": true,
+      "personKey": "person-11670082db2cb1d353e6",
+      "identityConfidence": "exact",
+      "name": "凌子楚",
+      "gender": "男",
+      "birthDate": "1965-09-19",
+      "birthYear": 1965,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "chiayi-city",
+      "countyName": "嘉義市",
+      "district": "嘉義市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "020",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 7270,
+      "voteRate": 4.54,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-28ca171f6d2102d34b93",
+      "demo": false,
+      "official": true,
+      "personKey": "person-383534facc7016770e09",
+      "identityConfidence": "exact",
+      "name": "戴寧",
+      "gender": "女",
+      "birthDate": "1982-02-23",
+      "birthYear": 1982,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "chiayi-city",
+      "countyName": "嘉義市",
+      "district": "嘉義市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "020",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 14000,
+      "voteRate": 8.75,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-b041054d9d002bca5d06",
+      "demo": false,
+      "official": true,
+      "personKey": "person-0ca74d6f2e2406ffecd2",
+      "identityConfidence": "exact",
+      "name": "黃宏成台灣阿成世界偉人財神總統",
+      "gender": "男",
+      "birthDate": "1968-03-20",
+      "birthYear": 1968,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "chiayi-city",
+      "countyName": "嘉義市",
+      "district": "嘉義市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "020",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 1208,
+      "voteRate": 0.75,
+      "rank": 6,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-0c6ebfb36347adf37dff",
+      "demo": false,
+      "official": true,
+      "personKey": "person-0fe1bcb9348bd5ba2f15",
+      "identityConfidence": "exact",
+      "name": "傅大偉",
+      "gender": "男",
+      "birthDate": "1963-04-29",
+      "birthYear": 1963,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "chiayi-city",
+      "countyName": "嘉義市",
+      "district": "嘉義市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "020",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 5,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 53154,
+      "voteRate": 33.22,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-b01540a2ad2f52360c83",
+      "demo": false,
+      "official": true,
+      "personKey": "person-f99893e37fe4fa432803",
+      "identityConfidence": "exact",
+      "name": "王美惠",
+      "gender": "女",
+      "birthDate": "1965-04-15",
+      "birthYear": 1965,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "chiayi-city",
+      "countyName": "嘉義市",
+      "district": "嘉義市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "020",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 6,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 80333,
+      "voteRate": 50.2,
+      "rank": 1,
+      "elected": true,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-a8dbadeffc0709d162f7",
+      "demo": false,
+      "official": true,
+      "personKey": "person-72cfa87a60f1bd3eb6b5",
+      "identityConfidence": "exact",
+      "name": "蔡永泉",
+      "gender": "男",
+      "birthDate": "1952-01-21",
+      "birthYear": 1952,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "chiayi-city",
+      "countyName": "嘉義市",
+      "district": "嘉義市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "020",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 7,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 3501,
+      "voteRate": 2.19,
+      "rank": 5,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-8637b579c04fbb965645",
+      "demo": false,
+      "official": true,
+      "personKey": "person-be008ab4e489100577bf",
+      "identityConfidence": "exact",
+      "name": "郭瑞豐",
+      "gender": "男",
+      "birthDate": "1957-04-12",
+      "birthYear": 1957,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "chiayi-city",
+      "countyName": "嘉義市",
+      "district": "嘉義市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "020",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 8,
+      "partyId": "other",
+      "partyNameRaw": "國會政黨聯盟",
+      "votes": 338,
+      "voteRate": 0.21,
+      "rank": 7,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

@@ -1,0 +1,3202 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "countyId": "kinmen",
+  "officeholders": [
+    {
+      "id": "county-councilor-王秀玉-a0a92c95",
+      "official": true,
+      "name": "王秀玉",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c507b5a9-7dd8-44c7-9f8a-791f92287539.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-王國代-297b3902",
+      "official": true,
+      "name": "王國代",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/be1d92b9-f623-4cd7-83e3-c6a71360c894.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-石永城-67ee4206",
+      "official": true,
+      "name": "石永城",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/249255fc-052d-415f-9dd2-ae94e033eada.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-吳佩雯-935ab0db",
+      "official": true,
+      "name": "吳佩雯",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/fa9b637e-153a-4927-8fee-8f0fc31f2017.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-李養生-bb6fb823",
+      "official": true,
+      "name": "李養生",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9142e6aa-540a-4fb4-a2cf-029e753c7bc2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-周子傑-d11b79a2",
+      "official": true,
+      "name": "周子傑",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9b9deb24-d2c6-4de9-b8e0-7618a9c40e66.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-洪允典-618b407f",
+      "official": true,
+      "name": "洪允典",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "議長",
+      "organization": "議長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/39b16fc9-2e0e-4955-8be8-1982420a235e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-洪成發-85444d1a",
+      "official": true,
+      "name": "洪成發",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/10900de6-9b6b-4d02-9895-394bf3635caa.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-洪鴻斌-f325a0ba",
+      "official": true,
+      "name": "洪鴻斌",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f731f635-0783-4077-b151-0da596065bf9.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-唐麗輝-9f1ef906",
+      "official": true,
+      "name": "唐麗輝",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7922ce46-2440-4e83-91ae-faf30841683e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-張雲量-cab4c226",
+      "official": true,
+      "name": "張雲量",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/46713ef2-8f44-4ce9-9a00-461441b25c91.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-許大鴻-97301f16",
+      "official": true,
+      "name": "許大鴻",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4f98319c-b05c-43d4-82aa-a7a807b6aaf8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-許玉昭-ebd4824a",
+      "official": true,
+      "name": "許玉昭",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/02daa10b-6d06-4094-aa99-e2e01da346ee.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-陳泱瑚-1a48dd04",
+      "official": true,
+      "name": "陳泱瑚",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/01655656-a4fa-48f1-818c-06d377aba464.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-陳錦偉-06555cd7",
+      "official": true,
+      "name": "陳錦偉",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1e1e71ed-f994-452a-8f80-e4f6921aaee4.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-董森堡-7918a371",
+      "official": true,
+      "name": "董森堡",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/110bb7d1-42b3-4d2a-8634-3c4918e8a368.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-歐陽儀雄-067bf6b1",
+      "official": true,
+      "name": "歐陽儀雄",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "副議長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "副議長",
+      "organization": "副議長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6abb92a9-e8d6-4498-aa4b-797dc472c989.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-蔡水游-38ca69c5",
+      "official": true,
+      "name": "蔡水游",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/dc6716d7-1db5-46c1-a262-28849eba5ba0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-蔡其雍-7ca29f52",
+      "official": true,
+      "name": "蔡其雍",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "kinmen",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/077d304b-696d-490c-9d3c-d2922a851102.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-mayor-陳福海-cb0d6b78",
+      "official": true,
+      "name": "陳福海",
+      "roleId": "county-mayor",
+      "role": "縣市長",
+      "title": "縣長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "縣長",
+      "organization": "縣長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/61e0332d-24dd-4a90-848d-6248d47efab6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0005&n=579&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0005&n=579&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "legislator-陳玉珍委員照片-中國國民黨徽章-陳玉珍-caa84105",
+      "official": true,
+      "name": "陳玉珍委員照片 中國國民黨徽章 陳玉珍",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "金門縣選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110063.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46813",
+        "sourceLabel": "立法院官方照片：陳玉珍委員照片 中國國民黨徽章 陳玉珍",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：陳玉珍委員照片 中國國民黨徽章 陳玉珍",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46813",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "女"
+    },
+    {
+      "id": "township-mayor-吳有家-af987688",
+      "official": true,
+      "name": "吳有家",
+      "roleId": "township-mayor",
+      "role": "鄉鎮市長",
+      "title": "鎮長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "鎮長",
+      "organization": "鎮長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/204bc27c-c106-43b3-bd3a-f6fd3bd1ebc0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "township-mayor-李誠智-ae3b47eb",
+      "official": true,
+      "name": "李誠智",
+      "roleId": "township-mayor",
+      "role": "鄉鎮市長",
+      "title": "鎮長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "鎮長",
+      "organization": "鎮長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/99c750e0-0393-40f5-afc0-0426491dfdba.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "township-mayor-洪若珊-6f9ee48b",
+      "official": true,
+      "name": "洪若珊",
+      "roleId": "township-mayor",
+      "role": "鄉鎮市長",
+      "title": "鄉長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "鄉長",
+      "organization": "鄉長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b1f506c9-584e-4667-a7cc-87b917f88631.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "township-mayor-陳文顧-2c4a701d",
+      "official": true,
+      "name": "陳文顧",
+      "roleId": "township-mayor",
+      "role": "鄉鎮市長",
+      "title": "鎮長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "鎮長",
+      "organization": "鎮長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/db2e278a-793c-4021-9280-340314980223.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "township-mayor-楊忠俊-d27f5775",
+      "official": true,
+      "name": "楊忠俊",
+      "roleId": "township-mayor",
+      "role": "鄉鎮市長",
+      "title": "鄉長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "鄉長",
+      "organization": "鄉長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/54eea358-6231-4523-8739-51559e56e19b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "township-mayor-蔡金照-e2029bc2",
+      "official": true,
+      "name": "蔡金照",
+      "roleId": "township-mayor",
+      "role": "鄉鎮市長",
+      "title": "鄉長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "鄉長",
+      "organization": "鄉長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ea2c332d-bc72-4b33-beff-876bf4db4a10.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-方駿洋-93cea53c",
+      "official": true,
+      "name": "方駿洋",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/449a7c6b-8ebc-4850-a869-c667b1c53a31.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-何開忠-0fdcb5bc",
+      "official": true,
+      "name": "何開忠",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-吳福全-ecf05a8e",
+      "official": true,
+      "name": "吳福全",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "副主席",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "副主席",
+      "organization": "副主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/02d5b874-6ada-41df-acbf-439708c5e93f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-呂寶玉-d72c7956",
+      "official": true,
+      "name": "呂寶玉",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-李志鴻-2bd1f980",
+      "official": true,
+      "name": "李志鴻",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d32ed093-8f6d-427d-874a-191d1590a55f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-李秀華-bb0f6282",
+      "official": true,
+      "name": "李秀華",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "副主席",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "副主席",
+      "organization": "副主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/943e6b4d-924f-4714-8b3c-b81af59fda87.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-李俊龍-a384ad63",
+      "official": true,
+      "name": "李俊龍",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-李錫瑜-14f889de",
+      "official": true,
+      "name": "李錫瑜",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f7656330-fa73-46ac-b8d4-f28b7d344133.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-辛愛華-0453d049",
+      "official": true,
+      "name": "辛愛華",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-周水土-0471a0fc",
+      "official": true,
+      "name": "周水土",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "主席",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "主席",
+      "organization": "主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-林金英-2932014c",
+      "official": true,
+      "name": "林金英",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sb11/10712C000322.png",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-林長征-a77ed851",
+      "official": true,
+      "name": "林長征",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0dbf3bf5-ec53-4197-8190-ca79b9a8305a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-林長耕-0edaf209",
+      "official": true,
+      "name": "林長耕",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "主席",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "主席",
+      "organization": "主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0cf1a1cd-0e79-4e5a-8387-eb8486da2992.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-林嘉森-b6e88118",
+      "official": true,
+      "name": "林嘉森",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/624b0ae0-ef7e-41ae-b969-acb0aa843619.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-林麗芬-5c5e8c21",
+      "official": true,
+      "name": "林麗芬",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7feff034-ce34-47c9-9d1f-bb9ba8d40e3a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-洪健中-393c8784",
+      "official": true,
+      "name": "洪健中",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/68cdbc4a-f547-4b25-b149-8c92987b6d64.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-洪雅明-8773532f",
+      "official": true,
+      "name": "洪雅明",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b747cc42-e8bd-491c-aaba-9381712a1811.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-倪于媃-e17e3737",
+      "official": true,
+      "name": "倪于媃",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/83e23160-47b5-4f3a-b4a4-c423e30a3620.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-翁明惠-a4440a3b",
+      "official": true,
+      "name": "翁明惠",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-翁裕凱-1b1c328b",
+      "official": true,
+      "name": "翁裕凱",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/cd2f6be8-a1da-4ec1-a2fb-89e108e07270.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-張中法-d81831f0",
+      "official": true,
+      "name": "張中法",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/52d51b4a-2f55-488a-9042-d3ded27ecba6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-張成爵-3b066585",
+      "official": true,
+      "name": "張成爵",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "副主席",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "副主席",
+      "organization": "副主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-莊振源-461aac30",
+      "official": true,
+      "name": "莊振源",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-許燕輝-62efc275",
+      "official": true,
+      "name": "許燕輝",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/51515149-0f90-4c93-8ad6-b9e5f09c5563.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-郭永隆-a17518bc",
+      "official": true,
+      "name": "郭永隆",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "主席",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "主席",
+      "organization": "主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/64c47d3d-073b-4acd-81b3-dd83ff533613.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳子芸-58c7b63d",
+      "official": true,
+      "name": "陳子芸",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/24b8abf9-1f43-4ece-aa5d-b015ae6f1e53.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳天成-390c7cd4",
+      "official": true,
+      "name": "陳天成",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/OldFile/candidate/down/sb11/10712C000321.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳尤莉-1d6920d6",
+      "official": true,
+      "name": "陳尤莉",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳孝融-2db15fab",
+      "official": true,
+      "name": "陳孝融",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳秀金-4ba98921",
+      "official": true,
+      "name": "陳秀金",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳秀卿-17bc8604",
+      "official": true,
+      "name": "陳秀卿",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/68e452d0-e2ad-4a41-9748-ebd64fe1b525.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳威彰-d2709361",
+      "official": true,
+      "name": "陳威彰",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b44c9c8f-118c-449f-869b-d388cd355723.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳興德-ce4d12cf",
+      "official": true,
+      "name": "陳興德",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "主席",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "主席",
+      "organization": "主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3a946d6e-f0ff-41be-bf1f-97ff89ffa3ab.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-黃文欣-95a1c38b",
+      "official": true,
+      "name": "黃文欣",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "主席",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "主席",
+      "organization": "主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-黃金揚-6e4faf2c",
+      "official": true,
+      "name": "黃金揚",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "副主席",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "副主席",
+      "organization": "副主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0db8e2ca-821a-40f6-bd07-b14e865e8e27.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-黃奕焮-005751c8",
+      "official": true,
+      "name": "黃奕焮",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-黃聰成-e1587246",
+      "official": true,
+      "name": "黃聰成",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-楊水信-ec497578",
+      "official": true,
+      "name": "楊水信",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "副主席",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "副主席",
+      "organization": "副主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-蔡乃靖-99145d11",
+      "official": true,
+      "name": "蔡乃靖",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "主席",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "主席",
+      "organization": "主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7063ea12-397c-4520-a1ad-28395ceafb32.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-蔡云豪-0615eb76",
+      "official": true,
+      "name": "蔡云豪",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c83985fd-0950-44d3-bbad-75d6e6498d53.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-蔡宗儒-46f301f8",
+      "official": true,
+      "name": "蔡宗儒",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/58e918f2-4164-47d0-8b50-87fbfcc20868.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-蔡建偉-78ba264b",
+      "official": true,
+      "name": "蔡建偉",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/66feb4a0-486d-48f8-bbdc-4dd45277cdde.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-蔡連進-675f61f8",
+      "official": true,
+      "name": "蔡連進",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-蔡福春-e1ca5fa0",
+      "official": true,
+      "name": "蔡福春",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0de0ef8e-85b4-488e-9fb6-4272189124de.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-蔡寶愛-a09716c1",
+      "official": true,
+      "name": "蔡寶愛",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-蘇碧浯-6e8ebc95",
+      "official": true,
+      "name": "蘇碧浯",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "副主席",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "副主席",
+      "organization": "副主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/04b0cdb8-2ff9-4b94-bdc5-74fb4ab470f1.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-吳有祥-fa503643",
+      "official": true,
+      "name": "吳有祥",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b3349791-c45d-42d3-a991-ad6a64eaa59e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-吳孟霖-01d86f3a",
+      "official": true,
+      "name": "吳孟霖",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2bf09647-5429-4c20-bddb-61ff9b2b394b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-呂永林-e622b7fc",
+      "official": true,
+      "name": "呂永林",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7eafdbc5-5c65-43a2-9c64-2ee9b0b990f8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-李開陣-d2d27cc5",
+      "official": true,
+      "name": "李開陣",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-辛文進-c7b15fdc",
+      "official": true,
+      "name": "辛文進",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a6b466fd-c92f-4db6-8a4a-ad2ad3dca0e1.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-周家才-efea17ec",
+      "official": true,
+      "name": "周家才",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8cda3c01-ea8d-4cd7-8a20-a7e44fe7ca4b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-周偉義-0a2e8cab",
+      "official": true,
+      "name": "周偉義",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a009ef34-9b75-4170-a25e-e8f522d2895f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林有進-36f7790c",
+      "official": true,
+      "name": "林有進",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=39&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林建進-60b925c6",
+      "official": true,
+      "name": "林建進",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c4cafcd5-86bd-4179-a558-e9f0ee780f5a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-洪天南-d79e3535",
+      "official": true,
+      "name": "洪天南",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/92acedba-d4cd-4c34-96ce-2b0e6f58b913.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-洪安慶-9247280d",
+      "official": true,
+      "name": "洪安慶",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-孫先雄-5c5f390a",
+      "official": true,
+      "name": "孫先雄",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-翁品洋-8a3a19a8",
+      "official": true,
+      "name": "翁品洋",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-張瀚龍-dd5f67a6",
+      "official": true,
+      "name": "張瀚龍",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b67d92fb-8ced-4c34-bbe0-6afe0c46a81e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-莊金蓮-2a0f90a0",
+      "official": true,
+      "name": "莊金蓮",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ccb8530b-6dab-4b00-9c9f-09469ab66943.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許三進-ad3294a0",
+      "official": true,
+      "name": "許三進",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許明吉-11aa1168",
+      "official": true,
+      "name": "許明吉",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許績才-47be6a8f",
+      "official": true,
+      "name": "許績才",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4c634d8e-7c6e-4f4e-862e-419b8d9ba98d.png",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳文傑-cbd8e3d7",
+      "official": true,
+      "name": "陳文傑",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4bc19a9a-5087-4cac-96d8-75120c074fc2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳偃武-8558893e",
+      "official": true,
+      "name": "陳偃武",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2419a470-a870-4aca-b64e-1a57a2de20f9.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳晚開-8acae3e3",
+      "official": true,
+      "name": "陳晚開",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/203eb419-127a-4c52-8add-fd66cd11d6a0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳福林-a2aa4f4f",
+      "official": true,
+      "name": "陳福林",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/79348078-e3fc-4fe9-860f-455ea978b156.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳賜發-bd19fb24",
+      "official": true,
+      "name": "陳賜發",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/dbcee2fa-6bf2-4b03-831d-ae3addbc1480.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳錦章-b8cd60fb",
+      "official": true,
+      "name": "陳錦章",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e1c6d926-a680-4e95-8635-6ab92aa09c0c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃延良-0de47804",
+      "official": true,
+      "name": "黃延良",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/17a4ef50-6469-4d85-b34c-f17d2207cb75.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃建忠-dc4c5a36",
+      "official": true,
+      "name": "黃建忠",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c38617f9-c974-4c09-9b52-6acf0b843809.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃添丁-94783eae",
+      "official": true,
+      "name": "黃添丁",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/01539acf-6636-4027-9329-0c84f558ee66.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-楊雨川-80880052",
+      "official": true,
+      "name": "楊雨川",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/22ec0694-6896-439d-adb0-d37e4d5e9959.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-楊恭勤-425ccd9a",
+      "official": true,
+      "name": "楊恭勤",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a33af79a-d218-4996-826b-5b3d7be49637.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-楊振嵩-7cfa43d8",
+      "official": true,
+      "name": "楊振嵩",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-楊龍傳-2694b5dd",
+      "official": true,
+      "name": "楊龍傳",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡懷芝-0ea69ded",
+      "official": true,
+      "name": "蔡懷芝",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ba41100d-8fe4-4f2c-952c-bbd78b1efc00.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-鄭易岳-3afe2584",
+      "official": true,
+      "name": "鄭易岳",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/926f6403-639e-429d-9ef4-a1413900f671.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-戴德強-56516680",
+      "official": true,
+      "name": "戴德強",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b8ed19fb-13ab-465b-a9e4-b5c5c8704c2b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-謝慶閣-e82dd3fe",
+      "official": true,
+      "name": "謝慶閣",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d2744c74-0c9b-40f6-a07e-274dd6ef0f70.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-顏士強-340c5e66",
+      "official": true,
+      "name": "顏士強",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f7ce7728-5e1b-4d72-acf3-751cc9ef137c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-羅天升-9fc1752b",
+      "official": true,
+      "name": "羅天升",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "kinmen",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    }
+  ],
+  "candidates": []
+}

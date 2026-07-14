@@ -1,0 +1,351 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "year": 2024,
+  "countyId": "yunlin",
+  "records": [
+    {
+      "id": "cec-75e1ae545790b5ff5551",
+      "demo": false,
+      "official": true,
+      "personKey": "person-fc33a2a598db8cf9265a",
+      "identityConfidence": "exact",
+      "name": "郭炳宏",
+      "gender": "男",
+      "birthDate": "1998-05-22",
+      "birthYear": 1998,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "other",
+      "partyNameRaw": "中華統一促進黨",
+      "votes": 445,
+      "voteRate": 0.25,
+      "rank": 6,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-83441b21765a292cea5a",
+      "demo": false,
+      "official": true,
+      "personKey": "person-1f7d7166bfc3f7d96038",
+      "identityConfidence": "exact",
+      "name": "吳炳輝",
+      "gender": "男",
+      "birthDate": "1967-12-01",
+      "birthYear": 1967,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 1470,
+      "voteRate": 0.83,
+      "rank": 5,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-1daeab44dfd0cec0da4d",
+      "demo": false,
+      "official": true,
+      "personKey": "person-6040744ae815af9f135c",
+      "identityConfidence": "exact",
+      "name": "蘇治芬",
+      "gender": "女",
+      "birthDate": "1953-07-10",
+      "birthYear": 1953,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 81707,
+      "voteRate": 46.06,
+      "rank": 2,
+      "elected": false,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-38680311d947f8878ced",
+      "demo": false,
+      "official": true,
+      "personKey": "person-7831c0a091f4fcc88d2c",
+      "identityConfidence": "exact",
+      "name": "李昭儀",
+      "gender": "女",
+      "birthDate": "1985-08-29",
+      "birthYear": 1985,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "other",
+      "partyNameRaw": "台灣革命黨",
+      "votes": 3072,
+      "voteRate": 1.73,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-f7d6742714cdab4abdc4",
+      "demo": false,
+      "official": true,
+      "personKey": "person-fdeb4e249c0ed2f68d50",
+      "identityConfidence": "exact",
+      "name": "丁學忠",
+      "gender": "男",
+      "birthDate": "1970-06-28",
+      "birthYear": 1970,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 5,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 84736,
+      "voteRate": 47.77,
+      "rank": 1,
+      "elected": true,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-3cf14a56447a8b69ced5",
+      "demo": false,
+      "official": true,
+      "personKey": "person-de9282519012b03451cd",
+      "identityConfidence": "exact",
+      "name": "陳俊龍",
+      "gender": "男",
+      "birthDate": "1969-07-04",
+      "birthYear": 1969,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 6,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 5965,
+      "voteRate": 3.36,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-fca5b23aa71c3f90c780",
+      "demo": false,
+      "official": true,
+      "personKey": "person-ae66ce8a53904ed41e7e",
+      "identityConfidence": "exact",
+      "name": "劉建國",
+      "gender": "男",
+      "birthDate": "1969-03-09",
+      "birthYear": 1969,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 115376,
+      "voteRate": 59.48,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-9798272fe8af49fa655e",
+      "demo": false,
+      "official": true,
+      "personKey": "person-ebe9b43e9a76e053202f",
+      "identityConfidence": "exact",
+      "name": "邱良閱",
+      "gender": "男",
+      "birthDate": "1982-05-07",
+      "birthYear": 1982,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "yunlin",
+      "countyName": "雲林縣",
+      "district": "雲林縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "009",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 78596,
+      "voteRate": 40.52,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

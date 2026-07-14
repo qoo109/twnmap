@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "legislator-邱若華委員照片-中國國民黨徽章-邱若華-1c458457",
+    "official": true,
+    "name": "邱若華委員照片 中國國民黨徽章 邱若華",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "kmt",
+    "countyId": "taoyuan",
+    "district": "桃園市第6選舉區",
+    "organization": "立法院",
+    "termStart": "2024-02-01",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "photo": {
+      "url": "https://www.ly.gov.tw/Images/Legislators/110037.jpg",
+      "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46789",
+      "sourceLabel": "立法院官方照片：邱若華委員照片 中國國民黨徽章 邱若華",
+      "credit": "立法院",
+      "official": true,
+      "retrievedAt": "2026-07-14T02:36:47.005Z"
+    },
+    "sources": [
+      {
+        "label": "立法院本屆立委：邱若華委員照片 中國國民黨徽章 邱若華",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46789",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ],
+    "gender": "女"
+  }
+}

@@ -113,7 +113,7 @@ data.history.message = cleanedResults.length
   ? `已建立 ${data.personHistory.length} 位人物、${data.partyHistory.length} 個政黨與 ${data.districtHistory.length} 個選區的歷屆索引。`
   : "尚未匯入歷屆結果；索引為空。";
 data.history.plannedRefresh = "歷屆結果可手動匯入或由官方來源同步後重建索引。";
-data.meta.version = `${taipeiDate(at).replaceAll("-", ".")}-v6.1.2`;
+data.meta.version = `${taipeiDate(at).replaceAll("-", ".")}-v6.1.13`;
 data.meta.lastGeneratedAt = at;
 
 writeJson("data/election-data.json", data);

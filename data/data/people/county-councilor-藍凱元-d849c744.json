@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "county-councilor-藍凱元-d849c744",
+    "official": true,
+    "name": "藍凱元",
+    "roleId": "county-councilor",
+    "role": "縣市議員",
+    "title": "副議長",
+    "partyId": "ind",
+    "countyId": "penghu",
+    "district": "副議長",
+    "organization": "副議長",
+    "termStart": null,
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "photo": {
+      "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f2ff135c-692b-4709-8215-63744419d08c.jpg",
+      "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+      "sourceLabel": "官方人物照片",
+      "credit": "www.moi.gov.tw",
+      "official": true,
+      "retrievedAt": "2026-07-14T02:36:47.005Z"
+    },
+    "sources": [
+      {
+        "label": "內政部地方公職人員資訊專區：縣市議員",
+        "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ]
+  }
+}

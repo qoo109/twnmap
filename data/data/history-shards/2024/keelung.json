@@ -1,0 +1,265 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "year": 2024,
+  "countyId": "keelung",
+  "records": [
+    {
+      "id": "cec-5f97fe1b623f4c17625c",
+      "demo": false,
+      "official": true,
+      "personKey": "person-b3af3579623c95bc9599",
+      "identityConfidence": "exact",
+      "name": "邱紹祐",
+      "gender": "男",
+      "birthDate": "1983-12-09",
+      "birthYear": 1983,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "keelung",
+      "countyName": "基隆市",
+      "district": "基隆市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "017",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "other",
+      "partyNameRaw": "家庭基本收入",
+      "votes": 2361,
+      "voteRate": 1.12,
+      "rank": 5,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-3c9f418f670bba93a1e8",
+      "demo": false,
+      "official": true,
+      "personKey": "person-18ab86eb74de8b475b70",
+      "identityConfidence": "exact",
+      "name": "黃傑陽",
+      "gender": "男",
+      "birthDate": "1982-12-08",
+      "birthYear": 1982,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "keelung",
+      "countyName": "基隆市",
+      "district": "基隆市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "017",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 1331,
+      "voteRate": 0.63,
+      "rank": 6,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-34ac4113a1115ab5fab0",
+      "demo": false,
+      "official": true,
+      "personKey": "person-82ae06dc8725a0cd99e4",
+      "identityConfidence": "exact",
+      "name": "謝海菁",
+      "gender": "女",
+      "birthDate": "1996-05-31",
+      "birthYear": 1996,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "keelung",
+      "countyName": "基隆市",
+      "district": "基隆市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "017",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "other",
+      "partyNameRaw": "小民參政歐巴桑聯盟",
+      "votes": 8192,
+      "voteRate": 3.88,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-3360db3ea092207793b4",
+      "demo": false,
+      "official": true,
+      "personKey": "person-cd6503e3294dd2fc2a15",
+      "identityConfidence": "exact",
+      "name": "王醒之",
+      "gender": "男",
+      "birthDate": "1972-02-16",
+      "birthYear": 1972,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "keelung",
+      "countyName": "基隆市",
+      "district": "基隆市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "017",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "ind",
+      "partyNameRaw": "無黨籍及未經政黨推薦",
+      "votes": 37260,
+      "voteRate": 17.67,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-1fb5222dc5e40ae1683b",
+      "demo": false,
+      "official": true,
+      "personKey": "person-a16a34a63c63beab9271",
+      "identityConfidence": "exact",
+      "name": "林沛祥",
+      "gender": "男",
+      "birthDate": "1977-05-14",
+      "birthYear": 1977,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "keelung",
+      "countyName": "基隆市",
+      "district": "基隆市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "017",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 5,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 91986,
+      "voteRate": 43.62,
+      "rank": 1,
+      "elected": true,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-39162b9e52d189b9a468",
+      "demo": false,
+      "official": true,
+      "personKey": "person-a2fce4b4b6899060a17f",
+      "identityConfidence": "exact",
+      "name": "鄭文婷",
+      "gender": "女",
+      "birthDate": "1968-09-28",
+      "birthYear": 1968,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "keelung",
+      "countyName": "基隆市",
+      "district": "基隆市第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "017",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 6,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 69741,
+      "voteRate": 33.07,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

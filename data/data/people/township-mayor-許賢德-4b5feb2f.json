@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "township-mayor-許賢德-4b5feb2f",
+    "official": true,
+    "name": "許賢德",
+    "roleId": "township-mayor",
+    "role": "鄉鎮市長",
+    "title": "鄉長",
+    "partyId": "ind",
+    "countyId": "penghu",
+    "district": "鄉長",
+    "organization": "鄉長",
+    "termStart": null,
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "sources": [
+      {
+        "label": "內政部地方公職人員資訊專區：鄉鎮市長",
+        "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ]
+  }
+}

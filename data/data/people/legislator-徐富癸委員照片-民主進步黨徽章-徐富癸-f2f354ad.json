@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "legislator-徐富癸委員照片-民主進步黨徽章-徐富癸-f2f354ad",
+    "official": true,
+    "name": "徐富癸委員照片 民主進步黨徽章 徐富癸",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "dpp",
+    "countyId": "pingtung",
+    "district": "屏東縣第2選舉區",
+    "organization": "立法院",
+    "termStart": "2024-02-01",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "photo": {
+      "url": "https://www.ly.gov.tw/Images/Legislators/110047.jpg",
+      "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46798",
+      "sourceLabel": "立法院官方照片：徐富癸委員照片 民主進步黨徽章 徐富癸",
+      "credit": "立法院",
+      "official": true,
+      "retrievedAt": "2026-07-14T02:36:47.005Z"
+    },
+    "sources": [
+      {
+        "label": "立法院本屆立委：徐富癸委員照片 民主進步黨徽章 徐富癸",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46798",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ],
+    "gender": "男"
+  }
+}

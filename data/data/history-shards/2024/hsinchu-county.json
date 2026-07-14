@@ -1,0 +1,351 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "year": 2024,
+  "countyId": "hsinchu-county",
+  "records": [
+    {
+      "id": "cec-81846688d8b7be397aab",
+      "demo": false,
+      "official": true,
+      "personKey": "person-3c31d3c214ad3b4f28e1",
+      "identityConfidence": "exact",
+      "name": "劉復嵐",
+      "gender": "男",
+      "birthDate": "1974-05-09",
+      "birthYear": 1974,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "hsinchu-county",
+      "countyName": "新竹縣",
+      "district": "新竹縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "004",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "other",
+      "partyNameRaw": "台灣維新",
+      "votes": 1392,
+      "voteRate": 0.92,
+      "rank": 5,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-c1e3f5c89cdee52b35d1",
+      "demo": false,
+      "official": true,
+      "personKey": "person-3797fc2084b7d5ae47d5",
+      "identityConfidence": "exact",
+      "name": "徐欣瑩",
+      "gender": "女",
+      "birthDate": "1972-04-23",
+      "birthYear": 1972,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "hsinchu-county",
+      "countyName": "新竹縣",
+      "district": "新竹縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "004",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 84959,
+      "voteRate": 55.91,
+      "rank": 1,
+      "elected": true,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-3cd99fc974194de34df0",
+      "demo": false,
+      "official": true,
+      "personKey": "person-a29f42713797064fb6d4",
+      "identityConfidence": "exact",
+      "name": "劉台穠",
+      "gender": "女",
+      "birthDate": "1981-06-24",
+      "birthYear": 1981,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "hsinchu-county",
+      "countyName": "新竹縣",
+      "district": "新竹縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "004",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "other",
+      "partyNameRaw": "小民參政歐巴桑聯盟",
+      "votes": 4610,
+      "voteRate": 3.03,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-14a6665955722545ad9a",
+      "demo": false,
+      "official": true,
+      "personKey": "person-cdf2438a5c9853ed7811",
+      "identityConfidence": "exact",
+      "name": "余筱菁",
+      "gender": "女",
+      "birthDate": "1980-12-02",
+      "birthYear": 1980,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "hsinchu-county",
+      "countyName": "新竹縣",
+      "district": "新竹縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "004",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "green",
+      "partyNameRaw": "台灣綠黨",
+      "votes": 15557,
+      "voteRate": 10.24,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-deb1d98ff93e10144598",
+      "demo": false,
+      "official": true,
+      "personKey": "person-76f04b3c37f31ca772ea",
+      "identityConfidence": "exact",
+      "name": "詹紀緹",
+      "gender": "女",
+      "birthDate": "1990-02-07",
+      "birthYear": 1990,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "hsinchu-county",
+      "countyName": "新竹縣",
+      "district": "新竹縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "004",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 5,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 45445,
+      "voteRate": 29.91,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-4e06f520872425b14a08",
+      "demo": false,
+      "official": true,
+      "personKey": "person-16fefa9f98d0851fec74",
+      "identityConfidence": "exact",
+      "name": "王婉諭",
+      "gender": "女",
+      "birthDate": "1979-04-26",
+      "birthYear": 1979,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "hsinchu-county",
+      "countyName": "新竹縣",
+      "district": "新竹縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "004",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "npp",
+      "partyNameRaw": "時代力量",
+      "votes": 63566,
+      "voteRate": 37.19,
+      "rank": 2,
+      "elected": false,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-360707495c867d043fac",
+      "demo": false,
+      "official": true,
+      "personKey": "person-128f6ae4de29b72309ce",
+      "identityConfidence": "exact",
+      "name": "曾聖凱",
+      "gender": "男",
+      "birthDate": "1984-10-26",
+      "birthYear": 1984,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "hsinchu-county",
+      "countyName": "新竹縣",
+      "district": "新竹縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "004",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 30738,
+      "voteRate": 17.98,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-a97d3c50f8907f20dbf9",
+      "demo": false,
+      "official": true,
+      "personKey": "person-810f017b26a3acb0bf06",
+      "identityConfidence": "exact",
+      "name": "林思銘",
+      "gender": "男",
+      "birthDate": "1966-03-16",
+      "birthYear": 1966,
+      "year": 2024,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2024總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "hsinchu-county",
+      "countyName": "新竹縣",
+      "district": "新竹縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "004",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 76608,
+      "voteRate": 44.82,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2024總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

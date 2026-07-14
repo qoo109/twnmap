@@ -1,0 +1,308 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "year": 2020,
+  "countyId": "nantou",
+  "records": [
+    {
+      "id": "cec-bad0c52b6f9336915ba8",
+      "demo": false,
+      "official": true,
+      "personKey": "person-922ae62a660a68d04548",
+      "identityConfidence": "exact",
+      "name": "馬文君",
+      "gender": "女",
+      "birthDate": "1965-12-01",
+      "birthYear": 1965,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 73480,
+      "voteRate": 53.57,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-f171d35bfa8b8c0eeec8",
+      "demo": false,
+      "official": true,
+      "personKey": "person-323cacbdaa0736c44b77",
+      "identityConfidence": "exact",
+      "name": "蔡培慧",
+      "gender": "女",
+      "birthDate": "1971-09-02",
+      "birthYear": 1971,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第01選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "01",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 63691,
+      "voteRate": 46.43,
+      "rank": 2,
+      "elected": false,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-1d5e7105ed6454205755",
+      "demo": false,
+      "official": true,
+      "personKey": "person-eb59424fd14d66e043c7",
+      "identityConfidence": "exact",
+      "name": "許淑華",
+      "gender": "女",
+      "birthDate": "1975-10-15",
+      "birthYear": 1975,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 1,
+      "partyId": "kmt",
+      "partyNameRaw": "中國國民黨",
+      "votes": 80067,
+      "voteRate": 54.83,
+      "rank": 1,
+      "elected": true,
+      "incumbent": true,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-b2830586c8c5781b35a7",
+      "demo": false,
+      "official": true,
+      "personKey": "person-2c2d1640964a40208579",
+      "identityConfidence": "exact",
+      "name": "謝福全",
+      "gender": "男",
+      "birthDate": "1951-06-26",
+      "birthYear": 1951,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 2,
+      "partyId": "other",
+      "partyNameRaw": "宗教聯盟",
+      "votes": 978,
+      "voteRate": 0.67,
+      "rank": 4,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-b5e6206c62dc812fd358",
+      "demo": false,
+      "official": true,
+      "personKey": "person-9c04b8738d3ddd51409d",
+      "identityConfidence": "exact",
+      "name": "吳承叡",
+      "gender": "男",
+      "birthDate": "1995-06-09",
+      "birthYear": 1995,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 3,
+      "partyId": "tsp",
+      "partyNameRaw": "台灣基進",
+      "votes": 4865,
+      "voteRate": 3.33,
+      "rank": 3,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-20ae2cb2539721021e15",
+      "demo": false,
+      "official": true,
+      "personKey": "person-5089faf549acdeeb293a",
+      "identityConfidence": "exact",
+      "name": "傅文佐",
+      "gender": "男",
+      "birthDate": "1975-03-12",
+      "birthYear": 1975,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 4,
+      "partyId": "other",
+      "partyNameRaw": "合一行動聯盟",
+      "votes": 800,
+      "voteRate": 0.55,
+      "rank": 5,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    },
+    {
+      "id": "cec-69a66b61f5d25fe39a3c",
+      "demo": false,
+      "official": true,
+      "personKey": "person-c7cccda08ee83214d017",
+      "identityConfidence": "exact",
+      "name": "陳癸佑",
+      "gender": "男",
+      "birthDate": "1968-09-15",
+      "birthYear": 1968,
+      "year": 2020,
+      "electionType": "立法委員",
+      "electionName": "votedata › votedata › voteData › 2020總統立委 › 區域立委",
+      "roleId": "legislator",
+      "countyId": "nantou",
+      "countyName": "南投縣",
+      "district": "南投縣第02選區",
+      "areaCodes": {
+        "prv": "10",
+        "city": "008",
+        "area": "02",
+        "dept": "000",
+        "li": "0000"
+      },
+      "number": 5,
+      "partyId": "dpp",
+      "partyNameRaw": "民主進步黨",
+      "votes": 59322,
+      "voteRate": 40.62,
+      "rank": 2,
+      "elected": false,
+      "incumbent": false,
+      "sourceType": "cec-official-history",
+      "sourcePath": "votedata/votedata/voteData/2020總統立委/區域立委",
+      "sources": [
+        {
+          "label": "中央選舉委員會選舉資料庫",
+          "url": "https://data.gov.tw/dataset/13119",
+          "date": "2026-07-13"
+        }
+      ],
+      "linkedCurrentIds": []
+    }
+  ]
+}

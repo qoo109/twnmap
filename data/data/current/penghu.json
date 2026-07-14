@@ -1,0 +1,5031 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "countyId": "penghu",
+  "officeholders": [
+    {
+      "id": "county-councilor-吳政杰-012ce368",
+      "official": true,
+      "name": "吳政杰",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5dd222e1-8a52-401d-8612-7e63dad4b925.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-呂黃春金-a3cc2d39",
+      "official": true,
+      "name": "呂黃春金",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a5ee3d2a-7b1b-499e-b59a-728bdff0fd85.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-宋昀芝-192e8fc8",
+      "official": true,
+      "name": "宋昀芝",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f033f9a4-0426-41c1-9b79-b18fdb542159.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-胡松榮-41123049",
+      "official": true,
+      "name": "胡松榮",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "npsu",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/34a140e5-9fd6-4463-bef3-8b406287cac8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-張仁和-933e7877",
+      "official": true,
+      "name": "張仁和",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/273752c6-24cc-428f-8a17-9f63c23c27e8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-莊光大-a32e1b1a",
+      "official": true,
+      "name": "莊光大",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5d8a141f-e02e-45f3-a486-483ee451ef31.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-許月里-d05f5d37",
+      "official": true,
+      "name": "許月里",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9163a869-9039-41ce-a841-763adf3345af.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-許育愷-e4ee8832",
+      "official": true,
+      "name": "許育愷",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c833e648-fc9f-446d-a6a0-bd650211f173.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-許國政-e9d4f463",
+      "official": true,
+      "name": "許國政",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/59ed0056-d489-4635-a89d-be930a34c81a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-陳佩真-c5268a3d",
+      "official": true,
+      "name": "陳佩真",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/99b139a1-83a1-4d42-8733-bc50e06b04dc.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-陳海山-0532d268",
+      "official": true,
+      "name": "陳海山",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d8af27bf-bd0f-4120-8ec3-bbe5bb3afd61.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-陳毓仁-366d477d",
+      "official": true,
+      "name": "陳毓仁",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "議長",
+      "organization": "議長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/03a0f38f-df38-4ceb-b314-5c562546ca60.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-劉陳昭玲-d990c4f4",
+      "official": true,
+      "name": "劉陳昭玲",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "kmt",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d2241d36-b0eb-4b82-9ea0-a3039e96bfb2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-蔡清續-bf39ad9f",
+      "official": true,
+      "name": "蔡清續",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5e34eedf-8e81-470e-a983-9498286826f7.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-藍凱元-d849c744",
+      "official": true,
+      "name": "藍凱元",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "副議長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "副議長",
+      "organization": "副議長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f2ff135c-692b-4709-8215-63744419d08c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-魏睿宏-2b44ab43",
+      "official": true,
+      "name": "魏睿宏",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/471aefc6-213c-4b01-b32b-66e5d65a968e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-蘇育德-78fa92ed",
+      "official": true,
+      "name": "蘇育德",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "dpp",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/66f868eb-df8c-4a41-8750-0f22faf8775e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-councilor-蘇陳綉色-e029beb9",
+      "official": true,
+      "name": "蘇陳綉色",
+      "roleId": "county-councilor",
+      "role": "縣市議員",
+      "title": "議員",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "議員",
+      "organization": "議員",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a8965f8e-6ba7-4b68-a648-36de30fe8851.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市議員",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "county-mayor-陳光復-256a331d",
+      "official": true,
+      "name": "陳光復",
+      "roleId": "county-mayor",
+      "role": "縣市長",
+      "title": "縣長",
+      "partyId": "dpp",
+      "countyId": "penghu",
+      "district": "縣長",
+      "organization": "縣長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/835b1022-e38a-443e-a9bd-fbad19a97fe0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0005&n=579&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：縣市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0005&n=579&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "legislator-楊曜委員照片-民主進步黨徽章-楊曜-2f045324",
+      "official": true,
+      "name": "楊曜委員照片 民主進步黨徽章 楊曜",
+      "roleId": "legislator",
+      "role": "立法委員",
+      "title": "立法委員",
+      "partyId": "dpp",
+      "countyId": "penghu",
+      "district": "澎湖縣選舉區",
+      "organization": "立法院",
+      "termStart": "2024-02-01",
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://www.ly.gov.tw/Images/Legislators/110086.jpg",
+        "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46834",
+        "sourceLabel": "立法院官方照片：楊曜委員照片 民主進步黨徽章 楊曜",
+        "credit": "立法院",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "立法院本屆立委：楊曜委員照片 民主進步黨徽章 楊曜",
+          "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46834",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ],
+      "gender": "男"
+    },
+    {
+      "id": "township-mayor-呂啓俊-fb7c26f4",
+      "official": true,
+      "name": "呂啓俊",
+      "roleId": "township-mayor",
+      "role": "鄉鎮市長",
+      "title": "鄉長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "鄉長",
+      "organization": "鄉長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/853f777c-a29b-4b86-9d1b-9462c7dc7662.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "township-mayor-宋萬富-8bc64dc6",
+      "official": true,
+      "name": "宋萬富",
+      "roleId": "township-mayor",
+      "role": "鄉鎮市長",
+      "title": "鄉長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "鄉長",
+      "organization": "鄉長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "township-mayor-李添進-9448e495",
+      "official": true,
+      "name": "李添進",
+      "roleId": "township-mayor",
+      "role": "鄉鎮市長",
+      "title": "鄉長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "鄉長",
+      "organization": "鄉長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/47c2c4a0-6e82-4047-b401-70d2d405fb7a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "township-mayor-許賢德-4b5feb2f",
+      "official": true,
+      "name": "許賢德",
+      "roleId": "township-mayor",
+      "role": "鄉鎮市長",
+      "title": "鄉長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "鄉長",
+      "organization": "鄉長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "township-mayor-陳振中-e964cbc4",
+      "official": true,
+      "name": "陳振中",
+      "roleId": "township-mayor",
+      "role": "鄉鎮市長",
+      "title": "鄉長",
+      "partyId": "kmt",
+      "countyId": "penghu",
+      "district": "鄉長",
+      "organization": "鄉長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/047293d6-f1f3-4674-9b73-9d8015f3025f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "township-mayor-黃健忠-95dba06c",
+      "official": true,
+      "name": "黃健忠",
+      "roleId": "township-mayor",
+      "role": "鄉鎮市長",
+      "title": "市長",
+      "partyId": "dpp",
+      "countyId": "penghu",
+      "district": "市長",
+      "organization": "市長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/73825697-bc91-4c59-ae63-ac284e32baae.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-王志成-dd840606",
+      "official": true,
+      "name": "王志成",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "副主席",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "副主席",
+      "organization": "副主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e8c477ce-7253-4ba6-adf6-03f2076d1e68.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-王經邦-cd47f70a",
+      "official": true,
+      "name": "王經邦",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/447848eb-d28f-4f1e-8691-9d5def22a79d.docx",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-吳仁祥-3f9f2898",
+      "official": true,
+      "name": "吳仁祥",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/38cd858d-bc05-4297-9961-39e3bc37cb81.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-吳正利-66481158",
+      "official": true,
+      "name": "吳正利",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e27cb90e-9949-4d2c-8070-53ee69d3d6f6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-吳志宏-d69c614e",
+      "official": true,
+      "name": "吳志宏",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5be02247-f880-4fde-ae40-bdae39438a5e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-吳良添-7f03417f",
+      "official": true,
+      "name": "吳良添",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "主席",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "主席",
+      "organization": "主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2a71808c-4dc0-4636-8d3d-3cce98ced221.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-吳武宗-4c1ff0ce",
+      "official": true,
+      "name": "吳武宗",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "dpp",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2247996a-b8fb-4546-9fed-c8449e65e642.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-呂平清-6ae6be76",
+      "official": true,
+      "name": "呂平清",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/bafa014c-560e-4699-904e-3c17f5bd69d8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-呂建文-19c80e06",
+      "official": true,
+      "name": "呂建文",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5225d3a9-8c95-48db-a886-c440b3e513ca.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-呂清陣-e1d9ed71",
+      "official": true,
+      "name": "呂清陣",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ff9bd669-d88b-4d95-9ee5-bef00a847c7e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-呂福肯-cf97e6de",
+      "official": true,
+      "name": "呂福肯",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a859e37f-ec8b-4279-9552-41e3f25e1f46.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-呂蕙羽-052b052b",
+      "official": true,
+      "name": "呂蕙羽",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f2e31fdd-909c-485b-bfeb-3b65c7afb9ea.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-李家萱-40e0b42b",
+      "official": true,
+      "name": "李家萱",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/16bd6e0c-2cef-4912-882f-a193a9ac8df2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-李麗美-8a0edc4e",
+      "official": true,
+      "name": "李麗美",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1635a09f-af86-4b0a-b981-b55cf72203ba.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-林振強-b153d98b",
+      "official": true,
+      "name": "林振強",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9e8d9bf3-f2fd-4592-803a-3d1e65ed8701.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-林清鑫-a4333d66",
+      "official": true,
+      "name": "林清鑫",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/93bd37ea-baa4-469b-a619-e9b5c3b73bb3.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-邵張慈-ddef18bc",
+      "official": true,
+      "name": "邵張慈",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/10728a32-33b6-4164-b380-2146aa7d5b5f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-俞益興-cadc2f57",
+      "official": true,
+      "name": "俞益興",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "主席",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "主席",
+      "organization": "主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/69e83f37-8dfa-4881-93bd-1bcc6f2b601e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-洪志銘-dbd199af",
+      "official": true,
+      "name": "洪志銘",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/67680faf-b932-4421-92df-730404e33150.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-洪良合-3b478146",
+      "official": true,
+      "name": "洪良合",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3f2634c9-c628-41ec-bce0-72dcc17f3bf5.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-洪清騰-6d3459c0",
+      "official": true,
+      "name": "洪清騰",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0a6540bb-9935-43df-ab4c-71bab0ca9cc8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-胡佩青-528b5479",
+      "official": true,
+      "name": "胡佩青",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9a97cde8-0b57-4889-879c-181448f60036.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-夏建成-acdebd8f",
+      "official": true,
+      "name": "夏建成",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a2fc6b19-4559-4444-8648-7cb26e77d188.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-涂憲鐘-2ed59a0d",
+      "official": true,
+      "name": "涂憲鐘",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3855961e-0d1e-4724-9856-256f7ad1eff6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-張訓五-c2220947",
+      "official": true,
+      "name": "張訓五",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "副主席",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "副主席",
+      "organization": "副主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/317c6e77-307f-4453-8764-dfdacb45112e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-莊國輝-6048f074",
+      "official": true,
+      "name": "莊國輝",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "副主席",
+      "partyId": "tpp",
+      "countyId": "penghu",
+      "district": "副主席",
+      "organization": "副主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/af4ffe9e-8c7b-4060-941b-1b9f8232de95.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-許見情-05f5475c",
+      "official": true,
+      "name": "許見情",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5a7c8ed7-0fea-447c-ad91-6e33ea1ec847.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-許明昌-c780ed8f",
+      "official": true,
+      "name": "許明昌",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/41b31263-5047-46f9-9929-0d3d48c19386.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=11&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=11&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-許高福-be7797b4",
+      "official": true,
+      "name": "許高福",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2ab54ba6-8f17-48a7-8dae-ee21aef25fa8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-許啟庭-af3b0865",
+      "official": true,
+      "name": "許啟庭",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e0a497a1-a55c-45d7-975c-d1b7175d66b4.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-許淑真-24f9e610",
+      "official": true,
+      "name": "許淑真",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c5a56c8f-06e2-44ab-a47c-46104a8c29e8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-許龍聰-e33c223b",
+      "official": true,
+      "name": "許龍聰",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "副主席",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "副主席",
+      "organization": "副主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/862500dd-2628-4d62-afff-6a2380cc6736.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳永澎-9c707820",
+      "official": true,
+      "name": "陳永澎",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/28bc18f2-3b7f-4e0d-848a-0b7e5a59ad0f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳吉富-7032fc3c",
+      "official": true,
+      "name": "陳吉富",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "主席",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "主席",
+      "organization": "主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8e3c6462-a819-4eb2-bfed-38a1f2431bdc.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳明現-d3a0f5f5",
+      "official": true,
+      "name": "陳明現",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/367b52e7-d3d8-47b5-ac41-9fa632c6f814.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳金女-924439dc",
+      "official": true,
+      "name": "陳金女",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "副主席",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "副主席",
+      "organization": "副主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/594bcb23-41bf-4a24-97b9-fd0891f095fb.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=2&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳妍臻-71e9a806",
+      "official": true,
+      "name": "陳妍臻",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6f0ae83d-ce91-41d8-b941-3adb21dd713b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳紘諒-fa65a07f",
+      "official": true,
+      "name": "陳紘諒",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/99c70237-2834-4ceb-a626-82fde0b8c96c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-陳淑娟-502a31a1",
+      "official": true,
+      "name": "陳淑娟",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2a6e409c-59cf-48ac-bad9-d8fd4b9a72bc.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-曾才發-986daceb",
+      "official": true,
+      "name": "曾才發",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/87f843fa-e1c0-47c4-bbac-603881a71cd6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-黃旭輝-3039b31e",
+      "official": true,
+      "name": "黃旭輝",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3f4cfc23-bee8-448f-8364-bc7f84c6b15a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-黃宗妙-87718509",
+      "official": true,
+      "name": "黃宗妙",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7ab1535f-8406-4798-934f-bafe63b1fa04.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-葉長茂-ac10f620",
+      "official": true,
+      "name": "葉長茂",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3402d2c1-4d69-4c93-90b7-51b82bce2fda.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-葉約迫-022da903",
+      "official": true,
+      "name": "葉約迫",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9e564c05-98e3-40a2-b9c2-a69618210333.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-甄開源-9bc696bb",
+      "official": true,
+      "name": "甄開源",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/20d7f39b-36f4-458c-b08a-615507d677f2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-歐銀花-7ddd9b14",
+      "official": true,
+      "name": "歐銀花",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "主席",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "主席",
+      "organization": "主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7bf22f19-858d-41e6-9442-c620a75d0bcb.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-蔡建習-956fd9d0",
+      "official": true,
+      "name": "蔡建習",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "主席",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "主席",
+      "organization": "主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/39c951ce-9089-485e-9dd0-5299c0f003a6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-蔡益利-e53b7b47",
+      "official": true,
+      "name": "蔡益利",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ab5bc38a-b4c2-40e0-93e9-bc9e816d5e2d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-薛淑娟-13a59792",
+      "official": true,
+      "name": "薛淑娟",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ce0c9b34-adb6-40c3-8893-95bedb3acb8f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-鍾玉倫-496a4db1",
+      "official": true,
+      "name": "鍾玉倫",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/0d9eb59f-bb01-447c-859f-0fdc9a104a90.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "township-representative-譚蘭芬-50606612",
+      "official": true,
+      "name": "譚蘭芬",
+      "roleId": "township-representative",
+      "role": "鄉鎮市民代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "penghu",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/60a1b291-b072-45b1-8450-d1c07f4e91cf.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：鄉鎮市民代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0003&n=575&page=9&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-王太平-1cc62b58",
+      "official": true,
+      "name": "王太平",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/49e4dd75-6d75-4ad5-b8a5-39e710a9aad2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-王明忠-5a902412",
+      "official": true,
+      "name": "王明忠",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6d3041b4-9761-46b1-bbc9-85d890ade2f1.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-王家興-eb277067",
+      "official": true,
+      "name": "王家興",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d334c6a7-afc2-40bd-81f2-c09e01604fa1.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-吳淑媜-f167984c",
+      "official": true,
+      "name": "吳淑媜",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/bd3aab56-ff2c-4883-a7bd-a089dc4735e8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-呂正宗-b52b1ca7",
+      "official": true,
+      "name": "呂正宗",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-呂汶駿-8a7d80e8",
+      "official": true,
+      "name": "呂汶駿",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-呂東昇-36cb2700",
+      "official": true,
+      "name": "呂東昇",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-李玉立-1ac0e778",
+      "official": true,
+      "name": "李玉立",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2e1a9485-f148-4865-95ea-0aac35703a47.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-李江海-c344512a",
+      "official": true,
+      "name": "李江海",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-李美珠-d96a78ec",
+      "official": true,
+      "name": "李美珠",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b06e45ad-f95c-41cd-a641-9abedb3e67e3.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-李清石-c53d9593",
+      "official": true,
+      "name": "李清石",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9f632acb-7036-4c7b-ba56-e4362ad3b3f9.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-辛天澤-521b7612",
+      "official": true,
+      "name": "辛天澤",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6389203c-5aaa-4a04-8598-9e6c22246e61.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林見芳-4165b716",
+      "official": true,
+      "name": "林見芳",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/23c5d627-31d1-444e-b5f8-fa692539f85d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林來續-69d4ee14",
+      "official": true,
+      "name": "林來續",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/fafd0106-f63b-4f06-9498-90d491fb4105.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-林團圓-c9b2b925",
+      "official": true,
+      "name": "林團圓",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/cef0aac8-1919-43b4-862a-f0f96e068a69.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-洪子健-53bd6ea6",
+      "official": true,
+      "name": "洪子健",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/08d3f768-5a73-496b-a829-01280a0b78cd.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-洪良利-fed441e8",
+      "official": true,
+      "name": "洪良利",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b94f755e-d347-457a-a229-814779cb80c9.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-洪英俊-6f95ecb7",
+      "official": true,
+      "name": "洪英俊",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3d31a481-cde8-483a-b1b5-8bc21625b308.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-洪瑞達-264a1d48",
+      "official": true,
+      "name": "洪瑞達",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-洪聰權-6c8cadd1",
+      "official": true,
+      "name": "洪聰權",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6a7355ff-ec2d-4adb-bcc3-6bee5f220d49.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-紀招治-45b74f4e",
+      "official": true,
+      "name": "紀招治",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/298aa08b-6986-4061-9c97-a30d9e871c5e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-夏臨福-244e95a2",
+      "official": true,
+      "name": "夏臨福",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a30c531d-5964-43aa-9a3f-41a554871f7e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-高宏志-6647fcd4",
+      "official": true,
+      "name": "高宏志",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-高瑞明-7c86cca5",
+      "official": true,
+      "name": "高瑞明",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/630292b1-0993-449e-9ab3-eb10ba199f3e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-張健完-ef2100d3",
+      "official": true,
+      "name": "張健完",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-張儷盈-d6aff933",
+      "official": true,
+      "name": "張儷盈",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6c005a29-293c-4f47-9523-1f0d7bcac51a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-莊順青-1088b5a0",
+      "official": true,
+      "name": "莊順青",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a21ccc27-a6cb-4564-96df-997abfc8b02e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-莊福氣-fdd78b85",
+      "official": true,
+      "name": "莊福氣",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5d8345cc-ab9f-40a8-89f3-e9fc887faa08.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-莊誌陽-d3f5e2b1",
+      "official": true,
+      "name": "莊誌陽",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/45da6aca-f0df-4ad7-ba19-6db43c354ae8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許大信-69075aea",
+      "official": true,
+      "name": "許大信",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許玉雪-61bb996c",
+      "official": true,
+      "name": "許玉雪",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "kmt",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/de24263c-f031-44c1-8f44-57e8383e80fd.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許見興-46e0a5ab",
+      "official": true,
+      "name": "許見興",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d5442ccc-6281-49e6-8e09-a49ca720d834.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許政忠-78e2db46",
+      "official": true,
+      "name": "許政忠",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/db1a0876-8f8d-4b6a-b351-d33f9db8282d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許清上-fdcf8fa5",
+      "official": true,
+      "name": "許清上",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許智哲-692b8693",
+      "official": true,
+      "name": "許智哲",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e5b5366b-a943-435e-b770-c87a03798f9d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許進清-04cf2983",
+      "official": true,
+      "name": "許進清",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2671b961-7d96-413e-b9a7-0ad3827713a7.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-許源章-67182971",
+      "official": true,
+      "name": "許源章",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/987ea6de-3301-4bfc-9c4e-347ef761543b.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-郭文雅-963de315",
+      "official": true,
+      "name": "郭文雅",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-郭宜媚-88ec1cb5",
+      "official": true,
+      "name": "郭宜媚",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4537ece9-7352-4716-85f7-8a56fa93edfc.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳大川-fbbc609e",
+      "official": true,
+      "name": "陳大川",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/892a29fb-c26e-48f2-aa19-f1363b99f088.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳天成-319550c5",
+      "official": true,
+      "name": "陳天成",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/59b7e5ae-51c4-478d-b9f6-7a8c525020de.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳天瑞-3b5dc659",
+      "official": true,
+      "name": "陳天瑞",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳文淵-68088729",
+      "official": true,
+      "name": "陳文淵",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳北川-866acc7c",
+      "official": true,
+      "name": "陳北川",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳召君-165788d1",
+      "official": true,
+      "name": "陳召君",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1aac5a12-328d-4ac5-8314-0cddfe76767e.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳吉財-ff68b978",
+      "official": true,
+      "name": "陳吉財",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/de3a3553-b2a7-41e2-9e82-c721afa6abe2.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳安國-135335f4",
+      "official": true,
+      "name": "陳安國",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/57a4ba90-2526-4e73-b5d4-4028e07e9553.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳志勇-235501da",
+      "official": true,
+      "name": "陳志勇",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳冠霖-f10f9b09",
+      "official": true,
+      "name": "陳冠霖",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/cf4d6d33-5061-47ef-a325-3cf39ccc7bda.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳昭任-43794a4b",
+      "official": true,
+      "name": "陳昭任",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2857ea2c-830c-44da-a920-5273902868e6.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳昭回-bb5c8abb",
+      "official": true,
+      "name": "陳昭回",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/76fdab84-f531-4061-883c-32a31fd8e41a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳枻橙-422ad12d",
+      "official": true,
+      "name": "陳枻橙",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳家豐-922261ba",
+      "official": true,
+      "name": "陳家豐",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/88ce61e8-74cf-4473-8348-c3e5e73b55c3.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳森煌-24f3dbed",
+      "official": true,
+      "name": "陳森煌",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳順志-59d0ee11",
+      "official": true,
+      "name": "陳順志",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4c34426c-99b9-4e58-ad43-4f8901ab6ec5.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-陳黃淑媛-990d2075",
+      "official": true,
+      "name": "陳黃淑媛",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6b78521e-4e0c-4e8a-ba51-6a0d498960f1.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-章娥-f3b8a140",
+      "official": true,
+      "name": "章娥",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2e53f98b-1eb0-430f-ae76-3bbbc09166c4.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-曾國欣-e85aa572",
+      "official": true,
+      "name": "曾國欣",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/012d3637-ae18-4cde-b054-c1b513c83b1f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-項文男-996b1c92",
+      "official": true,
+      "name": "項文男",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c0dd368a-ad97-4b7f-9c35-bccd1ef3474c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃文隆-90b56a49",
+      "official": true,
+      "name": "黃文隆",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ef73ed05-bdbc-46ec-8a1c-6607c26c0238.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃文騫-b5d01c07",
+      "official": true,
+      "name": "黃文騫",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃永安-e26d6189",
+      "official": true,
+      "name": "黃永安",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4552b8f7-475c-4566-90b3-6451a73e60e5.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃信義-2d988725",
+      "official": true,
+      "name": "黃信義",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f1da54fe-1ad3-4abb-9f21-ac0ef30b0f77.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃星良-fdefbcb3",
+      "official": true,
+      "name": "黃星良",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4373159c-0d37-450e-a46c-5b89487f3264.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃敏惠-1ff1a353",
+      "official": true,
+      "name": "黃敏惠",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "kmt",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c03aa703-c457-4cc1-bf0c-9a79a31f2904.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-黃禮聰-ef8d2a82",
+      "official": true,
+      "name": "黃禮聰",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-楊志業-7fb04f23",
+      "official": true,
+      "name": "楊志業",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/bb50fd7f-62ff-4c16-ab35-3055c2e17615.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-楊英三-8a6107d4",
+      "official": true,
+      "name": "楊英三",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-楊嘉鵬-a7c4ccca",
+      "official": true,
+      "name": "楊嘉鵬",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3873554d-4e6d-4dbd-a075-9e755b4736e4.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-葉文泉-ea2b046b",
+      "official": true,
+      "name": "葉文泉",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-葉建祿-1cb7c9d4",
+      "official": true,
+      "name": "葉建祿",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/cef46dac-c10d-4fbd-bd29-36e8bb9c143f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-葉順圓-49899bcf",
+      "official": true,
+      "name": "葉順圓",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/7b62d6d9-c694-43cd-b796-f5e5725520e5.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-趙浚彬-58b36eab",
+      "official": true,
+      "name": "趙浚彬",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/41f3be9b-35dc-4f48-93b3-f39d50f5907c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-歐正雄-71c5f004",
+      "official": true,
+      "name": "歐正雄",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/feb36742-27ff-4f5a-be40-76d627a90ab0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡成火-c2dee1d5",
+      "official": true,
+      "name": "蔡成火",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/aee29220-da0f-4318-b033-b4ea6e8b49f8.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡武智-c8681bf8",
+      "official": true,
+      "name": "蔡武智",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d0a5044f-0522-43d2-8b1c-ea442cc3eb55.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡美珠-b9279634",
+      "official": true,
+      "name": "蔡美珠",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f08e4a1d-96b5-4d46-a4f7-8b6d0eacbc93.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蔡榮利-2a07a352",
+      "official": true,
+      "name": "蔡榮利",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e7bd02ba-02c5-490c-9871-ffb2303bbe7d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-鄭秀娟-b74e3872",
+      "official": true,
+      "name": "鄭秀娟",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/181250a3-64fe-4e5b-a7f9-59a7bb1e6498.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-鄭秋香-d345b2fb",
+      "official": true,
+      "name": "鄭秋香",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-鄭尊任-4d6c94f4",
+      "official": true,
+      "name": "鄭尊任",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蕭文瑞-e74c0e1a",
+      "official": true,
+      "name": "蕭文瑞",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/05135644-89b4-44ee-8ee5-e3bc5f2d866c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蕭煒仕-d8ae0b22",
+      "official": true,
+      "name": "蕭煒仕",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-薛清宗-4e5dfd45",
+      "official": true,
+      "name": "薛清宗",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/41fcf50a-d8b4-43eb-a6c5-51ca50d0fb44.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-謝永乾-39767ffd",
+      "official": true,
+      "name": "謝永乾",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-藍銘洲-d74eb349",
+      "official": true,
+      "name": "藍銘洲",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/07915545-7147-4e7e-865d-a2d7410589b0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-顏光前-eef72a33",
+      "official": true,
+      "name": "顏光前",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2651c012-697d-4dc9-9b8d-2e43c2502d8c.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-顏明清-1ae497dd",
+      "official": true,
+      "name": "顏明清",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/780de942-d9f8-44f9-86a9-0bf241ace159.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-顏鈺穎-1548308b",
+      "official": true,
+      "name": "顏鈺穎",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c3389e1d-5ba0-41fb-ae5f-261fd7135584.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=38&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-顏錦鸞-8aeb55f1",
+      "official": true,
+      "name": "顏錦鸞",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8a7fa207-1476-47ad-a20d-bdfa68644e0f.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-魏錫銘-09281d60",
+      "official": true,
+      "name": "魏錫銘",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "村長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "村長",
+      "organization": "村長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    },
+    {
+      "id": "village-chief-蘇德成-9bea4520",
+      "official": true,
+      "name": "蘇德成",
+      "roleId": "village-chief",
+      "role": "村里長",
+      "title": "里長",
+      "partyId": "ind",
+      "countyId": "penghu",
+      "district": "里長",
+      "organization": "里長",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/86971ca9-5fe6-42c8-a620-be4dcf58da8d.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:57:39.999Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：村里長",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0007&n=577&page=30&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:57:39.999Z"
+        }
+      ]
+    }
+  ],
+  "candidates": []
+}

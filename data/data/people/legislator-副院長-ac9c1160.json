@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-07-14T07:41:39.327Z",
+  "person": {
+    "id": "legislator-副院長-ac9c1160",
+    "official": true,
+    "name": "副院長",
+    "roleId": "legislator",
+    "role": "立法委員",
+    "title": "立法委員",
+    "partyId": "kmt",
+    "countyId": "taichung",
+    "district": "臺中市第8選舉區",
+    "organization": "立法院",
+    "termStart": "2024-02-01",
+    "status": "incumbent",
+    "sourceUpdatedAt": "2026-07-14",
+    "sources": [
+      {
+        "label": "立法院本屆立委：副院長",
+        "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=121",
+        "date": "2026-07-14",
+        "retrievedAt": "2026-07-14T02:36:47.005Z"
+      }
+    ],
+    "gender": "男"
+  }
+}

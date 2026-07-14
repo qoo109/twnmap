@@ -303,7 +303,7 @@ if (dedupedCandidates.length > 0) {
 const success = metadataSucceeded > 0;
 const officialCount = data.candidates.filter((candidate) => candidate.official && !candidate.demo).length;
 const demoCount = data.candidates.filter((candidate) => candidate.demo).length;
-data.meta.version = `${taipeiDate(attemptAt).replaceAll("-", ".")}-v6.1.2`;
+data.meta.version = `${taipeiDate(attemptAt).replaceAll("-", ".")}-v6.1.13`;
 data.meta.lastGeneratedAt = attemptAt;
 data.sync = {
   schedule: "daily",
