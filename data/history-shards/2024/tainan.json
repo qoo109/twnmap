@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2024,
   "countyId": "tainan",
   "records": [
@@ -130,9 +130,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-賴惠員-06ed64af"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-3a7073df3e9ebb7ff95a",
@@ -347,9 +345,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-郭國文-9dc697a7"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-a714010fe617fd91339f",
@@ -478,9 +474,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-陳亭妃-93fa4653"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-ed8b55ae24bfe756f129",
@@ -566,9 +560,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-林宜瑾-203d29aa"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-688f8bc2df1ef07ac8ab",
@@ -697,9 +689,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-林俊憲-7325ad0c"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-e9f960ff9297d6a73be5",
@@ -742,9 +732,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-王定宇-f4af43a9"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-fed73d901f52d56ea66e",

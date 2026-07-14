@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2020,
   "countyId": "new-taipei",
   "records": [
@@ -302,9 +302,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-洪孟楷-b3b8640c"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-6c31a477b6ba7a9985e1",
@@ -390,9 +388,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-林淑芬-e5072996"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-268b76461f11fffd2c54",
@@ -908,9 +904,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-吳秉叡-8f40bc8f"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-7343a72743909cf05fd7",
@@ -1211,9 +1205,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-蘇巧慧-3dfeaebe"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-c9336e2cbac82990b238",
@@ -1342,9 +1334,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-張宏陸-c491e35e"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-f7d8da68d1ee48f1a697",
@@ -1559,9 +1549,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-柯志恩-599f482f"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-a39e428661aa260630e1",
@@ -2206,9 +2194,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-林德福-292fe5e9"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-668e1badb44bf7b4fb6d",
@@ -2380,9 +2366,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-吳琪銘-0493987f"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-cd91c6066ba256a9e43a",
@@ -2640,9 +2624,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-羅明才-1413bc3d"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-6853db4e8b4bccba525d",

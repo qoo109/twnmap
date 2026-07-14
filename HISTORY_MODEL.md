@@ -50,7 +50,7 @@ personHistory / partyHistory / districtHistory
 
 - `exact`：至少有姓名、性別與可解析出生日期
 - `probable`：有出生年或性別，但資料不完整
-- `review`：主要只能依姓名、地區與選舉類型判斷，必須人工確認
+- `review`：官方識別欄位不足，資料保持分離，不公開合併為同一人物
 
 同名但人物指紋不同時，不會自動合併。疑似衝突寫入 `data/history/identity-review.json`。
 

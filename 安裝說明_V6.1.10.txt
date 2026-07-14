@@ -1,0 +1,13 @@
+V6.1.10 是 UI 覆蓋更新包，不包含 data 資料夾，不會覆蓋網站目前已同步的資料。
+
+請將壓縮包內檔案上傳至 GitHub repository 根目錄並選擇覆蓋：
+
+1. index.html
+2. styles.css
+3. app.js
+4. package.json
+5. package-lock.json
+6. CHANGELOG_V6.1.9.md
+7. CHANGELOG_V6.1.10.md
+
+上傳完成後等待 GitHub Pages 更新，再重新整理公開網站。

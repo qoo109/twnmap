@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2020,
   "countyId": "taipei",
   "records": [
@@ -87,9 +87,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-吳思瑤-7f00d2d0"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-f4cb9d5260302bb0d09b",
@@ -820,9 +818,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-李彥秀-3cd761a3"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-b7aa8551f82bf8e70346",
@@ -2284,9 +2280,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-賴士葆-74f012da"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-354b874acdcd109b8cd1",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2024,
   "countyId": "pingtung",
   "records": [
@@ -87,9 +87,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-鍾佳濱-a81ad8bd"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-42419d5c7493757a69ac",
@@ -390,9 +388,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-徐富癸-0df8a1d4"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-a54793e7c5e0e116e349",

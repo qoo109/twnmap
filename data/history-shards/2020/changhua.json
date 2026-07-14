@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2020,
   "countyId": "changhua",
   "records": [
@@ -87,9 +87,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-陳秀寳-db4a3831"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-4ca710b466d631c7626d",
@@ -175,9 +173,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-黃秀芳-e5f86414"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-c0fd7d11d7763d63d1e7",
@@ -263,9 +259,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-謝衣鳯-b31da483"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-7a77d13d0b53a1748ea1",
@@ -566,9 +560,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-陳素月-6387a7ac"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-79b3a15be781153bdda4",

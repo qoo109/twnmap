@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2024,
   "countyId": "kaohsiung",
   "records": [
@@ -173,9 +173,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-邱議瑩-11c8f2ef"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-119640b37bc124195226",
@@ -261,9 +259,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-邱志偉-3b926763"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-cd9906fc712e3eba497b",
@@ -435,9 +431,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-李柏毅-f214d5c9"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-06d76d9041ee2f7e5158",
@@ -523,9 +517,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-林岱樺-f7d66876"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-bee357a5483a084bba2f",
@@ -654,9 +646,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-李昆澤-32db9388"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-30368d2267f4e1919f86",
@@ -828,9 +818,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-黃捷-81b911a2"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-7bf93cfa978f7c8423de",
@@ -1045,9 +1033,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-許智傑-80f9be31"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-de189eedccceaae6021d",
@@ -1176,9 +1162,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-賴瑞隆-9993404b"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-cd205bbefa7aff89b0a1",

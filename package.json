@@ -1,6 +1,6 @@
 {
-  "name": "taiwan-election-report-v6-1-14",
-  "version": "6.1.14",
+  "name": "taiwan-election-report-v6-1-17",
+  "version": "6.1.17",
   "private": true,
   "description": "台灣選舉報報：官方現任、候選人與歷屆資料同步，依政黨分組並支援全資料抓取",
   "type": "module",
@@ -17,8 +17,9 @@
     "test:cec-parser": "python3 scripts/test_cec_history_import.py",
     "cache:portraits": "python3 scripts/cache_portraits.py",
     "report:changes": "node scripts/generate-change-report.mjs",
+    "build:districts": "node scripts/build-legislative-districts.mjs",
     "build:shards": "node scripts/build-data-shards.mjs",
-    "build:release": "npm run cache:portraits && npm run sync:history && npm run report:changes && npm run build:shards && npm run build:data",
+    "build:release": "npm run cache:portraits && npm run sync:history && npm run report:changes && npm run build:districts && npm run build:shards && npm run build:data",
     "test:moi-parser": "MOI_PARSER_TEST=1 node scripts/test-moi-parser.mjs"
   },
   "engines": {

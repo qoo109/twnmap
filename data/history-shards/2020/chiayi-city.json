@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2020,
   "countyId": "chiayi-city",
   "records": [
@@ -259,9 +259,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-王美惠-6eb96bd7"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-a8dbadeffc0709d162f7",

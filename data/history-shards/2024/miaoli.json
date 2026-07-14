@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2024,
   "countyId": "miaoli",
   "records": [
@@ -87,9 +87,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-陳超明-e0906fb1"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-45ecad10dba5cd06e2b8",
@@ -132,9 +130,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-邱鎮軍-383e0fb2"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-981325f21f9825f400e0",

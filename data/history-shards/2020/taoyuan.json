@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2020,
   "countyId": "taoyuan",
   "records": [
@@ -517,9 +517,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-魯明哲-2dda8986"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-fe095bd1bbfccd804e95",
@@ -863,9 +861,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-萬美玲-ffcb1a12"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-d9070581dda2ccece45c",
@@ -951,9 +947,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-呂玉玲-d830bf22"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-84a23972843b0b67b046",

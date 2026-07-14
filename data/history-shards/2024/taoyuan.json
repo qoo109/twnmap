@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2024,
   "countyId": "taoyuan",
   "records": [
@@ -130,9 +130,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-牛煦庭-1d9a39f1"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-a1ba36122ebfac839f49",
@@ -304,9 +302,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-涂權吉-c553de46"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-207c82604b0dcc14a1bd",
@@ -435,9 +431,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-魯明哲-2dda8986"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-5f5f6135dc18e2d79024",
@@ -652,9 +646,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-萬美玲-ffcb1a12"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-fc1cf6b98881289c8038",
@@ -783,9 +775,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-呂玉玲-d830bf22"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-f27b4d5b3ce47fa68f26",
@@ -1043,9 +1033,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-邱若華-3ef163f0"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-5ddfbe3f21592fd56598",

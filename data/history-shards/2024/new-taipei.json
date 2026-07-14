@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2024,
   "countyId": "new-taipei",
   "records": [
@@ -173,9 +173,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-洪孟楷-b3b8640c"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-e6de9f6099a22ddf201b",
@@ -261,9 +259,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-林淑芬-e5072996"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-e8c8a3693ce8653b1560",
@@ -478,9 +474,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-李坤城-4a2c8f4d"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-fd5aff96a274436358b1",
@@ -609,9 +603,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-吳秉叡-8f40bc8f"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-b0d70bc2d2bd174ca03a",
@@ -783,9 +775,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-蘇巧慧-3dfeaebe"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-334b920be178bda461a2",
@@ -957,9 +947,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-張宏陸-c491e35e"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-c1d8416749115c93b9d7",
@@ -1002,9 +990,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-葉元之-02f0289a"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-cd12bd9eea518187a345",
@@ -1219,9 +1205,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-張智倫-1803988f"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-8da9c830b591352cd4b1",
@@ -1264,9 +1248,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-林德福-292fe5e9"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-89b08d4a26a3ad803d36",
@@ -1481,9 +1463,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-吳琪銘-0493987f"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-d04c33d2331580f179b1",
@@ -1569,9 +1549,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-羅明才-1413bc3d"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-ce7fe94b0ce633a4c6a6",
@@ -2044,9 +2022,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-廖先翔-cf20c833"
-      ]
+      "linkedCurrentIds": []
     }
   ]
 }

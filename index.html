@@ -18,7 +18,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <title>台灣選舉報報</title>
   <link rel="stylesheet" href="vendor/leaflet.css?v=6.1.6" />
-  <link rel="stylesheet" href="styles.css?v=6.1.14" />
+  <link rel="stylesheet" href="styles.css?v=6.1.17" />
 </head>
 <body class="app-loading">
 <a class="skip-link" href="#main">跳到主要內容</a>
@@ -121,6 +121,7 @@
           <div class="map-explorer-title"><span>快速找地區</span><small>從全台一路看到鄉鎮市區</small></div>
           <label for="mapCountyJump"><span>縣市</span><select id="mapCountyJump"><option value="all">全台灣</option></select></label>
           <label for="mapTownJump"><span>鄉鎮市區</span><select id="mapTownJump" disabled><option value="">請先選擇縣市</option></select></label>
+          <label for="mapDistrictJump" id="mapDistrictControl" hidden><span>選舉區</span><select id="mapDistrictJump"><option value="">全部選舉區</option></select></label>
           <button class="text-button map-reset-location" id="resetMapLocation" type="button">回全台</button>
         </div>
         <div class="map-insight-grid" aria-live="polite">
@@ -140,6 +141,12 @@
           <div class="map-loading" id="mapLoading" role="status" aria-live="polite"><span aria-hidden="true"></span><strong>載入行政區界線中</strong><small>圖資已內建，可離線顯示</small></div>
           <div class="map-fallback" id="mapFallback" hidden></div>
           <div class="map-guide-chip" id="mapGuideChip" aria-live="polite">滑過查看縣市 · 點選進入鄉鎮市區</div>
+          <aside class="district-scope-card" id="districtScopeCard" aria-live="polite" hidden>
+            <span>第 11 屆立委選區</span>
+            <strong id="districtScopeTitle">選舉區</strong>
+            <p id="districtScopeText"></p>
+            <small id="districtScopeAccuracy"></small>
+          </aside>
           <div class="map-legend" id="mapLegend" hidden></div>
         </div>
 
@@ -181,6 +188,18 @@
         <button class="secondary-button" id="toggleResultsButton" type="button" aria-expanded="true">收合現任公職</button>
         <button class="secondary-button" id="compareButton" type="button" disabled>比較已選人物（0）</button>
       </div>
+    </div>
+    <div class="data-loading-notice" id="dataLoadingNotice" role="status" aria-live="polite" hidden>
+      <span aria-hidden="true"></span><strong id="dataLoadingTitle">正在載入官方分區資料</strong><small id="dataLoadingText">只下載目前選取的縣市與年度。</small>
+      <button class="text-button" id="retryDataButton" type="button" hidden>重新載入</button>
+    </div>
+    <div class="history-results-toolbar" id="historyResultsToolbar" hidden>
+      <label for="historyDistrictSelect"><span>選舉區</span><select id="historyDistrictSelect"><option value="all">全部選舉區</option></select></label>
+      <div class="history-outcome-switch" role="group" aria-label="候選人顯示範圍">
+        <button class="active" type="button" data-history-outcome="all">全部候選人</button>
+        <button type="button" data-history-outcome="elected">只看當選</button>
+      </div>
+      <p id="historyResultsSourceNote">依中選會官方得票資料排序。</p>
     </div>
     <div class="results-body" id="resultsBody">
       <div class="party-group-list" id="peopleGrid"></div>
@@ -264,14 +283,28 @@
 <div class="new-data-banner" id="newDataBanner" hidden><div><strong>偵測到較新的官方資料</strong><span>重新載入即可顯示最新同步結果。</span></div><button class="primary-button" id="reloadNewDataButton" type="button">重新載入</button><button class="text-button" id="dismissNewDataButton" type="button">稍後</button></div>
 
 <script>
-  // 每次載入都使用新的資料網址，避免 Safari 顯示同步前的舊快取。
-  const dataVersion = Date.now();
-  document.write(`<script src="data/manifest.js?v=${dataVersion}"><\/script>`);
-  document.write(`<script src="data/candidates.js?v=${dataVersion}"><\/script>`);
+  // 線上版只載入約 90 KB 的摘要；file:// 離線預覽仍保留完整資料備援。
+  window.ELECTION_DATA_READY = new Promise((resolve) => {
+    const loadScript = (src, done) => {
+      const script = document.createElement("script");
+      script.src = src;
+      script.onload = done;
+      script.onerror = () => { window.ELECTION_DATA_LOAD_ERROR = src; done(); };
+      document.head.appendChild(script);
+    };
+    const refreshVersion = new URLSearchParams(location.search).get("refresh") || "";
+    const manifestVersion = `6.1.17-${Math.floor(Date.now() / 86400000)}${refreshVersion ? `-${refreshVersion}` : ""}`;
+    loadScript(`data/manifest.js?v=${manifestVersion}`, () => {
+      const dataFile = location.protocol === "file:" ? "data/candidates.js" : "data/bootstrap.js";
+      const dataVersion = window.DATA_MANIFEST?.generatedAt || manifestVersion;
+      loadScript(`${dataFile}?v=${encodeURIComponent(dataVersion)}`, resolve);
+    });
+  });
 </script>
+<script src="data/legislative-districts-11.js?v=6.1.17"></script>
 <script src="vendor/leaflet.js?v=6.1.5"></script>
 <script src="vendor/topojson-client.min.js?v=6.1.5"></script>
 <script src="vendor/taiwan-topology.js?v=6.1.5"></script>
-<script src="app.js?v=6.1.14"></script>
+<script src="app.js?v=6.1.17"></script>
 </body>
 </html>

@@ -1,34 +1,25 @@
-# 台灣政治人物與選舉地圖 V6.1.1
+# 台灣選舉報報 V6.1.17
 
 互動式台灣行政區地圖，整合現任民選公職、地方政黨勢力、正式候選人、中選會歷屆結果、官方頭貼、人物軌跡與資料來源健康狀態。
 
-網站是純靜態專案，可部署在 GitHub Pages。行政區圖資與地圖程式已內建；官方資料由 GitHub Actions 取得並寫回 repository。
+本版啟用 **官方資料唯讀模式**：公開人物資料只能由政府官方來源同步，不提供 CSV／JSON 人工匯入、人物欄位覆寫、政見改寫或姓名式司法裁判比對。
 
-## V6.1.1 新增
+## V6.1.17 變更
 
-1. **立即完整更新**：管理後台一鍵執行現任公職、正式候選人、中選會核心歷屆全部年份、官方頭貼、異動報告與資料分片。
-2. **執行進度監看**：按鈕會持續顯示排隊、執行、成功或失敗狀態。
-3. **資料授權文件**：新增 [DATA_LICENSE.md](DATA_LICENSE.md)，整理官方開放資料顯名與抓取邊界。
+1. 首頁改用輕量摘要，選取縣市與年度後才下載資料分片。
+2. 歷屆結果改為選舉區分組、候選人排行、得票長條與前兩名票差。
+3. 整合中選會第 11 屆 73 個立法委員選舉區範圍。
+4. 完整鄉鎮市區可準確填色；含里界拆分時只標示可驗證範圍，不假畫里界。
+5. 保持官方資料唯讀，未公告年度不顯示候選人。
 
-## V6.1 原有功能
-
-1. **第一次正式同步精靈**：在 `admin.html` 依序檢查權限、同步現任、同步核心歷屆及驗證發布結果。
-2. **資料異動紀錄**：每次同步統計新增、移除、欄位變更、照片更新及歷屆增減。
-3. **大量刪除守門**：現任名單突然大量減少時停止自動提交，避免官方頁面格式異常造成誤刪。
-4. **混合式資料分片**：依縣市、人物與歷屆年份產生小型 JSON；離線版仍保留完整資料備援。
-5. **官方頭貼本地化**：遠端官方照片轉成 WebP 保存於專案，降低防盜連及網址失效問題。
-6. **資料錯誤回報**：人物頁可建立預填 GitHub Issue，回報不會直接修改公開資料。
-
-完整紀錄見 [CHANGELOG_V6.1.md](CHANGELOG_V6.1.md) 與 [CHANGELOG_V6.1.1.md](CHANGELOG_V6.1.1.md)。
+完整紀錄見 [CHANGELOG_V6.1.17.md](CHANGELOG_V6.1.17.md)。
 
 ## 排程
 
 | 排程 | 台灣時間 | 內容 |
 |---|---:|---|
 | Daily official data sync | 每天 03:00 | 現任公職、正式候選人、官方頭貼、異動報告及資料分片 |
-| Weekly CEC history sync | 每週日 03:20 | 核心歷屆、人物索引、異動報告及歷屆分片 |
-
-GitHub Actions 可能因平台負載延遲數分鐘。
+| Weekly CEC history sync | 每週日 03:20 | 中選會核心歷屆、人物索引、異動報告及歷屆分片 |
 
 ## 第一次部署
 
@@ -60,30 +51,10 @@ npm run sync
 npm run sync:history:official
 npm run cache:portraits
 npm run report:changes
+npm run build:districts
 npm run build:shards
 npm run validate
 ```
-
-## 資料結構
-
-```text
-data/election-data.json              主要 canonical 資料
-data/candidates.js                   離線及完整資料備援
-data/manifest.json                   分片清單與筆數
-data/current/<county>.json           縣市現任與候選人分片
-data/people/<person-id>.json         人物詳細分片
-data/history-shards/<year>/<county>.json
-                                      歷屆年度與縣市分片
-data/change-log/latest.json          最近一次異動報告
-data/change-log/<timestamp>.json     歷次異動報告
-data/reports/portrait-cache.json     頭貼本地化結果
-```
-
-## 歷屆資料範圍
-
-- `core`：總統／副總統、立委、直轄市長、縣市長、直轄市議員、縣市議員。
-- `local`：再加入鄉鎮市長、原住民區長、鄉鎮市民代表與原住民區代表。
-- `all`：再加入村里長；資料量最大。
 
 ## 資料安全
 
@@ -91,6 +62,6 @@ data/reports/portrait-cache.json     頭貼本地化結果
 - 官方同步失敗時保留上一版。
 - 大量刪除會被安全門檻攔截。
 - 同名人物不只靠姓名自動合併。
-- 司法資料仍需人工核身。
+- 不接受人工人物資料或司法裁判補充。
 - GitHub Token 不寫入 repository。
-- 照片只採官方或人工確認授權來源。
+- 照片只採政府官方來源。

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2020,
   "countyId": "nantou",
   "records": [
@@ -44,9 +44,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-馬文君-84c17020"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-f171d35bfa8b8c0eeec8",

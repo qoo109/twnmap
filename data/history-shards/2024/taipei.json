@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2024,
   "countyId": "taipei",
   "records": [
@@ -44,9 +44,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-吳思瑤-7f00d2d0"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-e949888fc51c3aa84e00",
@@ -476,9 +474,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-王世堅-abaf2208"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-b844a662db9e23c6ae7d",
@@ -779,9 +775,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-王鴻薇-69e92b59"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-35a146e74b8f76d5e89d",
@@ -910,9 +904,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-李彥秀-3cd761a3"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-6b5dd30dd9b1af17d69c",
@@ -1385,9 +1377,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-吳沛憶-02bc4a15"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-b7939bbbced20fe15379",
@@ -1688,9 +1678,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-羅智強-ce41226b"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-d1d06a1c76f92feb77e9",
@@ -1819,9 +1807,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-徐巧芯-4ffaf233"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-455a3640a6e0034f7345",
@@ -2036,9 +2022,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-賴士葆-74f012da"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-db70d2d71e0107184a9d",

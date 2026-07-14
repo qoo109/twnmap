@@ -1,16 +1,17 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "strategy": "hybrid-sharded",
   "fallback": "data/candidates.js remains available for file:// offline use",
+  "bootstrap": "bootstrap.json",
   "counts": {
     "officeholders": 11009,
     "candidates": 0,
-    "history": 806,
+    "history": 4416,
     "personFiles": 1204,
     "personFilesOmitted": 9805,
     "currentFiles": 23,
-    "historyFiles": 46
+    "historyFiles": 90
   },
   "current": [
     {
@@ -429,6 +430,270 @@
       "countyId": "yunlin",
       "file": "history-shards/2020/yunlin.json",
       "count": 8
+    },
+    {
+      "year": "2022",
+      "countyId": "changhua",
+      "file": "history-shards/2022/changhua.json",
+      "count": 89
+    },
+    {
+      "year": "2022",
+      "countyId": "chiayi-city",
+      "file": "history-shards/2022/chiayi-city.json",
+      "count": 40
+    },
+    {
+      "year": "2022",
+      "countyId": "chiayi-county",
+      "file": "history-shards/2022/chiayi-county.json",
+      "count": 59
+    },
+    {
+      "year": "2022",
+      "countyId": "hsinchu-city",
+      "file": "history-shards/2022/hsinchu-city.json",
+      "count": 68
+    },
+    {
+      "year": "2022",
+      "countyId": "hsinchu-county",
+      "file": "history-shards/2022/hsinchu-county.json",
+      "count": 78
+    },
+    {
+      "year": "2022",
+      "countyId": "hualien",
+      "file": "history-shards/2022/hualien.json",
+      "count": 61
+    },
+    {
+      "year": "2022",
+      "countyId": "keelung",
+      "file": "history-shards/2022/keelung.json",
+      "count": 61
+    },
+    {
+      "year": "2022",
+      "countyId": "kinmen",
+      "file": "history-shards/2022/kinmen.json",
+      "count": 38
+    },
+    {
+      "year": "2022",
+      "countyId": "lienchiang",
+      "file": "history-shards/2022/lienchiang.json",
+      "count": 18
+    },
+    {
+      "year": "2022",
+      "countyId": "miaoli",
+      "file": "history-shards/2022/miaoli.json",
+      "count": 77
+    },
+    {
+      "year": "2022",
+      "countyId": "nantou",
+      "file": "history-shards/2022/nantou.json",
+      "count": 71
+    },
+    {
+      "year": "2022",
+      "countyId": "penghu",
+      "file": "history-shards/2022/penghu.json",
+      "count": 32
+    },
+    {
+      "year": "2022",
+      "countyId": "pingtung",
+      "file": "history-shards/2022/pingtung.json",
+      "count": 104
+    },
+    {
+      "year": "2022",
+      "countyId": "taitung",
+      "file": "history-shards/2022/taitung.json",
+      "count": 64
+    },
+    {
+      "year": "2022",
+      "countyId": "yilan",
+      "file": "history-shards/2022/yilan.json",
+      "count": 64
+    },
+    {
+      "year": "2022",
+      "countyId": "yunlin",
+      "file": "history-shards/2022/yunlin.json",
+      "count": 72
+    },
+    {
+      "year": "2022",
+      "countyId": "kaohsiung",
+      "file": "history-shards/2022/kaohsiung.json",
+      "count": 132
+    },
+    {
+      "year": "2022",
+      "countyId": "new-taipei",
+      "file": "history-shards/2022/new-taipei.json",
+      "count": 128
+    },
+    {
+      "year": "2022",
+      "countyId": "taichung",
+      "file": "history-shards/2022/taichung.json",
+      "count": 135
+    },
+    {
+      "year": "2022",
+      "countyId": "tainan",
+      "file": "history-shards/2022/tainan.json",
+      "count": 111
+    },
+    {
+      "year": "2022",
+      "countyId": "taipei",
+      "file": "history-shards/2022/taipei.json",
+      "count": 129
+    },
+    {
+      "year": "2022",
+      "countyId": "taoyuan",
+      "file": "history-shards/2022/taoyuan.json",
+      "count": 135
+    },
+    {
+      "year": "2018",
+      "countyId": "changhua",
+      "file": "history-shards/2018/changhua.json",
+      "count": 92
+    },
+    {
+      "year": "2018",
+      "countyId": "chiayi-city",
+      "file": "history-shards/2018/chiayi-city.json",
+      "count": 47
+    },
+    {
+      "year": "2018",
+      "countyId": "chiayi-county",
+      "file": "history-shards/2018/chiayi-county.json",
+      "count": 63
+    },
+    {
+      "year": "2018",
+      "countyId": "hsinchu-city",
+      "file": "history-shards/2018/hsinchu-city.json",
+      "count": 78
+    },
+    {
+      "year": "2018",
+      "countyId": "hsinchu-county",
+      "file": "history-shards/2018/hsinchu-county.json",
+      "count": 85
+    },
+    {
+      "year": "2018",
+      "countyId": "hualien",
+      "file": "history-shards/2018/hualien.json",
+      "count": 72
+    },
+    {
+      "year": "2018",
+      "countyId": "keelung",
+      "file": "history-shards/2018/keelung.json",
+      "count": 62
+    },
+    {
+      "year": "2018",
+      "countyId": "kinmen",
+      "file": "history-shards/2018/kinmen.json",
+      "count": 41
+    },
+    {
+      "year": "2018",
+      "countyId": "lienchiang",
+      "file": "history-shards/2018/lienchiang.json",
+      "count": 17
+    },
+    {
+      "year": "2018",
+      "countyId": "miaoli",
+      "file": "history-shards/2018/miaoli.json",
+      "count": 75
+    },
+    {
+      "year": "2018",
+      "countyId": "nantou",
+      "file": "history-shards/2018/nantou.json",
+      "count": 63
+    },
+    {
+      "year": "2018",
+      "countyId": "penghu",
+      "file": "history-shards/2018/penghu.json",
+      "count": 45
+    },
+    {
+      "year": "2018",
+      "countyId": "pingtung",
+      "file": "history-shards/2018/pingtung.json",
+      "count": 102
+    },
+    {
+      "year": "2018",
+      "countyId": "taitung",
+      "file": "history-shards/2018/taitung.json",
+      "count": 72
+    },
+    {
+      "year": "2018",
+      "countyId": "yilan",
+      "file": "history-shards/2018/yilan.json",
+      "count": 78
+    },
+    {
+      "year": "2018",
+      "countyId": "yunlin",
+      "file": "history-shards/2018/yunlin.json",
+      "count": 79
+    },
+    {
+      "year": "2018",
+      "countyId": "kaohsiung",
+      "file": "history-shards/2018/kaohsiung.json",
+      "count": 136
+    },
+    {
+      "year": "2018",
+      "countyId": "new-taipei",
+      "file": "history-shards/2018/new-taipei.json",
+      "count": 122
+    },
+    {
+      "year": "2018",
+      "countyId": "taichung",
+      "file": "history-shards/2018/taichung.json",
+      "count": 133
+    },
+    {
+      "year": "2018",
+      "countyId": "tainan",
+      "file": "history-shards/2018/tainan.json",
+      "count": 118
+    },
+    {
+      "year": "2018",
+      "countyId": "taipei",
+      "file": "history-shards/2018/taipei.json",
+      "count": 129
+    },
+    {
+      "year": "2018",
+      "countyId": "taoyuan",
+      "file": "history-shards/2018/taoyuan.json",
+      "count": 135
     }
   ]
 }

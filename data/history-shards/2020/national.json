@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2020,
   "countyId": null,
   "records": [
@@ -990,9 +990,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-高金素梅-badeb1e4"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-5ee393e3415d2a864882",
@@ -1336,9 +1334,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-鄭天財-sra-kacaw-678be3f3"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-2e891763c6510b5ed7d5",
@@ -1424,9 +1420,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-黃仁-0f396c70"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-3dd9b416a8475442e820",
@@ -1684,9 +1678,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-陳瑩-ab390c1c"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-1db6b18b19f8abd0b115",
@@ -1815,9 +1807,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-韓國瑜-a80cec8a"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-dda5611b8e61f45e1b3c",
@@ -1946,7 +1936,9 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": []
+      "linkedCurrentIds": [
+        "municipal-mayor-張善政-c408d9b7"
+      ]
     },
     {
       "id": "cec-a4e26a9519e7dc2c7e48",

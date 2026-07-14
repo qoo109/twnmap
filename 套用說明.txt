@@ -1,0 +1,13 @@
+V6.1.2 排程更新檔
+
+變更：
+1. 每日同步維持台灣時間 03:00。
+2. 每週歷屆同步改為台灣時間週日 04:20。
+3. 兩個 GitHub Actions 共用 election-data-sync 排隊群組，並使用 queue: max，避免同時寫入資料。
+
+套用方式（GitHub Desktop）：
+1. 解壓縮此檔。
+2. 在 Finder 按 Command + Shift + . 顯示隱藏資料夾。
+3. 將本檔內的 .github 複製到你 Clone 的 twnmap 專案最外層，選擇合併／取代同名檔案。
+4. 回 GitHub Desktop，輸入摘要 Update sync schedule to 04:20。
+5. 按 Commit to main，再按 Push origin。

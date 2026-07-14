@@ -1,20 +1,35 @@
-(() => {
+(async () => {
   "use strict";
+
+  await (window.ELECTION_DATA_READY || Promise.resolve());
 
   const data = window.ELECTION_DATA;
   if (!data) {
-    document.body.innerHTML = "<p style='padding:2rem'>資料載入失敗，請確認 data/candidates.js 與 index.html 位於同一個專案資料夾。</p>";
+    document.body.innerHTML = "<p style='padding:2rem'>資料載入失敗，請確認 data/bootstrap.js、data/manifest.js 與 index.html 位於同一個專案資料夾。</p>";
     return;
   }
 
   const personDetailCache = new Map();
   const dataManifest = window.DATA_MANIFEST || data.dataManifest || null;
-  const officialCandidateItems = (Array.isArray(data.candidates) ? data.candidates : []).filter((item) => item?.official && !item?.demo);
-  const publicHistoryItems = (Array.isArray(data.history?.results) ? data.history.results : []).filter((item) => !item?.demo && item?.sourceType !== "demo");
-  const availableHistoryYears = [...new Set(publicHistoryItems.map((item) => Number(item.year)).filter(Boolean))].sort((a, b) => b - a);
-  const hasOfficialCandidates = officialCandidateItems.length > 0;
-  const hasPublicHistory = publicHistoryItems.length > 0;
+  const legislativeDistrictData = window.LEGISLATIVE_DISTRICTS || { districts: [] };
+  const fullDataMode = location.protocol === "file:" || safeArray(data.officeholders).length > 1000;
+  let officialCandidateItems = (Array.isArray(data.candidates) ? data.candidates : []).filter((item) => item?.official && !item?.demo);
+  let publicHistoryItems = (Array.isArray(data.history?.results) ? data.history.results : []).filter((item) => !item?.demo && item?.sourceType !== "demo");
+  const availableHistoryYears = [...new Set([
+    ...safeArray(data.history?.years).map((item) => Number(item?.year)),
+    ...safeArray(data.summary?.history?.years).map(Number),
+    ...publicHistoryItems.map((item) => Number(item.year)),
+  ].filter(Boolean))].sort((a, b) => b - a);
+  const availableHistoryRoles = [...new Set([
+    ...safeArray(data.summary?.history?.roles),
+    ...publicHistoryItems.map((item) => item.roleId),
+  ].filter(Boolean))];
+  const hasOfficialCandidates = Number(dataManifest?.counts?.candidates || data.summary?.candidates?.total || officialCandidateItems.length) > 0;
+  const hasPublicHistory = Number(dataManifest?.counts?.history || data.summary?.history?.total || publicHistoryItems.length) > 0;
   const electionYear = String(data.meta?.electionDate || "").slice(0, 4) || "候選";
+  const shardCache = new Map();
+  let dataRequestToken = 0;
+  let loadedDetail = { key: fullDataMode ? "full" : "", ready: fullDataMode, error: "" };
   const urlParams = new URLSearchParams(location.search);
   const requestedUrlState = {
     county: urlParams.get("county") || "",
@@ -40,6 +55,8 @@
     role: urlParams.get("role") || "all",
     year: urlParams.get("year") || (availableHistoryYears.length ? String(availableHistoryYears[0]) : ""),
     historyType: urlParams.get("type") || "all",
+    district: urlParams.get("district") || "all",
+    historyOutcome: urlParams.get("outcome") === "elected" ? "elected" : "all",
     query: urlParams.get("q") || "",
     town: null,
     mapMode: "party-strength",
@@ -47,6 +64,7 @@
     compare: new Set(),
     partyGroupLimits: Object.create(null),
     resultsCollapsed: storedResultsPreference === "true",
+    dataLoading: false,
     person: urlParams.get("person") || "",
     legendCollapsed: storedLegendPreference === null ? window.matchMedia("(max-width: 680px)").matches : storedLegendPreference === "true",
     filtersCollapsed: storedFilterPreference === null ? window.matchMedia("(max-width: 900px)").matches : storedFilterPreference === "true",
@@ -64,6 +82,7 @@
     officeholderFilters: $("#officeholderFilters"), historyFilters: $("#historyFilters"),
     filterNote: $("#filterNote"), roleShortcuts: $("#roleShortcuts"), mapEyebrow: $("#mapEyebrow"),
     mapTitle: $("#mapTitle"), mapSubtitle: $("#mapSubtitle"), mapModeSwitch: $("#mapModeSwitch"), mapCountyJump: $("#mapCountyJump"), mapTownJump: $("#mapTownJump"), resetMapLocation: $("#resetMapLocation"),
+    mapDistrictControl: $("#mapDistrictControl"), mapDistrictJump: $("#mapDistrictJump"), districtScopeCard: $("#districtScopeCard"), districtScopeTitle: $("#districtScopeTitle"), districtScopeText: $("#districtScopeText"), districtScopeAccuracy: $("#districtScopeAccuracy"),
     mapInsightArea: $("#mapInsightArea"), mapInsightVolume: $("#mapInsightVolume"), mapInsightLeaderCard: $("#mapInsightLeaderCard"), mapInsightLeaderLabel: $("#mapInsightLeaderLabel"), mapInsightLeader: $("#mapInsightLeader"), mapInsightLeaderShare: $("#mapInsightLeaderShare"), mapInsightGapLabel: $("#mapInsightGapLabel"), mapInsightGap: $("#mapInsightGap"), mapInsightGapDetail: $("#mapInsightGapDetail"),
     mapHomeButton: $("#mapHomeButton"), mapCrumbCounty: $("#mapCrumbCounty"), mapCrumbTown: $("#mapCrumbTown"),
     mapTownSeparator: $("#mapTownSeparator"), leafletMap: $("#leafletMap"), mapLoading: $("#mapLoading"),
@@ -78,6 +97,8 @@
     resultsEyebrow: $("#resultsEyebrow"), resultsTitle: $("#resultsTitle"), resultsSummary: $("#resultsSummary"),
     resultsSearchInput: $("#resultsSearchInput"), resultsSortControl: $("#resultsSortControl"), resultsSortSelect: $("#resultsSortSelect"), groupingNote: $("#groupingNote"), togglePartyGroupsButton: $("#togglePartyGroupsButton"), toggleResultsButton: $("#toggleResultsButton"), resultsBody: $("#resultsBody"),
     compareButton: $("#compareButton"), peopleGrid: $("#peopleGrid"),
+    dataLoadingNotice: $("#dataLoadingNotice"), dataLoadingTitle: $("#dataLoadingTitle"), dataLoadingText: $("#dataLoadingText"), retryDataButton: $("#retryDataButton"),
+    historyResultsToolbar: $("#historyResultsToolbar"), historyDistrictSelect: $("#historyDistrictSelect"), historyResultsSourceNote: $("#historyResultsSourceNote"),
     emptyState: $("#emptyState"), emptyStateText: $("#emptyStateText"), coveragePresidency: $("#coveragePresidency"),
     coverageLegislature: $("#coverageLegislature"), coverageLocal: $("#coverageLocal"), coverageCandidates: $("#coverageCandidates"), coverageCecNote: $("#coverageCecNote"),
     syncDetail: $("#syncDetail"), personDialog: $("#personDialog"), personDialogContent: $("#personDialogContent"),
@@ -205,7 +226,7 @@
       };
       state.year = fallbackYear;
     }
-    if (state.historyType !== "all" && !publicHistoryItems.some((item) => item.roleId === state.historyType)) {
+    if (state.historyType !== "all" && !availableHistoryRoles.includes(state.historyType)) {
       startupDeepLinkNotice = {
         title: "找不到網址指定的選舉類型",
         text: `「${requestedUrlState.historyType}」目前沒有可用的官方資料，已改為顯示全部選舉類型。`,
@@ -230,6 +251,8 @@
     if (state.view === "officeholders" && state.role !== "all") params.set("role", state.role);
     if (state.view === "history" && state.year) params.set("year", state.year);
     if (state.view === "history" && state.historyType !== "all") params.set("type", state.historyType);
+    if (state.view === "history" && state.district !== "all") params.set("district", state.district);
+    if (state.view === "history" && state.historyOutcome === "elected") params.set("outcome", "elected");
     if (state.county !== "all" && state.town?.name) params.set("town", state.town.code || state.town.name);
     if (state.query.trim()) params.set("q", state.query.trim());
     if (state.person) params.set("person", state.person);
@@ -241,7 +264,7 @@
   }
   function pageMetadata() {
     const countyName = state.county === "all" ? "全台灣" : countyById.get(state.county)?.name || "台灣";
-    const areaName = state.town?.name ? `${countyName}${state.town.name}` : countyName;
+    const areaName = state.district !== "all" ? state.district : state.town?.name ? `${countyName}${state.town.name}` : countyName;
     if (state.view === "history") {
       const yearText = state.year ? `${state.year} 年` : "歷屆";
       return {
@@ -337,6 +360,7 @@
     if (state.view === "officeholders" && state.role !== "all") entries.push({ key: "role", label: roleById.get(state.role)?.name || state.role });
     if (state.view === "history" && state.year && state.year !== String(availableHistoryYears[0] || "")) entries.push({ key: "year", label: `${state.year} 年` });
     if (state.view === "history" && state.historyType !== "all") entries.push({ key: "historyType", label: roleById.get(state.historyType)?.name || state.historyType });
+    if (state.view === "history" && state.district !== "all") entries.push({ key: "district", label: state.district });
     return entries;
   }
   function renderActiveFilters() {
@@ -352,8 +376,10 @@
     if (key === "party") { state.party = "all"; els.partySelect.value = "all"; }
     if (key === "role") { state.role = "all"; els.roleSelect.value = "all"; }
     if (key === "historyType") { state.historyType = "all"; if (els.historyTypeSelect) els.historyTypeSelect.value = "all"; }
+    if (key === "district") { state.district = "all"; if (els.historyDistrictSelect) els.historyDistrictSelect.value = "all"; if (els.mapDistrictJump) els.mapDistrictJump.value = "all"; }
     if (key === "year") { state.year = availableHistoryYears.length ? String(availableHistoryYears[0]) : ""; els.yearSelect.value = state.year; }
     renderAll();
+    if (["county", "year", "historyType"].includes(key)) refreshStateData();
   }
   function normalizeCountyName(value) {
     return String(value || "").trim().replaceAll("台", "臺").replace(/\s+/g, "").replace(/(City|County)$/i, "").toLocaleLowerCase("zh-Hant");
@@ -368,6 +394,93 @@
     }
     return null;
   }
+
+  function detailKeyForState() {
+    if (fullDataMode) return "full";
+    if (state.view === "officeholders") return `officeholders:${state.county}`;
+    if (state.view === "history") return `history:${state.year || "none"}:${state.county}`;
+    return `candidates:${state.county}`;
+  }
+
+  async function loadShard(relative, force = false) {
+    if (!relative) return null;
+    if (!force && shardCache.has(relative)) return shardCache.get(relative);
+    const request = fetch(`data/${relative}?v=${encodeURIComponent(dataManifest?.generatedAt || "6.1.17")}`, { cache: "default" })
+      .then((response) => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.json();
+      });
+    shardCache.set(relative, request);
+    try { return await request; }
+    catch (error) { shardCache.delete(relative); throw error; }
+  }
+
+  function setDataLoading(loading, error = "") {
+    state.dataLoading = loading;
+    if (!els.dataLoadingNotice) return;
+    els.dataLoadingNotice.hidden = !loading && !error;
+    els.dataLoadingNotice.classList.toggle("is-error", Boolean(error));
+    if (els.retryDataButton) els.retryDataButton.hidden = !error;
+    if (loading) {
+      els.dataLoadingTitle.textContent = "正在載入官方分區資料";
+      els.dataLoadingText.textContent = state.county === "all" ? "正在讀取全國層級資料。" : `只下載${countyById.get(state.county)?.name || "目前縣市"}的資料分片。`;
+    } else if (error) {
+      els.dataLoadingTitle.textContent = "官方分區資料暫時無法載入";
+      els.dataLoadingText.textContent = error;
+    }
+    els.resultsBody?.setAttribute("aria-busy", String(loading));
+  }
+
+  async function ensureStateData({ force = false } = {}) {
+    if (fullDataMode) return true;
+    const key = detailKeyForState();
+    const token = ++dataRequestToken;
+    if (!force && loadedDetail.key === key && loadedDetail.ready) return true;
+    setDataLoading(true);
+    try {
+      if (state.view === "officeholders") {
+        if (state.county === "all") {
+          data.officeholders = [];
+          officialCandidateItems = [];
+        } else {
+          const entry = safeArray(dataManifest?.current).find((item) => item.countyId === state.county);
+          const payload = await loadShard(entry?.file || `current/${state.county}.json`, force);
+          if (token !== dataRequestToken) return false;
+          data.officeholders = safeArray(payload?.officeholders);
+          officialCandidateItems = safeArray(payload?.candidates).filter((item) => item?.official && !item?.demo);
+        }
+      } else if (state.view === "history") {
+        const countyId = state.county === "all" ? "national" : state.county;
+        const entry = safeArray(dataManifest?.history).find((item) => String(item.year) === String(state.year) && item.countyId === countyId);
+        const payload = entry ? await loadShard(entry.file, force) : { records: [] };
+        if (token !== dataRequestToken) return false;
+        publicHistoryItems = safeArray(payload?.records).filter((item) => !item?.demo && item?.sourceType !== "demo");
+        data.history.results = publicHistoryItems;
+      }
+      if (token !== dataRequestToken) return false;
+      loadedDetail = { key, ready: true, error: "" };
+      setDataLoading(false);
+      return true;
+    } catch (error) {
+      if (token !== dataRequestToken) return false;
+      const message = `請檢查網路後重試（${error?.message || "載入失敗"}）。`;
+      loadedDetail = { key, ready: false, error: message };
+      if (state.view === "officeholders") data.officeholders = [];
+      if (state.view === "history") { publicHistoryItems = []; data.history.results = []; }
+      setDataLoading(false, message);
+      return false;
+    }
+  }
+
+  async function refreshStateData(options = {}) {
+    renderResults();
+    const ready = await ensureStateData(options);
+    if (!ready && loadedDetail.error) { renderResults(); return; }
+    populateHistoryDistrictFilters();
+    focusMapOnCounty(state.county);
+    renderResults();
+  }
+
   function party(item) { return partyById.get(item?.partyId) || { id: "other", name: "未分類", shortName: "未分類", color: "#7b8497" }; }
   function role(item) { return roleById.get(item?.roleId) || { id: item?.roleId || "other", name: item?.role || item?.electionType || "未分類", group: "其他", mapWeight: 1 }; }
   function currentItems() {
@@ -385,6 +498,8 @@
       if (!ignoreParty && state.party !== "all" && item.partyId !== state.party) return false;
       if (state.view === "officeholders" && state.role !== "all" && item.roleId !== state.role) return false;
       if (state.view === "history" && state.historyType !== "all" && item.roleId !== state.historyType) return false;
+      if (state.view === "history" && state.district !== "all" && normalizedDistrictName(item.district) !== normalizedDistrictName(state.district)) return false;
+      if (state.view === "history" && state.historyOutcome === "elected" && item.elected !== true) return false;
       if (state.town?.name) {
         const location = `${item.district || ""} ${item.organization || ""} ${item.town || ""}`;
         if (!location.includes(state.town.name)) return false;
@@ -460,7 +575,7 @@
       els.yearSelect.insertAdjacentHTML("beforeend", `<option value="">尚未匯入官方年份</option>`);
       els.yearSelect.disabled = true;
     }
-    const historyRoleIds = [...new Set(publicHistoryItems.map((item) => item.roleId).filter(Boolean))];
+    const historyRoleIds = availableHistoryRoles.slice();
     historyRoleIds.sort((a, b) => (roleById.get(a)?.name || a).localeCompare(roleById.get(b)?.name || b, "zh-Hant"));
     historyRoleIds.forEach((id) => els.historyTypeSelect?.insertAdjacentHTML("beforeend", `<option value="${escapeHtml(id)}">${escapeHtml(roleById.get(id)?.name || id)}</option>`));
     els.yearSelect.value = state.year;
@@ -516,7 +631,7 @@
     if (view === "candidates" && !hasOfficialCandidates) view = "officeholders";
     state.view = view;
     if (!preserveFilters) {
-      state.compare.clear(); state.town = null; state.role = "all"; state.party = "all"; state.historyType = "all"; state.query = "";
+      state.compare.clear(); state.town = null; state.role = "all"; state.party = "all"; state.historyType = "all"; state.district = "all"; state.query = "";
       els.searchInput.value = ""; if (els.resultsSearchInput) els.resultsSearchInput.value = ""; els.partySelect.value = "all"; els.roleSelect.value = "all"; if (els.historyTypeSelect) els.historyTypeSelect.value = "all";
     } else {
       els.searchInput.value = state.query; if (els.resultsSearchInput) els.resultsSearchInput.value = state.query; els.partySelect.value = state.party; els.roleSelect.value = state.role; if (els.historyTypeSelect) els.historyTypeSelect.value = state.historyType;
@@ -533,8 +648,10 @@
     if (els.toggleResultsButton) els.toggleResultsButton.textContent = state.resultsCollapsed ? "展開名單" : (view === "officeholders" ? "收合現任公職" : "收合資料");
     state.mapMode = view === "candidates" ? "count" : "party-strength";
     $$('[data-map-mode]').forEach((button) => button.classList.toggle("active", button.dataset.mapMode === state.mapMode));
+    if (els.historyResultsToolbar) els.historyResultsToolbar.hidden = view !== "history";
     renderAvailabilityNotice();
     renderRoleShortcuts(); focusMapOnCounty(state.county); renderAll();
+    refreshStateData();
   }
 
   function mapPalette() {
@@ -611,8 +728,23 @@
     stat.parties[item.partyId] = (stat.parties[item.partyId] || 0) + 1;
     if (mayorRoles.includes(item.roleId)) stat.mayorParty = item.partyId;
   }
+  function summaryStat(raw) {
+    if (!raw) return emptyStat();
+    const roleId = state.view === "officeholders" ? state.role : state.view === "history" ? state.historyType : "all";
+    const scoped = roleId !== "all" ? raw.roles?.[roleId] || emptyStat() : raw;
+    if (state.party === "all") return { count: Number(scoped.count || 0), parties: { ...(scoped.parties || {}) }, mayorParty: scoped.mayorParty || raw.mayorParty || null };
+    const count = Number(scoped.parties?.[state.party] || 0);
+    return { count, parties: count ? { [state.party]: count } : {}, mayorParty: scoped.mayorParty === state.party ? state.party : null };
+  }
   function countyStats() {
     const stats = Object.fromEntries((data.counties || []).map((c) => [c.id, emptyStat()]));
+    if (data.summary && state.view !== "candidates") {
+      const source = state.view === "officeholders"
+        ? data.summary.officeholders?.byCounty
+        : data.summary.history?.byYear?.[String(state.year)]?.byCounty;
+      Object.keys(stats).forEach((countyId) => { stats[countyId] = summaryStat(source?.[countyId]); });
+      return stats;
+    }
     mapItems().forEach((item) => {
       if (!stats[item.countyId]) return;
       addItemToStat(stats[item.countyId], item, ["municipal-mayor", "county-mayor"]);
@@ -746,6 +878,17 @@
   }
   function townStat(feature) { return currentTownStats[feature?.properties?.TOWNCODE || feature?.properties?.TOWNNAME] || emptyStat(); }
   function townStyle(feature) {
+    const scope = selectedOfficialDistrict();
+    if (scope) {
+      const townName = normalizeTownName(feature?.properties?.TOWNNAME);
+      const full = scope.fullTowns.some((name) => normalizeTownName(name) === townName);
+      const partial = scope.partialTowns.some((item) => normalizeTownName(item.town) === townName);
+      const winner = districtWinner(scope.historyDistrict);
+      const winnerColor = mapPartyColor(winner?.partyId || "other");
+      if (full) return { color: winnerColor, weight: 2, dashArray: null, fillColor: winnerColor, fillOpacity: .74, opacity: 1 };
+      if (partial) return { color: winnerColor, weight: 2.4, dashArray: "6 4", fillColor: mapPalette().noData, fillOpacity: .24, opacity: 1 };
+      return { color: "rgba(126,139,160,.48)", weight: .8, dashArray: null, fillColor: mapPalette().noData, fillOpacity: .18, opacity: .55 };
+    }
     const stat = townStat(feature); const visual = statVisual(stat, currentTownStats);
     return { color: visual.status === "unsynced" ? visual.strokeColor : "rgba(255,255,255,.82)", weight: 1, dashArray: visual.dashArray, fillColor: visual.fillColor, fillOpacity: visual.fillOpacity, opacity: .9 };
   }
@@ -759,7 +902,7 @@
   function legendPartyIds() {
     if (state.party !== "all" && partyById.has(state.party)) return [state.party];
     const totals = {};
-    mapItems().forEach((item) => { totals[item.partyId] = (totals[item.partyId] || 0) + 1; });
+    Object.values(countyStats()).forEach((stat) => Object.entries(stat.parties || {}).forEach(([partyId, count]) => { totals[partyId] = (totals[partyId] || 0) + count; }));
     const ranked = Object.entries(totals).sort((a, b) => b[1] - a[1]).map(([id]) => id);
     const fallback = ["dpp", "kmt", "tpp", "ind"].filter((id) => partyById.has(id));
     return [...new Set([...(ranked.length ? ranked : fallback), ...fallback])].slice(0, 4);
@@ -841,8 +984,65 @@
     updateMapGuide();
   }
   function currentAreaName() {
+    if (state.district !== "all") return state.district;
     if (state.town?.name) return `${countyById.get(state.county)?.name || "所選縣市"} · ${state.town.name}`;
     return state.county === "all" ? "全台灣" : countyById.get(state.county)?.name || "所選地區";
+  }
+  function normalizeTownName(value) { return String(value || "").replaceAll("台", "臺").replace(/\s+/g, "").trim(); }
+  function normalizedDistrictName(value) {
+    return String(value || "").replaceAll("台", "臺").replace(/\s+/g, "").replace("選舉區", "選區").replace(/第0+(\d+)選區/u, "第$1選區").trim();
+  }
+  function districtsForCurrentResult() {
+    return [...new Set(publicHistoryItems
+      .filter((item) => state.historyType === "all" || item.roleId === state.historyType)
+      .map((item) => String(item.district || "").trim())
+      .filter(Boolean))]
+      .sort((a, b) => a.localeCompare(b, "zh-Hant", { numeric: true }));
+  }
+  function selectedOfficialDistrict() {
+    if (state.view !== "history" || state.year !== "2024" || state.county === "all" || state.district === "all") return null;
+    return safeArray(legislativeDistrictData.districts).find((district) => district.countyId === state.county && normalizedDistrictName(district.historyDistrict) === normalizedDistrictName(state.district)) || null;
+  }
+  function districtWinner(districtName) {
+    return publicHistoryItems
+      .filter((item) => normalizedDistrictName(item.district) === normalizedDistrictName(districtName))
+      .sort((a, b) => Number(b.elected) - Number(a.elected) || Number(a.rank || 999) - Number(b.rank || 999) || Number(b.votes || 0) - Number(a.votes || 0))[0] || null;
+  }
+  function renderDistrictScope() {
+    if (!els.districtScopeCard) return;
+    const scope = selectedOfficialDistrict();
+    const selected = state.view === "history" && state.district !== "all";
+    els.districtScopeCard.hidden = !selected;
+    if (!selected) return;
+    if (!scope) {
+      els.districtScopeTitle.textContent = state.district;
+      els.districtScopeText.textContent = "目前只有中選會官方結果中的選舉區名稱；未取得可驗證的邊界圖形，因此不在地圖上推估填色。";
+      els.districtScopeAccuracy.textContent = state.year === "2024" ? "此選舉類型不適用第 11 屆區域立委範圍" : "第 11 屆選區範圍只套用於 2024 區域立委";
+      return;
+    }
+    els.districtScopeTitle.textContent = scope.name;
+    els.districtScopeText.textContent = scope.rangeText;
+    els.districtScopeAccuracy.textContent = scope.geometryLevel === "town"
+      ? "範圍皆為完整鄉鎮市區，可依官方文字準確標示。"
+      : scope.geometryLevel === "county"
+        ? "單一選舉區涵蓋全縣市。"
+        : "含里界拆分：完整行政區會填色；拆分行政區只以虛線提示，不假畫里界。";
+  }
+  function populateHistoryDistrictFilters() {
+    const districts = districtsForCurrentResult();
+    const detailReady = fullDataMode || (loadedDetail.ready && loadedDetail.key === detailKeyForState());
+    if (detailReady && state.district !== "all" && !districts.some((name) => normalizedDistrictName(name) === normalizedDistrictName(state.district))) state.district = "all";
+    const options = `<option value="all">全部選舉區</option>${districts.map((name) => `<option value="${escapeHtml(name)}">${escapeHtml(name)}</option>`).join("")}`;
+    if (els.historyDistrictSelect) { els.historyDistrictSelect.innerHTML = options; els.historyDistrictSelect.value = state.district; }
+    if (els.mapDistrictJump) { els.mapDistrictJump.innerHTML = options; els.mapDistrictJump.value = state.district; }
+    if (els.mapDistrictControl) els.mapDistrictControl.hidden = state.view !== "history" || state.county === "all" || !districts.length;
+    if (els.historyResultsSourceNote) {
+      const officialScope = selectedOfficialDistrict();
+      els.historyResultsSourceNote.textContent = officialScope
+        ? "得票依中選會官方結果；範圍依第 11 屆立委選舉區資料。"
+        : "依中選會官方得票資料排序；未取得可驗證邊界時不推估地圖範圍。";
+    }
+    renderDistrictScope();
   }
   function updateMapGuide(hoverLabel = "") {
     if (!els.mapGuideChip) return;
@@ -860,7 +1060,16 @@
   }
   function historyTownDataAvailable(countyId) {
     if (state.view !== "history") return true;
-    return publicHistoryItems.some((item) => (!state.year || String(item.year) === state.year) && (state.historyType === "all" || item.roleId === state.historyType) && (!countyId || countyId === "all" || item.countyId === countyId) && String(item.town || "").trim());
+    if (selectedOfficialDistrict()?.countyId === countyId) return true;
+    const countyName = countyById.get(countyId)?.name || "";
+    return publicHistoryItems.some((item) => {
+      const town = String(item.town || "").trim();
+      return (!state.year || String(item.year) === state.year)
+        && (state.historyType === "all" || item.roleId === state.historyType)
+        && (!countyId || countyId === "all" || item.countyId === countyId)
+        && town
+        && normalizeCountyName(town) !== normalizeCountyName(countyName);
+    });
   }
   function townFeatureKey(feature) {
     return String(feature?.properties?.TOWNCODE || feature?.properties?.TOWNNAME || feature?.properties?.name || "");
@@ -994,19 +1203,32 @@
   function updateAreaSummary() {
     const items = filteredItems({ ignoreCounty: true }).filter((item) => state.county === "all" || item.countyId === state.county);
     const county = state.county === "all" ? null : countyById.get(state.county);
-    els.selectedAreaLevel.textContent = state.town ? "SELECTED TOWN" : state.county === "all" ? "SELECTED AREA" : "SELECTED COUNTY";
+    els.selectedAreaLevel.textContent = state.district !== "all" ? "SELECTED DISTRICT" : state.town ? "SELECTED TOWN" : state.county === "all" ? "SELECTED AREA" : "SELECTED COUNTY";
     els.selectedCountyName.textContent = county?.name || "全台灣";
     els.selectedCountyDescription.textContent = county?.description || (state.view === "officeholders" ? "點選縣市後，查看當地現任民選公職與政黨分布。" : "點選縣市後，地圖會放大並顯示鄉鎮市區。");
-    els.selectedTownName.hidden = !state.town; els.selectedTownName.textContent = state.town ? `目前行政區：${state.town.name}` : "";
-    const parties = new Set(items.map((i) => i.partyId).filter(Boolean)); const roles = new Set(items.map((i) => i.roleId || i.electionType).filter(Boolean));
-    els.summaryMetric1Label.textContent = state.view === "history" ? "結果筆數" : state.view === "candidates" ? "候選人" : "現任人員";
+    els.selectedTownName.hidden = !state.town && state.district === "all"; els.selectedTownName.textContent = state.district !== "all" ? `目前選舉區：${state.district}` : state.town ? `目前行政區：${state.town.name}` : "";
+    const useSummary = Boolean(data.summary && state.view !== "candidates" && !state.town && state.district === "all" && !state.query && state.historyOutcome === "all");
+    const areaStats = countyStats();
+    const summaryArea = state.county === "all"
+      ? Object.values(areaStats).reduce((total, stat) => {
+        total.count += Number(stat.count || 0);
+        Object.entries(stat.parties || {}).forEach(([id, count]) => { total.parties[id] = (total.parties[id] || 0) + Number(count || 0); });
+        return total;
+      }, emptyStat())
+      : areaStats[state.county] || emptyStat();
+    const counts = useSummary ? { ...summaryArea.parties } : {};
+    if (!useSummary) items.forEach((item) => { counts[item.partyId] = (counts[item.partyId] || 0) + 1; });
+    const recordCount = useSummary ? summaryArea.count : items.length;
+    const parties = new Set(Object.keys(counts).filter((id) => counts[id] > 0));
+    const roles = new Set(items.map((i) => i.roleId || i.electionType).filter(Boolean));
+    els.summaryMetric1Label.textContent = state.view === "history" && useSummary ? "當選席次" : state.view === "history" ? "結果筆數" : state.view === "candidates" ? "候選人" : "現任人員";
     els.summaryMetric2Label.textContent = "政黨"; els.summaryMetric3Label.textContent = state.view === "history" ? "年度" : "職位類型";
-    const hasAreaData = items.length > 0;
+    const hasAreaData = recordCount > 0;
     els.areaSummary?.classList.toggle("has-no-data", !hasAreaData);
-    els.summaryMetric1.textContent = hasAreaData ? String(items.length) : "—"; els.summaryMetric2.textContent = hasAreaData ? String(parties.size) : "—"; els.summaryMetric3.textContent = hasAreaData ? (state.view === "history" ? (state.year || "—") : String(roles.size)) : "—";
-    const counts = {}; items.forEach((item) => counts[item.partyId] = (counts[item.partyId] || 0) + 1);
+    const summaryRoleCount = state.view === "officeholders" ? (state.role !== "all" ? 1 : safeArray(data.roles).length) : roles.size;
+    els.summaryMetric1.textContent = hasAreaData ? String(recordCount) : "—"; els.summaryMetric2.textContent = hasAreaData ? String(parties.size) : "—"; els.summaryMetric3.textContent = hasAreaData ? (state.view === "history" ? (state.year || "—") : String(roles.size || summaryRoleCount)) : "—";
     const totalPartyCount = Math.max(1, Object.values(counts).reduce((sum, value) => sum + value, 0));
-    renderMapInsights(items, counts, totalPartyCount);
+    renderMapInsights(useSummary ? Array.from({ length: recordCount }) : items, counts, totalPartyCount);
     els.partyBreakdown.innerHTML = Object.entries(counts).sort((a,b) => b[1]-a[1]).slice(0,10).map(([id, count]) => {
       const p = partyById.get(id) || party({partyId:id}); const percent = Math.round((count / totalPartyCount) * 100);
       return `<div class="party-row" style="--party-color:${escapeHtml(mapPartyColor(id))}"><i></i><span>${escapeHtml(p.shortName)}<small>${percent}%</small></span><strong>${count}</strong><b class="party-row-bar"><em style="width:${percent}%"></em></b></div>`;
@@ -1158,26 +1380,83 @@
       }).join("");
   }
 
+  function historyResultsHtml(items) {
+    const grouped = new Map();
+    items.forEach((item) => {
+      const key = String(item.district || item.countyName || "全國").trim() || "全國";
+      if (!grouped.has(key)) grouped.set(key, []);
+      grouped.get(key).push(item);
+    });
+    const groups = [...grouped.entries()].sort((a, b) => a[0].localeCompare(b[0], "zh-Hant", { numeric: true }));
+    const electedCount = items.filter((item) => item.elected === true).length;
+    const margins = groups.map(([, records]) => {
+      const ranked = records.filter((item) => Number.isFinite(Number(item.votes))).sort((a, b) => Number(b.votes) - Number(a.votes));
+      return ranked.length > 1 ? Number(ranked[0].votes) - Number(ranked[1].votes) : null;
+    }).filter((value) => value != null);
+    const closest = margins.length ? Math.min(...margins) : null;
+    const summary = `<div class="history-result-overview">
+      <article><span>選舉區</span><strong>${groups.length.toLocaleString("zh-Hant")}</strong></article>
+      <article><span>候選紀錄</span><strong>${items.length.toLocaleString("zh-Hant")}</strong></article>
+      <article><span>當選</span><strong>${electedCount.toLocaleString("zh-Hant")}</strong></article>
+      <article><span>最小票差</span><strong>${closest == null ? "—" : closest.toLocaleString("zh-Hant")}</strong></article>
+    </div>`;
+    const cards = groups.map(([district, records]) => {
+      const ranked = records.slice().sort((a, b) => Number(b.elected) - Number(a.elected) || Number(a.rank || 999) - Number(b.rank || 999) || Number(b.votes || 0) - Number(a.votes || 0));
+      const maxVotes = Math.max(1, ...ranked.map((item) => Number(item.votes || 0)));
+      const voteRanked = ranked.filter((item) => Number.isFinite(Number(item.votes))).sort((a, b) => Number(b.votes) - Number(a.votes));
+      const gap = voteRanked.length > 1 ? Number(voteRanked[0].votes) - Number(voteRanked[1].votes) : null;
+      const visible = ranked.slice(0, state.district !== "all" || state.query ? 40 : 12);
+      return `<article class="history-district-card">
+        <header><div><span>${escapeHtml(state.year || "歷屆")} · ${escapeHtml(role(ranked[0]).name)}</span><h3>${escapeHtml(district)}</h3></div><strong>${gap == null ? `${records.length} 筆` : `前兩名差 ${gap.toLocaleString("zh-Hant")} 票`}</strong></header>
+        <div class="candidate-ranking">${visible.map((item, index) => {
+          const p = party(item);
+          const votes = item.votes == null ? "—" : Number(item.votes).toLocaleString("zh-Hant");
+          const rate = item.voteRate == null ? "—" : `${Number(item.voteRate).toFixed(2).replace(/\.00$/, "")}%`;
+          const width = item.votes == null ? 0 : Math.max(2, Math.round((Number(item.votes) / maxVotes) * 100));
+          return `<button class="candidate-rank-row${item.elected ? " is-elected" : ""}" type="button" data-open-person="${escapeHtml(item.id)}" style="--party-color:${escapeHtml(mapPartyColor(item.partyId))}">
+            <b class="candidate-rank-number">${escapeHtml(item.rank || index + 1)}</b>
+            <span class="candidate-rank-name"><strong>${escapeHtml(displayPersonName(item.name))}</strong><small><i></i>${escapeHtml(p.shortName)}${item.incumbent ? " · 現任" : ""}</small></span>
+            <span class="candidate-vote-bar"><i style="width:${width}%"></i></span>
+            <span class="candidate-vote-value"><strong>${escapeHtml(votes)} 票</strong><small>${escapeHtml(rate)}${item.elected ? " · 當選" : ""}</small></span>
+          </button>`;
+        }).join("")}</div>
+        ${records.length > visible.length ? `<p class="results-limit-note">此選舉區尚有 ${(records.length - visible.length).toLocaleString("zh-Hant")} 筆；選取該選舉區可查看完整排行。</p>` : ""}
+      </article>`;
+    }).join("");
+    return `${summary}<div class="history-district-list">${cards}</div>`;
+  }
+
   function renderResults() {
     const items = filteredItems();
     els.peopleGrid.innerHTML = "";
-    els.emptyState.hidden = items.length > 0;
-    els.emptyStateText.textContent = state.view === "officeholders" && safeArray(data.officeholders).length <= 2
+    const summaryOnlyOfficeholders = !fullDataMode && state.view === "officeholders" && state.county === "all";
+    els.emptyState.hidden = items.length > 0 || state.dataLoading || summaryOnlyOfficeholders;
+    els.emptyStateText.textContent = state.view === "officeholders" && !fullDataMode && state.county === "all"
+      ? "請選擇縣市載入詳細名單；全台統計與地圖已由輕量摘要顯示。"
+      : state.view === "officeholders" && safeArray(data.officeholders).length <= 2
       ? "目前只有總統府種子資料；請上傳 GitHub 並執行第一次每日同步，系統會匯入立法院與內政部現任名單。"
       : state.view === "history" && !hasPublicHistory
         ? "尚未匯入官方歷屆資料；未公告或未匯入的年份不會預先顯示。"
         : state.view === "history"
           ? "此年度或篩選條件目前沒有資料。"
           : "請調整搜尋或篩選條件。";
-    els.resultsSummary.textContent = `${currentAreaName()} · 共 ${items.length.toLocaleString("zh-Hant")} 筆${state.query ? ` · 搜尋「${state.query}」` : ""}`;
+    const nationalTotal = Number(data.summary?.officeholders?.total || dataManifest?.counts?.officeholders || items.length);
+    els.resultsSummary.textContent = summaryOnlyOfficeholders
+      ? `全台灣 · 共 ${nationalTotal.toLocaleString("zh-Hant")} 位現任公職 · 選擇縣市後載入名單`
+      : `${currentAreaName()} · 共 ${items.length.toLocaleString("zh-Hant")} 筆${state.query ? ` · 搜尋「${state.query}」` : ""}`;
 
     if (state.view === "officeholders") {
-      els.peopleGrid.innerHTML = officeholderGroupsHtml(items);
+      els.peopleGrid.innerHTML = summaryOnlyOfficeholders
+        ? `<div class="summary-load-prompt"><span>分區載入</span><h3>先從地圖或縣市選單選一區</h3><p>全台統計不變；詳細人物卡只下載目前縣市，避免 Safari 每次載入 35 MB 完整名單。</p></div>`
+        : officeholderGroupsHtml(items);
+    } else if (state.view === "history") {
+      els.peopleGrid.innerHTML = items.length ? historyResultsHtml(items) : "";
     } else {
       const visible = items.slice(0, 240);
       els.peopleGrid.innerHTML = `<div class="people-grid">${visible.map(personCardHtml).join("")}</div>${items.length > visible.length ? `<p class="results-limit-note">目前先顯示前 ${visible.length} 筆；可使用姓名、政黨、縣市或選舉類型縮小範圍。</p>` : ""}`;
     }
 
+    populateHistoryDistrictFilters();
     bindResultCardEvents();
     updatePartyGroupControls();
     if (els.resultsBody) els.resultsBody.hidden = state.resultsCollapsed;
@@ -1303,8 +1582,11 @@
   }
 
   function updateOverview() {
-    const allOfficeholders = safeArray(data.officeholders); const visible = filteredItems(); const local = allOfficeholders.filter((i) => i.countyId).length; const legislators = allOfficeholders.filter((i) => i.roleId === "legislator").length;
-    els.overviewMode.textContent = viewLabel(); els.overviewCount.textContent = `${visible.length} 筆`; els.overviewLocalCount.textContent = String(local); els.overviewLegislatorCount.textContent = String(legislators);
+    const allOfficeholders = safeArray(data.officeholders); const visible = filteredItems();
+    const local = Number(data.summary?.officeholders?.local ?? allOfficeholders.filter((i) => i.countyId).length);
+    const legislators = Number(data.summary?.officeholders?.legislators ?? allOfficeholders.filter((i) => i.roleId === "legislator").length);
+    const visibleCount = !fullDataMode && state.view === "officeholders" && state.county === "all" ? Number(data.summary?.officeholders?.total || 0) : visible.length;
+    els.overviewMode.textContent = viewLabel(); els.overviewCount.textContent = `${visibleCount.toLocaleString("zh-Hant")} 筆`; els.overviewLocalCount.textContent = local.toLocaleString("zh-Hant"); els.overviewLegislatorCount.textContent = legislators.toLocaleString("zh-Hant");
     const sync = data.officeholderSync?.lastSuccessAt || data.sync?.lastSuccessAt; els.overviewSync.textContent = sync ? formatDate(sync) : "尚未完成首次同步";
   }
   function healthAgeDays(value) {
@@ -1316,7 +1598,7 @@
     if (!els.dataHealthPanel) return;
     const os = data.officeholderSync || {}; const cs = data.sync || {}; const hs = data.historySync || data.history?.coverage || {};
     const rows = [
-      { label: "總統府", status: os.coverage?.presidency === "active" || os.coverage?.presidency === "seeded", time: os.lastSuccessAt || "2026-07-12T00:00:00+08:00", detail: "總統、副總統與官方玉照" },
+      { label: "總統府", status: os.coverage?.presidency === "active" || os.coverage?.presidency === "seeded", time: os.lastSuccessAt, detail: "總統、副總統與官方玉照" },
       { label: "立法院", status: os.coverage?.legislature === "active", time: os.lastSuccessAt, detail: os.legislatorCount ? `${os.legislatorCount} 位現任立委` : "等待首次同步" },
       { label: "內政部", status: String(os.coverage?.local || "").startsWith("active"), time: os.lastSuccessAt, detail: os.localOfficeholderCount ? `${os.localOfficeholderCount} 位地方公職` : "等待首次同步" },
       { label: "中選會候選人", status: Number(cs.officialCandidateCount || 0) > 0, time: cs.lastSuccessAt, detail: cs.officialCandidateCount ? `${cs.officialCandidateCount} 位正式候選人` : "尚未公告／尚未同步" },
@@ -1335,7 +1617,7 @@
 
   function renderSyncStatus() {
     const os = data.officeholderSync || {}; const cs = data.sync || {}; const complete = os.lastSuccessAt || os.status === "active";
-    els.headerSyncChip.classList.toggle("ok", Boolean(complete)); els.headerSyncChip.querySelector("span").textContent = complete ? `已同步 ${os.officeholderCount || safeArray(data.officeholders).length} 人` : "等待首次現任名單同步";
+    els.headerSyncChip.classList.toggle("ok", Boolean(complete)); els.headerSyncChip.querySelector("span").textContent = complete ? `已同步 ${os.officeholderCount || data.summary?.officeholders?.total || safeArray(data.officeholders).length} 人` : "等待首次現任名單同步";
     els.coveragePresidency.textContent = os.coverage?.presidency === "seeded" ? "已內建" : "已同步";
     els.coverageLegislature.textContent = os.legislatorCount ? `${os.legislatorCount} 人` : "等待同步";
     els.coverageLocal.textContent = os.localOfficeholderCount ? `${os.localOfficeholderCount} 人` : "等待同步";
@@ -1346,7 +1628,7 @@
       if (els.coverageCecNote) els.coverageCecNote.textContent = historyCount ? `另有歷屆選舉結果 ${historyCount.toLocaleString("zh-Hant")} 筆。` : "歷屆結果等待首次匯入。";
     } else if (historyCount) {
       els.coverageCandidates.textContent = `歷屆 ${historyCount.toLocaleString("zh-Hant")} 筆`;
-      if (els.coverageCecNote) els.coverageCecNote.textContent = "歷屆結果已匯入；正式候選人尚未公告，不建立 2026 推測名單。";
+      if (els.coverageCecNote) els.coverageCecNote.textContent = "歷屆結果已匯入；未公告年度不建立推測名單。";
     } else {
       els.coverageCandidates.textContent = "等待首次匯入";
       if (els.coverageCecNote) els.coverageCecNote.textContent = "歷屆結果尚未匯入；正式候選人須等待主管機關公告。";
@@ -1357,7 +1639,7 @@
   function syncStatusRows() {
     const os = data.officeholderSync || {}; const cs = data.sync || {}; const hs = data.historySync || data.history?.coverage || {};
     return [
-      { label: "總統府", count: safeArray(data.officeholders).filter((item) => ["president", "vice-president"].includes(item.roleId)).length, status: os.coverage?.presidency || "waiting", time: os.lastSuccessAt },
+      { label: "總統府", count: Number(data.summary?.officeholders?.national?.roles?.president?.count || 0) + Number(data.summary?.officeholders?.national?.roles?.["vice-president"]?.count || 0) || safeArray(data.officeholders).filter((item) => ["president", "vice-president"].includes(item.roleId)).length, status: os.coverage?.presidency || "waiting", time: os.lastSuccessAt },
       { label: "立法院", count: Number(os.legislatorCount || 0), status: os.coverage?.legislature || "waiting", time: os.lastSuccessAt },
       { label: "內政部地方公職", count: Number(os.localOfficeholderCount || 0), status: os.coverage?.local || "waiting", time: os.lastSuccessAt },
       { label: "正式候選人", count: Number(cs.officialCandidateCount || 0), status: cs.status || "waiting", time: cs.lastSuccessAt },
@@ -1408,10 +1690,16 @@
   function renderSources() {
     els.sourceList.innerHTML = safeArray(data.sources).map((source) => `<article class="source-item"><div class="source-item-header"><h3>${escapeHtml(source.name)}</h3><small>${escapeHtml(source.type)}</small></div><p>${escapeHtml(source.usage)}</p><p><strong>注意：</strong>${escapeHtml(source.note)}</p><a class="source-link" href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">開啟官方來源 ↗</a></article>`).join("");
   }
-  function setCounty(id) { pendingTownKey = ""; state.county = id; state.town = null; if (id !== "all") { state.summaryCollapsed = false; localStorage.setItem("political-map-summary-collapsed", "false"); applyLayoutState(); } els.countySelect.value = id; if (els.mapCountyJump) els.mapCountyJump.value = id; updateMapBreadcrumb(); focusMapOnCounty(id); renderResults(); }
+  function setCounty(id) {
+    pendingTownKey = ""; state.county = id; state.town = null; state.district = "all";
+    if (id !== "all") { state.summaryCollapsed = false; localStorage.setItem("political-map-summary-collapsed", "false"); applyLayoutState(); }
+    els.countySelect.value = id;
+    if (els.mapCountyJump) els.mapCountyJump.value = id;
+    updateMapBreadcrumb(); focusMapOnCounty(id); refreshStateData();
+  }
   function resetFilters() {
-    pendingTownKey = ""; state.county = "all"; state.party = "all"; state.role = "all"; state.historyType = "all"; state.query = ""; state.town = null; state.compare.clear();
-    els.countySelect.value = "all"; els.partySelect.value = "all"; els.roleSelect.value = "all"; if (els.historyTypeSelect) els.historyTypeSelect.value = "all"; els.searchInput.value = ""; if (els.resultsSearchInput) els.resultsSearchInput.value = ""; state.partyGroupLimits = Object.create(null); renderRoleShortcuts(); focusMapOnCounty("all"); renderResults();
+    pendingTownKey = ""; state.county = "all"; state.party = "all"; state.role = "all"; state.historyType = "all"; state.district = "all"; state.historyOutcome = "all"; state.query = ""; state.town = null; state.compare.clear();
+    els.countySelect.value = "all"; els.partySelect.value = "all"; els.roleSelect.value = "all"; if (els.historyTypeSelect) els.historyTypeSelect.value = "all"; els.searchInput.value = ""; if (els.resultsSearchInput) els.resultsSearchInput.value = ""; state.partyGroupLimits = Object.create(null); renderRoleShortcuts(); focusMapOnCounty("all"); refreshStateData();
   }
   function renderAll() { renderRoleShortcuts(); renderResults(); updateMapBreadcrumb(); renderActiveFilters(); syncUrl(); }
 
@@ -1433,8 +1721,8 @@
       renderResults();
     });
     els.roleSelect.addEventListener("change", (event) => { state.role = event.target.value; renderRoleShortcuts(); renderResults(); });
-    els.yearSelect.addEventListener("change", (event) => { state.year = event.target.value; focusMapOnCounty(state.county); renderResults(); });
-    els.historyTypeSelect?.addEventListener("change", (event) => { state.historyType = event.target.value; focusMapOnCounty(state.county); renderResults(); });
+    els.yearSelect.addEventListener("change", (event) => { state.year = event.target.value; state.district = "all"; focusMapOnCounty(state.county); refreshStateData(); });
+    els.historyTypeSelect?.addEventListener("change", (event) => { state.historyType = event.target.value; state.district = "all"; focusMapOnCounty(state.county); refreshStateData(); });
     els.countySelect.addEventListener("change", (event) => setCounty(event.target.value));
     els.mapCountyJump?.addEventListener("change", (event) => setCounty(event.target.value));
     els.mapTownJump?.addEventListener("change", (event) => {
@@ -1443,6 +1731,22 @@
       const feature = townFeatureByKey.get(key);
       if (feature) selectTownFeature(feature, townLeafletLayers.get(key));
     });
+    const changeDistrict = (value) => {
+      state.district = value || "all";
+      if (els.historyDistrictSelect) els.historyDistrictSelect.value = state.district;
+      if (els.mapDistrictJump) els.mapDistrictJump.value = state.district;
+      state.town = null;
+      focusMapOnCounty(state.county);
+      renderResults();
+    };
+    els.historyDistrictSelect?.addEventListener("change", (event) => changeDistrict(event.target.value));
+    els.mapDistrictJump?.addEventListener("change", (event) => changeDistrict(event.target.value));
+    $$('[data-history-outcome]').forEach((button) => button.addEventListener("click", () => {
+      state.historyOutcome = button.dataset.historyOutcome;
+      $$('[data-history-outcome]').forEach((item) => item.classList.toggle("active", item === button));
+      renderResults();
+    }));
+    els.retryDataButton?.addEventListener("click", () => refreshStateData({ force: true }));
     els.resetMapLocation?.addEventListener("click", () => setCounty("all"));
     els.partySelect.addEventListener("change", (event) => { state.party = event.target.value; renderResults(); });
     els.togglePartyGroupsButton?.addEventListener("click", toggleAllPartyGroups);
@@ -1460,7 +1764,11 @@
     els.sourceButton.addEventListener("click", () => els.sourceDialog.showModal()); els.compareButton.addEventListener("click", openCompare);
     els.headerSyncChip?.addEventListener("click", openSyncStatusDialog);
     els.syncDialogRefreshButton?.addEventListener("click", async () => { renderSyncStatusDialog(); await checkForNewPublishedData({ announce: true }); });
-    els.reloadNewDataButton?.addEventListener("click", () => location.reload());
+    els.reloadNewDataButton?.addEventListener("click", () => {
+      const url = new URL(location.href);
+      url.searchParams.set("refresh", String(Date.now()));
+      location.href = url.href;
+    });
     els.dismissNewDataButton?.addEventListener("click", () => { if (els.newDataBanner) els.newDataBanner.hidden = true; });
     els.deepLinkNoticeClose?.addEventListener("click", hideDeepLinkNotice);
     els.shareButton?.addEventListener("click", shareCurrentView);

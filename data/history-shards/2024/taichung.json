@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2024,
   "countyId": "taichung",
   "records": [
@@ -173,9 +173,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-蔡其昌-db0b76c0"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-ef0571fc9fbe5fccd248",
@@ -218,9 +216,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-顏寬恒-ed4b7592"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-9965b5c6bb2b7ae31559",
@@ -478,9 +474,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-楊瓊瓔-412940b3"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-fb56c23bf6da66fc60dd",
@@ -566,9 +560,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-廖偉翔-d3b0a022"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-42488228a90f367e8e52",
@@ -869,9 +861,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-黃健豪-8e52bb5c"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-fd2bec2b602db191f9c4",
@@ -1086,9 +1076,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-羅廷瑋-8647d2c6"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-3daaaec6ab0ca5ac1a2c",
@@ -1346,9 +1334,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-何欣純-5ec570ad"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-f562563af1d2e00bcf0a",
@@ -1434,9 +1420,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-江啟臣-23289cc3"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-8f0d7e999779ce900463",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2024,
   "countyId": "hsinchu-city",
   "records": [
@@ -302,9 +302,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-鄭正鈐-d05656b3"
-      ]
+      "linkedCurrentIds": []
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2020,
   "countyId": "miaoli",
   "records": [
@@ -173,9 +173,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-陳超明-e0906fb1"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-9a3fc5db988295eecc4f",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2024,
   "countyId": null,
   "records": [
@@ -818,9 +818,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-盧縣一-9506a55a"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-3cbfadadfd474c8b4a55",
@@ -1035,9 +1033,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-高金素梅-badeb1e4"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-c270e022d173f22e089c",
@@ -1209,9 +1205,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-陳瑩-ab390c1c"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-ce9f8d8a8eb9e4df01f2",
@@ -1426,9 +1420,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-黃仁-0f396c70"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-387edbf9d7007e4c5000",

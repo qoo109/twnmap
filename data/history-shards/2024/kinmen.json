@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:58:41.249Z",
+  "generatedAt": "2026-07-14T09:38:31.022Z",
   "year": 2024,
   "countyId": "kinmen",
   "records": [
@@ -87,9 +87,7 @@
           "date": "2026-07-13"
         }
       ],
-      "linkedCurrentIds": [
-        "legislator-陳玉珍-52c46acb"
-      ]
+      "linkedCurrentIds": []
     },
     {
       "id": "cec-6e2f72bcf82333d6ca1f",

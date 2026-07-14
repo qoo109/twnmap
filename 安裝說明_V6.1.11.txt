@@ -1,0 +1,12 @@
+V6.1.11 是 UI 覆蓋更新包，不包含 data 資料夾，不會覆蓋網站目前已同步的資料。
+
+請將壓縮檔內容覆蓋到網站專案根目錄，主要更新檔案如下：
+1. index.html
+2. styles.css
+3. app.js
+4. package.json
+5. package-lock.json
+6. CHANGELOG_V6.1.11.md
+7. 安裝說明_V6.1.11.txt
+
+覆蓋後提交並推送到 GitHub Pages 所使用的分支即可。
