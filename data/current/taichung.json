@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:39:05.062Z",
+  "generatedAt": "2026-07-14T02:54:52.301Z",
   "countyId": "taichung",
   "officeholders": [
     {
@@ -30,6 +30,347 @@
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0009&n=581&page=1&sms=11395",
           "date": "2026-07-14",
           "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-吳天祐-7706df9a",
+      "official": true,
+      "name": "吳天祐",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "taichung",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3fa7b5f4-637c-4db7-865b-5b13ce2cc85a.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-林永富-4caf97ad",
+      "official": true,
+      "name": "林永富",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "taichung",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a0397107-2d46-4a8a-8def-f042ad4672d0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-林吉財-175e0593",
+      "official": true,
+      "name": "林吉財",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "taichung",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/45db776e-634a-469f-96a3-a437fa8b6056.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-徐裕傑-455ef5b4",
+      "official": true,
+      "name": "徐裕傑",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "taichung",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ad3ee4f6-03ba-48e3-8c48-19a6a0dd57c3.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-陳志勇-c77175b6",
+      "official": true,
+      "name": "陳志勇",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "主席",
+      "partyId": "ind",
+      "countyId": "taichung",
+      "district": "主席",
+      "organization": "主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/15136346-c1df-4927-84d7-1a64806929b1.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-陳宥彤-4c117ad0",
+      "official": true,
+      "name": "陳宥彤",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "taichung",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/eb2c4b30-c20c-460f-9aa0-938491912618.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-楊淑青-86f64677",
+      "official": true,
+      "name": "楊淑青",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "副主席",
+      "partyId": "ind",
+      "countyId": "taichung",
+      "district": "副主席",
+      "organization": "副主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3429df56-6e22-4fe7-88bc-0dcefc9c76bd.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-葛榮正-2b7078d4",
+      "official": true,
+      "name": "葛榮正",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "taichung",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e9ad7144-161c-4038-a7e8-8bdd0d1a2add.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-詹森-45ab8fe2",
+      "official": true,
+      "name": "詹森",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "taichung",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/304f1b3f-c08d-4e1a-9daa-ced6bfd001c0.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-蕭有祥-8e77f7c8",
+      "official": true,
+      "name": "蕭有祥",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "taichung",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1c9b2afe-ff53-44da-9a24-3f65c8213f67.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-羅清輝-83adfe24",
+      "official": true,
+      "name": "羅清輝",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "代表",
+      "partyId": "kmt",
+      "countyId": "taichung",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "photo": {
+        "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/259768ef-e254-4228-bf73-678f516da4a4.jpg",
+        "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+        "sourceLabel": "官方人物照片",
+        "credit": "www.moi.gov.tw",
+        "official": true,
+        "retrievedAt": "2026-07-14T02:54:33.825Z"
+      },
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
         }
       ]
     },

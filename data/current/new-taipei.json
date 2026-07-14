@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T02:39:05.062Z",
+  "generatedAt": "2026-07-14T02:54:52.301Z",
   "countyId": "new-taipei",
   "officeholders": [
     {
@@ -30,6 +30,144 @@
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0009&n=581&page=1&sms=11395",
           "date": "2026-07-14",
           "retrievedAt": "2026-07-14T02:36:47.005Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-王月裡-175bcd4c",
+      "official": true,
+      "name": "王月裡",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "new-taipei",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-王國權-c34b57dd",
+      "official": true,
+      "name": "王國權",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "主席",
+      "partyId": "ind",
+      "countyId": "new-taipei",
+      "district": "主席",
+      "organization": "主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-吳承翰-39766e87",
+      "official": true,
+      "name": "吳承翰",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "副主席",
+      "partyId": "ind",
+      "countyId": "new-taipei",
+      "district": "副主席",
+      "organization": "副主席",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-沈常福-9ed273fb",
+      "official": true,
+      "name": "沈常福",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "new-taipei",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-黃清波-40992735",
+      "official": true,
+      "name": "黃清波",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "new-taipei",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
+        }
+      ]
+    },
+    {
+      "id": "indigenous-district-representative-蔡成雄-d1863aa1",
+      "official": true,
+      "name": "蔡成雄",
+      "roleId": "indigenous-district-representative",
+      "role": "原住民區代表",
+      "title": "代表",
+      "partyId": "ind",
+      "countyId": "new-taipei",
+      "district": "代表",
+      "organization": "代表",
+      "termStart": null,
+      "status": "incumbent",
+      "sourceUpdatedAt": "2026-07-14",
+      "sources": [
+        {
+          "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
+          "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
+          "date": "2026-07-14",
+          "retrievedAt": "2026-07-14T02:54:33.825Z"
         }
       ]
     },
