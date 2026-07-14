@@ -7,7 +7,7 @@
   <meta name="theme-color" content="#f6f6f8" />
   <title>台灣選舉報報</title>
   <link rel="stylesheet" href="vendor/leaflet.css?v=6.1.6" />
-  <link rel="stylesheet" href="styles.css?v=6.1.10" />
+  <link rel="stylesheet" href="styles.css?v=6.1.12" />
 </head>
 <body>
 <a class="skip-link" href="#main">跳到主要內容</a>
@@ -35,7 +35,10 @@
     <aside class="control-panel" id="controlPanel">
       <div class="control-heading">
         <div><p class="eyebrow" id="filterEyebrow">CURRENT OFFICIALS</p><h2 id="filterTitle">現任公職篩選</h2></div>
-        <button class="text-button" id="resetFilters" type="button">清除</button>
+        <div class="control-heading-actions">
+          <button class="text-button" id="resetFilters" type="button">清除</button>
+          <button class="mobile-filter-close" id="mobileFilterClose" type="button">完成</button>
+        </div>
       </div>
 
       <label for="searchInput">搜尋</label>
@@ -67,6 +70,8 @@
       <div class="role-shortcuts" id="roleShortcuts"></div>
     </aside>
 
+    <button class="filter-scrim" id="filterScrim" type="button" aria-label="關閉篩選面板" hidden></button>
+
     <section class="map-workspace">
       <div class="workspace-topbar">
         <div>
@@ -95,6 +100,20 @@
         <button class="secondary-button" id="availabilitySyncButton" type="button">查看更新狀態</button>
       </div>
 
+      <section class="map-explorer-bar" aria-label="快速地區導覽與版圖摘要">
+        <div class="map-jump-controls">
+          <div class="map-explorer-title"><span>快速找地區</span><small>從全台一路看到鄉鎮市區</small></div>
+          <label for="mapCountyJump"><span>縣市</span><select id="mapCountyJump"><option value="all">全台灣</option></select></label>
+          <label for="mapTownJump"><span>鄉鎮市區</span><select id="mapTownJump" disabled><option value="">請先選擇縣市</option></select></label>
+          <button class="text-button map-reset-location" id="resetMapLocation" type="button">回全台</button>
+        </div>
+        <div class="map-insight-grid" aria-live="polite">
+          <article><span>目前區域</span><strong id="mapInsightArea">全台灣</strong><small id="mapInsightVolume">讀取資料中</small></article>
+          <article class="map-insight-leader" id="mapInsightLeaderCard"><span id="mapInsightLeaderLabel">現任最多</span><strong id="mapInsightLeader">—</strong><small id="mapInsightLeaderShare">等待資料</small></article>
+          <article><span id="mapInsightGapLabel">領先差距</span><strong id="mapInsightGap">—</strong><small id="mapInsightGapDetail">前兩名比較</small></article>
+        </div>
+      </section>
+
       <div class="map-breadcrumb" aria-label="地圖層級">
         <button id="mapHomeButton" type="button">全台</button><span>›</span><strong id="mapCrumbCounty">縣市</strong><span id="mapTownSeparator" hidden>›</span><strong id="mapCrumbTown" hidden></strong>
       </div>
@@ -104,7 +123,7 @@
           <div id="leafletMap" class="leaflet-map" role="application" aria-label="台灣行政區互動地圖"></div>
           <div class="map-loading" id="mapLoading"><span></span><strong>載入行政區界線中</strong><small>圖資已內建，可離線顯示</small></div>
           <div class="map-fallback" id="mapFallback" hidden></div>
-          <div class="map-guide-chip" aria-hidden="true">點選縣市查看分布 · 顏色越深代表占比越高</div>
+          <div class="map-guide-chip" id="mapGuideChip" aria-live="polite">滑過查看縣市 · 點選進入鄉鎮市區</div>
           <div class="map-legend" id="mapLegend" hidden></div>
         </div>
 
@@ -140,7 +159,9 @@
       <div><p class="eyebrow" id="resultsEyebrow">OFFICEHOLDERS</p><h2 id="resultsTitle">現任公職人員</h2><p id="resultsSummary">—</p></div>
       <div class="results-actions">
         <div class="results-search-field"><span>⌕</span><input id="resultsSearchInput" type="search" placeholder="搜尋姓名或政黨" autocomplete="off" /></div>
+        <label class="results-sort-control" id="resultsSortControl" for="resultsSortSelect"><span>排序</span><select id="resultsSortSelect"><option value="role">職位優先</option><option value="county">縣市優先</option><option value="name">姓名排序</option></select></label>
         <span class="grouping-note" id="groupingNote">依政黨分組</span>
+        <button class="secondary-button" id="togglePartyGroupsButton" type="button">全部展開</button>
         <button class="secondary-button" id="toggleResultsButton" type="button" aria-expanded="true">收合現任公職</button>
         <button class="secondary-button" id="compareButton" type="button" disabled>比較已選人物（0）</button>
       </div>
@@ -236,6 +257,6 @@
 <script src="vendor/leaflet.js?v=6.1.5"></script>
 <script src="vendor/topojson-client.min.js?v=6.1.5"></script>
 <script src="vendor/taiwan-topology.js?v=6.1.5"></script>
-<script src="app.js?v=6.1.10"></script>
+<script src="app.js?v=6.1.12"></script>
 </body>
 </html>

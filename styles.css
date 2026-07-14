@@ -1000,3 +1000,169 @@ button.sync-chip:focus-visible { outline: 3px solid color-mix(in srgb, var(--col
 }
 .party-row i { width: 10px; height: 10px; border-radius: 3px; }
 .party-row-bar { height: 5px; }
+
+/* V6.1.11 — faster list controls, clearer map location and mobile filter drawer */
+.control-heading-actions { display: flex; align-items: center; gap: 8px; }
+.mobile-filter-close,
+.filter-scrim { display: none; }
+
+.results-sort-control {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding-left: 11px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--panel-solid);
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.results-sort-control select {
+  min-width: 108px;
+  min-height: 40px;
+  border: 0;
+  box-shadow: none;
+  font-size: 12px;
+  font-weight: 600;
+}
+.results-sort-control:focus-within {
+  border-color: var(--color-seafoam-700);
+  outline: 2px solid color-mix(in srgb, var(--color-seafoam-600) 25%, transparent);
+}
+.map-guide-chip {
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  transition: background .16s ease, border-color .16s ease, color .16s ease, transform .16s ease;
+}
+.map-guide-chip.is-hovering {
+  border-color: color-mix(in srgb, var(--color-seafoam-700) 42%, var(--line));
+  background: color-mix(in srgb, var(--panel-solid) 97%, transparent);
+  color: var(--text);
+  font-weight: 700;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 900px) {
+  body.mobile-filters-open { overflow: hidden; }
+  .control-panel { top: calc(var(--header-h) + 8px); }
+  .mobile-filter-close {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 36px;
+    padding: 0 13px;
+    border-radius: var(--radius);
+    background: var(--color-indigo-navy);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+  }
+  .filter-scrim:not([hidden]) {
+    position: fixed;
+    inset: var(--header-h) 0 0;
+    z-index: 1340;
+    display: block;
+    border: 0;
+    background: rgba(1, 24, 33, .38);
+    backdrop-filter: blur(2px);
+  }
+}
+
+@media (max-width: 620px) {
+  .results-sort-control { grid-column: 1 / -1; width: 100%; }
+  .results-sort-control select { flex: 1; width: 100%; }
+  .grouping-note { grid-column: 1 / -1; }
+  #compareButton { grid-column: 1 / -1; }
+}
+
+/* V6.1.12 — election-map inspired district explorer and live lead summary */
+.map-explorer-bar {
+  position: relative;
+  z-index: 4;
+  display: grid;
+  grid-template-columns: minmax(310px, .9fr) minmax(0, 1.35fr);
+  gap: 10px;
+  margin: 12px 0 10px;
+}
+.map-jump-controls,
+.map-insight-grid {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--panel-solid) 94%, transparent);
+  box-shadow: var(--shadow);
+}
+.map-jump-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: end;
+  padding: 11px;
+}
+.map-explorer-title { grid-column: 1 / -1; display: flex; align-items: baseline; justify-content: space-between; gap: 10px; }
+.map-explorer-title span { color: var(--text); font-size: 13px; font-weight: 700; }
+.map-explorer-title small { color: var(--muted); font-size: 10px; }
+.map-jump-controls label { display: grid; gap: 5px; color: var(--muted); font-size: 10px; font-weight: 600; }
+.map-jump-controls select {
+  width: 100%;
+  min-width: 0;
+  min-height: 40px;
+  padding: 0 30px 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel-solid);
+  color: var(--text);
+  font: inherit;
+  font-size: 12px;
+}
+.map-jump-controls select:disabled { color: var(--muted); background: var(--panel-2); cursor: not-allowed; }
+.map-reset-location { min-height: 40px; padding-inline: 8px; white-space: nowrap; }
+.map-insight-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); overflow: hidden; }
+.map-insight-grid article {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+  padding: 13px 15px;
+}
+.map-insight-grid article + article { border-left: 1px solid var(--line); }
+.map-insight-grid span { color: var(--muted); font-size: 10px; font-weight: 600; }
+.map-insight-grid strong { margin: 5px 0 3px; overflow: hidden; color: var(--text); font-size: 17px; font-weight: 700; text-overflow: ellipsis; white-space: nowrap; }
+.map-insight-grid small { overflow: hidden; color: var(--muted); font-size: 10px; text-overflow: ellipsis; white-space: nowrap; }
+.map-insight-leader { padding-left: 30px !important; }
+.map-insight-leader::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 14px;
+  width: 8px;
+  height: 32px;
+  border-radius: 999px;
+  background: var(--leader-color, var(--line-strong));
+  transform: translateY(-50%);
+}
+.map-breadcrumb { margin-top: 0; }
+
+@media (max-width: 1000px) {
+  .map-explorer-bar { grid-template-columns: 1fr; }
+  .map-jump-controls { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; }
+}
+
+@media (max-width: 620px) {
+  .map-jump-controls { grid-template-columns: 1fr 1fr; }
+  .map-explorer-title { align-items: flex-start; flex-direction: column; gap: 2px; }
+  .map-reset-location { grid-column: 1 / -1; width: 100%; border: 1px solid var(--line); border-radius: 8px; }
+  .map-insight-grid {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(176px, 78vw);
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+  }
+  .map-insight-grid article { min-height: 84px; scroll-snap-align: start; }
+  .map-insight-grid article + article { border-left: 1px solid var(--line); }
+}
