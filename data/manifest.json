@@ -1,15 +1,15 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-16T22:43:08.848Z",
+  "generatedAt": "2026-07-16T23:38:47.162Z",
   "strategy": "hybrid-sharded",
   "fallback": "data/candidates.js remains available for file:// offline use",
   "bootstrap": "bootstrap.json",
   "counts": {
-    "officeholders": 11009,
+    "officeholders": 11008,
     "candidates": 0,
     "history": 4416,
     "personFiles": 1204,
-    "personFilesOmitted": 9805,
+    "personFilesOmitted": 9804,
     "currentFiles": 23,
     "historyFiles": 90
   },
@@ -17,7 +17,7 @@
     {
       "countyId": "taipei",
       "file": "current/taipei.json",
-      "officeholderCount": 516,
+      "officeholderCount": 515,
       "candidateCount": 0
     },
     {
