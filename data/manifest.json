@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-07-16T22:34:44.914Z",
+  "generatedAt": "2026-07-16T22:43:08.848Z",
   "strategy": "hybrid-sharded",
   "fallback": "data/candidates.js remains available for file:// offline use",
   "bootstrap": "bootstrap.json",

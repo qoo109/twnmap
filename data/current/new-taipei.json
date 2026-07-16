@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T22:34:44.914Z",
+  "generatedAt": "2026-07-16T22:43:08.848Z",
   "countyId": "new-taipei",
   "officeholders": [
     {
@@ -46,13 +46,13 @@
       "organization": "代表",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-14",
+      "sourceUpdatedAt": "2026-07-17",
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
-          "date": "2026-07-14",
-          "retrievedAt": "2026-07-14T02:54:33.825Z"
+          "date": "2026-07-17",
+          "retrievedAt": "2026-07-16T22:42:47.511Z"
         }
       ]
     },
@@ -69,13 +69,13 @@
       "organization": "主席",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-14",
+      "sourceUpdatedAt": "2026-07-17",
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
-          "date": "2026-07-14",
-          "retrievedAt": "2026-07-14T02:54:33.825Z"
+          "date": "2026-07-17",
+          "retrievedAt": "2026-07-16T22:42:47.511Z"
         }
       ]
     },
@@ -92,13 +92,13 @@
       "organization": "副主席",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-14",
+      "sourceUpdatedAt": "2026-07-17",
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
-          "date": "2026-07-14",
-          "retrievedAt": "2026-07-14T02:54:33.825Z"
+          "date": "2026-07-17",
+          "retrievedAt": "2026-07-16T22:42:47.511Z"
         }
       ]
     },
@@ -115,13 +115,13 @@
       "organization": "代表",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-14",
+      "sourceUpdatedAt": "2026-07-17",
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
-          "date": "2026-07-14",
-          "retrievedAt": "2026-07-14T02:54:33.825Z"
+          "date": "2026-07-17",
+          "retrievedAt": "2026-07-16T22:42:47.511Z"
         }
       ]
     },
@@ -138,13 +138,13 @@
       "organization": "代表",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-14",
+      "sourceUpdatedAt": "2026-07-17",
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
-          "date": "2026-07-14",
-          "retrievedAt": "2026-07-14T02:54:33.825Z"
+          "date": "2026-07-17",
+          "retrievedAt": "2026-07-16T22:42:47.511Z"
         }
       ]
     },
@@ -161,13 +161,13 @@
       "organization": "代表",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-14",
+      "sourceUpdatedAt": "2026-07-17",
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市原住民區代表",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0008&n=576&page=1&sms=11395",
-          "date": "2026-07-14",
-          "retrievedAt": "2026-07-14T02:54:33.825Z"
+          "date": "2026-07-17",
+          "retrievedAt": "2026-07-16T22:42:47.511Z"
         }
       ]
     },
