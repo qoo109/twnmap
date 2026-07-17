@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T23:38:47.162Z",
+  "generatedAt": "2026-07-17T21:40:11.299Z",
   "person": {
     "id": "county-councilor-顧黃水花-cbc9d08a",
     "official": true,
@@ -13,21 +13,21 @@
     "organization": "議員",
     "termStart": null,
     "status": "incumbent",
-    "sourceUpdatedAt": "2026-07-17",
+    "sourceUpdatedAt": "2026-07-18",
     "photo": {
       "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/72b95124-7f80-425b-950e-b07902209e67.jpg",
       "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
       "sourceLabel": "官方人物照片",
       "credit": "www.moi.gov.tw",
       "official": true,
-      "retrievedAt": "2026-07-16T22:32:20.405Z"
+      "retrievedAt": "2026-07-17T21:37:41.498Z"
     },
     "sources": [
       {
         "label": "內政部地方公職人員資訊專區：縣市議員",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
-        "date": "2026-07-17",
-        "retrievedAt": "2026-07-16T22:32:20.405Z"
+        "date": "2026-07-18",
+        "retrievedAt": "2026-07-17T21:37:41.498Z"
       }
     ]
   }

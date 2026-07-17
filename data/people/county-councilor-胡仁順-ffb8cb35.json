@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T23:38:47.162Z",
+  "generatedAt": "2026-07-17T21:40:11.299Z",
   "person": {
     "id": "county-councilor-胡仁順-ffb8cb35",
     "official": true,
@@ -13,21 +13,21 @@
     "organization": "議員",
     "termStart": null,
     "status": "incumbent",
-    "sourceUpdatedAt": "2026-07-17",
+    "sourceUpdatedAt": "2026-07-18",
     "photo": {
       "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/16b0c9c3-4c77-4556-97f9-cff9ceaa449a.jpg",
       "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
       "sourceLabel": "官方人物照片",
       "credit": "www.moi.gov.tw",
       "official": true,
-      "retrievedAt": "2026-07-16T22:32:20.405Z"
+      "retrievedAt": "2026-07-17T21:37:41.498Z"
     },
     "sources": [
       {
         "label": "內政部地方公職人員資訊專區：縣市議員",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=3&sms=11395",
-        "date": "2026-07-17",
-        "retrievedAt": "2026-07-16T22:32:20.405Z"
+        "date": "2026-07-18",
+        "retrievedAt": "2026-07-17T21:37:41.498Z"
       }
     ]
   }

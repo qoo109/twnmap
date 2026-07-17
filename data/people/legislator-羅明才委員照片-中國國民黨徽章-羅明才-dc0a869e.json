@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T23:38:47.162Z",
+  "generatedAt": "2026-07-17T21:40:11.299Z",
   "person": {
     "id": "legislator-羅明才委員照片-中國國民黨徽章-羅明才-dc0a869e",
     "official": true,
@@ -13,21 +13,21 @@
     "organization": "立法院",
     "termStart": "2024-02-01",
     "status": "incumbent",
-    "sourceUpdatedAt": "2026-07-17",
+    "sourceUpdatedAt": "2026-07-18",
     "photo": {
       "url": "https://www.ly.gov.tw/Images/Legislators/110109.jpg",
       "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46857",
       "sourceLabel": "立法院官方照片：羅明才委員照片 中國國民黨徽章 羅明才",
       "credit": "立法院",
       "official": true,
-      "retrievedAt": "2026-07-16T22:32:20.405Z"
+      "retrievedAt": "2026-07-17T21:37:41.498Z"
     },
     "sources": [
       {
         "label": "立法院本屆立委：羅明才委員照片 中國國民黨徽章 羅明才",
         "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46857",
-        "date": "2026-07-17",
-        "retrievedAt": "2026-07-16T22:32:20.405Z"
+        "date": "2026-07-18",
+        "retrievedAt": "2026-07-17T21:37:41.498Z"
       }
     ],
     "gender": "男"
