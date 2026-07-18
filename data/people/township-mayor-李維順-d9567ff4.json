@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T23:13:33.805Z",
+  "generatedAt": "2026-07-18T21:40:08.151Z",
   "person": {
     "id": "township-mayor-李維順-d9567ff4",
     "official": true,
@@ -13,21 +13,21 @@
     "organization": "鄉長",
     "termStart": null,
     "status": "incumbent",
-    "sourceUpdatedAt": "2026-07-18",
+    "sourceUpdatedAt": "2026-07-19",
     "photo": {
       "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c8d3cc30-8651-45bf-92d5-ca9b9ef58676.jpg",
       "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
       "sourceLabel": "官方人物照片",
       "credit": "www.moi.gov.tw",
       "official": true,
-      "retrievedAt": "2026-07-17T21:37:41.498Z"
+      "retrievedAt": "2026-07-18T21:37:02.332Z"
     },
     "sources": [
       {
         "label": "內政部地方公職人員資訊專區：鄉鎮市長",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0006&n=580&page=1&sms=11395",
-        "date": "2026-07-18",
-        "retrievedAt": "2026-07-17T21:37:41.498Z"
+        "date": "2026-07-19",
+        "retrievedAt": "2026-07-18T21:37:02.332Z"
       }
     ]
   }
