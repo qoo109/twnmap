@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T23:34:54.843Z",
+  "generatedAt": "2026-07-19T21:40:06.587Z",
   "person": {
     "id": "municipal-councilor-白喬茵-d70949cb",
     "official": true,
@@ -13,21 +13,21 @@
     "organization": "議員",
     "termStart": null,
     "status": "incumbent",
-    "sourceUpdatedAt": "2026-07-19",
+    "sourceUpdatedAt": "2026-07-20",
     "photo": {
       "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/a66cede2-9b96-48f2-a325-1cd819eef40b.png",
       "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
       "sourceLabel": "官方人物照片",
       "credit": "www.moi.gov.tw",
       "official": true,
-      "retrievedAt": "2026-07-18T21:37:02.332Z"
+      "retrievedAt": "2026-07-19T21:37:58.123Z"
     },
     "sources": [
       {
         "label": "內政部地方公職人員資訊專區：直轄市議員",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-        "date": "2026-07-19",
-        "retrievedAt": "2026-07-18T21:37:02.332Z"
+        "date": "2026-07-20",
+        "retrievedAt": "2026-07-19T21:37:58.123Z"
       }
     ]
   }

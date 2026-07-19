@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T23:34:54.843Z",
+  "generatedAt": "2026-07-19T21:40:06.587Z",
   "person": {
     "id": "legislator-陳超明委員照片-無徽章-陳超明-f3a83e07",
     "official": true,
@@ -13,21 +13,21 @@
     "organization": "立法院",
     "termStart": "2024-02-01",
     "status": "incumbent",
-    "sourceUpdatedAt": "2026-07-19",
+    "sourceUpdatedAt": "2026-07-20",
     "photo": {
       "url": "https://www.ly.gov.tw/Images/Legislators/110073.jpg",
       "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46822",
       "sourceLabel": "立法院官方照片：陳超明委員照片 無徽章 陳超明",
       "credit": "立法院",
       "official": true,
-      "retrievedAt": "2026-07-18T21:37:02.332Z"
+      "retrievedAt": "2026-07-19T21:37:58.123Z"
     },
     "sources": [
       {
         "label": "立法院本屆立委：陳超明委員照片 無徽章 陳超明",
         "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46822",
-        "date": "2026-07-19",
-        "retrievedAt": "2026-07-18T21:37:02.332Z"
+        "date": "2026-07-20",
+        "retrievedAt": "2026-07-19T21:37:58.123Z"
       }
     ],
     "gender": "男"
