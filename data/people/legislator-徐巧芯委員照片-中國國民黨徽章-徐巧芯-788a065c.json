@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T23:41:13.012Z",
+  "generatedAt": "2026-07-20T22:34:44.560Z",
   "person": {
     "id": "legislator-徐巧芯委員照片-中國國民黨徽章-徐巧芯-788a065c",
     "official": true,
@@ -13,21 +13,21 @@
     "organization": "立法院",
     "termStart": "2024-02-01",
     "status": "incumbent",
-    "sourceUpdatedAt": "2026-07-20",
+    "sourceUpdatedAt": "2026-07-21",
     "photo": {
       "url": "https://www.ly.gov.tw/Images/Legislators/110045.jpg",
       "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46796",
       "sourceLabel": "立法院官方照片：徐巧芯委員照片 中國國民黨徽章 徐巧芯",
       "credit": "立法院",
       "official": true,
-      "retrievedAt": "2026-07-19T21:37:58.123Z"
+      "retrievedAt": "2026-07-20T22:32:30.918Z"
     },
     "sources": [
       {
         "label": "立法院本屆立委：徐巧芯委員照片 中國國民黨徽章 徐巧芯",
         "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46796",
-        "date": "2026-07-20",
-        "retrievedAt": "2026-07-19T21:37:58.123Z"
+        "date": "2026-07-21",
+        "retrievedAt": "2026-07-20T22:32:30.918Z"
       }
     ],
     "gender": "女"
