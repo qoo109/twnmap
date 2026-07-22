@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-21T23:43:38.022Z",
+  "generatedAt": "2026-07-22T22:41:15.998Z",
   "person": {
     "id": "legislator-副院長-ac9c1160",
     "official": true,
@@ -13,13 +13,13 @@
     "organization": "立法院",
     "termStart": "2024-02-01",
     "status": "incumbent",
-    "sourceUpdatedAt": "2026-07-22",
+    "sourceUpdatedAt": "2026-07-23",
     "sources": [
       {
         "label": "立法院本屆立委：副院長",
         "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=121",
-        "date": "2026-07-22",
-        "retrievedAt": "2026-07-21T22:15:05.823Z"
+        "date": "2026-07-23",
+        "retrievedAt": "2026-07-22T22:39:17.202Z"
       }
     ],
     "gender": "男"
