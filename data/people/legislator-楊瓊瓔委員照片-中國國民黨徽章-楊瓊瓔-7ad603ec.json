@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T21:31:28.361Z",
+  "generatedAt": "2026-07-24T20:28:03.045Z",
   "person": {
     "id": "legislator-楊瓊瓔委員照片-中國國民黨徽章-楊瓊瓔-7ad603ec",
     "official": true,
@@ -13,21 +13,21 @@
     "organization": "立法院",
     "termStart": "2024-02-01",
     "status": "incumbent",
-    "sourceUpdatedAt": "2026-07-24",
+    "sourceUpdatedAt": "2026-07-25",
     "photo": {
       "url": "https://www.ly.gov.tw/Images/Legislators/110087.jpg",
       "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46835",
       "sourceLabel": "立法院官方照片：楊瓊瓔委員照片 中國國民黨徽章 楊瓊瓔",
       "credit": "立法院",
       "official": true,
-      "retrievedAt": "2026-07-23T20:18:03.910Z"
+      "retrievedAt": "2026-07-24T20:26:02.458Z"
     },
     "sources": [
       {
         "label": "立法院本屆立委：楊瓊瓔委員照片 中國國民黨徽章 楊瓊瓔",
         "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46835",
-        "date": "2026-07-24",
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "date": "2026-07-25",
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       }
     ],
     "gender": "女"

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T21:31:28.361Z",
+  "generatedAt": "2026-07-24T20:28:03.045Z",
   "person": {
     "id": "county-councilor-林友友-c0684abb",
     "official": true,
@@ -13,21 +13,21 @@
     "organization": "議員",
     "termStart": null,
     "status": "incumbent",
-    "sourceUpdatedAt": "2026-07-24",
+    "sourceUpdatedAt": "2026-07-25",
     "photo": {
       "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/407f10ec-7812-4800-97c9-141e2a7831fd.jpg",
       "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
       "sourceLabel": "官方人物照片",
       "credit": "www.moi.gov.tw",
       "official": true,
-      "retrievedAt": "2026-07-23T20:18:03.910Z"
+      "retrievedAt": "2026-07-24T20:26:02.458Z"
     },
     "sources": [
       {
         "label": "內政部地方公職人員資訊專區：縣市議員",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0002&n=574&page=2&sms=11395",
-        "date": "2026-07-24",
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "date": "2026-07-25",
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       }
     ]
   }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T21:31:28.361Z",
+  "generatedAt": "2026-07-24T20:28:03.045Z",
   "person": {
     "id": "legislator-劉建國委員照片-民主進步黨徽章-劉建國-266eadd5",
     "official": true,
@@ -13,21 +13,21 @@
     "organization": "立法院",
     "termStart": "2024-02-01",
     "status": "incumbent",
-    "sourceUpdatedAt": "2026-07-24",
+    "sourceUpdatedAt": "2026-07-25",
     "photo": {
       "url": "https://www.ly.gov.tw/Images/Legislators/110093.jpg",
       "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46841",
       "sourceLabel": "立法院官方照片：劉建國委員照片 民主進步黨徽章 劉建國",
       "credit": "立法院",
       "official": true,
-      "retrievedAt": "2026-07-23T20:18:03.910Z"
+      "retrievedAt": "2026-07-24T20:26:02.458Z"
     },
     "sources": [
       {
         "label": "立法院本屆立委：劉建國委員照片 民主進步黨徽章 劉建國",
         "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46841",
-        "date": "2026-07-24",
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "date": "2026-07-25",
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       }
     ],
     "gender": "男"

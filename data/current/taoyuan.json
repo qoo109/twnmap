@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T21:31:28.361Z",
+  "generatedAt": "2026-07-24T20:28:03.045Z",
   "countyId": "taoyuan",
   "officeholders": [
     {
@@ -15,21 +15,21 @@
       "organization": "區長",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/1a667b68-a68d-4410-a2bb-a3e7bbb843f8.png",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0009&n=581&page=1&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市原住民區長",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0009&n=581&page=1&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -410,21 +410,21 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110002.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46757",
         "sourceLabel": "立法院官方照片：牛煦庭委員照片 中國國民黨徽章 牛煦庭",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "立法院本屆立委：牛煦庭委員照片 中國國民黨徽章 牛煦庭",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46757",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ],
       "gender": "男"
@@ -442,21 +442,21 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110017.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46862",
         "sourceLabel": "立法院官方照片：呂玉玲委員照片 中國國民黨徽章 呂玉玲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "立法院本屆立委：呂玉玲委員照片 中國國民黨徽章 呂玉玲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46862",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ],
       "gender": "女"
@@ -474,21 +474,21 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110037.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46789",
         "sourceLabel": "立法院官方照片：邱若華委員照片 中國國民黨徽章 邱若華",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "立法院本屆立委：邱若華委員照片 中國國民黨徽章 邱若華",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46789",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ],
       "gender": "女"
@@ -506,21 +506,21 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110048.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46799",
         "sourceLabel": "立法院官方照片：涂權吉委員照片 中國國民黨徽章 涂權吉",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "立法院本屆立委：涂權吉委員照片 中國國民黨徽章 涂權吉",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46799",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ],
       "gender": "男"
@@ -538,21 +538,21 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110088.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46836",
         "sourceLabel": "立法院官方照片：萬美玲委員照片 中國國民黨徽章 萬美玲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "立法院本屆立委：萬美玲委員照片 中國國民黨徽章 萬美玲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46836",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ],
       "gender": "女"
@@ -570,21 +570,21 @@
       "organization": "立法院",
       "termStart": "2024-02-01",
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://www.ly.gov.tw/Images/Legislators/110098.jpg",
         "sourceUrl": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46846",
         "sourceLabel": "立法院官方照片：魯明哲委員照片 中國國民黨徽章 魯明哲",
         "credit": "立法院",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "立法院本屆立委：魯明哲委員照片 中國國民黨徽章 魯明哲",
           "url": "https://www.ly.gov.tw/Pages/List.aspx?nodeid=46846",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ],
       "gender": "男"
@@ -602,21 +602,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3d589fdb-b1f3-4a7b-9527-aa3cf3ea06e4.png",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -633,21 +633,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ab101099-4c42-4155-ba22-90e31f3e539a.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -664,21 +664,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8dbc1180-5904-49e0-b756-65f213f8d766.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -695,21 +695,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/352adc67-80ab-4c35-be29-f8d02ef1369a.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -726,21 +726,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ee8b4563-5ab8-4edd-9856-cb821aeb58f8.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -757,21 +757,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f89aefdb-b14b-4521-b692-8f6c79e5b24e.png",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -788,21 +788,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/435616c4-09e9-4cee-8b59-6519643161ae.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -819,21 +819,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/69bcceb7-7778-432a-a09a-b5fa4b3851c1.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -850,21 +850,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/295dc373-91b9-4c3d-a51d-e22658e947e7.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -881,21 +881,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/caf9caed-309c-4d52-a902-170a9d23bcb3.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -912,21 +912,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c25ac5df-ead7-475f-86fe-5d6cc73f385a.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -943,21 +943,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b36fb37c-c71a-416c-bc50-1ba7f4b27fc2.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -974,21 +974,21 @@
       "organization": "副議長",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/180a8452-3b3d-488a-94fb-0f58801fa224.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1005,21 +1005,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4ee5abb4-ee35-4b10-9472-5715159ac866.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1036,21 +1036,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/605185ad-91a9-493e-ba9f-d90af7b46900.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1067,21 +1067,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/5aed2f2d-a3d6-4e22-abef-d1043dde555f.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1098,21 +1098,21 @@
       "organization": "議長",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/cc5980f2-5241-4c16-b71e-e37c3909fd22.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1129,21 +1129,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ae23834c-ad19-45bb-97a2-57111bebf564.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1160,21 +1160,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/46f286a6-576d-4fa3-9fb5-808295d420b5.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1191,21 +1191,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/70881916-ad65-4c13-8ab3-6db0886275ee.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1222,21 +1222,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/97e42e62-4ecf-4491-9312-9870ed2cc703.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1253,21 +1253,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8fb525d8-0060-4f29-8128-3def9b4aaf8d.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1284,21 +1284,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/38cec072-0766-4a9b-be90-568b361b7c0e.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1315,21 +1315,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/eb182f87-d216-4913-b366-bfe97ba43f4d.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1346,21 +1346,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3ae63f4a-7b7c-44d9-babd-3d164492963b.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1377,21 +1377,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/46c80edd-2d6b-4313-8fda-4e2ef12561a2.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1408,21 +1408,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c50c4c28-61cf-4f78-9e42-4b350508682c.png",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1439,21 +1439,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c631b3d2-0563-42bc-918f-870aad392481.jpeg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1470,21 +1470,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6f9b3919-51d7-45e1-a99e-c73e949961ab.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1501,21 +1501,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/25c6c98e-a3f6-436a-a107-832cbf98be31.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1532,21 +1532,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8824c037-992d-458e-8113-9c193435cc4c.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1563,21 +1563,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3956321b-96fe-48a0-a862-81f396747dbc.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1594,21 +1594,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/422caede-492b-43ab-a9ac-d668c3f4823c.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1625,21 +1625,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/67b2ede7-a3da-4994-9cc0-bf5a96785e4e.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1656,21 +1656,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d4f117d2-6eb8-4e78-b6d6-1ee8d072001b.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1687,21 +1687,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9229d414-484e-409e-a08c-d044d23cf423.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1718,21 +1718,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/2ff4cf66-951c-4485-b6a8-44b835edca3b.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1749,21 +1749,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/11d71597-ed00-450b-bf01-2ddaa11be810.jpeg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1780,21 +1780,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/798be120-9256-4cac-b536-8d5ee9b32feb.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1811,21 +1811,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6b8eb595-f42b-4d28-9c12-7cc9f2266cc1.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1842,21 +1842,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ac6aae89-6287-464b-a68b-2412625da21b.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1873,21 +1873,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/c808631b-10e7-40f9-a4d3-e64d73554ae3.png",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1904,21 +1904,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/93191df0-9b9c-4499-93f0-3ece6c8df35a.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1935,21 +1935,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/b02a2338-3010-498c-96e1-a3a3c8143f01.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1966,21 +1966,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/9ac0c15b-d667-478e-9e2f-99997e675da7.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -1997,21 +1997,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/8b0b5507-0aff-457d-b73a-06f1266dfd57.png",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2028,21 +2028,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/e3cc1420-45a6-4e1f-8528-87c49157420e.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2059,21 +2059,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/aba6fc6a-4741-4810-bb41-e65459015da2.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2090,21 +2090,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/618915ef-897e-435c-9226-14af1b3f1547.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2121,21 +2121,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/4fd43d27-aadb-444f-a5bf-1681530fe6bb.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2152,21 +2152,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/6d97f38e-99c4-4bdf-8c0c-190ba60aae03.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2183,21 +2183,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f66eb1d3-c140-4b1f-a691-1cf1c7352abc.png",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2214,21 +2214,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/df241d4f-e6bf-4439-833f-c0a471f19751.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2245,21 +2245,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/917d06e5-b324-4a55-a8f3-4c75786aace0.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2276,21 +2276,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/3a1bc799-2d87-4a1f-9bf3-cb5a0c0186a0.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2307,21 +2307,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/f883d72f-bfa8-4660-ad3d-ef74d2f5dea4.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2338,21 +2338,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/76b1e168-ac03-4f7a-b5f2-a92fcb652ce9.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2369,21 +2369,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/24b36b04-ab5d-4b8b-a4b1-638d7a4c3037.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2400,21 +2400,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ad109ca4-f214-46db-86b1-390b8b814274.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2431,21 +2431,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ebf356d8-4f55-4200-b43a-baf6f4626b76.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2462,21 +2462,21 @@
       "organization": "議員",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/d065fc7e-fa3b-456d-bf92-91e4dec4f12e.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市議員",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=2&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },
@@ -2493,21 +2493,21 @@
       "organization": "市長",
       "termStart": null,
       "status": "incumbent",
-      "sourceUpdatedAt": "2026-07-24",
+      "sourceUpdatedAt": "2026-07-25",
       "photo": {
         "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/67925dde-1c8e-4a14-87ea-2248de4fd171.jpg",
         "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0004&n=578&page=1&sms=11395",
         "sourceLabel": "官方人物照片",
         "credit": "www.moi.gov.tw",
         "official": true,
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       },
       "sources": [
         {
           "label": "內政部地方公職人員資訊專區：直轄市長",
           "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0004&n=578&page=1&sms=11395",
-          "date": "2026-07-24",
-          "retrievedAt": "2026-07-23T20:18:03.910Z"
+          "date": "2026-07-25",
+          "retrievedAt": "2026-07-24T20:26:02.458Z"
         }
       ]
     },

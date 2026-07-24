@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T21:31:28.361Z",
+  "generatedAt": "2026-07-24T20:28:03.045Z",
   "person": {
     "id": "municipal-councilor-蔡宗豪-aaff3ebb",
     "official": true,
@@ -13,21 +13,21 @@
     "organization": "議員",
     "termStart": null,
     "status": "incumbent",
-    "sourceUpdatedAt": "2026-07-24",
+    "sourceUpdatedAt": "2026-07-25",
     "photo": {
       "url": "https://ws.moi.gov.tw/001/Upload/localofficial/urllink/ce07659b-8e6e-44de-83ec-4179acdd831c.jpg",
       "sourceUrl": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
       "sourceLabel": "官方人物照片",
       "credit": "www.moi.gov.tw",
       "official": true,
-      "retrievedAt": "2026-07-23T20:18:03.910Z"
+      "retrievedAt": "2026-07-24T20:26:02.458Z"
     },
     "sources": [
       {
         "label": "內政部地方公職人員資訊專區：直轄市議員",
         "url": "https://www.moi.gov.tw/LocalOfficial.aspx?PageSize=200&TYP=KND0001&n=573&page=1&sms=11395",
-        "date": "2026-07-24",
-        "retrievedAt": "2026-07-23T20:18:03.910Z"
+        "date": "2026-07-25",
+        "retrievedAt": "2026-07-24T20:26:02.458Z"
       }
     ]
   }
